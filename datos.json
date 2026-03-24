@@ -241,6 +241,38 @@
     "prom_cultura": 1
   },
   {
+    "id": "enaex",
+    "nombre": "Enaex",
+    "rubro": "Minería",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 38,
+        "fecha": "2026-03-24",
+        "tiempo": "1 a 3 años",
+        "sigue": "Sí",
+        "cal_general": 4,
+        "sueldo": 3,
+        "carrera": 4,
+        "flexibilidad": 4,
+        "liderazgo": 4,
+        "cultura": 5,
+        "que_bien": "Muy buenos beneficios, su cultura llega a todas las líneas y escalones de la compañía y el ambiente laboral es bueno.",
+        "que_mal": "Los cargos de entrada tienen buenos sueldos pero el reajuste queda al debe. Hay que cambiarse de área o subir de cargo para percibir un aumento un poco más atractivo. Al ser tantas personas está todo súper estandarizado.",
+        "que_desearias": "Qué es una empresa tradicional",
+        "recomienda": "Sí",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 4,
+    "prom_sueldo": 3,
+    "prom_carrera": 4,
+    "prom_flexibilidad": 4,
+    "prom_liderazgo": 4,
+    "prom_cultura": 5
+  },
+  {
     "id": "escuela-de-ing-uc",
     "nombre": "Escuela de Ing.UC",
     "rubro": "Educación",
