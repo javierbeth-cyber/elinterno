@@ -465,6 +465,38 @@
     "prom_cultura": null
   },
   {
+    "id": "global66",
+    "nombre": "Global66",
+    "rubro": "Banca y finanzas",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 40,
+        "fecha": "2026-03-24",
+        "tiempo": "1 a 3 años",
+        "sigue": "No",
+        "cal_general": 2,
+        "sueldo": 3,
+        "carrera": 3,
+        "flexibilidad": 2,
+        "liderazgo": 2,
+        "cultura": 3,
+        "que_bien": "Las oportunidades de crecimiento o exposición se van dando a medida que uno mismo se visibiliza o expone.",
+        "que_mal": "Poca o nula flexibilidad en términos de home office. Si uno no cumple con una modalidad de 4x1, no puede obtener aumentos de sueldo, cambios de roles, etc (incluso cumpliendo con los objetivos del rol). Alta rotación y sin feedback real por parte de los líderes. Contratan gente con plazo fijo a los 3 meses, porque saben que existe una alta probabilidad de desvinculación o no renovación de contrato.",
+        "que_desearias": "Que lo más importante es cómo te lleves con los founders. De eso depende tu continuidad en la empresa. Si ellos no ven tu trabajo, no sirve de nada.",
+        "recomienda": "No",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 2,
+    "prom_sueldo": 3,
+    "prom_carrera": 3,
+    "prom_flexibilidad": 2,
+    "prom_liderazgo": 2,
+    "prom_cultura": 3
+  },
+  {
     "id": "gtd",
     "nombre": "GTD",
     "rubro": "Telecomunicaciones",
