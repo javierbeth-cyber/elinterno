@@ -203,6 +203,22 @@
       border-radius: 20px;
       padding: 2px 8px;
     }
+    .badge-sigue {
+      font-size: 12px;
+      border-radius: 20px;
+      padding: 2px 8px;
+      font-weight: 500;
+    }
+    .badge-sigue-si {
+      background: var(--green-bg);
+      border: 1px solid var(--green-border);
+      color: var(--green-text);
+    }
+    .badge-sigue-no {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+    }
     .resena-subcats {
       display: flex;
       flex-wrap: wrap;
@@ -395,6 +411,9 @@
           ${r.cal_general ? `<span class="resena-rating">${r.cal_general}/5</span>` : ''}
           ${r.tiempo ? `<span class="resena-tiempo">${r.tiempo}</span>` : ''}
           ${r.fecha ? `<span class="resena-tiempo">${formatFecha(r.fecha)}</span>` : ''}
+          ${r.sigue ? (String(r.sigue).toLowerCase().startsWith('s')
+            ? `<span class="badge-sigue badge-sigue-si">Sigue trabajando ahí</span>`
+            : `<span class="badge-sigue badge-sigue-no">Ya no trabaja ahí</span>`) : ''}
         </div>
         ${resSubcats.length ? `<div class="resena-subcats">${resSubcats.map(c => `<div class="resena-subcat">${c.label} <span>${c.val}</span></div>`).join('')}</div>` : ''}
         ${bloque('bien', '✅', 'Qué está bien', r.que_bien)}
