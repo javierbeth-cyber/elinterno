@@ -567,6 +567,23 @@
     "logo": "https://www.geovictoria.com/hs-fs/hubfs/LOGO-GV.jpg?width=960&height=212&name=LOGO-GV.jpg",
     "resenas": [
       {
+        "id": 48,
+        "fecha": "2026-03-24",
+        "tiempo": "Menos de 6 meses",
+        "sigue": "No",
+        "cal_general": 1,
+        "sueldo": 2,
+        "carrera": 1,
+        "flexibilidad": 1,
+        "liderazgo": 1,
+        "cultura": 1,
+        "que_bien": null,
+        "que_mal": "Demasiada rotacion de personal, contratan recien egresados y los despiden al aÑo de servicio, no hay feedback al despido, ambiente toxico, Siempre buscaban egresados en los foros de la universidad y publicaban los mismos puestos cada 3 o 6 meses.",
+        "que_desearias": "SI",
+        "recomienda": "No",
+        "votos": 0
+      },
+      {
         "id": 1,
         "fecha": "2026-03-20",
         "tiempo": "1 a 3 años",
@@ -584,13 +601,13 @@
         "votos": 0
       }
     ],
-    "total_resenas": 1,
-    "promedio": 3,
-    "prom_sueldo": null,
-    "prom_carrera": null,
-    "prom_flexibilidad": null,
-    "prom_liderazgo": null,
-    "prom_cultura": null
+    "total_resenas": 2,
+    "promedio": 2,
+    "prom_sueldo": 2,
+    "prom_carrera": 1,
+    "prom_flexibilidad": 1,
+    "prom_liderazgo": 1,
+    "prom_cultura": 1
   },
   {
     "id": "global66",
