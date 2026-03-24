@@ -497,6 +497,38 @@
     "prom_cultura": null
   },
   {
+    "id": "hogar-de-cristo",
+    "nombre": "Hogar de Cristo",
+    "rubro": "ONG",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 39,
+        "fecha": "2026-03-24",
+        "tiempo": "1 a 3 años",
+        "sigue": "No",
+        "cal_general": 2,
+        "sueldo": 2,
+        "carrera": 1,
+        "flexibilidad": 5,
+        "liderazgo": 2,
+        "cultura": 4,
+        "que_bien": "El ambiente es muy rico en el sentido de que todos viven el propósito de la fundación. Además en mi área estábamos casi full teletrabajo, íbamos media jornada 1 vez a la semana.",
+        "que_mal": "No tienen buenas jefaturas. Hay mucha gente antigua, crecer dentro de la organización es casi imposible. La cultura es muy difícil de trabajar, los colaboradores (al ser tan antiguos) no quieren implementar cambios y muchas veces boicotean los proyectos de mejora. No hay espacio (ni recursos) para la innovación. No hay cultura de trabajo, las personas andan marcando el paso. La conexión del internet es muy mala, al igual que los equipos que te entregan. Las oficinas son demasiado básicas y no tienen todo lo suficiente para poder trabajar bien. Los sueldos son demasiado bajos y pedir aumento es un trámite enorme y te ofrecen 20-30 lucas, un chiste.",
+        "que_desearias": "las pocas posibilidades de crecimiento. los bajos sueldos. el estado de la oficina.",
+        "recomienda": "No",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 2,
+    "prom_sueldo": 2,
+    "prom_carrera": 1,
+    "prom_flexibilidad": 5,
+    "prom_liderazgo": 2,
+    "prom_cultura": 4
+  },
+  {
     "id": "isapre-consalud",
     "nombre": "Isapre Consalud",
     "rubro": "Salud",
