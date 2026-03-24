@@ -735,7 +735,7 @@
     "id": "serv-impuestos-internos",
     "nombre": "Serv. Impuestos Internos",
     "rubro": "Gobierno",
-    "logo": null,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Logotipo_Servicio_de_Impuestos_Internos.svg/1280px-Logotipo_Servicio_de_Impuestos_Internos.svg.png",
     "resenas": [
       {
         "id": 14,
