@@ -113,6 +113,38 @@
     "prom_cultura": null
   },
   {
+    "id": "corporacion-3xi",
+    "nombre": "Corporación 3xi",
+    "rubro": "Corporación sin fines de lucro",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 42,
+        "fecha": "2026-03-24",
+        "tiempo": "1 a 3 años",
+        "sigue": "Sí",
+        "cal_general": 4,
+        "sueldo": 3,
+        "carrera": 1,
+        "flexibilidad": 5,
+        "liderazgo": 5,
+        "cultura": 4,
+        "que_bien": "Trabajar con propósito. Ser un punto donde tienes mucha visibilidad hacia afuera y el liderazgo que se puede ejercer.",
+        "que_mal": "al ser una organización chica todavía, es poco estructurada en cultura, beneficios, etc. Está en construcción, hay que tener paciencia",
+        "que_desearias": "que no hay desarrollo de carrera. es lo que es y fin.",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 4,
+    "prom_sueldo": 3,
+    "prom_carrera": 1,
+    "prom_flexibilidad": 5,
+    "prom_liderazgo": 5,
+    "prom_cultura": 4
+  },
+  {
     "id": "cristalchile",
     "nombre": "Cristalchile",
     "rubro": "Producción fabril",
