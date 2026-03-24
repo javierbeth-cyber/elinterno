@@ -1290,6 +1290,38 @@
     "prom_cultura": null
   },
   {
+    "id": "sodimac",
+    "nombre": "Sodimac",
+    "rubro": "Retail",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 53,
+        "fecha": "2026-03-24",
+        "tiempo": "1 a 3 años",
+        "sigue": "No",
+        "cal_general": 4,
+        "sueldo": 4,
+        "carrera": 3,
+        "flexibilidad": 3,
+        "liderazgo": 4,
+        "cultura": 4,
+        "que_bien": "tenia buenos beneficios, buen sueldo, muy buen ambiente, buenos lideres y se aprende harto, tambien eran flexibles si uno tenia que ir al medico o algo asi. jornada hibrida y relajados igual con los horarios de entrada cuando habia que ir a la oficina.",
+        "que_mal": "la jornada laboral era mucho mayor que lo establecido, yo estaba en una de apoyo, no en las tiendas. siempre habia que quedarse hasta mas tarde  a veces noche y  los dias que se teletrabajaba te decian que daba lo mismo si total estabas en la casa.",
+        "que_desearias": "se trabajan horas extras no remuneradas.",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 4,
+    "prom_sueldo": 4,
+    "prom_carrera": 3,
+    "prom_flexibilidad": 3,
+    "prom_liderazgo": 4,
+    "prom_cultura": 4
+  },
+  {
     "id": "solcor",
     "nombre": "Solcor",
     "rubro": "Energía",
