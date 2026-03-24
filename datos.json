@@ -7,6 +7,7 @@
     "resenas": [
       {
         "id": 31,
+        "fecha": "2026-03-23",
         "tiempo": "Menos de 6 meses",
         "sigue": "No",
         "cal_general": 3,
@@ -37,23 +38,8 @@
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Cencosud_logo.svg/1280px-Cencosud_logo.svg.png",
     "resenas": [
       {
-        "id": 8,
-        "tiempo": "Más de 3 años",
-        "sigue": "No",
-        "cal_general": 2,
-        "sueldo": null,
-        "carrera": null,
-        "flexibilidad": null,
-        "liderazgo": null,
-        "cultura": null,
-        "que_bien": "Nada",
-        "que_mal": "Nunca se evalúa al trabajador con nota máxima porque no se permite ascender por esa vía, suben las metas a números irrisorios para no pagar bonos",
-        "que_desearias": "Que si eres despedido, aunque sea por necesidades de la empresa, nunca podrás volver a trabajar en el holding",
-        "recomienda": "Depende del perfil",
-        "votos": 0
-      },
-      {
         "id": 32,
+        "fecha": "2026-03-23",
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 4,
@@ -65,6 +51,23 @@
         "que_bien": "Es una empresa con un ritmo de trabajo alto, lo que la convierte en una excelente escuela acelerada. Permite aprender rápidamente.",
         "que_mal": "En algunos momentos, el alto nivel de exigencia y el interés por destacar pueden generar una competencia interna que no siempre favorece la colaboración. A veces esto se traduce en objetivos poco realistas o en falta de claridad sobre quién es responsable de cada tema.",
         "que_desearias": "Me faltó entender que ‘vender humo’ puede tener más impacto que los resultados reales.",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      },
+      {
+        "id": 8,
+        "fecha": "2026-03-20",
+        "tiempo": "Más de 3 años",
+        "sigue": "No",
+        "cal_general": 2,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Nada",
+        "que_mal": "Nunca se evalúa al trabajador con nota máxima porque no se permite ascender por esa vía, suben las metas a números irrisorios para no pagar bonos",
+        "que_desearias": "Que si eres despedido, aunque sea por necesidades de la empresa, nunca podrás volver a trabajar en el holding",
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -85,6 +88,7 @@
     "resenas": [
       {
         "id": 4,
+        "fecha": "2026-03-20",
         "tiempo": "Menos de 6 meses",
         "sigue": "Sí",
         "cal_general": 3,
@@ -116,6 +120,7 @@
     "resenas": [
       {
         "id": 17,
+        "fecha": "2026-03-21",
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 1,
@@ -147,6 +152,7 @@
     "resenas": [
       {
         "id": 2,
+        "fecha": "2026-03-20",
         "tiempo": "6 meses a 1 año",
         "sigue": "No",
         "cal_general": 1,
@@ -178,6 +184,7 @@
     "resenas": [
       {
         "id": 10,
+        "fecha": "2026-03-20",
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 1,
@@ -209,6 +216,7 @@
     "resenas": [
       {
         "id": 6,
+        "fecha": "2026-03-20",
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 2,
@@ -240,6 +248,7 @@
     "resenas": [
       {
         "id": 19,
+        "fecha": "2026-03-22",
         "tiempo": "6 meses a 1 año",
         "sigue": "No",
         "cal_general": 1,
@@ -271,6 +280,7 @@
     "resenas": [
       {
         "id": 11,
+        "fecha": "2026-03-20",
         "tiempo": "Menos de 6 meses",
         "sigue": "No",
         "cal_general": 2,
@@ -302,6 +312,7 @@
     "resenas": [
       {
         "id": 9,
+        "fecha": "2026-03-20",
         "tiempo": "Menos de 6 meses",
         "sigue": "Sí",
         "cal_general": 1,
@@ -333,6 +344,7 @@
     "resenas": [
       {
         "id": 3,
+        "fecha": "2026-03-20",
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 1,
@@ -364,6 +376,7 @@
     "resenas": [
       {
         "id": 1,
+        "fecha": "2026-03-20",
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 3,
@@ -395,6 +408,7 @@
     "resenas": [
       {
         "id": 30,
+        "fecha": "2026-03-23",
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 4,
@@ -426,6 +440,7 @@
     "resenas": [
       {
         "id": 5,
+        "fecha": "2026-03-20",
         "tiempo": "Más de 3 años",
         "sigue": "Sí",
         "cal_general": 2,
@@ -457,6 +472,7 @@
     "resenas": [
       {
         "id": 27,
+        "fecha": "2026-03-23",
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 4,
@@ -488,6 +504,7 @@
     "resenas": [
       {
         "id": 12,
+        "fecha": "2026-03-21",
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 2,
@@ -519,6 +536,7 @@
     "resenas": [
       {
         "id": 33,
+        "fecha": "2026-03-23",
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 1,
@@ -550,6 +568,7 @@
     "resenas": [
       {
         "id": 29,
+        "fecha": "2026-03-23",
         "tiempo": "Menos de 6 meses",
         "sigue": "Sí",
         "cal_general": 3,
@@ -580,23 +599,8 @@
     "logo": "https://www.google.com/s2/favicons?domain=lirmi.com&sz=128",
     "resenas": [
       {
-        "id": 13,
-        "tiempo": "1 a 3 años",
-        "sigue": "No",
-        "cal_general": 2,
-        "sueldo": null,
-        "carrera": null,
-        "flexibilidad": null,
-        "liderazgo": null,
-        "cultura": null,
-        "que_bien": "Beneficios y flexibilidad",
-        "que_mal": "Liderazgo y comunicación clara de procesos y decisiones.",
-        "que_desearias": "Como íbamos a ser evaluados, o que repercusiones claras tendriamos de esas evaluaciones.",
-        "recomienda": "No",
-        "votos": 0
-      },
-      {
         "id": 20,
+        "fecha": "2026-03-23",
         "tiempo": "Más de 3 años",
         "sigue": "Sí",
         "cal_general": 2,
@@ -613,6 +617,7 @@
       },
       {
         "id": 21,
+        "fecha": "2026-03-23",
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 1,
@@ -629,6 +634,7 @@
       },
       {
         "id": 22,
+        "fecha": "2026-03-23",
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 1,
@@ -645,6 +651,7 @@
       },
       {
         "id": 24,
+        "fecha": "2026-03-23",
         "tiempo": "Más de 3 años",
         "sigue": "Sí",
         "cal_general": 1,
@@ -661,6 +668,7 @@
       },
       {
         "id": 25,
+        "fecha": "2026-03-23",
         "tiempo": "6 meses a 1 año",
         "sigue": "Sí",
         "cal_general": 1,
@@ -677,6 +685,7 @@
       },
       {
         "id": 34,
+        "fecha": "2026-03-23",
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 1,
@@ -688,6 +697,23 @@
         "que_bien": "Los compañeros la verdad que si no fuera por que somos unidos y nos prestamos ayuda uno a otros el ambiente y todo sería súper tóxico",
         "que_mal": "Toda la jefatura su falta de empatía y comunicación tienen un liderazgo y crecimiento deber de la empresa nefasto.",
         "que_desearias": "La falta de empatía y humanidad desde su ceo hasta sus líderes",
+        "recomienda": "No",
+        "votos": 0
+      },
+      {
+        "id": 13,
+        "fecha": "2026-03-21",
+        "tiempo": "1 a 3 años",
+        "sigue": "No",
+        "cal_general": 2,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Beneficios y flexibilidad",
+        "que_mal": "Liderazgo y comunicación clara de procesos y decisiones.",
+        "que_desearias": "Como íbamos a ser evaluados, o que repercusiones claras tendriamos de esas evaluaciones.",
         "recomienda": "No",
         "votos": 0
       }
@@ -708,6 +734,7 @@
     "resenas": [
       {
         "id": 23,
+        "fecha": "2026-03-23",
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 3,
@@ -739,6 +766,7 @@
     "resenas": [
       {
         "id": 14,
+        "fecha": "2026-03-21",
         "tiempo": "Más de 3 años",
         "sigue": "Sí",
         "cal_general": 4,
@@ -770,6 +798,7 @@
     "resenas": [
       {
         "id": 26,
+        "fecha": "2026-03-23",
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 2,
@@ -801,6 +830,7 @@
     "resenas": [
       {
         "id": 7,
+        "fecha": "2026-03-20",
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 4,
@@ -832,6 +862,7 @@
     "resenas": [
       {
         "id": 16,
+        "fecha": "2026-03-21",
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 5,
@@ -863,6 +894,7 @@
     "resenas": [
       {
         "id": 15,
+        "fecha": "2026-03-21",
         "tiempo": "Más de 3 años",
         "sigue": "Sí",
         "cal_general": 1,
@@ -894,6 +926,7 @@
     "resenas": [
       {
         "id": 18,
+        "fecha": "2026-03-22",
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 2,
@@ -925,6 +958,7 @@
     "resenas": [
       {
         "id": 28,
+        "fecha": "2026-03-23",
         "tiempo": "Menos de 6 meses",
         "sigue": "No",
         "cal_general": 2,
