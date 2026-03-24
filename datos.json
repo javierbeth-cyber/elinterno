@@ -3,7 +3,7 @@
     "id": "amipass",
     "nombre": "Amipass",
     "rubro": "Alimentación",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=amipass.com&sz=128",
     "resenas": [
       {
         "id": 31,
@@ -81,7 +81,7 @@
     "id": "chita-factoring",
     "nombre": "Chita factoring",
     "rubro": "Banca y finanzas",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=chita.cl&sz=128",
     "resenas": [
       {
         "id": 4,
@@ -174,7 +174,7 @@
     "id": "dinecom",
     "nombre": "Dinecom",
     "rubro": "Tecnología",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=dinecom.cl&sz=128",
     "resenas": [
       {
         "id": 10,
@@ -236,7 +236,7 @@
     "id": "escuela-de-ingenieria-pontificia-universidad-catolica-de-chile",
     "nombre": "Escuela de Ingeniería, Pontificia Universidad Católica de Chile",
     "rubro": "Educación",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=uc.cl&sz=128",
     "resenas": [
       {
         "id": 6,
@@ -422,7 +422,7 @@
     "id": "gtd",
     "nombre": "GTD",
     "rubro": "Telecomunicaciones",
-    "logo": null,
+    "logo": "https://www.gtd.cl/image/layout_set_logo?img_id=1607573",
     "resenas": [
       {
         "id": 30,
@@ -484,7 +484,7 @@
     "id": "kibernum",
     "nombre": "Kibernum",
     "rubro": "Tecnología",
-    "logo": null,
+    "logo": "https://www.kibernum.com/wp-content/uploads/2023/03/Frame-1.png",
     "resenas": [
       {
         "id": 27,
@@ -577,7 +577,7 @@
     "id": "lider-bci",
     "nombre": "Líder BCI",
     "rubro": "Banca y finanzas",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=liderbciserviciosfinancieros.cl&sz=128",
     "resenas": [
       {
         "id": 29,
@@ -608,7 +608,7 @@
     "id": "lirmi",
     "nombre": "Lirmi",
     "rubro": "Tecnología",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=lirmi.com&sz=128",
     "resenas": [
       {
         "id": 13,
@@ -735,7 +735,7 @@
     "id": "seguros-sura-chile",
     "nombre": "Seguros SURA Chile",
     "rubro": "Seguros",
-    "logo": null,
+    "logo": "https://www.sura.cl/Style%20Library/KitSura/img/logo_sura.png",
     "resenas": [
       {
         "id": 23,
@@ -921,7 +921,7 @@
     "id": "termas-de-puyehue",
     "nombre": "Termas de Puyehue",
     "rubro": "Hoteleria",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=puyehue.cl&sz=128",
     "resenas": [
       {
         "id": 18,
@@ -952,7 +952,7 @@
     "id": "timix-chile",
     "nombre": "Timix Chile",
     "rubro": "Tecnología",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=timix.la&sz=128",
     "resenas": [
       {
         "id": 28,
