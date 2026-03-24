@@ -209,6 +209,38 @@
     "prom_cultura": null
   },
   {
+    "id": "edarkstore",
+    "nombre": "Edarkstore",
+    "rubro": "Logística",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 37,
+        "fecha": "2026-03-24",
+        "tiempo": "1 a 3 años",
+        "sigue": "No",
+        "cal_general": 1,
+        "sueldo": 1,
+        "carrera": 1,
+        "flexibilidad": 1,
+        "liderazgo": 1,
+        "cultura": 1,
+        "que_bien": "No se controlan los horarios.",
+        "que_mal": "Al principio era intentar copiar a la competencia ahora es modo supervivencia. Se gastaron toda la plata que levantamos.",
+        "que_desearias": "El desorden que había.",
+        "recomienda": "No",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1,
+    "prom_sueldo": 1,
+    "prom_carrera": 1,
+    "prom_flexibilidad": 1,
+    "prom_liderazgo": 1,
+    "prom_cultura": 1
+  },
+  {
     "id": "escuela-de-ing-uc",
     "nombre": "Escuela de Ing.UC",
     "rubro": "Educación",
