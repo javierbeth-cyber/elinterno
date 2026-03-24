@@ -34,7 +34,7 @@
     "id": "cencosud",
     "nombre": "Cencosud",
     "rubro": "Retail",
-    "logo": null,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Cencosud_logo.svg/1280px-Cencosud_logo.svg.png",
     "resenas": [
       {
         "id": 8,
@@ -112,7 +112,7 @@
     "id": "cristalchile",
     "nombre": "Cristalchile",
     "rubro": "Producción fabril",
-    "logo": null,
+    "logo": "https://cristalchile.cl/wp-content/uploads/2026/01/Logo_CCH_Horizontal-color.svg",
     "resenas": [
       {
         "id": 17,
@@ -143,7 +143,7 @@
     "id": "cumplo-chile",
     "nombre": "Cumplo Chile",
     "rubro": "Banca y finanzas",
-    "logo": null,
+    "logo": "https://8519019.fs1.hubspotusercontent-na1.net/hubfs/8519019/Cumplo-logo_verde.png",
     "resenas": [
       {
         "id": 2,
@@ -267,7 +267,7 @@
     "id": "evertec",
     "nombre": "Evertec",
     "rubro": "Tecnología",
-    "logo": null,
+    "logo": "https://evertecinc.com/wp-content/uploads/2025/06/Group-1.png",
     "resenas": [
       {
         "id": 19,
@@ -298,7 +298,7 @@
     "id": "examedi",
     "nombre": "Examedi",
     "rubro": "Tecnología",
-    "logo": null,
+    "logo": "https://examedi.cl/images/logo.webp",
     "resenas": [
       {
         "id": 11,
@@ -329,7 +329,7 @@
     "id": "femsa",
     "nombre": "Femsa",
     "rubro": "Banca y finanzas",
-    "logo": null,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/FEMSA_Logo.svg/1280px-FEMSA_Logo.svg.png",
     "resenas": [
       {
         "id": 9,
@@ -360,7 +360,7 @@
     "id": "fundacion-puerto-de-ideas",
     "nombre": "Fundación Puerto de Ideas",
     "rubro": "Fundación Cultural",
-    "logo": null,
+    "logo": "https://puertodeideas.cl/wp-content/themes/puerto-ideas-corp/assets/img/logo-puerto-de-ideas-h2.svg",
     "resenas": [
       {
         "id": 3,
@@ -391,7 +391,7 @@
     "id": "geovictoria",
     "nombre": "GeoVictoria",
     "rubro": "Tecnología",
-    "logo": null,
+    "logo": "https://www.geovictoria.com/hs-fs/hubfs/LOGO-GV.jpg?width=960&height=212&name=LOGO-GV.jpg",
     "resenas": [
       {
         "id": 1,
@@ -453,7 +453,7 @@
     "id": "isapre-consalud",
     "nombre": "Isapre Consalud",
     "rubro": "Salud",
-    "logo": null,
+    "logo": "https://cdn.freebiesupply.com/logos/large/2x/consalud-com-logo-png-transparent.png",
     "resenas": [
       {
         "id": 5,
@@ -515,7 +515,7 @@
     "id": "latam-airlines",
     "nombre": "Latam airlines",
     "rubro": "Aerolíneas",
-    "logo": null,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Grupo_Latam_Airlines.svg/1280px-Grupo_Latam_Airlines.svg.png",
     "resenas": [
       {
         "id": 12,
@@ -766,7 +766,7 @@
     "id": "servicio-de-impuestos-internos",
     "nombre": "Servicio de Impuestos Internos",
     "rubro": "Gobierno",
-    "logo": null,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Logotipo_Servicio_de_Impuestos_Internos.svg/1280px-Logotipo_Servicio_de_Impuestos_Internos.svg.png",
     "resenas": [
       {
         "id": 14,
@@ -828,7 +828,7 @@
     "id": "sodexo",
     "nombre": "Sodexo",
     "rubro": "Seguridad",
-    "logo": null,
+    "logo": "https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Americas/CL/Media/Images/Logos---Icons-100-x-100/Sodexo_Logotype_Blue.png",
     "resenas": [
       {
         "id": 7,
@@ -859,7 +859,7 @@
     "id": "solcor",
     "nombre": "Solcor",
     "rubro": "Energía",
-    "logo": null,
+    "logo": "https://solcorchile.com/wp-content/uploads/2021/04/BAJA_Logo-Solcor-Chile-positivo-horizontal-1024x283.png",
     "resenas": [
       {
         "id": 16,
