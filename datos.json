@@ -721,6 +721,38 @@
     "prom_cultura": null
   },
   {
+    "id": "laboratorios-saval",
+    "nombre": "Laboratorios Saval",
+    "rubro": "Salud",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 44,
+        "fecha": "2026-03-24",
+        "tiempo": "Más de 3 años",
+        "sigue": "No",
+        "cal_general": 4,
+        "sueldo": 2,
+        "carrera": 1,
+        "flexibilidad": 4,
+        "liderazgo": 5,
+        "cultura": 4,
+        "que_bien": "Empresa seria, con procesos establecidos, en constante crecimiento.",
+        "que_mal": "Falta de plan de carrera y crecimiento.",
+        "que_desearias": "Que podría pasar 3 años estancado en el mismo puesto sin ajuste de remuneración.",
+        "recomienda": "Sí",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 4,
+    "prom_sueldo": 2,
+    "prom_carrera": 1,
+    "prom_flexibilidad": 4,
+    "prom_liderazgo": 5,
+    "prom_cultura": 4
+  },
+  {
     "id": "latam-airlines",
     "nombre": "Latam Airlines",
     "rubro": "Aerolíneas",
