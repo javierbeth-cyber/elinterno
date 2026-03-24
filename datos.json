@@ -209,6 +209,38 @@
     "prom_cultura": null
   },
   {
+    "id": "deloitte",
+    "nombre": "Deloitte",
+    "rubro": "Consultoría",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 46,
+        "fecha": "2026-03-24",
+        "tiempo": "Más de 3 años",
+        "sigue": "Sí",
+        "cal_general": 2,
+        "sueldo": 2,
+        "carrera": 2,
+        "flexibilidad": 3,
+        "liderazgo": 2,
+        "cultura": 3,
+        "que_bien": "una cosa es consultoria y otra es auditoría. Consultoría tiene un buen ambiente de trabajo",
+        "que_mal": "la carga laboral es grande y en auditoría es mucho peor. Además, el ambiente de auditoría es muy tóxico con largas jornadas",
+        "que_desearias": "el modo de trabajo en general está complicado. Constantemente tienen reestructuraciones y siempre cambian los equipos y jefes",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 2,
+    "prom_sueldo": 2,
+    "prom_carrera": 2,
+    "prom_flexibilidad": 3,
+    "prom_liderazgo": 2,
+    "prom_cultura": 3
+  },
+  {
     "id": "dinecom",
     "nombre": "Dinecom",
     "rubro": "Tecnología",
