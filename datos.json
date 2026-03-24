@@ -202,6 +202,37 @@
     "prom_cultura": null
   },
   {
+    "id": "empresa-test",
+    "nombre": "empresa test",
+    "rubro": "Tecnología",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 37,
+        "tiempo": "Menos de 6 meses",
+        "sigue": "Sí",
+        "cal_general": 3,
+        "sueldo": 5,
+        "carrera": 4,
+        "flexibilidad": 3,
+        "liderazgo": 3,
+        "cultura": 3,
+        "que_bien": "cultura",
+        "que_mal": "todo mal",
+        "que_desearias": "todo",
+        "recomienda": "Sí",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 3,
+    "prom_sueldo": 5,
+    "prom_carrera": 4,
+    "prom_flexibilidad": 3,
+    "prom_liderazgo": 3,
+    "prom_cultura": 3
+  },
+  {
     "id": "escuela-de-ingenieria-pontificia-universidad-catolica-de-chile",
     "nombre": "Escuela de Ingeniería, Pontificia Universidad Católica de Chile",
     "rubro": "Educación",
