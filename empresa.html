@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El Interno</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --navy: #0f1e35;
+      --blue: #2563eb;
+      --blue-light: #dbeafe;
+      --text: #1e293b;
+      --text-muted: #64748b;
+      --border: #e2e8f0;
+      --bg: #f8fafc;
+      --white: #ffffff;
+      --star-on: #f59e0b;
+      --green-bg: #f0fdf4;
+      --green-border: #bbf7d0;
+      --green-text: #15803d;
+      --red-bg: #fff1f2;
+      --red-border: #fecdd3;
+      --red-text: #be123c;
+      --yellow-bg: #fefce8;
+      --yellow-border: #fef08a;
+      --yellow-text: #854d0e;
+    }
+
+    body {
+      font-family: 'Inter', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+    }
+
+    /* HEADER */
+    header {
+      background: var(--navy);
+      padding: 0 24px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .header-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 60px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: white;
+      font-weight: 700;
+      font-size: 18px;
+    }
+    .logo svg { width: 28px; height: 28px; }
+    .btn-resena {
+      background: var(--blue);
+      color: white;
+      border: none;
+      padding: 8px 18px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.15s;
+    }
+    .btn-resena:hover { background: #1d4ed8; }
+
+    /* BREADCRUMB */
+    .breadcrumb {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 16px 24px 0;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+    .breadcrumb a { color: var(--blue); text-decoration: none; }
+    .breadcrumb a:hover { text-decoration: underline; }
+
+    /* EMPRESA HEADER */
+    .empresa-header {
+      background: var(--white);
+      border-bottom: 1px solid var(--border);
+      padding: 28px 24px;
+      margin-bottom: 24px;
+    }
+    .empresa-header-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .empresa-logo {
+      width: 72px;
+      height: 72px;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+    .empresa-logo img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      padding: 8px;
+    }
+    .empresa-logo-placeholder {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--navy);
+    }
+    .empresa-info { flex: 1; min-width: 200px; }
+    .empresa-nombre {
+      font-size: clamp(22px, 4vw, 28px);
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .empresa-rubro {
+      font-size: 13px;
+      color: var(--text-muted);
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 3px 10px;
+      display: inline-block;
+      margin-bottom: 14px;
+    }
+    .rating-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .stars { display: flex; gap: 2px; }
+    .star { font-size: 20px; }
+    .rating-big { font-size: 28px; font-weight: 700; }
+    .rating-label { font-size: 13px; color: var(--text-muted); }
+    .subcats-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 16px;
+    }
+    .subcat-pill {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 6px 12px;
+      font-size: 13px;
+      text-align: center;
+    }
+    .subcat-pill-label { color: var(--text-muted); font-size: 11px; display: block; margin-bottom: 2px; }
+    .subcat-pill-val { font-weight: 700; font-size: 16px; color: var(--text); }
+
+    /* RESEÑAS */
+    .main { max-width: 900px; margin: 0 auto; padding: 0 24px 64px; }
+    .section-title {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 16px;
+    }
+
+    .resena {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 16px;
+    }
+    .resena-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+    }
+    .resena-stars { display: flex; gap: 2px; }
+    .resena-star { font-size: 16px; }
+    .resena-rating { font-weight: 700; font-size: 16px; }
+    .resena-tiempo {
+      font-size: 12px;
+      color: var(--text-muted);
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 2px 8px;
+    }
+    .resena-subcats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 16px;
+    }
+    .resena-subcat {
+      font-size: 11px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 3px 7px;
+      color: var(--text-muted);
+    }
+    .resena-subcat span { font-weight: 600; color: var(--text); }
+
+    .bloque {
+      border-radius: 8px;
+      padding: 12px 14px;
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+    .bloque-bien { background: var(--green-bg); border: 1px solid var(--green-border); }
+    .bloque-mal { background: var(--red-bg); border: 1px solid var(--red-border); }
+    .bloque-desearias { background: var(--yellow-bg); border: 1px solid var(--yellow-border); }
+    .bloque-label {
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .bloque-bien .bloque-label { color: var(--green-text); }
+    .bloque-mal .bloque-label { color: var(--red-text); }
+    .bloque-desearias .bloque-label { color: var(--yellow-text); }
+    .bloque-text { color: var(--text); line-height: 1.6; }
+
+    .resena-footer {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin-top: 14px;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
+    }
+    .btn-voto {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: 13px;
+      font-family: inherit;
+      cursor: pointer;
+      color: var(--text-muted);
+      transition: all 0.15s;
+    }
+    .btn-voto:hover:not(.voted) {
+      border-color: var(--blue);
+      color: var(--blue);
+      background: var(--blue-light);
+    }
+    .btn-voto.voted {
+      border-color: var(--blue);
+      color: var(--blue);
+      background: var(--blue-light);
+      cursor: default;
+    }
+    .btn-voto .voto-count { font-weight: 600; color: var(--text); }
+    .btn-voto.voted .voto-count { color: var(--blue); }
+
+    /* NOT FOUND */
+    .not-found {
+      text-align: center;
+      padding: 80px 24px;
+      color: var(--text-muted);
+    }
+    .not-found h2 { font-size: 20px; margin: 12px 0 8px; color: var(--text); }
+
+    footer {
+      background: var(--navy);
+      color: rgba(255,255,255,0.5);
+      text-align: center;
+      padding: 24px;
+      font-size: 13px;
+    }
+    footer a { color: rgba(255,255,255,0.6); text-decoration: none; }
+    footer a:hover { color: white; }
+
+    @media (max-width: 600px) {
+      .empresa-header-inner { flex-direction: column; }
+      .subcats-row { gap: 6px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <a href="index.html" class="logo">
+      <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="16" cy="16" rx="14" ry="10" stroke="white" stroke-width="2"/>
+        <circle cx="16" cy="16" r="5" fill="#2563eb"/>
+        <circle cx="16" cy="16" r="2.5" fill="white"/>
+      </svg>
+      El Interno
+    </a>
+    <a href="https://docs.google.com/forms/d/1PE9o66InYWImPOK86dJK9kzq2BmRucWub5KOmPAEz04/viewform" target="_blank" class="btn-resena">
+      ¿Trabajaste ahí? Cuéntanos
+    </a>
+  </div>
+</header>
+
+<div class="breadcrumb">
+  <a href="index.html">← Todas las empresas</a>
+</div>
+
+<div id="empresa-header"></div>
+
+<main class="main" id="main"></main>
+
+<footer>
+  <p>ElInterno.com — Reseñas anónimas de empresas chilenas &nbsp;·&nbsp; <a href="legal.html">Aviso legal</a> &nbsp;·&nbsp; <a href="mailto:hola@elinterno.com">hola@elinterno.com</a></p>
+</footer>
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+  const empId = params.get('id');
+
+  function stars(rating, size = 20) {
+    if (!rating) return '';
+    let html = '<div class="stars">';
+    for (let i = 1; i <= 5; i++) {
+      html += `<span class="star" style="font-size:${size}px">${i <= Math.round(rating) ? '⭐' : '☆'}</span>`;
+    }
+    html += '</div>';
+    return html;
+  }
+
+  function subcatPill(label, val) {
+    if (val === null || val === undefined) return '';
+    return `<div class="subcat-pill"><span class="subcat-pill-label">${label}</span><span class="subcat-pill-val">${val}</span></div>`;
+  }
+
+  function bloque(tipo, icono, label, texto) {
+    if (!texto) return '';
+    return `
+      <div class="bloque bloque-${tipo}">
+        <div class="bloque-label">${icono} ${label}</div>
+        <div class="bloque-text">${texto}</div>
+      </div>`;
+  }
+
+  function getVotos() {
+    try { return JSON.parse(localStorage.getItem('ei_votos') || '{}'); } catch { return {}; }
+  }
+  function saveVotos(v) {
+    localStorage.setItem('ei_votos', JSON.stringify(v));
+  }
+
+  function renderResena(r) {
+    const votos = getVotos();
+    const voted = !!votos[r.id];
+    const count = (r.votos || 0) + (voted ? 1 : 0);
+
+    const resSubcats = [
+      { label: 'Sueldo', val: r.sueldo },
+      { label: 'Carrera', val: r.carrera },
+      { label: 'Flex', val: r.flexibilidad },
+      { label: 'Liderazgo', val: r.liderazgo },
+      { label: 'Cultura', val: r.cultura },
+    ].filter(c => c.val !== null && c.val !== undefined);
+
+    return `
+      <div class="resena" id="resena-${r.id}">
+        <div class="resena-header">
+          ${stars(r.cal_general, 16)}
+          ${r.cal_general ? `<span class="resena-rating">${r.cal_general}/5</span>` : ''}
+          ${r.tiempo ? `<span class="resena-tiempo">${r.tiempo}</span>` : ''}
+        </div>
+        ${resSubcats.length ? `<div class="resena-subcats">${resSubcats.map(c => `<div class="resena-subcat">${c.label} <span>${c.val}</span></div>`).join('')}</div>` : ''}
+        ${bloque('bien', '✅', 'Qué está bien', r.que_bien)}
+        ${bloque('mal', '❌', 'Qué está mal', r.que_mal)}
+        ${bloque('desearias', '💡', 'Qué desearías haber sabido', r.que_desearias)}
+        <div class="resena-footer">
+          <button class="btn-voto${voted ? ' voted' : ''}" onclick="votar(${r.id}, this)" ${voted ? 'disabled' : ''}>
+            👍 Yo también lo viví &nbsp;<span class="voto-count">${count > 0 ? count : ''}</span>
+          </button>
+        </div>
+      </div>`;
+  }
+
+  function votar(id, btn) {
+    const votos = getVotos();
+    if (votos[id]) return;
+    votos[id] = true;
+    saveVotos(votos);
+    btn.classList.add('voted');
+    btn.disabled = true;
+    const countEl = btn.querySelector('.voto-count');
+    const current = parseInt(countEl.textContent) || 0;
+    countEl.textContent = current + 1;
+  }
+
+  fetch('datos.json')
+    .then(r => r.json())
+    .then(data => {
+      const emp = data.find(e => e.id === empId);
+
+      if (!emp) {
+        document.getElementById('empresa-header').innerHTML = '';
+        document.getElementById('main').innerHTML = `
+          <div class="not-found">
+            <div style="font-size:48px">🔍</div>
+            <h2>Empresa no encontrada</h2>
+            <p><a href="index.html" style="color:var(--blue)">← Volver al listado</a></p>
+          </div>`;
+        return;
+      }
+
+      document.title = `${emp.nombre} — El Interno`;
+
+      // Header
+      const logoHtml = emp.logo
+        ? `<img src="${emp.logo}" alt="${emp.nombre}" onerror="this.parentElement.innerHTML='<span class=empresa-logo-placeholder>${emp.nombre[0]}</span>'">`
+        : `<span class="empresa-logo-placeholder">${emp.nombre[0]}</span>`;
+
+      const subcatsHtml = [
+        { label: 'Sueldo', val: emp.prom_sueldo },
+        { label: 'Carrera', val: emp.prom_carrera },
+        { label: 'Flexibilidad', val: emp.prom_flexibilidad },
+        { label: 'Liderazgo', val: emp.prom_liderazgo },
+        { label: 'Cultura', val: emp.prom_cultura },
+      ].filter(c => c.val !== null && c.val !== undefined)
+       .map(c => subcatPill(c.label, c.val)).join('');
+
+      document.getElementById('empresa-header').innerHTML = `
+        <div class="empresa-header">
+          <div class="empresa-header-inner">
+            <div class="empresa-logo">${logoHtml}</div>
+            <div class="empresa-info">
+              <h1 class="empresa-nombre">${emp.nombre}</h1>
+              <span class="empresa-rubro">${emp.rubro || 'Sin rubro'}</span>
+              <div class="rating-row">
+                ${stars(emp.promedio, 20)}
+                ${emp.promedio ? `<span class="rating-big">${emp.promedio}</span>` : ''}
+                <span class="rating-label">${emp.total_resenas} reseña${emp.total_resenas !== 1 ? 's' : ''}</span>
+              </div>
+              ${subcatsHtml ? `<div class="subcats-row">${subcatsHtml}</div>` : ''}
+            </div>
+          </div>
+        </div>`;
+
+      // Reseñas
+      const main = document.getElementById('main');
+      if (!emp.resenas || !emp.resenas.length) {
+        main.innerHTML = '<p style="color:var(--text-muted)">Sin reseñas aún.</p>';
+        return;
+      }
+      main.innerHTML = `
+        <div class="section-title">${emp.total_resenas} reseña${emp.total_resenas !== 1 ? 's' : ''}</div>
+        ${emp.resenas.map(renderResena).join('')}`;
+    });
+</script>
+</body>
+</html>

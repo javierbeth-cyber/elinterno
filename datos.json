@@ -1,0 +1,854 @@
+[
+  {
+    "id": "amipass",
+    "nombre": "Amipass",
+    "rubro": "Alimentación ",
+    "logo": "https://www.google.com/s2/favicons?domain=amipass.com&sz=128",
+    "resenas": [
+      {
+        "id": 32,
+        "tiempo": "Menos de 6 meses",
+        "cal_general": 3,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Ofrece muy pocas opciones de ascender ya que la parte de tecnología donde estaba yo era muy chica, muy poco personal. Los bonos son 50 Lucas en Amipass en septiembre y Navidad después de cumplidos un año y eso no encanta a nadie. Trabajo remoto 100% eso lo veía positivo, nula capacitación con apoyo en tecnologías , no existe udemy ni ningún convenio con empresas de educación para seguir aprendiendo",
+        "que_mal": "Podría poner gente más capacitada a nivel técnico el personaje que era TL dejaba mucho que desear con desiciones poco escalables , e invertir en crecimiento profesional mediante academias online",
+        "que_desearias": "Que no capacitan al personal, las nulas probabilidades de ascender y el inexistente  reconocimiento a nivel profesional por méritos técnicos o arquitectónicos.",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 3.0,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  },
+  {
+    "id": "cencosud",
+    "nombre": "Cencosud",
+    "rubro": "Retail",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Cencosud_logo.svg/1280px-Cencosud_logo.svg.png",
+    "resenas": [
+      {
+        "id": 8,
+        "tiempo": "Más de 3 años",
+        "cal_general": 2,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Nada",
+        "que_mal": null,
+        "que_desearias": "Que si eres despedido, aunque sea por necesidades de la empresa, nunca podrás volver a trabajar en el holding",
+        "votos": 0
+      },
+      {
+        "id": 33,
+        "tiempo": "Más de 3 años",
+        "cal_general": 4,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Es una empresa con un ritmo de trabajo alto, lo que la convierte en una excelente escuela acelerada. Permite aprender rápidamente.",
+        "que_mal": "En algunos momentos, el alto nivel de exigencia y el interés por destacar pueden generar una competencia interna que no siempre favorece la colaboración. A veces esto se traduce en objetivos poco realistas o en falta de claridad sobre quién es responsable de cada tema.",
+        "que_desearias": "Me faltó entender que ‘vender humo’ puede tener más impacto que los resultados reales.",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 2,
+    "promedio": 3.0,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  },
+  {
+    "id": "chita-factoring",
+    "nombre": "Chita factoring",
+    "rubro": "Banca y finanzas",
+    "logo": "https://www.google.com/s2/favicons?domain=chita.cl&sz=128",
+    "resenas": [
+      {
+        "id": 4,
+        "tiempo": "Menos de 6 meses",
+        "cal_general": 3,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Liderazgo, compañerismo, transparencia, modalidad 1 dia presencial a la semana",
+        "que_mal": null,
+        "que_desearias": null,
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 3.0,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  },
+  {
+    "id": "cristalchile",
+    "nombre": "Cristalchile",
+    "rubro": "Producción fabril",
+    "logo": "https://cristalchile.cl/wp-content/uploads/2026/01/Logo_CCH_Horizontal-color.svg",
+    "resenas": [
+      {
+        "id": 17,
+        "tiempo": "1 a 3 años",
+        "cal_general": 1,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Muy buen lugar para mostrar conocimientos y habilidades",
+        "que_mal": null,
+        "que_desearias": "Más información de la cultura de trabajo",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1.0,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  },
+  {
+    "id": "cumplo-chile",
+    "nombre": "Cumplo Chile",
+    "rubro": "Banca y finanzas",
+    "logo": "https://8519019.fs1.hubspotusercontent-na1.net/hubfs/8519019/Cumplo-logo_verde.png",
+    "resenas": [
+      {
+        "id": 2,
+        "tiempo": "6 meses a 1 año",
+        "cal_general": 1,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "La cultura de los trabajadores, mas no la de la empresa. El grupo humano que se forma adentro es lo más rescatable. Estaba bien la flexibilidad pero ya no existe.",
+        "que_mal": null,
+        "que_desearias": "Me hubiera encantado saber que me mentirían tanto, que seria tan inestable, que poco importaría como realice mi trabajo sino que será mas importante como me llevo con cada quien, o a cuantas reuniones sociales asisto, que cambiaria tanto en tan poco tiempo (condiciones, presencialidad, dresscode, etc).",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1.0,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  },
+  {
+    "id": "dinecom",
+    "nombre": "Dinecom",
+    "rubro": "Tecnología",
+    "logo": "https://www.google.com/s2/favicons?domain=dinecom.cl&sz=128",
+    "resenas": [
+      {
+        "id": 10,
+        "tiempo": "Más de 3 años",
+        "cal_general": 1,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Poco se salva. Es un barco quemándose mientras se dirige hacia una catarata",
+        "que_mal": null,
+        "que_desearias": "Más allá de que de igual manera logré dejar una marca positiva indeleble en casi 12 años de trabajo, nunca pensé que podrían ser de forma tan deshonesta.",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1.0,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  },
+  {
+    "id": "escuela-de-ingenieria-pontificia-universidad-catolica-de-chile",
+    "nombre": "Escuela de Ingeniería, Pontificia Universidad Católica de Chile",
+    "rubro": "Educación",
+    "logo": "https://www.google.com/s2/favicons?domain=uc.cl&sz=128",
+    "resenas": [
+      {
+        "id": 6,
+        "tiempo": "1 a 3 años",
+        "cal_general": 2,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Solo destaco que entrega posibilidades de desarrollo en estudios y capacitaciones.",
+        "que_mal": null,
+        "que_desearias": "Las restricciones para obtener los beneficios que publican. También considero que si un lugar de trabajo está bajo una intervención de clima laboral, es algo que un nuevo trabajador debería tener derecho a saber antes de ingresar.",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 2.0,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  },
+  {
+    "id": "evertec",
+    "nombre": "Evertec",
+    "rubro": "Tecnología",
+    "logo": "https://evertecinc.com/wp-content/uploads/2025/06/Group-1.png",
+    "resenas": [
+      {
+        "id": 19,
+        "tiempo": "6 meses a 1 año",
+        "cal_general": 1,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Nada rescatable",
+        "que_mal": null,
+        "que_desearias": "Que te dejarán solo en tus primeros meses, sin apoyo, sin guía, además de que no hay documentación técnica de nada",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1.0,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  },
+  {
+    "id": "examedi",
+    "nombre": "Examedi",
+    "rubro": "Tecnología",
+    "logo": "https://examedi.cl/images/logo.webp",
+    "resenas": [
+      {
+        "id": 11,
+        "tiempo": "Menos de 6 meses",
+        "cal_general": 2,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Flexibilidad en el horario, oportunidad de aprendizaje",
+        "que_mal": null,
+        "que_desearias": "No hay plan de carrera o plan en general con tu puesto, ni si quiera una pista, el data engineer es jefe de operaciones, la jefa de RRHH hace operaciones y la gente de marketing debe hacer producto y la gente de ventas hace finanzas corporativas",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 2.0,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  },
+  {
+    "id": "femsa",
+    "nombre": "Femsa",
+    "rubro": "Banca y finanzas",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/FEMSA_Logo.svg/1280px-FEMSA_Logo.svg.png",
+    "resenas": [
+      {
+        "id": 9,
+        "tiempo": "Menos de 6 meses",
+        "cal_general": 1,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Horarios",
+        "que_mal": null,
+        "que_desearias": "Clima laboral y condiciones laborales",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1.0,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  },
+  {
+    "id": "fundacion-puerto-de-ideas",
+    "nombre": "Fundación Puerto de Ideas",
+    "rubro": "Fundación Cultural",
+    "logo": "https://puertodeideas.cl/wp-content/themes/puerto-ideas-corp/assets/img/logo-puerto-de-ideas-h2.svg",
+    "resenas": [
+      {
+        "id": 3,
+        "tiempo": "1 a 3 años",
+        "cal_general": 1,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "El equipo de planta",
+        "que_mal": null,
+        "que_desearias": "Que hay una cultura de abuso con un liderazgo disfuncional declarado. Que no había una dirección ejecutiva que hiciera contrapeso a decisiones de la presidenta.",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1.0,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  },
+  {
+    "id": "geovictoria",
+    "nombre": "GeoVictoria",
+    "rubro": "Tecnología",
+    "logo": "https://www.geovictoria.com/hs-fs/hubfs/LOGO-GV.jpg?width=960&height=212&name=LOGO-GV.jpg",
+    "resenas": [
+      {
+        "id": 1,
+        "tiempo": "1 a 3 años",
+        "cal_general": 3,
+        "sueldo": 3,
+        "carrera": 2,
+        "flexibilidad": 4,
+        "liderazgo": 2,
+        "cultura": 3,
+        "que_bien": "Cultura",
+        "que_mal": "Salarios, liderazgo, orden",
+        "que_desearias": "Mal salario, lentos para aumentos, poco movimiento dentro de la empresa",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 3.0,
+    "prom_sueldo": 3.0,
+    "prom_carrera": 2.0,
+    "prom_flexibilidad": 4.0,
+    "prom_liderazgo": 2.0,
+    "prom_cultura": 3.0
+  },
+  {
+    "id": "gtd",
+    "nombre": "GTD",
+    "rubro": "Telecomunicaciones",
+    "logo": "https://www.gtd.cl/image/layout_set_logo?img_id=1607573",
+    "resenas": [
+      {
+        "id": 31,
+        "tiempo": "Más de 3 años",
+        "cal_general": 4,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Cultura: empresa de la familia Casanueva, aún con muchos rasgos muy formales y poco actualizado a culturas empresariales más modernas. La mano del dueño fundador aun está muy presente (para bien y para mal).\n\nBeneficios: seguro complementario de salud, convenios, amipass, bono navidad, bono fiestas patrias, etc ... lo normal (nada del otro mundo) para una empresa de aprox. 3000 trabajadores.\n\nFlexibilidad: no abiertamente, pero esto siempre dependerá mucho de tu área, jefatura y responsabilidades.",
+        "que_mal": "Los sueldos no son los mejores del mercado y no siempre se asciende al que lo merece sino que al que tiene contactos, es amigo o familiar de alguien.",
+        "que_desearias": "Hay bastante clasismo y mucha formalidad en el día a día, si te adaptas a eso te puede ir bien y lo puedes pasar bien también. Todo dependerá del líder de tu área, también hay personas valiosas y de gran calidad humana.",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 4.0,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  },
+  {
+    "id": "isapre-consalud",
+    "nombre": "Isapre Consalud",
+    "rubro": "Salud",
+    "logo": "https://cdn.freebiesupply.com/logos/large/2x/consalud-com-logo-png-transparent.png",
+    "resenas": [
+      {
+        "id": 5,
+        "tiempo": "Más de 3 años",
+        "cal_general": 2,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Son ordenados con la informacion que recopilan de las personas.",
+        "que_mal": null,
+        "que_desearias": "lo que estaba mal.",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 2.0,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  },
+  {
+    "id": "kibernum",
+    "nombre": "Kibernum",
+    "rubro": "Tecnología",
+    "logo": "https://www.kibernum.com/wp-content/uploads/2023/03/Frame-1.png",
+    "resenas": [
+      {
+        "id": 28,
+        "tiempo": "1 a 3 años",
+        "cal_general": 4,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Flexibilidad, al principio todo era remoto,  pero ahora los clientes quieren híbrido o presencial. Tienen buenos beneficios si te inscribes en el\nSindicato",
+        "que_mal": "Cuando en una vacante ponen que suben sueldo anual, no es la realidad, solo sube por IPC pero no por el desempeño (tengo excelente desempeño recomendado por cliente y la consultora), sin embargo al estar en el sindicato hay bonos decentes.",
+        "que_desearias": "Creo que estuvo bien la información que recibí antes de entrar",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 4.0,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  },
+  {
+    "id": "latam-airlines",
+    "nombre": "Latam airlines",
+    "rubro": "Aerolíneas",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Grupo_Latam_Airlines.svg/1280px-Grupo_Latam_Airlines.svg.png",
+    "resenas": [
+      {
+        "id": 12,
+        "tiempo": "Más de 3 años",
+        "cal_general": 2,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Es lindo decir que estás en latam, y trabajar en una industria muy dinamica",
+        "que_mal": null,
+        "que_desearias": "Lo tóxico que es el ambiente político/enpresarial",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 2.0,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  },
+  {
+    "id": "lirmi",
+    "nombre": "Lirmi",
+    "rubro": "Tecnología",
+    "logo": "https://www.google.com/s2/favicons?domain=lirmi.com&sz=128",
+    "resenas": [
+      {
+        "id": 13,
+        "tiempo": "1 a 3 años",
+        "cal_general": 2,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Beneficios y flexibilidad",
+        "que_mal": null,
+        "que_desearias": "Como íbamos a ser evaluados, o que repercusiones claras tendriamos de esas evaluaciones.",
+        "votos": 0
+      },
+      {
+        "id": 20,
+        "tiempo": "Más de 3 años",
+        "cal_general": 2,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Nada",
+        "que_mal": null,
+        "que_desearias": "La calidad del liderazgo",
+        "votos": 0
+      },
+      {
+        "id": 21,
+        "tiempo": "Más de 3 años",
+        "cal_general": 2,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Nada",
+        "que_mal": "Liderazgo, ambiente, poca claridad en metas y objetivos",
+        "que_desearias": "La calidad del liderazgo",
+        "votos": 0
+      },
+      {
+        "id": 22,
+        "tiempo": "1 a 3 años",
+        "cal_general": 1,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Flexibilidad - teletrabajo 100%",
+        "que_mal": "Cultura - nepotismo",
+        "que_desearias": null,
+        "votos": 0
+      },
+      {
+        "id": 23,
+        "tiempo": "1 a 3 años",
+        "cal_general": 1,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "La empresa tiene un impacto real en la gestión educativa de colegios y sostenedores",
+        "que_mal": "LA coherencia entre las expectativas de desempeño, las condiciones laborales y los sistemas de incentivos, asegurando transparencia y consistencia en los criterios utilizados.\n\nTambién mejorar la gestión del cambio organizacional, especialmente en temas como modalidades de trabajo, redefinición de roles o restructuraciones, promoviendo instancias de diálogo más tempranas y acompañamiento a los equipos.",
+        "que_desearias": "habría agradecido tener una visión más concreta sobre la modalidad de trabajo futura y los cambios organizacionales esperables, para poder anticipar decisiones personales y profesionales.",
+        "votos": 0
+      },
+      {
+        "id": 25,
+        "tiempo": "Más de 3 años",
+        "cal_general": 1,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "beneficio de trabajo remoto",
+        "que_mal": "Liderazgo de las alta jerarquias, son poco humanos despiden por correo y la mayoría demandar por mal calculo de finiquitos",
+        "que_desearias": "Procesos de desvinculación y demanda de la empresa",
+        "votos": 0
+      },
+      {
+        "id": 26,
+        "tiempo": "6 meses a 1 año",
+        "cal_general": 1,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "El producto es muy muy bueno",
+        "que_mal": "La idea de la empresa es buena, partió bien, pero el hecho de que a nivel CLevel sean todos familiares hace que la exigencia no sea igual para todos. Las metas son imposibles de cumplir (te das cuenta de eso una vez dentro) ofrecen bonos que después no te pagan y apenas preguntas, pasas a la lista Negra donde te sacan de todos los grupos, reuniones y todo. \nTodas las personas que han despedido desde hace 4 meses a la fecha (más de 20 personas) es porque han reclamado algún pago pendiente.",
+        "que_desearias": "Que las metas que te ponen suenan interesantes pero que uno no puede hacerse cargo del resultado de la unidad completa para que paguen los bonos y comisiones.",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 7,
+    "promedio": 1.4,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  },
+  {
+    "id": "lider-bci",
+    "nombre": "Líder BCI",
+    "rubro": "Banca y finanzas",
+    "logo": "https://www.google.com/s2/favicons?domain=liderbciserviciosfinancieros.cl&sz=128",
+    "resenas": [
+      {
+        "id": 30,
+        "tiempo": "Menos de 6 meses",
+        "cal_general": 3,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Los salarios iniciales, beneficios y flexibilidad.",
+        "que_mal": "La cultura organizacional es muy desorganizada y sueldos para profesionales con más experiencia por debajo del mercado.",
+        "que_desearias": "Ambiente laboral.",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 3.0,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  },
+  {
+    "id": "seguros-sura-chile",
+    "nombre": "Seguros SURA Chile",
+    "rubro": "Seguros",
+    "logo": "https://www.sura.cl/Style%20Library/KitSura/img/logo_sura.png",
+    "resenas": [
+      {
+        "id": 24,
+        "tiempo": "Más de 3 años",
+        "cal_general": 3,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Buenos beneficios (ganados por la Mesa Negociadora, no por la benevolencia de la empresa)",
+        "que_mal": "Cultura del chisme muy normalizada, jefaturas y liderazgos que ascendieron solo por obedecer órdenes de superiores sin cuestionar nada (aunque fueran incluso cosas que perjudicaron el negocio), \"liderazgo\" basado infundir miedo y ego desproporcionado de las personas que ganan mayor sueldo",
+        "que_desearias": "Que no vas a ascender por el mérito de tu trabajo, sino que por hacerte amigo de las jefaturas o por obedecer ciegamente las órdenes de quienes ganan mayor sueldo",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 3.0,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  },
+  {
+    "id": "servicio-de-impuestos-internos",
+    "nombre": "Servicio de Impuestos Internos",
+    "rubro": "Gobierno",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Logotipo_Servicio_de_Impuestos_Internos.svg/1280px-Logotipo_Servicio_de_Impuestos_Internos.svg.png",
+    "resenas": [
+      {
+        "id": 14,
+        "tiempo": "Más de 3 años",
+        "cal_general": 4,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Beneficios y flexibilidad horaria. El ambiente laboral es muy bueno",
+        "que_mal": null,
+        "que_desearias": "Que podría pasar meses o años haciendo algo que no está en las descripciones del cargo",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 4.0,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  },
+  {
+    "id": "smu-s-a",
+    "nombre": "SMU S.A.",
+    "rubro": "Retail",
+    "logo": "https://www.google.com/s2/favicons?domain=smu.cl&sz=128",
+    "resenas": [
+      {
+        "id": 27,
+        "tiempo": "Más de 3 años",
+        "cal_general": 2,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "beneficios",
+        "que_mal": "cultura, flexibilidad, liderazgo, trato",
+        "que_desearias": "que hay mucho maltrato interno, perfiles de liderazgo anticuados",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 2.0,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  },
+  {
+    "id": "sodexo",
+    "nombre": "Sodexo",
+    "rubro": "Seguridad",
+    "logo": "https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Americas/CL/Media/Images/Logos---Icons-100-x-100/Sodexo_Logotype_Blue.png",
+    "resenas": [
+      {
+        "id": 7,
+        "tiempo": "1 a 3 años",
+        "cal_general": 4,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Remuneración por sobre el promedio gracias a beneficios por sindicato",
+        "que_mal": null,
+        "que_desearias": "Sodexo pierde instalaciones tan rápido como las gana, considerar posible traslado dependiendo de tu antigüedad o despido por necesidad de la empresa",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 4.0,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  },
+  {
+    "id": "solcor",
+    "nombre": "Solcor",
+    "rubro": "Energía",
+    "logo": "https://solcorchile.com/wp-content/uploads/2021/04/BAJA_Logo-Solcor-Chile-positivo-horizontal-1024x283.png",
+    "resenas": [
+      {
+        "id": 16,
+        "tiempo": "1 a 3 años",
+        "cal_general": 5,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Lo mejor del mundo Solcor. Flexibilidad y posibilidades de crecimiento. Muy buenos profesionales de quienes aprendí mucho",
+        "que_mal": null,
+        "que_desearias": null,
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 5.0,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  },
+  {
+    "id": "sonda-s-a",
+    "nombre": "Sonda S.A.",
+    "rubro": "Tecnología",
+    "logo": "https://www.sonda.com/images/sondanewsitelibraries/sonda_2024/logos/logo-sonda.svg?sfvrsn=47ae5404_3",
+    "resenas": [
+      {
+        "id": 15,
+        "tiempo": "Más de 3 años",
+        "cal_general": 1,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Lo unico rescatable es que es una escuela, aprendes un monton de lo bueno y de lo malo",
+        "que_mal": null,
+        "que_desearias": "Que no vas a durar mucho, y que si duras mucho no te van a mejorar la renta ni que seas el mejor de los mejores, asi que aprende y enfocate en mejorar tu CV.",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1.0,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  },
+  {
+    "id": "termas-de-puyehue",
+    "nombre": "Termas de Puyehue",
+    "rubro": "Hoteleria",
+    "logo": "https://www.google.com/s2/favicons?domain=puyehue.cl&sz=128",
+    "resenas": [
+      {
+        "id": 18,
+        "tiempo": "1 a 3 años",
+        "cal_general": 2,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Flexibilidad",
+        "que_mal": null,
+        "que_desearias": "Los supervisores llegaron ahí por pituto o por aserruchar el piso",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 2.0,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  },
+  {
+    "id": "timix-chile",
+    "nombre": "Timix Chile",
+    "rubro": "Tecnología",
+    "logo": "https://www.google.com/s2/favicons?domain=timix.la&sz=128",
+    "resenas": [
+      {
+        "id": 29,
+        "tiempo": "Menos de 6 meses",
+        "cal_general": 2,
+        "sueldo": null,
+        "carrera": null,
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Experiencia requerida para cargos iniciales",
+        "que_mal": "Ambiente laboral y salario, te paga con boletas de honorarios cargos iniciales; con horarios de 44 horas pero sueldo muy por debajo del mínimo, garantizándote subir a un poco más del mínimo después de tres meses, pero un mes antes te sacan por reestructuración. Adicionalmente no dan buena inducción y exigen que sepas bien el proceso sin nunca haberlo explicado con anterioridad no claridad.",
+        "que_desearias": "La metodología de trabajo y cultura empresarial.",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 2.0,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null
+  }
+]
