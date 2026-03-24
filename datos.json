@@ -3,7 +3,7 @@
     "id": "amipass",
     "nombre": "Amipass",
     "rubro": "Alimentación",
-    "logo": "https://www.google.com/s2/favicons?domain=amipass.com&sz=128",
+    "logo": null,
     "resenas": [
       {
         "id": 31,
@@ -577,7 +577,7 @@
     "id": "lider-bci",
     "nombre": "Líder BCI",
     "rubro": "Banca y finanzas",
-    "logo": "https://www.google.com/s2/favicons?domain=liderbciserviciosfinancieros.cl&sz=128",
+    "logo": "https://www.google.com/s2/favicons?domain=lider.cl&sz=128",
     "resenas": [
       {
         "id": 29,
@@ -797,7 +797,7 @@
     "id": "smu-s-a",
     "nombre": "SMU S.A.",
     "rubro": "Retail",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=smu.cl&sz=128",
     "resenas": [
       {
         "id": 26,
@@ -890,7 +890,7 @@
     "id": "sonda-s-a",
     "nombre": "Sonda S.A.",
     "rubro": "Tecnología",
-    "logo": null,
+    "logo": "https://www.sonda.com/images/sondanewsitelibraries/sonda_2024/logos/logo-sonda.svg?sfvrsn=47ae5404_3",
     "resenas": [
       {
         "id": 15,
@@ -952,7 +952,7 @@
     "id": "timix-chile",
     "nombre": "Timix Chile",
     "rubro": "Tecnología",
-    "logo": "https://www.google.com/s2/favicons?domain=timix.la&sz=128",
+    "logo": null,
     "resenas": [
       {
         "id": 28,
