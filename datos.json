@@ -1192,6 +1192,38 @@
     "prom_cultura": null
   },
   {
+    "id": "talana",
+    "nombre": "Talana",
+    "rubro": "Tecnología",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 45,
+        "fecha": "2026-03-24",
+        "tiempo": "Más de 3 años",
+        "sigue": "No",
+        "cal_general": 5,
+        "sueldo": 3,
+        "carrera": 4,
+        "flexibilidad": 5,
+        "liderazgo": 3,
+        "cultura": 5,
+        "que_bien": "Como es startup cuidan mucho el ambiente",
+        "que_mal": "Que operaciones es un incendio constante y no hay mucha voluntad de inyectar recursos en esa gerencia ya que no es rentable",
+        "que_desearias": "Que no hay muchas intenciones de crecer exponencialmente",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 5,
+    "prom_sueldo": 3,
+    "prom_carrera": 4,
+    "prom_flexibilidad": 5,
+    "prom_liderazgo": 3,
+    "prom_cultura": 5
+  },
+  {
     "id": "termas-de-puyehue",
     "nombre": "Termas de Puyehue",
     "rubro": "Hoteleria",
