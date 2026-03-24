@@ -32,6 +32,38 @@
     "prom_cultura": null
   },
   {
+    "id": "capitaria",
+    "nombre": "Capitaria",
+    "rubro": "Banca y finanzas",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 51,
+        "fecha": "2026-03-24",
+        "tiempo": "1 a 3 años",
+        "sigue": "No",
+        "cal_general": 2,
+        "sueldo": 4,
+        "carrera": 3,
+        "flexibilidad": 1,
+        "liderazgo": 2,
+        "cultura": 5,
+        "que_bien": "El ambiente es muy de amigos, gente jóven, hay harto carrete, muy buena onda y los sueldos pueden llegar a ser bastante buenos",
+        "que_mal": "Hay mucha incertidumbre, muchísima rotación, falta capacitación para líderes porque no hay buenos liderazgos y puede ser muy dificil ascender dependiendo de en qué momento entraste",
+        "que_desearias": "Que valoran mucho la capacidad comercial vs el contenido o capacidad de analisis y que hay muchísima rotación, el promedio de años del área comercial debe ser 1 año",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 2,
+    "prom_sueldo": 4,
+    "prom_carrera": 3,
+    "prom_flexibilidad": 1,
+    "prom_liderazgo": 2,
+    "prom_cultura": 5
+  },
+  {
     "id": "cencosud",
     "nombre": "Cencosud",
     "rubro": "Retail",
