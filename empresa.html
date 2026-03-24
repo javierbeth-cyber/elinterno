@@ -235,6 +235,12 @@
     }
     .resena-subcat span { font-weight: 600; color: var(--text); }
 
+    .resena-publicado {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin: -8px 0 12px;
+    }
+
     .bloque {
       border-radius: 8px;
       padding: 12px 14px;
@@ -330,7 +336,7 @@
       El Interno
     </a>
     <a href="https://docs.google.com/forms/d/1PE9o66InYWImPOK86dJK9kzq2BmRucWub5KOmPAEz04/viewform" target="_blank" class="btn-resena">
-      ¿Trabajaste ahí? Cuéntanos
+      Deja tu reseña
     </a>
   </div>
 </header>
@@ -410,17 +416,18 @@
           ${stars(r.cal_general, 16)}
           ${r.cal_general ? `<span class="resena-rating">${r.cal_general}/5</span>` : ''}
           ${r.tiempo ? `<span class="resena-tiempo">${r.tiempo}</span>` : ''}
-          ${r.fecha ? `<span class="resena-tiempo">${formatFecha(r.fecha)}</span>` : ''}
+
           ${r.sigue ? (String(r.sigue).toLowerCase().startsWith('s')
             ? `<span class="badge-sigue badge-sigue-si">Sigue trabajando ahí</span>`
             : `<span class="badge-sigue badge-sigue-no">Ya no trabaja ahí</span>`) : ''}
         </div>
+        ${r.fecha ? `<div class="resena-publicado">Publicado en ${formatFecha(r.fecha)}</div>` : ''}
         ${resSubcats.length ? `<div class="resena-subcats">${resSubcats.map(c => `<div class="resena-subcat">${c.label} <span>${c.val}</span></div>`).join('')}</div>` : ''}
         ${bloque('bien', '✅', 'Qué está bien', r.que_bien)}
         ${bloque('mal', '❌', 'Qué está mal', r.que_mal)}
         ${bloque('desearias', '💡', 'Qué desearías haber sabido', r.que_desearias)}
         <div class="resena-footer">
-          <button class="btn-voto${voted ? ' voted' : ''}" onclick="votar(${r.id}, this)" ${voted ? 'disabled' : ''}>
+          <button class="btn-voto${voted ? ' voted' : ''}" onclick="votar(${r.id}, this)">
             👍 Yo también lo viví &nbsp;<span class="voto-count">${count > 0 ? count : ''}</span>
           </button>
         </div>
@@ -429,14 +436,19 @@
 
   function votar(id, btn) {
     const votos = getVotos();
-    if (votos[id]) return;
-    votos[id] = true;
-    saveVotos(votos);
-    btn.classList.add('voted');
-    btn.disabled = true;
     const countEl = btn.querySelector('.voto-count');
     const current = parseInt(countEl.textContent) || 0;
-    countEl.textContent = current + 1;
+    if (votos[id]) {
+      delete votos[id];
+      saveVotos(votos);
+      btn.classList.remove('voted');
+      countEl.textContent = current > 1 ? current - 1 : '';
+    } else {
+      votos[id] = true;
+      saveVotos(votos);
+      btn.classList.add('voted');
+      countEl.textContent = current + 1;
+    }
   }
 
   fetch('datos.json')
