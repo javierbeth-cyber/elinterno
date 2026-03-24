@@ -366,6 +366,15 @@
     localStorage.setItem('ei_votos', JSON.stringify(v));
   }
 
+  var MESES = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+
+  function formatFecha(fecha) {
+    if (!fecha) return null;
+    var parts = fecha.split('-');
+    var mes = MESES[parseInt(parts[1]) - 1];
+    return mes + ' ' + parts[0];
+  }
+
   function renderResena(r) {
     const votos = getVotos();
     const voted = !!votos[r.id];
@@ -385,6 +394,7 @@
           ${stars(r.cal_general, 16)}
           ${r.cal_general ? `<span class="resena-rating">${r.cal_general}/5</span>` : ''}
           ${r.tiempo ? `<span class="resena-tiempo">${r.tiempo}</span>` : ''}
+          ${r.fecha ? `<span class="resena-tiempo">${formatFecha(r.fecha)}</span>` : ''}
         </div>
         ${resSubcats.length ? `<div class="resena-subcats">${resSubcats.map(c => `<div class="resena-subcat">${c.label} <span>${c.val}</span></div>`).join('')}</div>` : ''}
         ${bloque('bien', '✅', 'Qué está bien', r.que_bien)}
