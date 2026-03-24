@@ -148,7 +148,7 @@
     "id": "copec",
     "nombre": "Copec",
     "rubro": "Energía",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=copec.cl&sz=128",
     "resenas": [
       {
         "id": 52,
@@ -180,7 +180,7 @@
     "id": "corporacion-3xi",
     "nombre": "Corporación 3xi",
     "rubro": "ONG",
-    "logo": "https://3xi.cl/wp-content/uploads/2022/01/logo-3xi.svg",
+    "logo": "https://www.google.com/s2/favicons?domain=3xi.cl&sz=128",
     "resenas": [
       {
         "id": 42,
@@ -340,7 +340,7 @@
     "id": "dispolab",
     "nombre": "Dispolab",
     "rubro": "Retail",
-    "logo": "https://dispolab.cl/cdn/shop/files/DISPOLAB_400_X_68.png?v=1705352245",
+    "logo": "https://www.google.com/s2/favicons?domain=dispolab.cl&sz=128",
     "resenas": [
       {
         "id": 43,
@@ -404,7 +404,7 @@
     "id": "enaex",
     "nombre": "Enaex",
     "rubro": "Minería",
-    "logo": "https://www.google.com/s2/favicons?domain=enaex.com&sz=128",
+    "logo": "https://www.enaex.com/wp-content/themes/enaex/assets/img/commun/logo.svg",
     "resenas": [
       {
         "id": 38,
@@ -773,7 +773,7 @@
     "id": "isapre-consalud",
     "nombre": "Isapre Consalud",
     "rubro": "Salud",
-    "logo": "https://cdn.freebiesupply.com/logos/large/2x/consalud-com-logo-png-transparent.png",
+    "logo": "https://www.google.com/s2/favicons?domain=consalud.cl&sz=128",
     "resenas": [
       {
         "id": 5,
@@ -837,7 +837,7 @@
     "id": "laboratorios-saval",
     "nombre": "Laboratorios Saval",
     "rubro": "Salud",
-    "logo": "https://www.google.com/s2/favicons?domain=saval.cl&sz=128",
+    "logo": "https://www.google.com/s2/favicons?domain=savalcorp.com&sz=128",
     "resenas": [
       {
         "id": 44,
@@ -1133,7 +1133,7 @@
     "id": "mosaico",
     "nombre": "Mosaico",
     "rubro": "Construcción",
-    "logo": "https://static.wixstatic.com/media/850492_7b0d6004b5454034b96152e5de57a511~mv2.png/v1/crop/x_0,y_16,w_850,h_265/fill/w_316,h_80,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LOGO%20MOSAICO%2035%20a%C3%B1os-02.png",
+    "logo": "https://www.google.com/s2/favicons?domain=mosaico.cl&sz=128",
     "resenas": [
       {
         "id": 47,
