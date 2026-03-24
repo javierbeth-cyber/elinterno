@@ -273,6 +273,38 @@
     "prom_cultura": 5
   },
   {
+    "id": "entel",
+    "nombre": "Entel",
+    "rubro": "Telecomunicaciones",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 41,
+        "fecha": "2026-03-24",
+        "tiempo": "1 a 3 años",
+        "sigue": "No",
+        "cal_general": 5,
+        "sueldo": 3,
+        "carrera": 5,
+        "flexibilidad": 2,
+        "liderazgo": 4,
+        "cultura": 5,
+        "que_bien": "la cultura es muy inclusiva, \"viva\", siempre están haciendo cosas extras para los trabajadores, actividades, cursos. Hay mucho espacio para el liderazgo, y desarrollo de carrera muy estructurado: después de dos años si o si corresponde un cambio a no ser que lo estés haciendo mal.",
+        "que_mal": "la flexibilidad, y la mucha carga laboral (sin respetar horarios, balance con la vida personal, etc)",
+        "que_desearias": "lo de la carga laboral",
+        "recomienda": "Sí",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 5,
+    "prom_sueldo": 3,
+    "prom_carrera": 5,
+    "prom_flexibilidad": 2,
+    "prom_liderazgo": 4,
+    "prom_cultura": 5
+  },
+  {
     "id": "escuela-de-ing-uc",
     "nombre": "Escuela de Ing.UC",
     "rubro": "Educación",
