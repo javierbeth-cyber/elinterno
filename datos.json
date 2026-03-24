@@ -998,5 +998,37 @@
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
     "prom_cultura": null
+  },
+  {
+    "id": "toteat",
+    "nombre": "Toteat",
+    "rubro": "Tecnología",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 36,
+        "fecha": "2026-03-24",
+        "tiempo": "6 meses a 1 año",
+        "sigue": "Sí",
+        "cal_general": 1,
+        "sueldo": 3,
+        "carrera": 3,
+        "flexibilidad": 2,
+        "liderazgo": 2,
+        "cultura": 3,
+        "que_bien": "Las personas son full comprometidas.",
+        "que_mal": "Liderazgo y espacios de decisión poco representativos. Las personas no están en el centro de la conversación. Se intenta pasar el compromiso y dar la milla extra como algo normal, cuando bordea la sobre explotación. Sin capacidad real de desconexión ni descanso, escudándose en lo que el negocio necesita. Y por último, los equipos con bajas rentas que pudiera ser una medida paleativa.",
+        "que_desearias": "El nivel de desconexión con los equipos y la sobrecarga de trabajo a la que te enfrentas, que es una constante y no representa una causa puntual que al abordarla se regula.",
+        "recomienda": "No",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1,
+    "prom_sueldo": 3,
+    "prom_carrera": 3,
+    "prom_flexibilidad": 2,
+    "prom_liderazgo": 2,
+    "prom_cultura": 3
   }
 ]
