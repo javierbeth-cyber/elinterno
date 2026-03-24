@@ -6,7 +6,7 @@
     "logo": null,
     "resenas": [
       {
-        "id": 33,
+        "id": 31,
         "tiempo": "Menos de 6 meses",
         "sigue": "No",
         "cal_general": 3,
@@ -53,7 +53,7 @@
         "votos": 0
       },
       {
-        "id": 34,
+        "id": 32,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 4,
@@ -115,7 +115,7 @@
     "logo": null,
     "resenas": [
       {
-        "id": 19,
+        "id": 17,
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 1,
@@ -208,7 +208,7 @@
     "logo": null,
     "resenas": [
       {
-        "id": 37,
+        "id": 35,
         "tiempo": "Menos de 6 meses",
         "sigue": "Sí",
         "cal_general": 3,
@@ -270,7 +270,7 @@
     "logo": null,
     "resenas": [
       {
-        "id": 21,
+        "id": 19,
         "tiempo": "6 meses a 1 año",
         "sigue": "No",
         "cal_general": 1,
@@ -425,7 +425,7 @@
     "logo": null,
     "resenas": [
       {
-        "id": 32,
+        "id": 30,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 4,
@@ -487,7 +487,7 @@
     "logo": null,
     "resenas": [
       {
-        "id": 29,
+        "id": 27,
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 4,
@@ -549,7 +549,7 @@
     "logo": null,
     "resenas": [
       {
-        "id": 35,
+        "id": 33,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 1,
@@ -580,7 +580,7 @@
     "logo": null,
     "resenas": [
       {
-        "id": 31,
+        "id": 29,
         "tiempo": "Menos de 6 meses",
         "sigue": "Sí",
         "cal_general": 3,
@@ -627,7 +627,7 @@
         "votos": 0
       },
       {
-        "id": 22,
+        "id": 20,
         "tiempo": "Más de 3 años",
         "sigue": "Sí",
         "cal_general": 2,
@@ -643,7 +643,7 @@
         "votos": 0
       },
       {
-        "id": 23,
+        "id": 21,
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 1,
@@ -659,7 +659,7 @@
         "votos": 0
       },
       {
-        "id": 24,
+        "id": 22,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 1,
@@ -675,7 +675,7 @@
         "votos": 0
       },
       {
-        "id": 26,
+        "id": 24,
         "tiempo": "Más de 3 años",
         "sigue": "Sí",
         "cal_general": 1,
@@ -691,7 +691,7 @@
         "votos": 0
       },
       {
-        "id": 27,
+        "id": 25,
         "tiempo": "6 meses a 1 año",
         "sigue": "Sí",
         "cal_general": 1,
@@ -707,7 +707,7 @@
         "votos": 0
       },
       {
-        "id": 36,
+        "id": 34,
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 1,
@@ -732,75 +732,13 @@
     "prom_cultura": 2
   },
   {
-    "id": "plataforma",
-    "nombre": "Plataforma",
-    "rubro": "Educación",
-    "logo": null,
-    "resenas": [
-      {
-        "id": 17,
-        "tiempo": "1 a 3 años",
-        "sigue": "No",
-        "cal_general": 1,
-        "sueldo": null,
-        "carrera": null,
-        "flexibilidad": null,
-        "liderazgo": null,
-        "cultura": null,
-        "que_bien": "Hoy nada",
-        "que_mal": "La cultura",
-        "que_desearias": "Qué para los líderes eres solo un número",
-        "recomienda": "No",
-        "votos": 0
-      }
-    ],
-    "total_resenas": 1,
-    "promedio": 1,
-    "prom_sueldo": null,
-    "prom_carrera": null,
-    "prom_flexibilidad": null,
-    "prom_liderazgo": null,
-    "prom_cultura": null
-  },
-  {
-    "id": "saludtech",
-    "nombre": "Saludtech",
-    "rubro": "Salud",
-    "logo": null,
-    "resenas": [
-      {
-        "id": 16,
-        "tiempo": "Más de 3 años",
-        "sigue": "Sí",
-        "cal_general": 5,
-        "sueldo": null,
-        "carrera": null,
-        "flexibilidad": null,
-        "liderazgo": null,
-        "cultura": null,
-        "que_bien": "Cultura, flexibilidad horaria y desafíos constantes",
-        "que_mal": "Mejores sueldos",
-        "que_desearias": "Haber conocido mejor a mi socio",
-        "recomienda": "Sí",
-        "votos": 0
-      }
-    ],
-    "total_resenas": 1,
-    "promedio": 5,
-    "prom_sueldo": null,
-    "prom_carrera": null,
-    "prom_flexibilidad": null,
-    "prom_liderazgo": null,
-    "prom_cultura": null
-  },
-  {
     "id": "seguros-sura-chile",
     "nombre": "Seguros SURA Chile",
     "rubro": "Seguros",
     "logo": null,
     "resenas": [
       {
-        "id": 25,
+        "id": 23,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 3,
@@ -862,7 +800,7 @@
     "logo": null,
     "resenas": [
       {
-        "id": 28,
+        "id": 26,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 2,
@@ -924,7 +862,7 @@
     "logo": null,
     "resenas": [
       {
-        "id": 18,
+        "id": 16,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 5,
@@ -986,7 +924,7 @@
     "logo": null,
     "resenas": [
       {
-        "id": 20,
+        "id": 18,
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 2,
@@ -1017,7 +955,7 @@
     "logo": null,
     "resenas": [
       {
-        "id": 30,
+        "id": 28,
         "tiempo": "Menos de 6 meses",
         "sigue": "No",
         "cal_general": 2,
