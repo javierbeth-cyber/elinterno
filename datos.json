@@ -202,8 +202,8 @@
     "prom_cultura": null
   },
   {
-    "id": "escuela-de-ingenieria-pontificia-universidad-catolica-de-chile",
-    "nombre": "Escuela de Ingeniería, Pontificia Universidad Católica de Chile",
+    "id": "escuela-de-ing-uc",
+    "nombre": "Escuela de Ing.UC",
     "rubro": "Educación",
     "logo": "https://www.google.com/s2/favicons?domain=uc.cl&sz=128",
     "resenas": [
@@ -515,7 +515,7 @@
     "id": "lemontech",
     "nombre": "Lemontech",
     "rubro": "Tecnología",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=lemontech.com&sz=128",
     "resenas": [
       {
         "id": 33,
@@ -732,10 +732,10 @@
     "prom_cultura": null
   },
   {
-    "id": "servicio-de-impuestos-internos",
-    "nombre": "Servicio de Impuestos Internos",
+    "id": "serv-impuestos-internos",
+    "nombre": "Serv. Impuestos Internos",
     "rubro": "Gobierno",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Logotipo_Servicio_de_Impuestos_Internos.svg/1280px-Logotipo_Servicio_de_Impuestos_Internos.svg.png",
+    "logo": null,
     "resenas": [
       {
         "id": 14,
