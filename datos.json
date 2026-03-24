@@ -1399,5 +1399,37 @@
     "prom_flexibilidad": 2,
     "prom_liderazgo": 2,
     "prom_cultura": 3
+  },
+  {
+    "id": "touch",
+    "nombre": "Touch",
+    "rubro": "Contratación de personal",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 49,
+        "fecha": "2026-03-24",
+        "tiempo": "Menos de 6 meses",
+        "sigue": "No",
+        "cal_general": 1,
+        "sueldo": 2,
+        "carrera": 1,
+        "flexibilidad": 1,
+        "liderazgo": 1,
+        "cultura": 1,
+        "que_bien": "Nada",
+        "que_mal": "Los líderes de esta empresa son patanes que creen que midiendo tu cráneo y sabiendo el mes en que naciste, actuaras de cierta manera. Hablo del CEO de la empresa. No se puede esperar nada del resto de jefaturas.",
+        "que_desearias": "No recomiendo a nadie trabajar ahí. Alejate de ahí a menos que quieras pasarlo mal.",
+        "recomienda": "No",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1,
+    "prom_sueldo": 2,
+    "prom_carrera": 1,
+    "prom_flexibilidad": 1,
+    "prom_liderazgo": 1,
+    "prom_cultura": 1
   }
 ]
