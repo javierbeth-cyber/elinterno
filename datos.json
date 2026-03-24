@@ -3,7 +3,7 @@
     "id": "amipass",
     "nombre": "Amipass",
     "rubro": "Alimentación",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=amipass.cl&sz=128",
     "resenas": [
       {
         "id": 31,
@@ -35,7 +35,7 @@
     "id": "capitaria",
     "nombre": "Capitaria",
     "rubro": "Banca y finanzas",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=capitaria.com&sz=128",
     "resenas": [
       {
         "id": 51,
@@ -147,8 +147,8 @@
   {
     "id": "corporacion-3xi",
     "nombre": "Corporación 3xi",
-    "rubro": "Corporación sin fines de lucro",
-    "logo": null,
+    "rubro": "ONG",
+    "logo": "https://3xi.cl/wp-content/uploads/2022/01/logo-3xi.svg",
     "resenas": [
       {
         "id": 42,
@@ -244,7 +244,7 @@
     "id": "deloitte",
     "nombre": "Deloitte",
     "rubro": "Consultoría",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=deloitte.com&sz=128",
     "resenas": [
       {
         "id": 46,
@@ -308,7 +308,7 @@
     "id": "dispolab",
     "nombre": "Dispolab",
     "rubro": "Retail",
-    "logo": null,
+    "logo": "https://dispolab.cl/cdn/shop/files/DISPOLAB_400_X_68.png?v=1705352245",
     "resenas": [
       {
         "id": 43,
@@ -340,7 +340,7 @@
     "id": "edarkstore",
     "nombre": "Edarkstore",
     "rubro": "Logística",
-    "logo": null,
+    "logo": "https://edarkstore.com/wp-content/uploads/2022/06/eds-1.svg",
     "resenas": [
       {
         "id": 37,
@@ -372,7 +372,7 @@
     "id": "enaex",
     "nombre": "Enaex",
     "rubro": "Minería",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=enaex.com&sz=128",
     "resenas": [
       {
         "id": 38,
@@ -404,7 +404,7 @@
     "id": "entel",
     "nombre": "Entel",
     "rubro": "Telecomunicaciones",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=entel.cl&sz=128",
     "resenas": [
       {
         "id": 41,
@@ -645,7 +645,7 @@
     "id": "global66",
     "nombre": "Global66",
     "rubro": "Banca y finanzas",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=global66.com&sz=128",
     "resenas": [
       {
         "id": 40,
@@ -709,7 +709,7 @@
     "id": "hogar-de-cristo",
     "nombre": "Hogar de Cristo",
     "rubro": "ONG",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=hogardecristo.cl&sz=128",
     "resenas": [
       {
         "id": 39,
@@ -805,7 +805,7 @@
     "id": "laboratorios-saval",
     "nombre": "Laboratorios Saval",
     "rubro": "Salud",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=saval.cl&sz=128",
     "resenas": [
       {
         "id": 44,
@@ -1101,7 +1101,7 @@
     "id": "mosaico",
     "nombre": "Mosaico",
     "rubro": "Construcción",
-    "logo": null,
+    "logo": "https://static.wixstatic.com/media/850492_7b0d6004b5454034b96152e5de57a511~mv2.png/v1/crop/x_0,y_16,w_850,h_265/fill/w_316,h_80,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/LOGO%20MOSAICO%2035%20a%C3%B1os-02.png",
     "resenas": [
       {
         "id": 47,
@@ -1325,7 +1325,7 @@
     "id": "talana",
     "nombre": "Talana",
     "rubro": "Tecnología",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=talana.cl&sz=128",
     "resenas": [
       {
         "id": 45,
@@ -1421,7 +1421,7 @@
     "id": "toteat",
     "nombre": "Toteat",
     "rubro": "Tecnología",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=toteat.com&sz=128",
     "resenas": [
       {
         "id": 36,
@@ -1453,7 +1453,7 @@
     "id": "touch",
     "nombre": "Touch",
     "rubro": "Contratación de personal",
-    "logo": null,
+    "logo": "https://i0.wp.com/touch.cl/wp-content/uploads/2022/05/logo-touch-verde.png?fit=1020%2C310&ssl=1",
     "resenas": [
       {
         "id": 49,
