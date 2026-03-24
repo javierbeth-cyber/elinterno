@@ -1032,6 +1032,38 @@
     "prom_cultura": 2
   },
   {
+    "id": "mosaico",
+    "nombre": "Mosaico",
+    "rubro": "Construcción",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 47,
+        "fecha": "2026-03-24",
+        "tiempo": "Más de 3 años",
+        "sigue": "Sí",
+        "cal_general": 3,
+        "sueldo": 5,
+        "carrera": 4,
+        "flexibilidad": 4,
+        "liderazgo": 2,
+        "cultura": 3,
+        "que_bien": "Oportunidades de crecimiento personal",
+        "que_mal": "Empresa arcaica, pocos procesos definidos, sin RRHH, cultura politizada",
+        "que_desearias": "Que hay mucho trabajo por hacer, varios años de avances laborales que alcanzar",
+        "recomienda": "Sí",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 3,
+    "prom_sueldo": 5,
+    "prom_carrera": 4,
+    "prom_flexibilidad": 4,
+    "prom_liderazgo": 2,
+    "prom_cultura": 3
+  },
+  {
     "id": "seguros-sura-chile",
     "nombre": "Seguros SURA Chile",
     "rubro": "Seguros",
