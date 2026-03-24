@@ -535,6 +535,23 @@
     "logo": "https://www.google.com/s2/favicons?domain=lemontech.com&sz=128",
     "resenas": [
       {
+        "id": 35,
+        "fecha": "2026-03-24",
+        "tiempo": "Más de 3 años",
+        "sigue": "No",
+        "cal_general": 5,
+        "sueldo": 5,
+        "carrera": 4,
+        "flexibilidad": 5,
+        "liderazgo": 3,
+        "cultura": 5,
+        "que_bien": "Es por lejos la mejora empresa en la que he trabajado. Buenos beneficios, flexibilidad y renta. Hay cultura centrada en las personas y se les trata con respeto",
+        "que_mal": "Los sesgos y brechas de género.",
+        "que_desearias": "Las diferencias evidentes que existen en lo que refiere a equidad de género, y en cómo estas brechas acentúan comportamientos misoginos en las mesas de liderazgo. Como la falta de liderazgo en los equipos de desarrollo impacta en otros equipos y en sus resultados",
+        "recomienda": "Sí",
+        "votos": 0
+      },
+      {
         "id": 33,
         "fecha": "2026-03-23",
         "tiempo": "1 a 3 años",
@@ -552,13 +569,13 @@
         "votos": 0
       }
     ],
-    "total_resenas": 1,
-    "promedio": 1,
-    "prom_sueldo": 2,
-    "prom_carrera": 1,
-    "prom_flexibilidad": 1,
-    "prom_liderazgo": 1,
-    "prom_cultura": 2
+    "total_resenas": 2,
+    "promedio": 3,
+    "prom_sueldo": 3.5,
+    "prom_carrera": 2.5,
+    "prom_flexibilidad": 3,
+    "prom_liderazgo": 2,
+    "prom_cultura": 3.5
   },
   {
     "id": "lider-bci",
