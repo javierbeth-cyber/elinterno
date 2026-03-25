@@ -1804,6 +1804,38 @@
     "prom_cultura": 1.5
   },
   {
+    "id": "uber",
+    "nombre": "Uber",
+    "rubro": "Tecnología",
+    "logo": "https://www.google.com/s2/favicons?domain=uber.cl&sz=128",
+    "resenas": [
+      {
+        "id": 64,
+        "fecha": "2026-03-25",
+        "tiempo": "Más de 3 años",
+        "sigue": "No",
+        "cal_general": 5,
+        "sueldo": "sobre el mercado",
+        "carrera": "muchas oportunidades",
+        "flexibilidad": 5,
+        "liderazgo": 4,
+        "cultura": 4,
+        "que_bien": "Flexibilidad, El equipo, La cultura, Las oficinas.",
+        "que_mal": "En los equipos globales, había poca dinámica de equipo.",
+        "que_desearias": null,
+        "recomienda": "Sí",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 5,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 5,
+    "prom_liderazgo": 4,
+    "prom_cultura": 4
+  },
+  {
     "id": "universidad-alberto-hurtado",
     "nombre": "Universidad Alberto Hurtado",
     "rubro": "Educación",
