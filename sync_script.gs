@@ -1,3 +1,4 @@
+// v2
 var GITHUB_TOKEN = '';
 var GITHUB_REPO  = 'javierbeth-cyber/elinterno';
 var GITHUB_FILE  = 'datos.json';
