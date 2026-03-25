@@ -371,6 +371,7 @@ function syncManual() {
 // BÚSQUEDA AUTOMÁTICA DE LOGOS (JOB NOCTURNO)
 // =============================================
 
+// Retorna la URL del logo (no descarga la imagen)
 function tryFindLogo(id) {
   var base = id.replace(/-/g, '');
   var domains = [id + '.cl', id + '.com', base + '.cl', base + '.com'];
@@ -385,7 +386,7 @@ function tryFindLogo(id) {
         var ct = (cb.getHeaders()['Content-Type'] || '').toLowerCase();
         if (ct.indexOf('image') !== -1 && ct.indexOf('gif') === -1) {
           Logger.log('  Clearbit OK: ' + domain);
-          return cb.getBlob();
+          return 'https://logo.clearbit.com/' + domain;
         }
       }
     } catch(e) {}
@@ -398,11 +399,8 @@ function tryFindLogo(id) {
         var match = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i)
                  || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i);
         if (match && match[1] && match[1].indexOf('http') === 0) {
-          var imgRes = UrlFetchApp.fetch(match[1], { muteHttpExceptions: true });
-          if (imgRes.getResponseCode() === 200) {
-            Logger.log('  og:image OK: ' + domain);
-            return imgRes.getBlob();
-          }
+          Logger.log('  og:image OK: ' + domain);
+          return match[1];
         }
       }
     } catch(e) {}
@@ -429,20 +427,12 @@ function buscarLogos() {
     if (manifest[id] || (LOGOS[id] !== undefined && LOGOS[id] !== null)) return;
 
     Logger.log('Buscando logo: ' + emp.nombre + ' (id: ' + id + ')');
-    var blob = tryFindLogo(id);
+    var url = tryFindLogo(id);
 
-    if (blob) {
-      var ext      = getExtension(blob);
-      var repoPath = 'logos/' + id + ext;
-      var ok = ghPutBlob(repoPath, blob, 'Logo auto: ' + emp.nombre);
-      if (ok) {
-        manifest[id] = 'https://raw.githubusercontent.com/' + GITHUB_REPO + '/main/' + repoPath;
-        encontrados++;
-        Logger.log('✓ Logo guardado: ' + emp.nombre);
-      } else {
-        Logger.log('✗ Error al subir: ' + emp.nombre);
-        sinLogo.push(emp.nombre);
-      }
+    if (url) {
+      manifest[id] = url;
+      encontrados++;
+      Logger.log('✓ Logo encontrado: ' + emp.nombre + ' → ' + url);
     } else {
       sinLogo.push(emp.nombre);
       Logger.log('✗ Sin logo: ' + emp.nombre);
