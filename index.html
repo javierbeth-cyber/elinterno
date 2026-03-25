@@ -431,14 +431,41 @@
     return html;
   }
 
+  var SUELDO_MAP = {1:'bajo el mercado',2:'bajo el mercado',3:'en el mercado',4:'sobre el mercado',5:'sobre el mercado'};
+  var SUELDO_OPTIONS = ['bajo el mercado','en el mercado','sobre el mercado'];
+  var CARRERA_MAP = {1:'pocas oportunidades',2:'pocas oportunidades',3:'crecimiento moderado',4:'muchas oportunidades',5:'muchas oportunidades'};
+  var CARRERA_OPTIONS = ['pocas oportunidades','crecimiento moderado','muchas oportunidades'];
+
+  function cualitativo(val, map) {
+    if (!val && val !== 0) return null;
+    if (typeof val === 'number') return map[val] || null;
+    return val;
+  }
+
+  function dominante(resenas, campo, map, options) {
+    const counts = {};
+    options.forEach(o => counts[o] = 0);
+    resenas.forEach(r => {
+      const v = cualitativo(r[campo], map);
+      if (v && counts[v] !== undefined) counts[v]++;
+    });
+    let max = 0, winner = null;
+    options.forEach(o => { if (counts[o] > max) { max = counts[o]; winner = o; } });
+    return winner;
+  }
+
   function subcats(emp) {
+    const resenas = emp.resenas || [];
+    const sueldo  = dominante(resenas, 'sueldo', SUELDO_MAP, SUELDO_OPTIONS);
+    const carrera = dominante(resenas, 'carrera', CARRERA_MAP, CARRERA_OPTIONS);
+
     const cats = [
-      { label: 'Sueldo', val: emp.prom_sueldo },
-      { label: 'Carrera', val: emp.prom_carrera },
+      { label: 'Sueldo', val: sueldo, cual: true },
+      { label: 'Carrera', val: carrera, cual: true },
       { label: 'Flex.', val: emp.prom_flexibilidad },
       { label: 'Liderazgo', val: emp.prom_liderazgo },
       { label: 'Cultura', val: emp.prom_cultura },
-    ].filter(c => c.val !== null);
+    ].filter(c => c.val !== null && c.val !== undefined);
 
     if (!cats.length) return '';
     return '<div class="subcats">' +
