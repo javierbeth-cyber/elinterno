@@ -1,5 +1,37 @@
 [
   {
+    "id": "achs",
+    "nombre": "Achs",
+    "rubro": "Mutualidad",
+    "logo": "https://www.google.com/s2/favicons?domain=achs.cl&sz=128",
+    "resenas": [
+      {
+        "id": 62,
+        "fecha": "2026-03-25",
+        "tiempo": "1 a 3 años",
+        "sigue": "No",
+        "cal_general": 3,
+        "sueldo": "en el mercado",
+        "carrera": "crecimiento moderado",
+        "flexibilidad": 1,
+        "liderazgo": 3,
+        "cultura": 4,
+        "que_bien": "Buenos compañeros, y que como es una mutualidad , en algunos perfiles puede ser una buena opción para trabajar, como para el rubro de ingenieros en prevención, que pueden encontrar mayor espacio de desarrollo",
+        "que_mal": "Es una empresa que al inicio parece idílica, personas educadas, compañerismo, posibilidad de crecimiento, y pronto esa burbuja explota a ambiente competitivo, jefaturas superficiales (parecen cercanas, pero en realidad no le importas nada), algunos subgerentes muy déspotas( y que parecen peluches frente a otros) pero nunca con gerentes ni pares.. y muchas personas que rotan sin entender porqué, poco transparente... crean una imagen de perfección, y la suciedad sale por la alfombra. Es una empresa que vende bien humo, pero por dentro es otra realidad.",
+        "que_desearias": "Que es una empresa que valora mucho el aparentar. Si no tienes problemas con aparentar constantemente, puedes encajar.",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 3,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 1,
+    "prom_liderazgo": 3,
+    "prom_cultura": 4
+  },
+  {
     "id": "amipass",
     "nombre": "Amipass",
     "rubro": "Alimentación",
@@ -30,6 +62,38 @@
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
     "prom_cultura": null
+  },
+  {
+    "id": "banco-consorcio",
+    "nombre": "Banco Consorcio",
+    "rubro": "Banca y finanzas",
+    "logo": "https://www.google.com/s2/favicons?domain=banco-consorcio.cl&sz=128",
+    "resenas": [
+      {
+        "id": 60,
+        "fecha": "2026-03-25",
+        "tiempo": "Más de 3 años",
+        "sigue": "No",
+        "cal_general": 1,
+        "sueldo": "en el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": 1,
+        "liderazgo": 1,
+        "cultura": 1,
+        "que_bien": "Tiene una buena ubicación, cerca del metro el golf o tobalaba",
+        "que_mal": "Una cultura violenta, donde la humillación y el mal trato es una constante, jefaturas sin preparación, mucha envidia. Jefaturas medias que abusan de su poder, y para poder escalar debes tener \" algo\" con ellos, y personas que acceden a esto para lograrlo, por lo que se perpetua el ciclo de las jefaturas mal preparadas. Como las jefaturas están muy mal preparadas, es muy difícil escalar, porque soy inseguras, y ocupan medios para bajarte. El horario extendido es una constante, y es visto como el desde, porque es un caos total, no existe la planificación, todo es un constante apagar incendios (jefaturas sin capacidad estratégica ni planificación). Por último áreas que deberían apoyar a mejorar la cultura, como RRHH, son parte de la misma, y antiéticos.",
+        "que_desearias": "Que solo si saliste de una cárcel, será una cultura aceptable para ti",
+        "recomienda": "No",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 1,
+    "prom_liderazgo": 1,
+    "prom_cultura": 1
   },
   {
     "id": "capitaria",
@@ -625,6 +689,38 @@
     "prom_cultura": null
   },
   {
+    "id": "explora",
+    "nombre": "Explora",
+    "rubro": "Hoteleria",
+    "logo": "https://www.google.com/s2/favicons?domain=explora.cl&sz=128",
+    "resenas": [
+      {
+        "id": 63,
+        "fecha": "2026-03-25",
+        "tiempo": "Más de 3 años",
+        "sigue": "No",
+        "cal_general": 2,
+        "sueldo": "bajo el mercado",
+        "carrera": "crecimiento moderado",
+        "flexibilidad": 2,
+        "liderazgo": 1,
+        "cultura": 4,
+        "que_bien": "Cultura y poder viajar",
+        "que_mal": "Promoción a los amigos de los jefes vs merito",
+        "que_desearias": "Es para comenzar, pero no para hacer carrera",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 2,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 2,
+    "prom_liderazgo": 1,
+    "prom_cultura": 4
+  },
+  {
     "id": "falabella-com",
     "nombre": "Falabella.com",
     "rubro": "Tecnología",
@@ -727,6 +823,23 @@
     "logo": "https://www.geovictoria.com/hs-fs/hubfs/LOGO-GV.jpg?width=960&height=212&name=LOGO-GV.jpg",
     "resenas": [
       {
+        "id": 61,
+        "fecha": "2026-03-25",
+        "tiempo": "1 a 3 años",
+        "sigue": "No",
+        "cal_general": 1,
+        "sueldo": "bajo el mercado",
+        "carrera": "crecimiento moderado",
+        "flexibilidad": 3,
+        "liderazgo": 1,
+        "cultura": 4,
+        "que_bien": "Los compañeros eran buenos, siempre con sus personajes destacados, pero como en todos los ambientes laborales, pero en general eran buenos compañeros",
+        "que_mal": "Un desastre los \" gerentes\" . Como es una empresa tipo \" pyme\" los gerentes son personas que partieron o estuvieron en el proyecto inicial, y lamentablemente no tienen ninguna habilidad de liderazgo,  súper ególatras.. es una empresa que sobrevive a una idea de negocio que fue fortalecida por ciertas leyes. No es una empresa para proyectarse ni tampoco para ganar plata, solo la recomiendo al igual que cualquier otra empresa, si necesitas mucho un trabajo",
+        "que_desearias": "La capacidad de los gerentes",
+        "recomienda": "No",
+        "votos": 0
+      },
+      {
         "id": 48,
         "fecha": "2026-03-24",
         "tiempo": "Menos de 6 meses",
@@ -761,13 +874,13 @@
         "votos": 0
       }
     ],
-    "total_resenas": 2,
-    "promedio": 2,
+    "total_resenas": 3,
+    "promedio": 1.7,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 1,
+    "prom_flexibilidad": 2,
     "prom_liderazgo": 1,
-    "prom_cultura": 1
+    "prom_cultura": 2.5
   },
   {
     "id": "global66",
@@ -1320,6 +1433,38 @@
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
     "prom_cultura": null
+  },
+  {
+    "id": "simpliroute",
+    "nombre": "Simpliroute",
+    "rubro": "Tecnología",
+    "logo": "https://www.google.com/s2/favicons?domain=simpliroute.cl&sz=128",
+    "resenas": [
+      {
+        "id": 59,
+        "fecha": "2026-03-25",
+        "tiempo": "1 a 3 años",
+        "sigue": "No",
+        "cal_general": 4,
+        "sueldo": "en el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": 5,
+        "liderazgo": 4,
+        "cultura": 5,
+        "que_bien": "Flexibilidad, se puede trabajar 100% remoto. Las personas de los equipos generan un buen ambiente.",
+        "que_mal": "Decisiones estratégicas, se tomaba una dirección al poco tiempo se cambiaba, poca constancia en las decisiones estratégicas.",
+        "que_desearias": "Los cambios constantes que se realizaban en la dirección estratégica.",
+        "recomienda": "Sí",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 4,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 5,
+    "prom_liderazgo": 4,
+    "prom_cultura": 5
   },
   {
     "id": "smu-s-a",
