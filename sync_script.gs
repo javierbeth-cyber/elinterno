@@ -319,15 +319,9 @@ function buildJson() {
 
 function pushToGitHub(content) {
   var apiUrl = 'https://api.github.com/repos/' + GITHUB_REPO + '/contents/' + GITHUB_FILE;
-  var getSha = UrlFetchApp.fetch(apiUrl, {
-    method: 'get',
-    headers: { Authorization: 'token ' + GITHUB_TOKEN },
-    muteHttpExceptions: true
-  });
-  var sha = null;
-  if (getSha.getResponseCode() === 200) {
-    sha = JSON.parse(getSha.getContentText()).sha;
-  }
+  // Usar ghGet (sin auth) para obtener el SHA — funciona en repos públicos
+  var current = ghGet(GITHUB_FILE);
+  var sha = current ? current.sha : null;
 
   var payload = {
     message: 'Auto-sync desde Google Forms',
