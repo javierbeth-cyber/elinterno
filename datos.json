@@ -1535,14 +1535,31 @@
         "que_desearias": "No recomiendo a nadie trabajar ahí. Alejate de ahí a menos que quieras pasarlo mal.",
         "recomienda": "No",
         "votos": 0
+      },
+      {
+        "id": 54,
+        "fecha": "2026-03-24",
+        "tiempo": "1 a 3 años",
+        "sigue": "No",
+        "cal_general": 2,
+        "sueldo": 3,
+        "carrera": 3,
+        "flexibilidad": 4,
+        "liderazgo": 2,
+        "cultura": 2,
+        "que_bien": "Algunos beneficios",
+        "que_mal": "El ambiente, los jefes no sabian liderar, no tenian un rumbo claro de la empresa",
+        "que_desearias": null,
+        "recomienda": "No",
+        "votos": 0
       }
     ],
-    "total_resenas": 1,
-    "promedio": 1,
-    "prom_sueldo": 2,
-    "prom_carrera": 1,
-    "prom_flexibilidad": 1,
-    "prom_liderazgo": 1,
-    "prom_cultura": 1
+    "total_resenas": 2,
+    "promedio": 1.5,
+    "prom_sueldo": 2.5,
+    "prom_carrera": 2,
+    "prom_flexibilidad": 2.5,
+    "prom_liderazgo": 1.5,
+    "prom_cultura": 1.5
   }
 ]
