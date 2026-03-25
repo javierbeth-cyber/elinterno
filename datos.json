@@ -497,6 +497,38 @@
     "prom_cultura": null
   },
   {
+    "id": "evalueserve",
+    "nombre": "Evalueserve",
+    "rubro": "Consultoría",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 55,
+        "fecha": "2026-03-24",
+        "tiempo": "6 meses a 1 año",
+        "sigue": "No",
+        "cal_general": 3,
+        "sueldo": 5,
+        "carrera": 4,
+        "flexibilidad": 3,
+        "liderazgo": 3,
+        "cultura": 4,
+        "que_bien": "La gente, la estructua, plan de carrera claro",
+        "que_mal": "Claridad en la expectativa de los cargos,",
+        "que_desearias": "Que si no te encuentran empresa te sacaran luego.",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 3,
+    "prom_sueldo": 5,
+    "prom_carrera": 4,
+    "prom_flexibilidad": 3,
+    "prom_liderazgo": 3,
+    "prom_cultura": 4
+  },
+  {
     "id": "evertec",
     "nombre": "Evertec",
     "rubro": "Tecnología",
