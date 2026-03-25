@@ -369,6 +369,38 @@
     "prom_cultura": 1
   },
   {
+    "id": "echeverria-izquierdo",
+    "nombre": "Echeverria izquierdo",
+    "rubro": "Construcción",
+    "logo": "https://www.google.com/s2/favicons?domain=echeverria-izquierdo.cl&sz=128",
+    "resenas": [
+      {
+        "id": 57,
+        "fecha": "2026-03-25",
+        "tiempo": "1 a 3 años",
+        "sigue": "No",
+        "cal_general": 1,
+        "sueldo": "en el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": 1,
+        "liderazgo": 1,
+        "cultura": 1,
+        "que_bien": "Hay muchas oportunidades de ayudar a otros compañeros de trabajo por lo que se hacen buenas amistades",
+        "que_mal": "Las decisiones se toman por las emociones puntuales de las jefaturas o gerentes, por lo que te puede ir muy bien o muy mal dependiendo de su estado de ánimo",
+        "que_desearias": "La falta de dirección al momento de tomar decisiones ya que estas cambian constantemente",
+        "recomienda": "No",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 1,
+    "prom_liderazgo": 1,
+    "prom_cultura": 1
+  },
+  {
     "id": "edarkstore",
     "nombre": "Edarkstore",
     "rubro": "Logística",
