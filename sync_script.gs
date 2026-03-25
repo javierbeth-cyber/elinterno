@@ -101,7 +101,11 @@ var LOGOS = {
   'sonda-s-a':                'https://www.sonda.com/images/sondanewsitelibraries/sonda_2024/logos/logo-sonda.svg?sfvrsn=47ae5404_3',
   'talana':                   'https://www.google.com/s2/favicons?domain=talana.cl&sz=128',
   'termas-de-puyehue':        'https://www.google.com/s2/favicons?domain=puyehue.cl&sz=128',
-  'timix-chile':              null,
+  'achs':                     'https://www.google.com/s2/favicons?domain=achs.cl&sz=128',
+  'banco-consorcio':          'https://www.google.com/s2/favicons?domain=bancoconsorcio.cl&sz=128',
+  'echeverria-izquierdo':     'https://www.google.com/s2/favicons?domain=echeverria-izquierdo.cl&sz=128',
+  'timix-chile':              'https://www.google.com/s2/favicons?domain=timix.la&sz=128',
+  'universidad-alberto-hurtado': 'https://www.google.com/s2/favicons?domain=uahurtado.cl&sz=128',
   'toteat':                   'https://www.google.com/s2/favicons?domain=toteat.com&sz=128',
   'touch':                    'https://i0.wp.com/touch.cl/wp-content/uploads/2022/05/logo-touch-verde.png?fit=1020%2C310&ssl=1'
 };
@@ -182,7 +186,11 @@ function ghPutBlob(path, blob, message) {
     payload: JSON.stringify(payload),
     muteHttpExceptions: true
   });
-  return res.getResponseCode() === 200 || res.getResponseCode() === 201;
+  var code = res.getResponseCode();
+  if (code !== 200 && code !== 201) {
+    Logger.log('ghPutBlob error (' + code + '): ' + res.getContentText());
+  }
+  return code === 200 || code === 201;
 }
 
 // =============================================
