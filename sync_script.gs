@@ -1,8 +1,8 @@
-// v2
-var GITHUB_TOKEN = '';
-var GITHUB_REPO  = 'javierbeth-cyber/elinterno';
-var GITHUB_FILE  = 'datos.json';
+var GITHUB_TOKEN  = PropertiesService.getScriptProperties().getProperty('GITHUB_TOKEN');
+var GITHUB_REPO   = 'javierbeth-cyber/elinterno';
+var GITHUB_FILE   = 'datos.json';
 var GITHUB_BRANCH = 'main';
+var LOGO_MANIFEST = 'logos/manifest.json';
 
 // Normalización de nombres: variación (lowercase) → nombre oficial
 var NOMBRES = {
@@ -129,6 +129,66 @@ var COL = {
   cultura:      15
 };
 
+// =============================================
+// HELPERS GITHUB
+// =============================================
+
+function ghGet(path) {
+  var res = UrlFetchApp.fetch(
+    'https://api.github.com/repos/' + GITHUB_REPO + '/contents/' + path,
+    { headers: { Authorization: 'token ' + GITHUB_TOKEN }, muteHttpExceptions: true }
+  );
+  if (res.getResponseCode() !== 200) return null;
+  var data = JSON.parse(res.getContentText());
+  var decoded = Utilities.newBlob(Utilities.base64Decode(data.content.replace(/\n/g, ''))).getDataAsString();
+  return { content: JSON.parse(decoded), sha: data.sha };
+}
+
+function ghPutJson(path, content, message, sha) {
+  var payload = {
+    message: message,
+    content: Utilities.base64Encode(JSON.stringify(content, null, 2), Utilities.Charset.UTF_8),
+    branch:  GITHUB_BRANCH
+  };
+  if (sha) payload.sha = sha;
+  var res = UrlFetchApp.fetch(
+    'https://api.github.com/repos/' + GITHUB_REPO + '/contents/' + path,
+    {
+      method:  'put',
+      headers: { Authorization: 'token ' + GITHUB_TOKEN, 'Content-Type': 'application/json' },
+      payload: JSON.stringify(payload),
+      muteHttpExceptions: true
+    }
+  );
+  return res.getResponseCode() === 200 || res.getResponseCode() === 201;
+}
+
+function ghPutBlob(path, blob, message) {
+  var apiUrl = 'https://api.github.com/repos/' + GITHUB_REPO + '/contents/' + path;
+  var getSha = UrlFetchApp.fetch(apiUrl, {
+    headers: { Authorization: 'token ' + GITHUB_TOKEN },
+    muteHttpExceptions: true
+  });
+  var sha = getSha.getResponseCode() === 200 ? JSON.parse(getSha.getContentText()).sha : null;
+  var payload = {
+    message: message,
+    content: Utilities.base64Encode(blob.getBytes()),
+    branch:  GITHUB_BRANCH
+  };
+  if (sha) payload.sha = sha;
+  var res = UrlFetchApp.fetch(apiUrl, {
+    method:  'put',
+    headers: { Authorization: 'token ' + GITHUB_TOKEN, 'Content-Type': 'application/json' },
+    payload: JSON.stringify(payload),
+    muteHttpExceptions: true
+  });
+  return res.getResponseCode() === 200 || res.getResponseCode() === 201;
+}
+
+// =============================================
+// HELPERS GENERALES
+// =============================================
+
 function avg(arr) {
   if (!arr) return null;
   var vals = arr.filter(function(v) { return v !== null && v !== undefined && v !== '' && !isNaN(parseFloat(v)); });
@@ -137,7 +197,23 @@ function avg(arr) {
   return Math.round((sum / vals.length) * 10) / 10;
 }
 
+function getExtension(blob) {
+  var ct = (blob.getContentType() || '').toLowerCase();
+  if (ct.indexOf('svg') !== -1)  return '.svg';
+  if (ct.indexOf('jpeg') !== -1 || ct.indexOf('jpg') !== -1) return '.jpg';
+  if (ct.indexOf('webp') !== -1) return '.webp';
+  return '.png';
+}
+
+// =============================================
+// BUILD JSON
+// =============================================
+
 function buildJson() {
+  // Cargar manifest de logos desde el repo (una sola llamada)
+  var manifestData = ghGet(LOGO_MANIFEST);
+  var manifest = manifestData ? manifestData.content : {};
+
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Respuestas de formulario 1');
   var data  = sheet.getDataRange().getValues();
   var empresas = {};
@@ -149,7 +225,6 @@ function buildJson() {
     var nombre = String(row[COL.empresa] || '').trim();
     if (!nombre) continue;
 
-    // Normalizar nombre si existe en el diccionario
     var nombreNorm = NOMBRES[nombre.toLowerCase().trim()];
     if (nombreNorm) nombre = nombreNorm;
 
@@ -160,17 +235,26 @@ function buildJson() {
       .replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 
     if (!empresas[id]) {
+      // Prioridad de logo: manifest del repo > LOGOS dict > fallback favicon
+      var logo;
+      if (manifest[id]) {
+        logo = manifest[id];
+      } else if (LOGOS[id] !== undefined) {
+        logo = LOGOS[id];
+      } else {
+        logo = 'https://www.google.com/s2/favicons?domain=' + id + '.cl&sz=128';
+      }
+
       empresas[id] = {
         id: id,
         nombre: nombre,
         rubro: RUBROS[id] || String(row[COL.rubro] || '').trim(),
-        logo: LOGOS[id] !== undefined ? LOGOS[id] : 'https://www.google.com/s2/favicons?domain=' + id + '.cl&sz=128',
+        logo: logo,
         resenas: []
       };
       orden.push(id);
     }
 
-    // Formatear fecha como YYYY-MM-DD
     var fechaRaw = row[COL.timestamp];
     var fecha = null;
     if (fechaRaw) {
@@ -209,8 +293,8 @@ function buildJson() {
     });
     emp.total_resenas     = emp.resenas.length;
     emp.promedio          = avg(emp.resenas.map(function(r){ return r.cal_general; }));
-    emp.prom_sueldo       = null; // cualitativo, calculado client-side
-    emp.prom_carrera      = null; // cualitativo, calculado client-side
+    emp.prom_sueldo       = null;
+    emp.prom_carrera      = null;
     emp.prom_flexibilidad = avg(emp.resenas.map(function(r){ return r.flexibilidad; }));
     emp.prom_liderazgo    = avg(emp.resenas.map(function(r){ return r.liderazgo; }));
     emp.prom_cultura      = avg(emp.resenas.map(function(r){ return r.cultura; }));
@@ -221,9 +305,12 @@ function buildJson() {
   return JSON.stringify(result, null, 2);
 }
 
+// =============================================
+// PUSH DATOS.JSON
+// =============================================
+
 function pushToGitHub(content) {
   var apiUrl = 'https://api.github.com/repos/' + GITHUB_REPO + '/contents/' + GITHUB_FILE;
-
   var getSha = UrlFetchApp.fetch(apiUrl, {
     method: 'get',
     headers: { Authorization: 'token ' + GITHUB_TOKEN },
@@ -259,6 +346,10 @@ function pushToGitHub(content) {
   }
 }
 
+// =============================================
+// TRIGGERS PRINCIPALES
+// =============================================
+
 function onFormSubmit() {
   var json = buildJson();
   pushToGitHub(json);
@@ -266,4 +357,112 @@ function onFormSubmit() {
 
 function syncManual() {
   onFormSubmit();
+}
+
+// =============================================
+// BÚSQUEDA AUTOMÁTICA DE LOGOS (JOB NOCTURNO)
+// =============================================
+
+function tryFindLogo(id) {
+  var base = id.replace(/-/g, '');
+  var domains = [id + '.cl', id + '.com', base + '.cl', base + '.com'];
+
+  for (var i = 0; i < domains.length; i++) {
+    var domain = domains[i];
+
+    // Intento 1: Clearbit
+    try {
+      var cb = UrlFetchApp.fetch('https://logo.clearbit.com/' + domain, { muteHttpExceptions: true });
+      if (cb.getResponseCode() === 200) {
+        var ct = (cb.getHeaders()['Content-Type'] || '').toLowerCase();
+        if (ct.indexOf('image') !== -1 && ct.indexOf('gif') === -1) {
+          Logger.log('  Clearbit OK: ' + domain);
+          return cb.getBlob();
+        }
+      }
+    } catch(e) {}
+
+    // Intento 2: og:image del sitio
+    try {
+      var page = UrlFetchApp.fetch('https://' + domain, { muteHttpExceptions: true, followRedirects: true });
+      if (page.getResponseCode() === 200) {
+        var html = page.getContentText();
+        var match = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i)
+                 || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i);
+        if (match && match[1] && match[1].indexOf('http') === 0) {
+          var imgRes = UrlFetchApp.fetch(match[1], { muteHttpExceptions: true });
+          if (imgRes.getResponseCode() === 200) {
+            Logger.log('  og:image OK: ' + domain);
+            return imgRes.getBlob();
+          }
+        }
+      }
+    } catch(e) {}
+  }
+
+  return null;
+}
+
+function buscarLogos() {
+  var manifestData = ghGet(LOGO_MANIFEST);
+  var manifest    = manifestData ? manifestData.content : {};
+  var manifestSha = manifestData ? manifestData.sha    : null;
+
+  var datosData = ghGet(GITHUB_FILE);
+  if (!datosData) { Logger.log('No se pudo leer datos.json'); return; }
+  var empresas = datosData.content;
+
+  var encontrados = 0;
+  var sinLogo = [];
+
+  empresas.forEach(function(emp) {
+    var id = emp.id;
+    // Saltar si ya tiene logo en manifest o en LOGOS dict (con valor no-null)
+    if (manifest[id] || (LOGOS[id] !== undefined && LOGOS[id] !== null)) return;
+
+    Logger.log('Buscando logo: ' + emp.nombre + ' (id: ' + id + ')');
+    var blob = tryFindLogo(id);
+
+    if (blob) {
+      var ext      = getExtension(blob);
+      var repoPath = 'logos/' + id + ext;
+      var ok = ghPutBlob(repoPath, blob, 'Logo auto: ' + emp.nombre);
+      if (ok) {
+        manifest[id] = 'https://raw.githubusercontent.com/' + GITHUB_REPO + '/main/' + repoPath;
+        encontrados++;
+        Logger.log('✓ Logo guardado: ' + emp.nombre);
+      } else {
+        Logger.log('✗ Error al subir: ' + emp.nombre);
+        sinLogo.push(emp.nombre);
+      }
+    } else {
+      sinLogo.push(emp.nombre);
+      Logger.log('✗ Sin logo: ' + emp.nombre);
+    }
+  });
+
+  if (encontrados > 0) {
+    ghPutJson(LOGO_MANIFEST, manifest, 'Logo manifest: ' + encontrados + ' nuevos', manifestSha);
+    Logger.log('Manifest actualizado con ' + encontrados + ' logos nuevos.');
+    Utilities.sleep(3000);
+    syncManual();
+    Logger.log('datos.json regenerado con logos nuevos.');
+  }
+
+  Logger.log('--- buscarLogos completo ---');
+  Logger.log('Encontrados: ' + encontrados);
+  Logger.log('Sin logo (' + sinLogo.length + '): ' + sinLogo.join(', '));
+}
+
+// Ejecutar una vez desde el editor para crear el trigger diario
+function setupDailyTrigger() {
+  ScriptApp.getProjectTriggers().forEach(function(t) {
+    if (t.getHandlerFunction() === 'buscarLogos') ScriptApp.deleteTrigger(t);
+  });
+  ScriptApp.newTrigger('buscarLogos')
+    .timeBased()
+    .atHour(3)
+    .everyDays(1)
+    .create();
+  Logger.log('Trigger diario creado: buscarLogos a las 03:00 hrs.');
 }
