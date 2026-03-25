@@ -136,7 +136,7 @@ var COL = {
 function ghGet(path) {
   var res = UrlFetchApp.fetch(
     'https://api.github.com/repos/' + GITHUB_REPO + '/contents/' + path,
-    { headers: { Authorization: 'token ' + GITHUB_TOKEN }, muteHttpExceptions: true }
+    { muteHttpExceptions: true }
   );
   if (res.getResponseCode() !== 200) return null;
   var data = JSON.parse(res.getContentText());
