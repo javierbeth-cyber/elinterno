@@ -67,7 +67,7 @@
     "id": "banco-consorcio",
     "nombre": "Banco Consorcio",
     "rubro": "Banca y finanzas",
-    "logo": "https://www.google.com/s2/favicons?domain=banco-consorcio.cl&sz=128",
+    "logo": "https://www.google.com/s2/favicons?domain=bancoconsorcio.cl&sz=128",
     "resenas": [
       {
         "id": 60,
@@ -1694,7 +1694,7 @@
     "id": "timix-chile",
     "nombre": "Timix Chile",
     "rubro": "Tecnología",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=timix.la&sz=128",
     "resenas": [
       {
         "id": 28,
@@ -1807,7 +1807,7 @@
     "id": "universidad-alberto-hurtado",
     "nombre": "Universidad Alberto Hurtado",
     "rubro": "Educación",
-    "logo": "https://www.google.com/s2/favicons?domain=universidad-alberto-hurtado.cl&sz=128",
+    "logo": "https://www.google.com/s2/favicons?domain=uahurtado.cl&sz=128",
     "resenas": [
       {
         "id": 58,
