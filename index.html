@@ -37,6 +37,10 @@
       line-height: 1.5;
     }
 
+
+    .card-logo.logo-dark { background: var(--navy); }
+    .empresa-logo.logo-dark { background: var(--navy); }
+
     /* HEADER */
     header {
       background: var(--navy);
@@ -484,7 +488,7 @@
     return `
       <a class="card" href="empresa.html?id=${emp.id}">
         <div class="card-header">
-          <div class="card-logo">${logoHtml(emp)}</div>
+          <div class="card-logo${isDarkLogo(emp.id) ? ' logo-dark' : ''}">${logoHtml(emp)}</div>
           <div class="card-info">
             <div class="card-nombre">${emp.nombre}</div>
             <span class="card-rubro">${emp.rubro || 'Sin rubro'}</span>
@@ -522,6 +526,10 @@
     });
     render(result);
   }
+
+
+  var LOGOS_DARK = ['corporacion-3xi'];
+  function isDarkLogo(id) { return LOGOS_DARK.indexOf(id) !== -1; }
 
   fetch('datos.json')
     .then(r => r.json())
