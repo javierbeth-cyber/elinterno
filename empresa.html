@@ -37,6 +37,10 @@
       line-height: 1.5;
     }
 
+
+    .card-logo.logo-dark { background: var(--navy); }
+    .empresa-logo.logo-dark { background: var(--navy); }
+
     /* HEADER */
     header {
       background: var(--navy);
@@ -697,6 +701,10 @@
       '</div>';
   }
 
+
+  var LOGOS_DARK = ['corporacion-3xi'];
+  function isDarkLogo(id) { return LOGOS_DARK.indexOf(id) !== -1; }
+
   fetch('datos.json')
     .then(r => r.json())
     .then(data => {
@@ -725,7 +733,7 @@
       document.getElementById('empresa-header').innerHTML = `
         <div class="empresa-header">
           <div class="empresa-header-inner">
-            <div class="empresa-logo">${logoHtml}</div>
+            <div class="empresa-logo${isDarkLogo(emp.id) ? ' logo-dark' : ''}">${logoHtml}</div>
             <div class="empresa-info">
               <h1 class="empresa-nombre">${emp.nombre}</h1>
               <span class="empresa-rubro">${emp.rubro || 'Sin rubro'}</span>
