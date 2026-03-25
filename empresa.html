@@ -241,6 +241,124 @@
       margin: -8px 0 12px;
     }
 
+
+    /* RESUMEN */
+    .resumen {
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 28px;
+    }
+    .resumen-title {
+      font-size: 13px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      margin-bottom: 20px;
+    }
+    .resumen-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px 32px;
+      margin-bottom: 20px;
+    }
+    @media (max-width: 600px) { .resumen-grid { grid-template-columns: 1fr; } }
+
+    .resumen-item { display: flex; flex-direction: column; gap: 6px; }
+    .resumen-label { font-size: 12px; color: var(--text-muted); font-weight: 500; }
+
+    /* Badge cualitativo */
+    .badge-cualitativo {
+      display: inline-block;
+      background: var(--blue-light);
+      color: var(--blue);
+      border: 1px solid #bfdbfe;
+      border-radius: 20px;
+      padding: 3px 10px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .badge-cualitativo-sub {
+      font-size: 11px;
+      color: var(--text-muted);
+      margin-top: 2px;
+      cursor: pointer;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .badge-cualitativo-sub:hover { color: var(--blue); }
+
+    /* Barra numérica */
+    .resumen-bar-wrap { display: flex; align-items: center; gap: 10px; }
+    .resumen-bar-bg {
+      flex: 1;
+      height: 8px;
+      background: var(--border);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+    .resumen-bar-fill {
+      height: 100%;
+      background: var(--blue);
+      border-radius: 4px;
+      transition: width 0.4s ease;
+    }
+    .resumen-bar-val { font-size: 13px; font-weight: 700; min-width: 28px; text-align: right; }
+
+    /* Distribución (expandible) */
+    .dist-wrap { display: none; margin-top: 10px; }
+    .dist-wrap.open { display: block; }
+    .dist-row { display: flex; align-items: center; gap: 8px; margin-bottom: 5px; font-size: 12px; }
+    .dist-row-label { width: 140px; color: var(--text-muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .dist-bar-bg { flex: 1; height: 6px; background: var(--border); border-radius: 3px; overflow: hidden; }
+    .dist-bar-fill { height: 100%; background: var(--blue); border-radius: 3px; }
+    .dist-count { color: var(--text-muted); min-width: 16px; text-align: right; }
+
+    /* Stats */
+    .resumen-stats {
+      display: flex;
+      gap: 24px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      margin-bottom: 20px;
+      flex-wrap: wrap;
+    }
+    .resumen-stat-item { font-size: 13px; color: var(--text-muted); }
+    .resumen-stat-item strong { color: var(--text); }
+
+    /* Highlights */
+    .highlights { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    @media (max-width: 600px) { .highlights { grid-template-columns: 1fr; } }
+    .highlight-card {
+      border-radius: 8px;
+      padding: 12px 14px;
+      font-size: 13px;
+      line-height: 1.5;
+    }
+    .highlight-card-bien { background: var(--green-bg); border: 1px solid var(--green-border); }
+    .highlight-card-mal  { background: var(--red-bg);   border: 1px solid var(--red-border); }
+    .highlight-label {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .highlight-card-bien .highlight-label { color: var(--green-text); }
+    .highlight-card-mal  .highlight-label { color: var(--red-text); }
+    .highlight-text {
+      color: var(--text);
+      display: -webkit-box;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
     .bloque {
       border-radius: 8px;
       padding: 12px 14px;
@@ -403,8 +521,8 @@
     const count = (r.votos || 0) + (voted ? 1 : 0);
 
     const resSubcats = [
-      { label: 'Sueldo', val: r.sueldo },
-      { label: 'Carrera', val: r.carrera },
+      { label: 'Sueldo', val: cualitativo(r.sueldo, SUELDO_MAP) },
+      { label: 'Crecimiento', val: cualitativo(r.carrera, CARRERA_MAP) },
       { label: 'Flex.', val: r.flexibilidad },
       { label: 'Liderazgo', val: r.liderazgo },
       { label: 'Cultura', val: r.cultura },
@@ -451,6 +569,134 @@
     }
   }
 
+
+  var SUELDO_MAP = {
+    1: 'bajo el mercado', 2: 'bajo el mercado',
+    3: 'en el mercado',
+    4: 'sobre el mercado', 5: 'sobre el mercado'
+  };
+  var SUELDO_OPTIONS = ['bajo el mercado', 'en el mercado', 'sobre el mercado'];
+
+  var CARRERA_MAP = {
+    1: 'pocas oportunidades', 2: 'pocas oportunidades',
+    3: 'crecimiento moderado',
+    4: 'muchas oportunidades', 5: 'muchas oportunidades'
+  };
+  var CARRERA_OPTIONS = ['pocas oportunidades', 'crecimiento moderado', 'muchas oportunidades'];
+
+  function cualitativo(val, map) {
+    if (!val && val !== 0) return null;
+    if (typeof val === 'number') return map[val] || null;
+    return val; // ya es texto (respuestas nuevas del form)
+  }
+
+  function dominante(arr, options) {
+    var counts = {};
+    options.forEach(function(o) { counts[o] = 0; });
+    arr.forEach(function(v) { if (v && counts[v] !== undefined) counts[v]++; });
+    var max = 0, winner = null;
+    options.forEach(function(o) { if (counts[o] > max) { max = counts[o]; winner = o; } });
+    return { winner: winner, counts: counts, total: arr.filter(Boolean).length };
+  }
+
+  function renderDistribucion(id, options, counts, total) {
+    var html = '<div class="dist-wrap" id="dist-' + id + '">';
+    options.forEach(function(o) {
+      var c = counts[o] || 0;
+      var pct = total > 0 ? Math.round(c / total * 100) : 0;
+      html += '<div class="dist-row">' +
+        '<span class="dist-row-label">' + o + '</span>' +
+        '<div class="dist-bar-bg"><div class="dist-bar-fill" style="width:' + pct + '%"></div></div>' +
+        '<span class="dist-count">' + c + '</span>' +
+        '</div>';
+    });
+    html += '</div>';
+    return html;
+  }
+
+  function toggleDist(id) {
+    var el = document.getElementById('dist-' + id);
+    if (el) el.classList.toggle('open');
+  }
+
+  function renderResumen(emp) {
+    var resenas = emp.resenas || [];
+
+    // Cualitativo
+    var sueldoVals = resenas.map(function(r) { return cualitativo(r.sueldo, SUELDO_MAP); });
+    var carreraVals = resenas.map(function(r) { return cualitativo(r.carrera, CARRERA_MAP); });
+    var sdato = dominante(sueldoVals, SUELDO_OPTIONS);
+    var cdato = dominante(carreraVals, CARRERA_OPTIONS);
+
+    // Numérico
+    function barHtml(label, val) {
+      if (val === null || val === undefined) return '';
+      var pct = Math.round(val / 5 * 100);
+      return '<div class="resumen-item">' +
+        '<span class="resumen-label">' + label + '</span>' +
+        '<div class="resumen-bar-wrap">' +
+          '<div class="resumen-bar-bg"><div class="resumen-bar-fill" style="width:' + pct + '%"></div></div>' +
+          '<span class="resumen-bar-val">' + val + '</span>' +
+        '</div></div>';
+    }
+
+    function cualHtml(label, dato, distId, options) {
+      if (!dato.winner) return '';
+      var subtext = dato.total > 1
+        ? dato.counts[dato.winner] + ' de ' + dato.total + ' opinan esto'
+        : '';
+      return '<div class="resumen-item">' +
+        '<span class="resumen-label">' + label + '</span>' +
+        '<span class="badge-cualitativo">' + dato.winner + '</span>' +
+        (subtext ? '<span class="badge-cualitativo-sub" onclick="toggleDist(\'' + distId + '\')">' + subtext + ' ▾</span>' : '') +
+        renderDistribucion(distId, options, dato.counts, dato.total) +
+        '</div>';
+    }
+
+    // Stats
+    var total = resenas.length;
+    var recomienda = resenas.filter(function(r) {
+      return r.recomienda && String(r.recomienda).toLowerCase().startsWith('s');
+    }).length;
+    var sigue = resenas.filter(function(r) {
+      return r.sigue && String(r.sigue).toLowerCase().startsWith('s');
+    }).length;
+    var pctRec  = total > 0 ? Math.round(recomienda / total * 100) : null;
+    var pctSigue = total > 0 ? Math.round(sigue / total * 100) : null;
+
+    // Highlights (reseña más reciente con texto)
+    var conBien = resenas.filter(function(r) { return r.que_bien; });
+    var conMal  = resenas.filter(function(r) { return r.que_mal; });
+    var highlightBien = conBien.length ? conBien[0].que_bien : null;
+    var highlightMal  = conMal.length  ? conMal[0].que_mal   : null;
+
+    var gridItems = '';
+    gridItems += cualHtml('Sueldo', sdato, 'sueldo', SUELDO_OPTIONS);
+    gridItems += cualHtml('Crecimiento', cdato, 'carrera', CARRERA_OPTIONS);
+    gridItems += barHtml('Flexibilidad', emp.prom_flexibilidad);
+    gridItems += barHtml('Liderazgo', emp.prom_liderazgo);
+    gridItems += barHtml('Cultura', emp.prom_cultura);
+
+    var statsHtml = '';
+    if (pctRec !== null)   statsHtml += '<div class="resumen-stat-item"><strong>' + pctRec + '%</strong> recomienda trabajar ahí</div>';
+    if (pctSigue !== null) statsHtml += '<div class="resumen-stat-item"><strong>' + pctSigue + '%</strong> sigue trabajando ahí</div>';
+
+    var highlightsHtml = '';
+    if (highlightBien || highlightMal) {
+      highlightsHtml = '<div class="highlights">';
+      if (highlightBien) highlightsHtml += '<div class="highlight-card highlight-card-bien"><div class="highlight-label">✅ Lo que más valoran</div><div class="highlight-text">' + highlightBien + '</div></div>';
+      if (highlightMal)  highlightsHtml += '<div class="highlight-card highlight-card-mal"><div class="highlight-label">❌ Principal queja</div><div class="highlight-text">' + highlightMal + '</div></div>';
+      highlightsHtml += '</div>';
+    }
+
+    return '<div class="resumen">' +
+      '<div class="resumen-title">Resumen</div>' +
+      '<div class="resumen-grid">' + gridItems + '</div>' +
+      (statsHtml ? '<div class="resumen-stats">' + statsHtml + '</div>' : '') +
+      highlightsHtml +
+      '</div>';
+  }
+
   fetch('datos.json')
     .then(r => r.json())
     .then(data => {
@@ -474,14 +720,7 @@
         ? `<img src="${emp.logo}" alt="${emp.nombre}" onerror="this.parentElement.innerHTML='<span class=empresa-logo-placeholder>${emp.nombre[0]}</span>'">`
         : `<span class="empresa-logo-placeholder">${emp.nombre[0]}</span>`;
 
-      const subcatsHtml = [
-        { label: 'Sueldo', val: emp.prom_sueldo },
-        { label: 'Carrera', val: emp.prom_carrera },
-        { label: 'Flex.', val: emp.prom_flexibilidad },
-        { label: 'Liderazgo', val: emp.prom_liderazgo },
-        { label: 'Cultura', val: emp.prom_cultura },
-      ].filter(c => c.val !== null && c.val !== undefined)
-       .map(c => subcatPill(c.label, c.val)).join('');
+      const subcatsHtml = '';
 
       document.getElementById('empresa-header').innerHTML = `
         <div class="empresa-header">
@@ -506,7 +745,7 @@
         main.innerHTML = '<p style="color:var(--text-muted)">Sin reseñas aún.</p>';
         return;
       }
-      main.innerHTML = `
+      main.innerHTML = renderResumen(emp) + `
         <div class="section-title">${emp.total_resenas} reseña${emp.total_resenas !== 1 ? 's' : ''}</div>
         ${emp.resenas.map(renderResena).join('')}`;
     });
