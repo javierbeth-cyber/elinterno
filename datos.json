@@ -1226,6 +1226,38 @@
     "prom_cultura": 3
   },
   {
+    "id": "prueba",
+    "nombre": "prueba",
+    "rubro": "Tecnología",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 57,
+        "fecha": "2026-03-24",
+        "tiempo": "Menos de 6 meses",
+        "sigue": "Sí",
+        "cal_general": 5,
+        "sueldo": "en el mercado",
+        "carrera": "crecimiento moderado",
+        "flexibilidad": 4,
+        "liderazgo": 2,
+        "cultura": 3,
+        "que_bien": "todo",
+        "que_mal": "todo",
+        "que_desearias": "todo",
+        "recomienda": "No",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 5,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 4,
+    "prom_liderazgo": 2,
+    "prom_cultura": 3
+  },
+  {
     "id": "seguros-sura-chile",
     "nombre": "Seguros SURA Chile",
     "rubro": "Seguros",
