@@ -313,6 +313,49 @@
       .filters-inner { flex-direction: column; }
       .grid { grid-template-columns: 1fr; }
     }
+
+    /* CTA Hero */
+    .btn-hero-resena {
+      display: inline-block;
+      background: var(--blue);
+      color: var(--white);
+      padding: 12px 28px;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 600;
+      text-decoration: none;
+      margin-bottom: 20px;
+      transition: background 0.15s;
+    }
+    .btn-hero-resena:hover { background: #1d4ed8; }
+
+    /* Botón flotante */
+    .btn-flotante {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      background: var(--blue);
+      color: var(--white);
+      padding: 12px 20px;
+      border-radius: 50px;
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      box-shadow: 0 4px 16px rgba(37,99,235,0.4);
+      transition: all 0.2s;
+      opacity: 0;
+      pointer-events: none;
+      z-index: 200;
+    }
+    .btn-flotante.visible {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .btn-flotante:hover { background: #1d4ed8; transform: translateY(-2px); }
+
+    @media (max-width: 600px) {
+      .btn-flotante { bottom: 16px; right: 16px; font-size: 13px; padding: 10px 16px; }
+    }
   </style>
 </head>
 <body>
@@ -327,15 +370,16 @@
       </svg>
       El Interno
     </a>
-    <a href="https://docs.google.com/forms/d/1PE9o66InYWImPOK86dJK9kzq2BmRucWub5KOmPAEz04/viewform" target="_blank" class="btn-resena">
-      Deja tu reseña
-    </a>
+
   </div>
 </header>
 
 <section class="hero">
   <h1>¿Cómo es trabajar ahí<br>de verdad?</h1>
   <p>Las empresas saben mucho de ti antes de contratarte. Tú mereces saber lo mismo de ellas. ¿Trabajaste en alguna? Deja tu reseña.</p>
+  <a href="https://docs.google.com/forms/d/1PE9o66InYWImPOK86dJK9kzq2BmRucWub5KOmPAEz04/viewform" target="_blank" class="btn-hero-resena">
+    ✍️ Deja tu reseña
+  </a>
   <div class="hero-disclaimer">
     Son opiniones de primera mano de trabajadores chilenos. Cada reseña refleja la experiencia personal de quien la escribió.
   </div>
@@ -477,6 +521,25 @@
       document.getElementById('buscar').addEventListener('input', filter);
       document.getElementById('filtro-rubro').addEventListener('change', filter);
     });
+</script>
+<a href="https://docs.google.com/forms/d/1PE9o66InYWImPOK86dJK9kzq2BmRucWub5KOmPAEz04/viewform" target="_blank" class="btn-flotante" id="btn-flotante" title="Deja tu reseña">
+  ✍️ Deja tu reseña
+</a>
+
+<script>
+  (function() {
+    var btn = document.getElementById('btn-flotante');
+    var hero = document.querySelector('.hero');
+    function onScroll() {
+      var heroBottom = hero.getBoundingClientRect().bottom;
+      if (heroBottom < 0) {
+        btn.classList.add('visible');
+      } else {
+        btn.classList.remove('visible');
+      }
+    }
+    window.addEventListener('scroll', onScroll, { passive: true });
+  })();
 </script>
 </body>
 </html>
