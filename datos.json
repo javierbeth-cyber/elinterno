@@ -497,6 +497,38 @@
     "prom_cultura": 1
   },
   {
+    "id": "edipro",
+    "nombre": "EdiPro",
+    "rubro": "Tecnología",
+    "logo": "https://www.google.com/s2/favicons?domain=edipro.cl&sz=128",
+    "resenas": [
+      {
+        "id": 67,
+        "fecha": "2026-03-26",
+        "tiempo": "Más de 3 años",
+        "sigue": "No",
+        "cal_general": 1,
+        "sueldo": "bajo el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": 3,
+        "liderazgo": 1,
+        "cultura": 1,
+        "que_bien": "Como esconden que cada mes estan a punto de irse a quiebra",
+        "que_mal": "No hay habilidades blandas en las jefaturas y gerencias, se denosta mucho a los trabajadores y clientes",
+        "que_desearias": "La calidad humana. Cuando alguno se enferma, lo ponen en la lista negra.",
+        "recomienda": "No",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 3,
+    "prom_liderazgo": 1,
+    "prom_cultura": 1
+  },
+  {
     "id": "enaex",
     "nombre": "Enaex",
     "rubro": "Minería",
