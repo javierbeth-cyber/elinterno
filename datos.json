@@ -996,6 +996,38 @@
     "prom_cultura": 4
   },
   {
+    "id": "i-municipalidad-de-coquimbo",
+    "nombre": "I. Municipalidad de Coquimbo",
+    "rubro": "Departamento Social",
+    "logo": "https://www.google.com/s2/favicons?domain=i-municipalidad-de-coquimbo.cl&sz=128",
+    "resenas": [
+      {
+        "id": 66,
+        "fecha": "2026-03-26",
+        "tiempo": "Más de 3 años",
+        "sigue": "Sí",
+        "cal_general": 1,
+        "sueldo": "en el mercado",
+        "carrera": "crecimiento moderado",
+        "flexibilidad": 3,
+        "liderazgo": 1,
+        "cultura": 1,
+        "que_bien": "Las colegas que entramos en conjunto y trabajar en conjunto es muy grato",
+        "que_mal": "La jefatura de social, existe un pésimo liderazgo, no tiene empatía por los trabajadores y existe un hostigamiento laboral que hace dos años (cuando estaba la ex jefa) no teníamos ese problema. Además el nivel de desconfianza con los profesionales llegando al límite de que estén llamando por teléfono para verificar si estamos realizando nuestro trabajo. Además estamos a honorarios y nos tienen marcando, realizan descuento si marcamos atrasados y el ambiente laboral está pésimo.",
+        "que_desearias": "Que no cambiarían nuestras condiciones laborales",
+        "recomienda": "No",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 3,
+    "prom_liderazgo": 1,
+    "prom_cultura": 1
+  },
+  {
     "id": "isapre-consalud",
     "nombre": "Isapre Consalud",
     "rubro": "Salud",
