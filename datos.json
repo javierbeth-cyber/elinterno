@@ -999,7 +999,7 @@
     "id": "gft-technologies",
     "nombre": "GFT Technologies",
     "rubro": "Tecnología",
-    "logo": "https://www.google.com/s2/favicons?domain=gft-technologies.cl&sz=128",
+    "logo": "assets/logos/gft-technologies.svg",
     "resenas": [
       {
         "id": 70,
@@ -1551,7 +1551,7 @@
     "id": "oracle",
     "nombre": "Oracle",
     "rubro": "Tecnología",
-    "logo": "https://www.google.com/s2/favicons?domain=oracle.cl&sz=128",
+    "logo": "assets/logos/oracle.svg",
     "resenas": [
       {
         "id": 69,
@@ -1903,7 +1903,7 @@
     "id": "the-home",
     "nombre": "The Home",
     "rubro": "Diseño consultoría y construcción",
-    "logo": "https://www.google.com/s2/favicons?domain=the-home.cl&sz=128",
+    "logo": "assets/logos/the-home.png",
     "resenas": [
       {
         "id": 71,
