@@ -1484,6 +1484,38 @@
     "prom_cultura": 3
   },
   {
+    "id": "oracle",
+    "nombre": "Oracle",
+    "rubro": "Tecnología",
+    "logo": "https://www.google.com/s2/favicons?domain=oracle.cl&sz=128",
+    "resenas": [
+      {
+        "id": 69,
+        "fecha": "2026-03-27",
+        "tiempo": "Más de 3 años",
+        "sigue": "No",
+        "cal_general": 2,
+        "sueldo": "en el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": 5,
+        "liderazgo": 2,
+        "cultura": 3,
+        "que_bien": "La flexibilidad es lo que va quedando.",
+        "que_mal": "No hay aumentos de sueldo. El acceder a mejores.cargos es muy difícil. Cada vez menos beneficios.",
+        "que_desearias": "Que no hay aumentos de sueldo.",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 2,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 5,
+    "prom_liderazgo": 2,
+    "prom_cultura": 3
+  },
+  {
     "id": "seguros-sura-chile",
     "nombre": "Seguros SURA Chile",
     "rubro": "Seguros",
