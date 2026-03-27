@@ -769,6 +769,44 @@
       document.querySelector('meta[name="twitter:title"]').setAttribute('content', `${emp.nombre} — Cómo es trabajar ahí | El Interno`);
       document.querySelector('meta[name="twitter:description"]').setAttribute('content', metaDesc);
 
+      // Schema.org JSON-LD dinámico
+      const reviews = (emp.resenas || []).filter(r => r.que_bien || r.que_mal);
+      const schemaReviews = reviews.slice(0, 5).map(r => ({
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": r.cal_general,
+          "bestRating": "5",
+          "worstRating": "1"
+        },
+        "author": { "@type": "Person", "name": "Empleado anónimo" },
+        "reviewBody": [r.que_bien, r.que_mal].filter(Boolean).join(' ').substring(0, 300)
+      }));
+
+      const schema = {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": emp.nombre,
+        "url": pageUrl,
+        "description": metaDesc,
+        ...(emp.rubro ? { "industry": emp.rubro } : {}),
+        ...(emp.promedio && totalRes ? {
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": emp.promedio,
+            "bestRating": "5",
+            "worstRating": "1",
+            "reviewCount": totalRes
+          }
+        } : {}),
+        ...(schemaReviews.length ? { "review": schemaReviews } : {})
+      };
+
+      const schemaTag = document.createElement('script');
+      schemaTag.type = 'application/ld+json';
+      schemaTag.textContent = JSON.stringify(schema);
+      document.head.appendChild(schemaTag);
+
       // Header
       const logoHtml = emp.logo
         ? `<img src="${emp.logo}" alt="${emp.nombre}" onerror="this.parentElement.innerHTML='<span class=empresa-logo-placeholder>${emp.nombre[0]}</span>'">`
