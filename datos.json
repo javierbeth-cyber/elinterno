@@ -3,7 +3,7 @@
     "id": "achs",
     "nombre": "Achs",
     "rubro": "Mutualidad",
-    "logo": "https://www.google.com/s2/favicons?domain=achs.cl&sz=128",
+    "logo": "assets/logos/achs.svg",
     "resenas": [
       {
         "id": 62,
@@ -35,7 +35,7 @@
     "id": "amipass",
     "nombre": "Amipass",
     "rubro": "Alimentación",
-    "logo": "https://play-lh.googleusercontent.com/F_Ah6v9QvO_S4JLoYvkgfMafZOeJMAyDJGs8IdQTla3phQ7-Ves4mfUu3o9IlsMAwuM",
+    "logo": "assets/logos/amipass.png",
     "resenas": [
       {
         "id": 31,
@@ -67,7 +67,7 @@
     "id": "banco-consorcio",
     "nombre": "Banco Consorcio",
     "rubro": "Banca y finanzas",
-    "logo": "https://www.google.com/s2/favicons?domain=bancoconsorcio.cl&sz=128",
+    "logo": "assets/logos/banco-consorcio.png",
     "resenas": [
       {
         "id": 60,
@@ -99,7 +99,7 @@
     "id": "capitaria",
     "nombre": "Capitaria",
     "rubro": "Banca y finanzas",
-    "logo": "https://www.google.com/s2/favicons?domain=capitaria.com&sz=128",
+    "logo": "assets/logos/capitaria.png",
     "resenas": [
       {
         "id": 51,
@@ -131,7 +131,7 @@
     "id": "cencosud",
     "nombre": "Cencosud",
     "rubro": "Retail",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Cencosud_logo.svg/1280px-Cencosud_logo.svg.png",
+    "logo": "assets/logos/cencosud.svg",
     "resenas": [
       {
         "id": 32,
@@ -180,7 +180,7 @@
     "id": "chita-factoring",
     "nombre": "Chita factoring",
     "rubro": "Banca y finanzas",
-    "logo": "https://www.google.com/s2/favicons?domain=chita.cl&sz=128",
+    "logo": "assets/logos/chita-factoring.png",
     "resenas": [
       {
         "id": 4,
@@ -212,7 +212,7 @@
     "id": "copec",
     "nombre": "Copec",
     "rubro": "Energía",
-    "logo": "https://www.google.com/s2/favicons?domain=copec.cl&sz=128",
+    "logo": "assets/logos/copec.svg",
     "resenas": [
       {
         "id": 52,
@@ -244,7 +244,7 @@
     "id": "corporacion-3xi",
     "nombre": "Corporación 3xi",
     "rubro": "ONG",
-    "logo": "https://www.google.com/s2/favicons?domain=3xi.cl&sz=128",
+    "logo": "assets/logos/corporacion-3xi.svg",
     "resenas": [
       {
         "id": 42,
@@ -276,7 +276,7 @@
     "id": "cristalchile",
     "nombre": "Cristalchile",
     "rubro": "Producción fabril",
-    "logo": "https://cristalchile.cl/wp-content/uploads/2026/01/Logo_CCH_Horizontal-color.svg",
+    "logo": "assets/logos/cristalchile.svg",
     "resenas": [
       {
         "id": 17,
@@ -308,7 +308,7 @@
     "id": "cumplo-chile",
     "nombre": "Cumplo Chile",
     "rubro": "Banca y finanzas",
-    "logo": "https://8519019.fs1.hubspotusercontent-na1.net/hubfs/8519019/Cumplo-logo_verde.png",
+    "logo": "assets/logos/cumplo-chile.png",
     "resenas": [
       {
         "id": 2,
@@ -340,7 +340,7 @@
     "id": "deloitte",
     "nombre": "Deloitte",
     "rubro": "Consultoría",
-    "logo": "https://www.google.com/s2/favicons?domain=deloitte.com&sz=128",
+    "logo": "assets/logos/deloitte.svg",
     "resenas": [
       {
         "id": 46,
@@ -372,7 +372,7 @@
     "id": "dinecom",
     "nombre": "Dinecom",
     "rubro": "Tecnología",
-    "logo": "https://www.google.com/s2/favicons?domain=dinecom.cl&sz=128",
+    "logo": "assets/logos/dinecom.png",
     "resenas": [
       {
         "id": 10,
@@ -404,7 +404,7 @@
     "id": "dispolab",
     "nombre": "Dispolab",
     "rubro": "Retail",
-    "logo": "https://www.google.com/s2/favicons?domain=dispolab.cl&sz=128",
+    "logo": "assets/logos/dispolab.png",
     "resenas": [
       {
         "id": 43,
@@ -436,7 +436,7 @@
     "id": "echeverria-izquierdo",
     "nombre": "Echeverria izquierdo",
     "rubro": "Construcción",
-    "logo": "https://www.google.com/s2/favicons?domain=echeverria-izquierdo.cl&sz=128",
+    "logo": "assets/logos/echeverria-izquierdo.png",
     "resenas": [
       {
         "id": 57,
@@ -468,7 +468,7 @@
     "id": "edarkstore",
     "nombre": "Edarkstore",
     "rubro": "Logística",
-    "logo": "https://edarkstore.com/wp-content/uploads/2022/06/eds-1.svg",
+    "logo": "assets/logos/edarkstore.png",
     "resenas": [
       {
         "id": 37,
@@ -500,7 +500,7 @@
     "id": "edipro",
     "nombre": "EdiPro",
     "rubro": "Tecnología",
-    "logo": "https://www.google.com/s2/favicons?domain=edipro.cl&sz=128",
+    "logo": "assets/logos/edipro.png",
     "resenas": [
       {
         "id": 67,
@@ -532,7 +532,7 @@
     "id": "enaex",
     "nombre": "Enaex",
     "rubro": "Minería",
-    "logo": "https://www.enaex.com/wp-content/themes/enaex/assets/img/commun/logo.svg",
+    "logo": "assets/logos/enaex.svg",
     "resenas": [
       {
         "id": 38,
@@ -564,7 +564,7 @@
     "id": "entel",
     "nombre": "Entel",
     "rubro": "Telecomunicaciones",
-    "logo": "https://www.google.com/s2/favicons?domain=entel.cl&sz=128",
+    "logo": "assets/logos/entel.png",
     "resenas": [
       {
         "id": 41,
@@ -596,7 +596,7 @@
     "id": "escuela-de-ing-uc",
     "nombre": "Escuela de Ing.UC",
     "rubro": "Educación",
-    "logo": "https://www.google.com/s2/favicons?domain=uc.cl&sz=128",
+    "logo": "assets/logos/escuela-de-ing-uc.png",
     "resenas": [
       {
         "id": 6,
@@ -628,7 +628,7 @@
     "id": "evalueserve",
     "nombre": "Evalueserve",
     "rubro": "Consultoría",
-    "logo": "https://www.google.com/s2/favicons?domain=evalueserve.com&sz=128",
+    "logo": "assets/logos/evalueserve.png",
     "resenas": [
       {
         "id": 55,
@@ -660,7 +660,7 @@
     "id": "evertec",
     "nombre": "Evertec",
     "rubro": "Tecnología",
-    "logo": "https://evertecinc.com/wp-content/uploads/2025/06/Group-1.png",
+    "logo": "assets/logos/evertec.png",
     "resenas": [
       {
         "id": 19,
@@ -692,7 +692,7 @@
     "id": "examedi",
     "nombre": "Examedi",
     "rubro": "Tecnología",
-    "logo": "https://examedi.cl/images/logo.webp",
+    "logo": "assets/logos/examedi.webp",
     "resenas": [
       {
         "id": 11,
@@ -724,7 +724,7 @@
     "id": "explora",
     "nombre": "Explora",
     "rubro": "Hoteleria",
-    "logo": "https://explora.cl/wp-content/uploads/2025/08/testimonial-card-home-1.jpg",
+    "logo": "assets/logos/explora.png",
     "resenas": [
       {
         "id": 63,
@@ -756,7 +756,7 @@
     "id": "falabella-com",
     "nombre": "Falabella.com",
     "rubro": "Tecnología",
-    "logo": "https://play-lh.googleusercontent.com/YT_4_VeSUqz4i-Ih97Jy-k1mE2wlDOWoNLll3MBRRZ6KLPEChNS_4B16yeyHQ0jpy0U",
+    "logo": "assets/logos/falabella-com.png",
     "resenas": [
       {
         "id": 56,
@@ -788,7 +788,7 @@
     "id": "femsa",
     "nombre": "Femsa",
     "rubro": "Banca y finanzas",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/FEMSA_Logo.svg/1280px-FEMSA_Logo.svg.png",
+    "logo": "assets/logos/femsa.svg",
     "resenas": [
       {
         "id": 65,
@@ -837,7 +837,7 @@
     "id": "fundacion-puerto-de-ideas",
     "nombre": "Fundación Puerto de Ideas",
     "rubro": "Fundación Cultural",
-    "logo": "https://puertodeideas.cl/wp-content/themes/puerto-ideas-corp/assets/img/logo-puerto-de-ideas-h2.svg",
+    "logo": "assets/logos/fundacion-puerto-de-ideas.svg",
     "resenas": [
       {
         "id": 3,
@@ -869,7 +869,7 @@
     "id": "geovictoria",
     "nombre": "GeoVictoria",
     "rubro": "Tecnología",
-    "logo": "https://www.geovictoria.com/hs-fs/hubfs/LOGO-GV.jpg?width=960&height=212&name=LOGO-GV.jpg",
+    "logo": "assets/logos/geovictoria.png",
     "resenas": [
       {
         "id": 61,
@@ -935,7 +935,7 @@
     "id": "global66",
     "nombre": "Global66",
     "rubro": "Banca y finanzas",
-    "logo": "https://www.google.com/s2/favicons?domain=global66.com&sz=128",
+    "logo": "assets/logos/global66.png",
     "resenas": [
       {
         "id": 40,
@@ -967,7 +967,7 @@
     "id": "gtd",
     "nombre": "GTD",
     "rubro": "Telecomunicaciones",
-    "logo": "https://www.gtd.cl/image/layout_set_logo?img_id=1607573",
+    "logo": "assets/logos/gtd.png",
     "resenas": [
       {
         "id": 30,
@@ -999,7 +999,7 @@
     "id": "hogar-de-cristo",
     "nombre": "Hogar de Cristo",
     "rubro": "ONG",
-    "logo": "https://www.google.com/s2/favicons?domain=hogardecristo.cl&sz=128",
+    "logo": "assets/logos/hogar-de-cristo.png",
     "resenas": [
       {
         "id": 39,
@@ -1031,7 +1031,7 @@
     "id": "i-municipalidad-de-coquimbo",
     "nombre": "I. Municipalidad de Coquimbo",
     "rubro": "Departamento Social",
-    "logo": "https://www.google.com/s2/favicons?domain=i-municipalidad-de-coquimbo.cl&sz=128",
+    "logo": "assets/logos/i-municipalidad-de-coquimbo.png",
     "resenas": [
       {
         "id": 66,
@@ -1063,7 +1063,7 @@
     "id": "isapre-consalud",
     "nombre": "Isapre Consalud",
     "rubro": "Salud",
-    "logo": "https://www.consalud.cl/cs/groups/public/documents/document/z2xv/z29o/~edisp/~extract/IMGLOGOHOME~2~staticrendition/highresolution.png",
+    "logo": "assets/logos/isapre-consalud.png",
     "resenas": [
       {
         "id": 5,
@@ -1095,7 +1095,7 @@
     "id": "kibernum",
     "nombre": "Kibernum",
     "rubro": "Tecnología",
-    "logo": "https://www.kibernum.com/wp-content/uploads/2023/03/Frame-1.png",
+    "logo": "assets/logos/kibernum.png",
     "resenas": [
       {
         "id": 27,
@@ -1127,7 +1127,7 @@
     "id": "laboratorios-saval",
     "nombre": "Laboratorios Saval",
     "rubro": "Salud",
-    "logo": "https://www.google.com/s2/favicons?domain=savalcorp.com&sz=128",
+    "logo": "assets/logos/laboratorios-saval.png",
     "resenas": [
       {
         "id": 44,
@@ -1159,7 +1159,7 @@
     "id": "latam-airlines",
     "nombre": "Latam Airlines",
     "rubro": "Aerolíneas",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Grupo_Latam_Airlines.svg/1280px-Grupo_Latam_Airlines.svg.png",
+    "logo": "assets/logos/latam-airlines.svg",
     "resenas": [
       {
         "id": 12,
@@ -1191,7 +1191,7 @@
     "id": "lemontech",
     "nombre": "Lemontech",
     "rubro": "Tecnología",
-    "logo": "https://www.google.com/s2/favicons?domain=lemontech.com&sz=128",
+    "logo": "assets/logos/lemontech.png",
     "resenas": [
       {
         "id": 35,
@@ -1240,7 +1240,7 @@
     "id": "lider-bci",
     "nombre": "Líder BCI",
     "rubro": "Banca y finanzas",
-    "logo": "https://www.google.com/s2/favicons?domain=lider.cl&sz=128",
+    "logo": "assets/logos/lider-bci.svg",
     "resenas": [
       {
         "id": 50,
@@ -1289,7 +1289,7 @@
     "id": "lirmi",
     "nombre": "Lirmi",
     "rubro": "Tecnología",
-    "logo": "https://www.google.com/s2/favicons?domain=lirmi.com&sz=128",
+    "logo": "assets/logos/lirmi.png",
     "resenas": [
       {
         "id": 20,
@@ -1423,7 +1423,7 @@
     "id": "mosaico",
     "nombre": "Mosaico",
     "rubro": "Construcción",
-    "logo": "https://www.google.com/s2/favicons?domain=mosaico.cl&sz=128",
+    "logo": "assets/logos/mosaico.png",
     "resenas": [
       {
         "id": 47,
@@ -1455,7 +1455,7 @@
     "id": "seguros-sura-chile",
     "nombre": "Seguros SURA Chile",
     "rubro": "Seguros",
-    "logo": "https://www.sura.cl/Style%20Library/KitSura/img/logo_sura.png",
+    "logo": "assets/logos/seguros-sura-chile.png",
     "resenas": [
       {
         "id": 23,
@@ -1487,7 +1487,7 @@
     "id": "serv-impuestos-internos",
     "nombre": "Serv. Impuestos Internos",
     "rubro": "Gobierno",
-    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Logotipo_Servicio_de_Impuestos_Internos.svg/1280px-Logotipo_Servicio_de_Impuestos_Internos.svg.png",
+    "logo": "assets/logos/serv-impuestos-internos.svg",
     "resenas": [
       {
         "id": 14,
@@ -1519,7 +1519,7 @@
     "id": "simpliroute",
     "nombre": "Simpliroute",
     "rubro": "Tecnología",
-    "logo": "https://images.prismic.io/simpliroute/aFJZ_bNJEFaPYDPI_Banner-home_SimpliRoute_es.png?auto=format,compress",
+    "logo": "assets/logos/simpliroute.png",
     "resenas": [
       {
         "id": 59,
@@ -1551,7 +1551,7 @@
     "id": "smu-s-a",
     "nombre": "SMU S.A.",
     "rubro": "Retail",
-    "logo": "https://www.google.com/s2/favicons?domain=smu.cl&sz=128",
+    "logo": "assets/logos/smu-s-a.svg",
     "resenas": [
       {
         "id": 26,
@@ -1583,7 +1583,7 @@
     "id": "sodexo",
     "nombre": "Sodexo",
     "rubro": "Seguridad",
-    "logo": "https://edge.sitecorecloud.io/sodexofrance1-sodexocorpsites-prod-e74c/media/Project/Sodexo-Corp/Americas/CL/Media/Images/Logos---Icons-100-x-100/Sodexo_Logotype_Blue.png",
+    "logo": "assets/logos/sodexo.png",
     "resenas": [
       {
         "id": 7,
@@ -1615,7 +1615,7 @@
     "id": "sodimac",
     "nombre": "Sodimac",
     "rubro": "Retail",
-    "logo": "https://www.google.com/s2/favicons?domain=sodimac.cl&sz=128",
+    "logo": "assets/logos/sodimac.png",
     "resenas": [
       {
         "id": 53,
@@ -1647,7 +1647,7 @@
     "id": "solcor",
     "nombre": "Solcor",
     "rubro": "Energía",
-    "logo": "https://solcorchile.com/wp-content/uploads/2021/04/BAJA_Logo-Solcor-Chile-positivo-horizontal-1024x283.png",
+    "logo": "assets/logos/solcor.png",
     "resenas": [
       {
         "id": 16,
@@ -1679,7 +1679,7 @@
     "id": "sonda-s-a",
     "nombre": "Sonda S.A.",
     "rubro": "Tecnología",
-    "logo": "https://www.sonda.com/images/sondanewsitelibraries/sonda_2024/logos/logo-sonda.svg?sfvrsn=47ae5404_3",
+    "logo": "assets/logos/sonda-s-a.svg",
     "resenas": [
       {
         "id": 15,
@@ -1711,7 +1711,7 @@
     "id": "talana",
     "nombre": "Talana",
     "rubro": "Tecnología",
-    "logo": "https://www.google.com/s2/favicons?domain=talana.cl&sz=128",
+    "logo": "assets/logos/talana.png",
     "resenas": [
       {
         "id": 45,
@@ -1743,7 +1743,7 @@
     "id": "termas-de-puyehue",
     "nombre": "Termas de Puyehue",
     "rubro": "Hoteleria",
-    "logo": "https://www.google.com/s2/favicons?domain=puyehue.cl&sz=128",
+    "logo": "assets/logos/termas-de-puyehue.png",
     "resenas": [
       {
         "id": 18,
@@ -1775,7 +1775,7 @@
     "id": "timix-chile",
     "nombre": "Timix Chile",
     "rubro": "Tecnología",
-    "logo": "https://www.google.com/s2/favicons?domain=timix.la&sz=128",
+    "logo": "assets/logos/timix-chile.png",
     "resenas": [
       {
         "id": 28,
@@ -1807,7 +1807,7 @@
     "id": "toteat",
     "nombre": "Toteat",
     "rubro": "Tecnología",
-    "logo": "https://www.google.com/s2/favicons?domain=toteat.com&sz=128",
+    "logo": "assets/logos/toteat.png",
     "resenas": [
       {
         "id": 36,
@@ -1839,7 +1839,7 @@
     "id": "touch",
     "nombre": "Touch",
     "rubro": "Contratación de personal",
-    "logo": "https://i0.wp.com/touch.cl/wp-content/uploads/2022/05/logo-touch-verde.png?fit=1020%2C310&ssl=1",
+    "logo": "assets/logos/touch.png",
     "resenas": [
       {
         "id": 49,
@@ -1888,7 +1888,7 @@
     "id": "uber",
     "nombre": "Uber",
     "rubro": "Tecnología",
-    "logo": "https://www.google.com/s2/favicons?domain=uber.cl&sz=128",
+    "logo": "assets/logos/uber.png",
     "resenas": [
       {
         "id": 64,
@@ -1920,7 +1920,7 @@
     "id": "universidad-alberto-hurtado",
     "nombre": "Universidad Alberto Hurtado",
     "rubro": "Educación",
-    "logo": "https://www.google.com/s2/favicons?domain=uahurtado.cl&sz=128",
+    "logo": "assets/logos/universidad-alberto-hurtado.png",
     "resenas": [
       {
         "id": 58,
