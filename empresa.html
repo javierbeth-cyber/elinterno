@@ -15,6 +15,7 @@
   <meta name="twitter:title" content="El Interno">
   <meta name="twitter:description" content="Reseñas anónimas de empleados sobre empresas chilenas.">
   <meta name="twitter:image" content="https://elinterno.com/elinterno_og.png">
+  <link rel="canonical" href="https://elinterno.com/empresa.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
@@ -763,6 +764,7 @@
       const metaDesc = `${prom}${totalRes} reseña${totalRes !== 1 ? 's' : ''} anónima${totalRes !== 1 ? 's' : ''} de empleados de ${emp.nombre}. Sueldo, liderazgo, cultura y ambiente laboral. Lo que no aparece en el aviso de trabajo.`;
       const pageUrl = `https://elinterno.com/empresa.html?id=${emp.id}`;
       document.title = `${emp.nombre} — Cómo es trabajar ahí | El Interno`;
+      document.querySelector('link[rel="canonical"]').setAttribute('href', pageUrl);
       document.querySelector('meta[name="description"]').setAttribute('content', metaDesc);
       document.querySelector('meta[property="og:title"]').setAttribute('content', `${emp.nombre} — Cómo es trabajar ahí | El Interno`);
       document.querySelector('meta[property="og:description"]').setAttribute('content', metaDesc);
