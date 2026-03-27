@@ -489,9 +489,27 @@
     return html;
   }
 
+  function subcatColor(label, val) {
+    if (val === null || val === undefined) return 'inherit';
+    if (label === 'Sueldo') return val === 'sobre el mercado' ? 'var(--green-text)' : val === 'bajo el mercado' ? 'var(--red-text)' : '#ca8a04';
+    if (label === 'Crecimiento') return val === 'muchas oportunidades' ? 'var(--green-text)' : val === 'pocas oportunidades' ? 'var(--red-text)' : '#ca8a04';
+    var n = parseFloat(val);
+    if (!isNaN(n)) return n >= 4 ? 'var(--green-text)' : n <= 2 ? 'var(--red-text)' : '#ca8a04';
+    return 'inherit';
+  }
+
   function subcatPill(label, val) {
     if (val === null || val === undefined) return '';
-    return `<div class="subcat-pill"><span class="subcat-pill-label">${label}</span><span class="subcat-pill-val">${val}</span></div>`;
+    var color = subcatColor(label, val);
+    return `<div class="subcat-pill"><span class="subcat-pill-label">${label}</span><span class="subcat-pill-val" style="color:${color}">${val}</span></div>`;
+  }
+
+  function badgeRecomienda(val) {
+    if (!val) return '';
+    var v = String(val).toLowerCase();
+    if (v.startsWith('s')) return `<span class="badge-sigue badge-sigue-si">✓ Lo recomienda para trabajar ahí</span>`;
+    if (v.startsWith('d')) return `<span class="badge-sigue" style="background:#fefce8;border:1px solid #fef08a;color:#854d0e;">↔ Su recomendación depende del perfil</span>`;
+    return `<span class="badge-sigue badge-sigue-no">No lo recomienda para trabajar ahí</span>`;
   }
 
   function bloque(tipo, icono, label, texto) {
@@ -542,9 +560,10 @@
           ${r.sigue ? (String(r.sigue).toLowerCase().startsWith('s')
             ? `<span class="badge-sigue badge-sigue-si">Sigue trabajando ahí</span>`
             : `<span class="badge-sigue badge-sigue-no">Ya no trabaja ahí</span>`) : ''}
+          ${r.recomienda ? badgeRecomienda(r.recomienda) : ''}
         </div>
         ${r.fecha ? `<div class="resena-publicado">Publicado en ${formatFecha(r.fecha)}</div>` : ''}
-        ${resSubcats.length ? `<div class="resena-subcats">${resSubcats.map(c => `<div class="resena-subcat">${c.label} <span>${c.val}</span></div>`).join('')}</div>` : ''}
+        ${resSubcats.length ? `<div class="resena-subcats">${resSubcats.map(c => `<div class="resena-subcat">${c.label} <span style="color:${subcatColor(c.label, c.val)};font-weight:700">${c.val}</span></div>`).join('')}</div>` : ''}
         ${bloque('bien', '✅', 'Qué está bien', r.que_bien)}
         ${bloque('mal', '❌', 'Qué está mal', r.que_mal)}
         ${bloque('desearias', '💡', 'Qué desearías haber sabido', r.que_desearias)}
@@ -659,13 +678,13 @@
 
     // Stats
     var total = resenas.length;
-    var recomienda = resenas.filter(function(r) {
-      return r.recomienda && String(r.recomienda).toLowerCase().startsWith('s');
-    }).length;
+    var recSi = resenas.filter(function(r) { return r.recomienda && String(r.recomienda).toLowerCase().startsWith('s'); }).length;
+    var recDepende = resenas.filter(function(r) { return r.recomienda && String(r.recomienda).toLowerCase().startsWith('d'); }).length;
+    var recNo = resenas.filter(function(r) { return r.recomienda && String(r.recomienda).toLowerCase().startsWith('n'); }).length;
+    var totalRec = recSi + recDepende + recNo;
     var sigue = resenas.filter(function(r) {
       return r.sigue && String(r.sigue).toLowerCase().startsWith('s');
     }).length;
-    var pctRec  = total > 0 ? Math.round(recomienda / total * 100) : null;
     var pctSigue = total > 0 ? Math.round(sigue / total * 100) : null;
 
     // Highlights (reseña más reciente con texto)
@@ -682,7 +701,11 @@
     gridItems += barHtml('Cultura', emp.prom_cultura);
 
     var statsHtml = '';
-    if (pctRec !== null)   statsHtml += '<div class="resumen-stat-item"><strong>' + pctRec + '%</strong> recomienda trabajar ahí</div>';
+    if (totalRec > 0) {
+      if (recSi > 0)      statsHtml += '<div class="resumen-stat-item"><strong>' + recSi + ' de ' + totalRec + '</strong> lo recomiendan para trabajar ahí</div>';
+      if (recDepende > 0) statsHtml += '<div class="resumen-stat-item"><strong>' + recDepende + ' de ' + totalRec + '</strong> ' + (recDepende === 1 ? 'dice' : 'dicen') + ' que su recomendación depende del perfil</div>';
+      if (recNo > 0)      statsHtml += '<div class="resumen-stat-item"><strong>' + recNo + ' de ' + totalRec + '</strong> no lo recomiendan para trabajar ahí</div>';
+    }
     if (pctSigue !== null) statsHtml += '<div class="resumen-stat-item"><strong>' + pctSigue + '%</strong> sigue trabajando ahí</div>';
 
     var highlightsHtml = '';

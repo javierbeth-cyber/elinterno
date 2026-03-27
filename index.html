@@ -458,22 +458,59 @@
     return winner;
   }
 
+  function recomiendaDominante(resenas) {
+    var si = 0, no = 0, depende = 0;
+    resenas.forEach(function(r) {
+      if (!r.recomienda) return;
+      var v = String(r.recomienda).toLowerCase();
+      if (v.startsWith('s')) si++;
+      else if (v.startsWith('n')) no++;
+      else if (v.startsWith('d')) depende++;
+    });
+    if (!si && !no && !depende) return null;
+    var max = Math.max(si, no, depende);
+    var winners = [si === max, depende === max, no === max].filter(Boolean).length;
+    if (winners > 1) return 'Opiniones divididas';
+    if (si === max)      return '✓ Sí';
+    if (depende === max) return '↔ Según el perfil';
+    return 'No recomendada';
+  }
+
   function subcats(emp) {
     const resenas = emp.resenas || [];
     const sueldo  = dominante(resenas, 'sueldo', SUELDO_MAP, SUELDO_OPTIONS);
     const carrera = dominante(resenas, 'carrera', CARRERA_MAP, CARRERA_OPTIONS);
+    const rec     = recomiendaDominante(resenas);
 
     const cats = [
-      { label: 'Sueldo', val: sueldo, cual: true },
-      { label: 'Carrera', val: carrera, cual: true },
+      { label: 'Sueldo', val: sueldo },
+      { label: 'Carrera', val: carrera },
       { label: 'Flex.', val: emp.prom_flexibilidad },
       { label: 'Liderazgo', val: emp.prom_liderazgo },
       { label: 'Cultura', val: emp.prom_cultura },
+      { label: 'Recomendación', val: rec },
     ].filter(c => c.val !== null && c.val !== undefined);
 
     if (!cats.length) return '';
     return '<div class="subcats">' +
-      cats.map(c => `<div class="subcat">${c.label} <span>${c.val}</span></div>`).join('') +
+      cats.map(c => {
+        var color = 'inherit';
+        var display = c.val;
+
+        if (c.label === 'Recomendación') {
+          color = c.val === '✓ Sí' ? 'var(--green)' : c.val === 'No recomendada' ? 'var(--red)' : c.val === '↔ Según el perfil' ? '#ca8a04' : 'inherit';
+          display = c.val === 'No recomendada' ? 'No' : c.val;
+        } else if (c.label === 'Sueldo') {
+          color = c.val === 'sobre el mercado' ? 'var(--green)' : c.val === 'bajo el mercado' ? 'var(--red)' : '#ca8a04';
+        } else if (c.label === 'Carrera') {
+          color = c.val === 'muchas oportunidades' ? 'var(--green)' : c.val === 'pocas oportunidades' ? 'var(--red)' : '#ca8a04';
+        } else if (['Flex.', 'Liderazgo', 'Cultura'].includes(c.label)) {
+          var n = parseFloat(c.val);
+          color = n >= 4 ? 'var(--green)' : n <= 2 ? 'var(--red)' : '#ca8a04';
+        }
+
+        return `<div class="subcat">${c.label} <span style="color:${color};font-weight:700">${display}</span></div>`;
+      }).join('') +
       '</div>';
   }
 
