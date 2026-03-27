@@ -964,6 +964,38 @@
     "prom_cultura": 2.5
   },
   {
+    "id": "gft-technologies",
+    "nombre": "GFT Technologies",
+    "rubro": "Tecnología",
+    "logo": "https://www.google.com/s2/favicons?domain=gft-technologies.cl&sz=128",
+    "resenas": [
+      {
+        "id": 70,
+        "fecha": "2026-03-27",
+        "tiempo": "Menos de 6 meses",
+        "sigue": "No",
+        "cal_general": 1,
+        "sueldo": "bajo el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": 5,
+        "liderazgo": 1,
+        "cultura": 2,
+        "que_bien": "Flexibilidad, trabajo remoto",
+        "que_mal": "Mala organización, sueldos bajos",
+        "que_desearias": "Que harían depender mi puesto de un negocio en particular",
+        "recomienda": "No",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 5,
+    "prom_liderazgo": 1,
+    "prom_cultura": 2
+  },
+  {
     "id": "global66",
     "nombre": "Global66",
     "rubro": "Banca y finanzas",
