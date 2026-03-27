@@ -4,6 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>El Interno</title>
+  <meta name="description" content="Reseñas anónimas de empleados sobre empresas chilenas.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="El Interno">
+  <meta property="og:title" content="El Interno">
+  <meta property="og:description" content="Reseñas anónimas de empleados sobre empresas chilenas.">
+  <meta property="og:image" content="https://elinterno.com/elinterno_og.png">
+  <meta property="og:url" content="https://elinterno.com/">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="El Interno">
+  <meta name="twitter:description" content="Reseñas anónimas de empleados sobre empresas chilenas.">
+  <meta name="twitter:image" content="https://elinterno.com/elinterno_og.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
@@ -744,7 +755,19 @@
         return;
       }
 
-      document.title = `${emp.nombre} — El Interno`;
+      document.title = `${emp.nombre} — Cómo es trabajar ahí | El Interno`;
+
+      // SEO meta tags dinámicos
+      const totalRes = emp.total_resenas || 0;
+      const prom = emp.promedio ? `Calificación ${emp.promedio}/5. ` : '';
+      const metaDesc = `${prom}${totalRes} reseña${totalRes !== 1 ? 's' : ''} anónima${totalRes !== 1 ? 's' : ''} de empleados de ${emp.nombre}. Sueldo, liderazgo, cultura y ambiente laboral. Lo que no aparece en el aviso de trabajo.`;
+      const pageUrl = `https://elinterno.com/empresa.html?id=${emp.id}`;
+      document.querySelector('meta[name="description"]').setAttribute('content', metaDesc);
+      document.querySelector('meta[property="og:title"]').setAttribute('content', `${emp.nombre} — Cómo es trabajar ahí | El Interno`);
+      document.querySelector('meta[property="og:description"]').setAttribute('content', metaDesc);
+      document.querySelector('meta[property="og:url"]').setAttribute('content', pageUrl);
+      document.querySelector('meta[name="twitter:title"]').setAttribute('content', `${emp.nombre} — Cómo es trabajar ahí | El Interno`);
+      document.querySelector('meta[name="twitter:description"]').setAttribute('content', metaDesc);
 
       // Header
       const logoHtml = emp.logo
