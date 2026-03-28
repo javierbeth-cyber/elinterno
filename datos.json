@@ -834,6 +834,38 @@
     "prom_cultura": 5
   },
   {
+    "id": "equans-chile",
+    "nombre": "Equans Chile",
+    "rubro": "Multiservicios",
+    "logo": "https://www.google.com/s2/favicons?domain=equans-chile.cl&sz=128",
+    "resenas": [
+      {
+        "id": 91,
+        "fecha": "2026-03-28",
+        "tiempo": "Menos de 6 meses",
+        "sigue": "Sí",
+        "cal_general": 5,
+        "sueldo": "sobre el mercado",
+        "carrera": "muchas oportunidades",
+        "flexibilidad": 5,
+        "liderazgo": 5,
+        "cultura": 5,
+        "que_bien": "Empresa grande, buenos beneficios, buenos salarios, Inglés excluyente, oportunidades para viajar al extranjero.",
+        "que_mal": "oficina central en cerrillos, un poco dificil el acceso.",
+        "que_desearias": "lo grande que es la empresa, de momento no veo nada malo.",
+        "recomienda": "Sí",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 5,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 5,
+    "prom_liderazgo": 5,
+    "prom_cultura": 5
+  },
+  {
     "id": "escuela-de-ing-uc",
     "nombre": "Escuela de Ing.UC",
     "rubro": "Educación",
