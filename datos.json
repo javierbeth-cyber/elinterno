@@ -1725,6 +1725,38 @@
     "prom_cultura": 2
   },
   {
+    "id": "mercado-libre-chile",
+    "nombre": "Mercado Libre Chile",
+    "rubro": "Tecnología",
+    "logo": "https://www.google.com/s2/favicons?domain=mercado-libre-chile.cl&sz=128",
+    "resenas": [
+      {
+        "id": 87,
+        "fecha": "2026-03-28",
+        "tiempo": "Más de 3 años",
+        "sigue": "No",
+        "cal_general": 3,
+        "sueldo": "sobre el mercado",
+        "carrera": "crecimiento moderado",
+        "flexibilidad": 3,
+        "liderazgo": 2,
+        "cultura": 3,
+        "que_bien": "Beneficios, sueldo, desafios",
+        "que_mal": "La gerencia, la burocracia, el sistema cerrado",
+        "que_desearias": "Tus conocimientos de cloud importan poco ya que todo lo maneja fury",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 3,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 3,
+    "prom_liderazgo": 2,
+    "prom_cultura": 3
+  },
+  {
     "id": "microglobal",
     "nombre": "Microglobal",
     "rubro": "Minería",
