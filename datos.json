@@ -32,6 +32,38 @@
     "prom_cultura": 4
   },
   {
+    "id": "afp-cuprum",
+    "nombre": "AFP Cuprum",
+    "rubro": "Banca y finanzas",
+    "logo": "https://www.google.com/s2/favicons?domain=afp-cuprum.cl&sz=128",
+    "resenas": [
+      {
+        "id": 82,
+        "fecha": "2026-03-28",
+        "tiempo": "1 a 3 años",
+        "sigue": "No",
+        "cal_general": 5,
+        "sueldo": "en el mercado",
+        "carrera": "muchas oportunidades",
+        "flexibilidad": 4,
+        "liderazgo": 5,
+        "cultura": 5,
+        "que_bien": "Muy buen ambiente de trabajo, la cultura también es muy dinámica. Posibilidades claras de desarrollo de carrera. Se realizan hackatones internas.",
+        "que_mal": "Acelerar un poco procesos para ascender si el trabajador lo amerita.",
+        "que_desearias": "La cultura dentro del grupo Principal/Cuprum es muy buena, al menos en el área de desarrollo, lo vas a extrañar si te vas.",
+        "recomienda": "Sí",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 5,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 4,
+    "prom_liderazgo": 5,
+    "prom_cultura": 5
+  },
+  {
     "id": "amipass",
     "nombre": "Amipass",
     "rubro": "Alimentación",
