@@ -2363,5 +2363,37 @@
     "prom_flexibilidad": 2,
     "prom_liderazgo": 2,
     "prom_cultura": 4
+  },
+  {
+    "id": "zerviz",
+    "nombre": "ZerviZ",
+    "rubro": "Tecnología",
+    "logo": "https://www.google.com/s2/favicons?domain=zerviz.cl&sz=128",
+    "resenas": [
+      {
+        "id": 81,
+        "fecha": "2026-03-28",
+        "tiempo": "6 meses a 1 año",
+        "sigue": "No",
+        "cal_general": 4,
+        "sueldo": "en el mercado",
+        "carrera": "crecimiento moderado",
+        "flexibilidad": 4,
+        "liderazgo": 5,
+        "cultura": 4,
+        "que_bien": "Por el lado de consultoría tienen buenos clientes. El ambiente en general es muy ameno.",
+        "que_mal": "Mi experiencia directa con la empresa fue bastante positiva.",
+        "que_desearias": "En mi carrera, esta fue la primera empresa donde sentí ese ambiente más grato y vi oportunidades de crecimiento.",
+        "recomienda": "Sí",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 4,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 4,
+    "prom_liderazgo": 5,
+    "prom_cultura": 4
   }
 ]
