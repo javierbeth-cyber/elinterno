@@ -1,5 +1,37 @@
 [
   {
+    "id": "accenture",
+    "nombre": "Accenture",
+    "rubro": "Consultoría",
+    "logo": "https://www.google.com/s2/favicons?domain=accenture.cl&sz=128",
+    "resenas": [
+      {
+        "id": 90,
+        "fecha": "2026-03-28",
+        "tiempo": "6 meses a 1 año",
+        "sigue": "No",
+        "cal_general": 4,
+        "sueldo": "en el mercado",
+        "carrera": "crecimiento moderado",
+        "flexibilidad": 5,
+        "liderazgo": 4,
+        "cultura": 4,
+        "que_bien": "Beneficios de salud, compañerismo, gente amable para trabajar. Opción de teletrabajo a distancia. Se adapta a todo.",
+        "que_mal": "Podría mejorar los ascensos, es coave mostrarse para que todos te conozcan.",
+        "que_desearias": "Es una empresa muy buena, te abre las puertas en todos lados. Sin duda postulen, micho mejor que cualquiera de las otras consultoras (big four)",
+        "recomienda": "Sí",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 4,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 5,
+    "prom_liderazgo": 4,
+    "prom_cultura": 4
+  },
+  {
     "id": "achs",
     "nombre": "Achs",
     "rubro": "Mutualidad",
