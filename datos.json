@@ -2068,6 +2068,23 @@
     "logo": "assets/logos/oracle.svg",
     "resenas": [
       {
+        "id": 98,
+        "fecha": "2026-03-28",
+        "tiempo": "Más de 3 años",
+        "sigue": "No",
+        "cal_general": 4,
+        "sueldo": "sobre el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": 4,
+        "liderazgo": 3,
+        "cultura": 2,
+        "que_bien": "Salario",
+        "que_mal": "Liderazgo y no hay interes por las personas",
+        "que_desearias": "haras dinero, pero estas solo contar el mundo, tus compañeros son tu competencia.",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      },
+      {
         "id": 69,
         "fecha": "2026-03-27",
         "tiempo": "Más de 3 años",
@@ -2085,13 +2102,13 @@
         "votos": 0
       }
     ],
-    "total_resenas": 1,
-    "promedio": 2,
+    "total_resenas": 2,
+    "promedio": 3,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 5,
-    "prom_liderazgo": 2,
-    "prom_cultura": 3
+    "prom_flexibilidad": 4.5,
+    "prom_liderazgo": 2.5,
+    "prom_cultura": 2.5
   },
   {
     "id": "pwc-chile",
