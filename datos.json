@@ -131,7 +131,7 @@
     "id": "atcom-outsourcing",
     "nombre": "Atcom Outsourcing",
     "rubro": "Tecnología",
-    "logo": "https://www.google.com/s2/favicons?domain=atcom-outsourcing.cl&sz=128",
+    "logo": "assets/logos/atcom-outsourcing.png",
     "resenas": [
       {
         "id": 73,
@@ -645,7 +645,7 @@
     "id": "e-contact",
     "nombre": "E-contact",
     "rubro": "Telecomunicaciones",
-    "logo": "https://www.google.com/s2/favicons?domain=e-contact.cl&sz=128",
+    "logo": "assets/logos/e-contact.png",
     "resenas": [
       {
         "id": 78,
@@ -854,7 +854,7 @@
     "id": "equans-chile",
     "nombre": "Equans Chile",
     "rubro": "Multiservicios",
-    "logo": "https://www.google.com/s2/favicons?domain=equans-chile.cl&sz=128",
+    "logo": "assets/logos/equans-chile.jpg",
     "resenas": [
       {
         "id": 91,
@@ -1014,7 +1014,7 @@
     "id": "experian",
     "nombre": "Experian",
     "rubro": "Tecnología",
-    "logo": "https://www.google.com/s2/favicons?domain=experian.cl&sz=128",
+    "logo": "assets/logos/experian.svg",
     "resenas": [
       {
         "id": 72,
@@ -1159,7 +1159,7 @@
     "id": "fundacion-docere",
     "nombre": "Fundación Docere",
     "rubro": "Educación",
-    "logo": "https://www.google.com/s2/favicons?domain=fundacion-docere.cl&sz=128",
+    "logo": "assets/logos/fundacion-docere.svg",
     "resenas": [
       {
         "id": 75,
@@ -1841,7 +1841,7 @@
     "id": "microglobal",
     "nombre": "Microglobal",
     "rubro": "Minería",
-    "logo": "https://www.google.com/s2/favicons?domain=microglobal.cl&sz=128",
+    "logo": "assets/logos/microglobal.png",
     "resenas": [
       {
         "id": 76,
@@ -2001,7 +2001,7 @@
     "id": "r-y-c-consultores",
     "nombre": "R y C Consultores",
     "rubro": "Consultoría",
-    "logo": "https://www.google.com/s2/favicons?domain=r-y-c-consultores.cl&sz=128",
+    "logo": "assets/logos/r-y-c-consultores.png",
     "resenas": [
       {
         "id": 80,
@@ -2033,7 +2033,7 @@
     "id": "samsung-electronics",
     "nombre": "Samsung Electronics",
     "rubro": "Tecnología",
-    "logo": "https://www.google.com/s2/favicons?domain=samsung-electronics.cl&sz=128",
+    "logo": "assets/logos/samsung-electronics.jpg",
     "resenas": [
       {
         "id": 89,
@@ -2707,7 +2707,7 @@
     "id": "zerviz",
     "nombre": "ZerviZ",
     "rubro": "Tecnología",
-    "logo": "https://www.google.com/s2/favicons?domain=zerviz.cl&sz=128",
+    "logo": "assets/logos/zerviz.png",
     "resenas": [
       {
         "id": 81,
