@@ -2141,6 +2141,38 @@
     "prom_cultura": 1.5
   },
   {
+    "id": "transbank",
+    "nombre": "Transbank",
+    "rubro": "Banca y finanzas",
+    "logo": "https://www.google.com/s2/favicons?domain=transbank.cl&sz=128",
+    "resenas": [
+      {
+        "id": 77,
+        "fecha": "2026-03-28",
+        "tiempo": "Más de 3 años",
+        "sigue": "No",
+        "cal_general": 2,
+        "sueldo": "en el mercado",
+        "carrera": "crecimiento moderado",
+        "flexibilidad": 3,
+        "liderazgo": 2,
+        "cultura": 2,
+        "que_bien": "Algunos beneficios y un sindicato fuerte que en los últimos 6 o 7 años ha hecho más que una negociación pactada una imposición de términos para conseguir que la empresa no quite beneficios.",
+        "que_mal": "Los liderazgos son mediocres en todos los niveles. Demasiados procesos manuales y sistemas legados que hacen que administrar las transacciones financieras de todo Chile sea impreciso y un dolor para los equipos de procesos. La empresa cambió cuando el líder “histórico” (gerente) de RRHH fue desvinculado, entró en un proceso de deterioro de su cultura sabiendo que la empresa además perdía su posición monopólica dominante debido a la apertura del mercado con la transición al modelo de procesamiento de 4 partes.",
+        "que_desearias": "Haber conocido la visión corta y estrecha de los líderes operativos, tácticos y estratégicos. No son tipos especializados en lo que hacen, son reaccionarios y se dicen “de la vieja escuela” lo que se nota cuando uno conoce los tipos de liderazgo modernos orientados a las personas y al desarrollo de carrera.",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 2,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 3,
+    "prom_liderazgo": 2,
+    "prom_cultura": 2
+  },
+  {
     "id": "uber",
     "nombre": "Uber",
     "rubro": "Tecnología",
