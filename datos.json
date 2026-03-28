@@ -1580,6 +1580,38 @@
     "prom_cultura": 2
   },
   {
+    "id": "microglobal",
+    "nombre": "Microglobal",
+    "rubro": "Minería",
+    "logo": "https://www.google.com/s2/favicons?domain=microglobal.cl&sz=128",
+    "resenas": [
+      {
+        "id": 76,
+        "fecha": "2026-03-28",
+        "tiempo": "6 meses a 1 año",
+        "sigue": "Sí",
+        "cal_general": 1,
+        "sueldo": "bajo el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": 2,
+        "liderazgo": 1,
+        "cultura": 1,
+        "que_bien": null,
+        "que_mal": "Machistas, no saben liderar, no hay comunicación en tomas de decisiones de gerencias que afectan a los trabajadores, toman acciones injustificadas, no pagan los feriados, se saltan protocolos de seguridad",
+        "que_desearias": "Que te tratan como esclavo en base a un sueldo miserables que ellos no estan dispuestos aumentar.",
+        "recomienda": "No",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 2,
+    "prom_liderazgo": 1,
+    "prom_cultura": 1
+  },
+  {
     "id": "mosaico",
     "nombre": "Mosaico",
     "rubro": "Construcción",
