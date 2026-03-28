@@ -227,7 +227,7 @@
     "id": "callbusiness",
     "nombre": "CallBusiness",
     "rubro": "Banca y finanzas",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=callbusiness.cl&sz=128",
     "resenas": [
       {
         "id": 68,
@@ -372,7 +372,7 @@
     "id": "clickie",
     "nombre": "Clickie",
     "rubro": "Consultoría",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=clickie.cl&sz=128",
     "resenas": [
       {
         "id": 85,
@@ -645,7 +645,7 @@
     "id": "e-contact",
     "nombre": "E-contact",
     "rubro": "Telecomunicaciones",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=e-contact.cl&sz=128",
     "resenas": [
       {
         "id": 78,
@@ -677,7 +677,7 @@
     "id": "echeverria-izquierdo",
     "nombre": "Echeverria izquierdo",
     "rubro": "Construcción",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=echeverria-izquierdo.cl&sz=128",
     "resenas": [
       {
         "id": 57,
@@ -1870,6 +1870,38 @@
     "prom_cultura": 1
   },
   {
+    "id": "mining-tag",
+    "nombre": "Mining Tag",
+    "rubro": "Tecnología",
+    "logo": "https://www.google.com/s2/favicons?domain=mining-tag.cl&sz=128",
+    "resenas": [
+      {
+        "id": 94,
+        "fecha": "2026-03-28",
+        "tiempo": "Más de 3 años",
+        "sigue": "No",
+        "cal_general": 3,
+        "sueldo": "bajo el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": 3,
+        "liderazgo": 3,
+        "cultura": 4,
+        "que_bien": "Cultura quizas, buen compañerismo",
+        "que_mal": "Oportunidad de crecimiento, planes de carrera, sueldos y ascensos acordes al tiempo de la persona",
+        "que_desearias": "Lo que se realiza es muy repetitivo",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 3,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 3,
+    "prom_liderazgo": 3,
+    "prom_cultura": 4
+  },
+  {
     "id": "mosaico",
     "nombre": "Mosaico",
     "rubro": "Construcción",
@@ -2466,7 +2498,7 @@
     "id": "timix-chile",
     "nombre": "Timix Chile",
     "rubro": "Tecnología",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=timix.la&sz=128",
     "resenas": [
       {
         "id": 28,
