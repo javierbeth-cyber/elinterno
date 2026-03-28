@@ -1740,6 +1740,38 @@
     "prom_cultura": 3
   },
   {
+    "id": "r-y-c-consultores",
+    "nombre": "R y C Consultores",
+    "rubro": "Consultoría",
+    "logo": "https://www.google.com/s2/favicons?domain=r-y-c-consultores.cl&sz=128",
+    "resenas": [
+      {
+        "id": 80,
+        "fecha": "2026-03-28",
+        "tiempo": "6 meses a 1 año",
+        "sigue": "No",
+        "cal_general": 1,
+        "sueldo": "bajo el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": 1,
+        "liderazgo": 1,
+        "cultura": 1,
+        "que_bien": "Pagan al día.",
+        "que_mal": "Los proyectos que llevan de manera interna para clientes son un absoluto caos, tiran gente recién egresada o titulada a los leones sin mayor apoyo. Te \"enseñan\" a través de un coaching bastante malo cómo responder las entrevistas cuando te quieren enviar a algún cliente.",
+        "que_desearias": "Es una moledora de carne de esas que ya no se ven tanto.",
+        "recomienda": "No",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 1,
+    "prom_liderazgo": 1,
+    "prom_cultura": 1
+  },
+  {
     "id": "seguros-sura-chile",
     "nombre": "Seguros SURA Chile",
     "rubro": "Seguros",
