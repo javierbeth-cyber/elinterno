@@ -160,6 +160,38 @@
     "prom_cultura": 1
   },
   {
+    "id": "bancoestado",
+    "nombre": "BancoEstado",
+    "rubro": "Banca y finanzas",
+    "logo": "https://www.google.com/s2/favicons?domain=bancoestado.cl&sz=128",
+    "resenas": [
+      {
+        "id": 84,
+        "fecha": "2026-03-28",
+        "tiempo": "1 a 3 años",
+        "sigue": "Sí",
+        "cal_general": 3,
+        "sueldo": "sobre el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": 3,
+        "liderazgo": 2,
+        "cultura": 2,
+        "que_bien": "Muchos beneficios, si entras puedes no salir más si lo deseas.",
+        "que_mal": "El nivel de burocracia para muchas cosas, se mantienen muy poco actualizados con respecto a tecnología.",
+        "que_desearias": "Vas a convivir con gente mayor, hay un par de proyectos más novedosos pero en general se ven muchos colegas que entraron hace muchos años con lo que sabían en ese tiempo y ahí se quedaron.",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 3,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 3,
+    "prom_liderazgo": 2,
+    "prom_cultura": 2
+  },
+  {
     "id": "callbusiness",
     "nombre": "CallBusiness",
     "rubro": "Banca y finanzas",
