@@ -3,7 +3,7 @@
     "id": "accenture",
     "nombre": "Accenture",
     "rubro": "Consultoría",
-    "logo": "https://www.google.com/s2/favicons?domain=accenture.cl&sz=128",
+    "logo": "assets/logos/accenture.svg",
     "resenas": [
       {
         "id": 90,
@@ -67,7 +67,7 @@
     "id": "afp-cuprum",
     "nombre": "AFP Cuprum",
     "rubro": "Banca y finanzas",
-    "logo": "https://www.google.com/s2/favicons?domain=afp-cuprum.cl&sz=128",
+    "logo": "assets/logos/afp-cuprum.png",
     "resenas": [
       {
         "id": 82,
@@ -195,7 +195,7 @@
     "id": "bancoestado",
     "nombre": "BancoEstado",
     "rubro": "Banca y finanzas",
-    "logo": "https://www.google.com/s2/favicons?domain=bancoestado.cl&sz=128",
+    "logo": "assets/logos/bancoestado.svg",
     "resenas": [
       {
         "id": 84,
@@ -1809,7 +1809,7 @@
     "id": "mercado-libre-chile",
     "nombre": "Mercado Libre Chile",
     "rubro": "Tecnología",
-    "logo": "https://www.google.com/s2/favicons?domain=mercado-libre-chile.cl&sz=128",
+    "logo": "assets/logos/mercado-libre-chile.png",
     "resenas": [
       {
         "id": 87,
@@ -1905,7 +1905,7 @@
     "id": "ntt-data",
     "nombre": "NTT Data",
     "rubro": "Consultoría",
-    "logo": "https://www.google.com/s2/favicons?domain=ntt-data.cl&sz=128",
+    "logo": "assets/logos/ntt-data.svg",
     "resenas": [
       {
         "id": 79,
@@ -1969,7 +1969,7 @@
     "id": "pwc-chile",
     "nombre": "PwC Chile",
     "rubro": "Consultoría",
-    "logo": "https://www.google.com/s2/favicons?domain=pwc-chile.cl&sz=128",
+    "logo": "assets/logos/pwc-chile.svg",
     "resenas": [
       {
         "id": 88,
@@ -2353,7 +2353,7 @@
     "id": "tata-consultancy-services",
     "nombre": "TATA Consultancy Services",
     "rubro": "Consultoría",
-    "logo": "https://www.google.com/s2/favicons?domain=tata-consultancy-services.cl&sz=128",
+    "logo": "assets/logos/tata-consultancy-services.svg",
     "resenas": [
       {
         "id": 83,
@@ -2562,7 +2562,7 @@
     "id": "transbank",
     "nombre": "Transbank",
     "rubro": "Banca y finanzas",
-    "logo": "https://www.google.com/s2/favicons?domain=transbank.cl&sz=128",
+    "logo": "assets/logos/transbank.svg",
     "resenas": [
       {
         "id": 77,
@@ -2626,7 +2626,7 @@
     "id": "udp",
     "nombre": "Udp",
     "rubro": "Educación",
-    "logo": "https://www.google.com/s2/favicons?domain=udp.cl&sz=128",
+    "logo": "assets/logos/udp.png",
     "resenas": [
       {
         "id": 74,
