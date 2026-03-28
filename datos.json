@@ -497,6 +497,38 @@
     "prom_cultura": 1
   },
   {
+    "id": "e-contact",
+    "nombre": "E-contact",
+    "rubro": "Telecomunicaciones",
+    "logo": "https://www.google.com/s2/favicons?domain=e-contact.cl&sz=128",
+    "resenas": [
+      {
+        "id": 78,
+        "fecha": "2026-03-28",
+        "tiempo": "Más de 3 años",
+        "sigue": "No",
+        "cal_general": 3,
+        "sueldo": "bajo el mercado",
+        "carrera": "crecimiento moderado",
+        "flexibilidad": 4,
+        "liderazgo": 2,
+        "cultura": 3,
+        "que_bien": "Cultura, flexibilidad, si insistes te pagan cursos y/o certificaciones.",
+        "que_mal": "Sueldos en la media para abajo, mucho amiguismo, los jefes de area algunos terminaron de estudiar después de estar como 10 años en la empresa. El ambiente estresante que se ha generado en los últimos años, no necesariamente por carga laboral, sino por la incertidumbre de estabilidad laboral y hacia donde apunta la empresa. La ilusión en la que vive la gerencia donde creen que es la mejor empresa, pero se quedaron estancados en el éxito y crecimiento explosivo que hubo. La desvinculación de gente competente por sobre profesionales sobrevalorados, consecuencias del “amiguismo”.\nLa falta de empatia de “la alta gerencia“ y educación de los gerentes.",
+        "que_desearias": "Que no existe una estabilidad profesional, muchas veces terminas haciendo el trabajo de otros.\nUna gerencia, hasta cierto punto, sesgada. Que las oportunidades de crecimiento profesional ya no son bastas como antes.\nPésima comunicación entre áreas, se hablaba más en pandemia que presencial, será quizás por la naturaleza de cierto tipo de gente.\nY en áreas, existen jefes narcisistas que siempre tienen la razón, y quieren que se mueva todo a su ritmo.",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 3,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 4,
+    "prom_liderazgo": 2,
+    "prom_cultura": 3
+  },
+  {
     "id": "echeverria-izquierdo",
     "nombre": "Echeverria izquierdo",
     "rubro": "Construcción",
