@@ -503,6 +503,23 @@
     "logo": "assets/logos/deloitte.svg",
     "resenas": [
       {
+        "id": 86,
+        "fecha": "2026-03-28",
+        "tiempo": "1 a 3 años",
+        "sigue": "Sí",
+        "cal_general": 3,
+        "sueldo": "en el mercado",
+        "carrera": "crecimiento moderado",
+        "flexibilidad": 4,
+        "liderazgo": 4,
+        "cultura": 4,
+        "que_bien": "Trabajar en el área de la tecnología como consultor puede ser bastante relajado dependiendo del proyecto y el área al que llegas, con modalidades totalmente remotas",
+        "que_mal": "El sueldo inicial va a ser tu sueldo final de por vida, cuesta mucho subirlo",
+        "que_desearias": "Muchos proyectos de consultoría ocupan un stack demasiado anticuado, así que no te permite moverte a empresas tech con stacks más nuevos",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      },
+      {
         "id": 46,
         "fecha": "2026-03-24",
         "tiempo": "Más de 3 años",
@@ -520,13 +537,13 @@
         "votos": 0
       }
     ],
-    "total_resenas": 1,
-    "promedio": 2,
+    "total_resenas": 2,
+    "promedio": 2.5,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 3,
-    "prom_liderazgo": 2,
-    "prom_cultura": 3
+    "prom_flexibilidad": 3.5,
+    "prom_liderazgo": 3,
+    "prom_cultura": 3.5
   },
   {
     "id": "dinecom",
