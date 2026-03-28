@@ -337,6 +337,38 @@
     "prom_cultura": null
   },
   {
+    "id": "clickie",
+    "nombre": "Clickie",
+    "rubro": "Consultoría",
+    "logo": "https://www.google.com/s2/favicons?domain=clickie.cl&sz=128",
+    "resenas": [
+      {
+        "id": 85,
+        "fecha": "2026-03-28",
+        "tiempo": "1 a 3 años",
+        "sigue": "Sí",
+        "cal_general": 3,
+        "sueldo": "bajo el mercado",
+        "carrera": "crecimiento moderado",
+        "flexibilidad": 5,
+        "liderazgo": 2,
+        "cultura": 4,
+        "que_bien": "Flexibilidad",
+        "que_mal": null,
+        "que_desearias": null,
+        "recomienda": "No",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 3,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 5,
+    "prom_liderazgo": 2,
+    "prom_cultura": 4
+  },
+  {
     "id": "copec",
     "nombre": "Copec",
     "rubro": "Energía",
