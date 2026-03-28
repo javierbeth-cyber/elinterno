@@ -1949,6 +1949,38 @@
     "prom_cultura": 1
   },
   {
+    "id": "samsung-electronics",
+    "nombre": "Samsung Electronics",
+    "rubro": "Tecnología",
+    "logo": "https://www.google.com/s2/favicons?domain=samsung-electronics.cl&sz=128",
+    "resenas": [
+      {
+        "id": 89,
+        "fecha": "2026-03-28",
+        "tiempo": "6 meses a 1 año",
+        "sigue": "No",
+        "cal_general": 1,
+        "sueldo": "bajo el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": 4,
+        "liderazgo": 1,
+        "cultura": 1,
+        "que_bien": "Beneficios tipo teletrabajo. Algunas áreas son ampliamente superiores a otras, de preferencia irse a la tecnología o áreas más técnicas. Te toca en alguna diferente y es lo peor.",
+        "que_mal": "Honestidad y lealtad, si no haces lo que superiores te ordenan son capaces de perjudicarte. Las conductas de acoso laboral o incluso sexual no son protegidas, dado que la mayoría que trabajan son hombres. Gente aspiracional que trabaja por poco pero se cree lo mejor por trabajar en esta multinacional.",
+        "que_desearias": "Que si no le haces caso a alguien de poder son capaces de esconder la verdad, injusticia. Competencia tóxica, si resaltas o tienes mejor carrera que las personas que estan allí se sienten amenazadas, sobre todo las señoras mayores.",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 4,
+    "prom_liderazgo": 1,
+    "prom_cultura": 1
+  },
+  {
     "id": "seguros-sura-chile",
     "nombre": "Seguros SURA Chile",
     "rubro": "Seguros",
