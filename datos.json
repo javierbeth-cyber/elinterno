@@ -67,7 +67,7 @@
     "id": "afp-cuprum",
     "nombre": "AFP Cuprum",
     "rubro": "Banca y finanzas",
-    "logo": "assets/logos/afp-cuprum.png",
+    "logo": "assets/logos/afp-cuprum.svg",
     "resenas": [
       {
         "id": 82,
@@ -1545,7 +1545,7 @@
     "id": "latam-airlines",
     "nombre": "Latam Airlines",
     "rubro": "Aerolíneas",
-    "logo": "assets/logos/latam-airlines.svg",
+    "logo": "assets/logos/latam-airlines.png",
     "resenas": [
       {
         "id": 12,
