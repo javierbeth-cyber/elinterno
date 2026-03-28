@@ -3,7 +3,7 @@
     "id": "accenture",
     "nombre": "Accenture",
     "rubro": "Consultoría",
-    "logo": "assets/logos/accenture.svg",
+    "logo": "https://www.google.com/s2/favicons?domain=accenture.cl&sz=128",
     "resenas": [
       {
         "id": 90,
@@ -67,7 +67,7 @@
     "id": "afp-cuprum",
     "nombre": "AFP Cuprum",
     "rubro": "Banca y finanzas",
-    "logo": "assets/logos/afp-cuprum.png",
+    "logo": "https://www.google.com/s2/favicons?domain=afp-cuprum.cl&sz=128",
     "resenas": [
       {
         "id": 82,
@@ -195,7 +195,7 @@
     "id": "bancoestado",
     "nombre": "BancoEstado",
     "rubro": "Banca y finanzas",
-    "logo": "assets/logos/bancoestado.svg",
+    "logo": "https://www.google.com/s2/favicons?domain=bancoestado.cl&sz=128",
     "resenas": [
       {
         "id": 84,
@@ -1809,7 +1809,7 @@
     "id": "mercado-libre-chile",
     "nombre": "Mercado Libre Chile",
     "rubro": "Tecnología",
-    "logo": "assets/logos/mercado-libre-chile.png",
+    "logo": "https://www.google.com/s2/favicons?domain=mercado-libre-chile.cl&sz=128",
     "resenas": [
       {
         "id": 87,
@@ -1905,7 +1905,7 @@
     "id": "ntt-data",
     "nombre": "NTT Data",
     "rubro": "Consultoría",
-    "logo": "assets/logos/ntt-data.svg",
+    "logo": "https://www.google.com/s2/favicons?domain=ntt-data.cl&sz=128",
     "resenas": [
       {
         "id": 79,
@@ -1969,7 +1969,7 @@
     "id": "pwc-chile",
     "nombre": "PwC Chile",
     "rubro": "Consultoría",
-    "logo": "assets/logos/pwc-chile.svg",
+    "logo": "https://www.google.com/s2/favicons?domain=pwc-chile.cl&sz=128",
     "resenas": [
       {
         "id": 88,
@@ -2196,6 +2196,23 @@
     "logo": "assets/logos/sodexo.png",
     "resenas": [
       {
+        "id": 93,
+        "fecha": "2026-03-28",
+        "tiempo": "6 meses a 1 año",
+        "sigue": "No",
+        "cal_general": 2,
+        "sueldo": "en el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": 4,
+        "liderazgo": 2,
+        "cultura": 1,
+        "que_bien": "El sueldo que tenia  en  ese momento  (780.000)  para un cargo que no exige titulo ni experiencia es muy bueno, los beneficios del teletrabajo, lindas oficinas en un buen barrio.",
+        "que_mal": "Jefaturas sin conocimiento, me decían que  tenia que mentir  para perjudicar a las demás áreas, una competitividad estúpida, no puedes decir que te comprometa porque se  agarran de ello y copian por correo hasta a la tía del aseo,  MUCHO pituto, demasiados cargos inventados, todos los directores, jefes, gerentes y subgerentes se conocen hace años, son todos amigos desde hace tiempo atras.",
+        "que_desearias": "Que era una pega esclavizadora, la cantidad de pega era absurda para una sola persona. al menos en mi área, se notaba mucho la diferencia entre un trabajador 'analista' vs la de un jefe, esos llegaban mucho más tarde, no tenian problemas con nada, etc.",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      },
+      {
         "id": 7,
         "fecha": "2026-03-20",
         "tiempo": "1 a 3 años",
@@ -2213,13 +2230,13 @@
         "votos": 0
       }
     ],
-    "total_resenas": 1,
-    "promedio": 4,
+    "total_resenas": 2,
+    "promedio": 3,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": null,
-    "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_flexibilidad": 4,
+    "prom_liderazgo": 2,
+    "prom_cultura": 1
   },
   {
     "id": "sodimac",
@@ -2353,7 +2370,7 @@
     "id": "tata-consultancy-services",
     "nombre": "TATA Consultancy Services",
     "rubro": "Consultoría",
-    "logo": "assets/logos/tata-consultancy-services.svg",
+    "logo": "https://www.google.com/s2/favicons?domain=tata-consultancy-services.cl&sz=128",
     "resenas": [
       {
         "id": 83,
@@ -2562,7 +2579,7 @@
     "id": "transbank",
     "nombre": "Transbank",
     "rubro": "Banca y finanzas",
-    "logo": "assets/logos/transbank.svg",
+    "logo": "https://www.google.com/s2/favicons?domain=transbank.cl&sz=128",
     "resenas": [
       {
         "id": 77,
@@ -2626,7 +2643,7 @@
     "id": "udp",
     "nombre": "Udp",
     "rubro": "Educación",
-    "logo": "assets/logos/udp.png",
+    "logo": "https://www.google.com/s2/favicons?domain=udp.cl&sz=128",
     "resenas": [
       {
         "id": 74,
