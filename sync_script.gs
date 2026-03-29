@@ -118,29 +118,39 @@ var RUBROS = {
 // COL se construye dinámicamente desde los headers de la hoja
 function buildColMap(headerRow) {
   var map = {};
+  // Helper: solo asigna si aún no está mapeado (primer match gana)
+  function set(key, i) { if (map[key] === undefined) map[key] = i; }
+
   headerRow.forEach(function(h, i) {
     var s = String(h || '').toLowerCase().trim();
     if (!s) return;
-    if (s.indexOf('marca') !== -1) { map.timestamp = i; return; }
-    if (s.indexOf('empresa') !== -1 && s.indexOf('rubro') === -1) { map.empresa = i; return; }
-    if (s.indexOf('rubro') !== -1) { map.rubro = i; return; }
-    if ((s.indexOf('área') !== -1 || s.indexOf('area') !== -1) && s.indexOf('carrera') === -1) { map.area = i; return; }
-    if (s === 'cargo') { map.cargo = i; return; }
-    if (s.indexOf('tiempo') !== -1 && s.indexOf('marca') === -1) { map.tiempo = i; return; }
-    if (s.indexOf('sigues') !== -1 || (s.indexOf('sigue') !== -1 && s.indexOf('empresa') === -1)) { map.sigue = i; return; }
-    if (s.indexOf('calificar') !== -1) { map.cal_general = i; return; }
-    if (s === 'sueldo') { map.sueldo = i; return; }
-    if (s.indexOf('carrera') !== -1 || s.indexOf('desarrollo') !== -1) { map.carrera = i; return; }
-    if (s === 'flexibilidad') { map.flexibilidad = i; return; }
-    if (s === 'liderazgo') { map.liderazgo = i; return; }
-    if (s.indexOf('cultura') !== -1) { map.cultura = i; return; }
-    if (s.indexOf('está bien') !== -1 || s.indexOf('esta bien') !== -1) { map.que_bien = i; return; }
-    if (s.indexOf('está mal') !== -1 || s.indexOf('esta mal') !== -1) { map.que_mal = i; return; }
-    if (s.indexOf('desear') !== -1) { map.que_desearias = i; return; }
-    if (s.indexOf('gerencia') !== -1) { map.consejo_gerencia = i; return; }
-    if (s.indexOf('recomendar') !== -1) { map.recomienda = i; return; }
-    if (s.indexOf('confirmo') !== -1) { map.confirmacion = i; return; }
+
+    // Orden importa: patrones más específicos primero
+    if (s.indexOf('marca') !== -1)                                          { set('timestamp', i);        return; }
+    // empresa: debe contener "trabajas" o "trabajaste" para evitar match en otras preguntas
+    if (s.indexOf('empresa') !== -1 && (s.indexOf('trabajas') !== -1 || s.indexOf('trabajaste') !== -1)) { set('empresa', i); return; }
+    if (s.indexOf('rubro') !== -1)                                          { set('rubro', i);             return; }
+    // área: debe contener "área" o "area" + "trabajas/trabajaste" para evitar false positives
+    if ((s.indexOf('área') !== -1 || s.indexOf('area') !== -1) && (s.indexOf('trabajas') !== -1 || s.indexOf('trabajaste') !== -1)) { set('area', i); return; }
+    if (s === 'cargo')                                                       { set('cargo', i);             return; }
+    if (s.indexOf('tiempo') !== -1 && s.indexOf('marca') === -1)            { set('tiempo', i);            return; }
+    if (s.indexOf('sigues') !== -1 || s.indexOf('sigues trabajando') !== -1){ set('sigue', i);             return; }
+    // calificar ANTES que empresa para que "¿Cómo calificarías esta empresa..." no matchee empresa
+    if (s.indexOf('calificar') !== -1)                                      { set('cal_general', i);       return; }
+    if (s === 'sueldo')                                                      { set('sueldo', i);            return; }
+    if (s.indexOf('desarrollo de carrera') !== -1 || s.indexOf('desarrollo') !== -1) { set('carrera', i); return; }
+    if (s === 'flexibilidad')                                                { set('flexibilidad', i);      return; }
+    if (s === 'liderazgo')                                                   { set('liderazgo', i);         return; }
+    if (s.indexOf('cultura') !== -1)                                         { set('cultura', i);           return; }
+    if (s.indexOf('está bien') !== -1 || s.indexOf('esta bien') !== -1)     { set('que_bien', i);          return; }
+    if (s.indexOf('está mal') !== -1 || s.indexOf('esta mal') !== -1)       { set('que_mal', i);           return; }
+    if (s.indexOf('desear') !== -1)                                          { set('que_desearias', i);     return; }
+    if (s.indexOf('gerencia') !== -1)                                        { set('consejo_gerencia', i);  return; }
+    // recomienda ANTES que empresa genérico
+    if (s.indexOf('recomendar') !== -1)                                      { set('recomienda', i);        return; }
+    if (s.indexOf('confirmo') !== -1)                                        { set('confirmacion', i);      return; }
   });
+
   Logger.log('ColMap detectado: ' + JSON.stringify(map));
   return map;
 }
