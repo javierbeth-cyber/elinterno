@@ -192,6 +192,38 @@
     "prom_cultura": 1
   },
   {
+    "id": "autofact",
+    "nombre": "Autofact",
+    "rubro": "Tecnología",
+    "logo": "https://www.google.com/s2/favicons?domain=autofact.cl&sz=128",
+    "resenas": [
+      {
+        "id": 104,
+        "fecha": "2026-03-29",
+        "tiempo": "1 a 3 años",
+        "sigue": "Sí",
+        "cal_general": 3,
+        "sueldo": "en el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": 5,
+        "liderazgo": 4,
+        "cultura": 3,
+        "que_bien": "Horarios flexibles, trabajo constante",
+        "que_mal": "Oportunidades de escalar",
+        "que_desearias": "Como solicitar un aumento de sueldo",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 3,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 5,
+    "prom_liderazgo": 4,
+    "prom_cultura": 3
+  },
+  {
     "id": "banco-consorcio",
     "nombre": "Banco Consorcio",
     "rubro": "Banca y finanzas",
