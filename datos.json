@@ -3440,6 +3440,41 @@
     "prom_cultura": 3
   },
   {
+    "id": "veltis-ex-ferrovial",
+    "nombre": "Veltis / Ex Ferrovial",
+    "rubro": "Minería",
+    "logo": "https://www.google.com/s2/favicons?domain=veltis-ex-ferrovial.cl&sz=128",
+    "resenas": [
+      {
+        "id": 108,
+        "fecha": "2026-03-29",
+        "area": "RRHH",
+        "cargo": "Asistente de Reclutamiento",
+        "tiempo": "Menos de 6 meses",
+        "sigue": "No",
+        "cal_general": 1,
+        "sueldo": "bajo el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": "Muy malo",
+        "liderazgo": null,
+        "cultura": "Malo",
+        "que_bien": "Opción como primera pega",
+        "que_mal": "Cultura explotadora, te paquean a cada rato, cultura de acusar al otro y malos sueldos",
+        "que_desearias": "Que había mejores oportunidades por más lucas",
+        "consejo_gerencia": "No la vendan como tremenda empresa, ya que son terrible de negreros",
+        "recomienda": "No",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 1,
+    "prom_liderazgo": null,
+    "prom_cultura": 2
+  },
+  {
     "id": "zerviz",
     "nombre": "ZerviZ",
     "rubro": "Tecnología",
