@@ -825,6 +825,23 @@
         "votos": 0
       },
       {
+        "id": 99,
+        "fecha": "2026-03-28",
+        "tiempo": "1 a 3 años",
+        "sigue": "No",
+        "cal_general": 4,
+        "sueldo": "en el mercado",
+        "carrera": "muchas oportunidades",
+        "flexibilidad": 5,
+        "liderazgo": 5,
+        "cultura": 5,
+        "que_bien": "La cultura de entel es algo unico. En el tiempo que trabaje era lo que mas me hacia sentirne en un buen lugar de trabajo. Eso si, puede variar entre areas, en general era muy bueno.",
+        "que_mal": null,
+        "que_desearias": "Conocer las areas. Es bueno entender a que parte uno va a entrar, ya que de ello depende lo mas beneficioso del trabajar ahi",
+        "recomienda": "Sí",
+        "votos": 0
+      },
+      {
         "id": 41,
         "fecha": "2026-03-24",
         "tiempo": "1 a 3 años",
@@ -842,13 +859,13 @@
         "votos": 0
       }
     ],
-    "total_resenas": 2,
-    "promedio": 5,
+    "total_resenas": 3,
+    "promedio": 4.7,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 3,
-    "prom_liderazgo": 2.5,
-    "prom_cultura": 4.5
+    "prom_flexibilidad": 3.7,
+    "prom_liderazgo": 3.3,
+    "prom_cultura": 4.7
   },
   {
     "id": "epiroc",
