@@ -532,13 +532,13 @@
     'encargado','encargada','líder','lider','analista','desarrollador','desarrolladora',
     'programador','programadora','ingeniero','ingeniera','diseñador','diseñadora',
     'consultor','consultora','especialista','ejecutivo','ejecutiva',
-    'ceo','cto','cfo','coo','cmo','ciso','vp'];
+    'ceo','cto','cfo','coo','cmo','ciso','vp','clevel','c-level','c level'];
 
   function maskCargo(texto) {
     if (!texto) return { text: texto, masked: false };
-    // Matches: cargo + optional qualifiers (de/del/en/y/senior/jr/sr) + optional words (upper or lower case)
+    // Matches: cargo (including plurals via e?s? suffix) + optional qualifiers + optional words
     var re = new RegExp(
-      '\\b(' + CARGO_PALABRAS.join('|') + ')\\b\\)?(?:\\s+(?:de|del|en|y|sr\\.?|jr\\.?|senior|junior|área|area))*(?:\\s+[A-ZÁÉÍÓÚÑa-záéíóúñ]+){0,3}',
+      '\\b(' + CARGO_PALABRAS.join('|') + ')e?s?\\b\\)?(?:\\s+(?:de|del|en|y|sr\\.?|jr\\.?|senior|junior|área|area))*(?:\\s+[A-ZÁÉÍÓÚÑa-záéíóúñ]+){0,3}',
       'gi'
     );
     var masked = false;
