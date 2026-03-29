@@ -96,6 +96,38 @@
     "prom_cultura": 5
   },
   {
+    "id": "amaris",
+    "nombre": "Amaris",
+    "rubro": "Consultoría",
+    "logo": "https://www.google.com/s2/favicons?domain=amaris.cl&sz=128",
+    "resenas": [
+      {
+        "id": 103,
+        "fecha": "2026-03-29",
+        "tiempo": "6 meses a 1 año",
+        "sigue": "No",
+        "cal_general": 2,
+        "sueldo": "en el mercado",
+        "carrera": "crecimiento moderado",
+        "flexibilidad": 1,
+        "liderazgo": 2,
+        "cultura": 3,
+        "que_bien": "Existen beneficios como cursos de ingles y acceso a plataformas de cursls",
+        "que_mal": "Las horas de trabajo, si el cliente pide 12 horas diarias, las jefaturas se lavaran las manos, no hay compensación ni en tiempo ni en remuneración",
+        "que_desearias": "Que firmas 40 horas pero trabajas 55-60",
+        "recomienda": "No",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 2,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 1,
+    "prom_liderazgo": 2,
+    "prom_cultura": 3
+  },
+  {
     "id": "amipass",
     "nombre": "Amipass",
     "rubro": "Alimentación",
