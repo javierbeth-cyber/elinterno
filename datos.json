@@ -142,7 +142,7 @@
   {
     "id": "amipass",
     "nombre": "Amipass",
-    "rubro": "Alimentación",
+    "rubro": "Beneficios sociales",
     "logo": "assets/logos/amipass.png",
     "resenas": [
       {
@@ -177,7 +177,7 @@
   {
     "id": "atcom-outsourcing",
     "nombre": "Atcom Outsourcing",
-    "rubro": "Tecnología",
+    "rubro": "Outsourcing",
     "logo": "assets/logos/atcom-outsourcing.png",
     "resenas": [
       {
@@ -387,7 +387,7 @@
   {
     "id": "callbusiness",
     "nombre": "CallBusiness",
-    "rubro": "Banca y finanzas",
+    "rubro": "Outsourcing",
     "logo": null,
     "resenas": [
       {
@@ -812,7 +812,7 @@
   {
     "id": "dispolab",
     "nombre": "Dispolab",
-    "rubro": "Retail",
+    "rubro": "Salud",
     "logo": "assets/logos/dispolab.png",
     "resenas": [
       {
@@ -1412,7 +1412,7 @@
   {
     "id": "femsa",
     "nombre": "Femsa",
-    "rubro": "Banca y finanzas",
+    "rubro": "Retail",
     "logo": "assets/logos/femsa.svg",
     "resenas": [
       {
@@ -1752,7 +1752,7 @@
   {
     "id": "i-municipalidad-de-coquimbo",
     "nombre": "I. Municipalidad de Coquimbo",
-    "rubro": "Departamento Social",
+    "rubro": "Gobierno",
     "logo": "assets/logos/i-municipalidad-de-coquimbo.png",
     "resenas": [
       {
@@ -2807,7 +2807,7 @@
   {
     "id": "sodexo",
     "nombre": "Sodexo",
-    "rubro": "Seguridad",
+    "rubro": "Beneficios sociales",
     "logo": "assets/logos/sodexo.png",
     "resenas": [
       {
@@ -2967,7 +2967,7 @@
   {
     "id": "starbucks",
     "nombre": "Starbucks",
-    "rubro": "comida rapida",
+    "rubro": "Gastronomía",
     "logo": "https://www.google.com/s2/favicons?domain=starbucks.cl&sz=128",
     "resenas": [
       {
@@ -3142,7 +3142,7 @@
   {
     "id": "the-home",
     "nombre": "The Home",
-    "rubro": "Diseño consultoría y construcción",
+    "rubro": "Construcción",
     "logo": "assets/logos/the-home.png",
     "resenas": [
       {
