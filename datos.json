@@ -355,7 +355,7 @@
     "id": "callbusiness",
     "nombre": "CallBusiness",
     "rubro": "Banca y finanzas",
-    "logo": "https://www.google.com/s2/favicons?domain=callbusiness.cl&sz=128",
+    "logo": null,
     "resenas": [
       {
         "id": 68,
@@ -500,7 +500,7 @@
     "id": "clickie",
     "nombre": "Clickie",
     "rubro": "Consultoría",
-    "logo": "https://www.google.com/s2/favicons?domain=clickie.cl&sz=128",
+    "logo": null,
     "resenas": [
       {
         "id": 85,
@@ -773,7 +773,7 @@
     "id": "e-contact",
     "nombre": "E-contact",
     "rubro": "Telecomunicaciones",
-    "logo": "https://www.google.com/s2/favicons?domain=e-contact.cl&sz=128",
+    "logo": null,
     "resenas": [
       {
         "id": 78,
@@ -805,7 +805,7 @@
     "id": "echeverria-izquierdo",
     "nombre": "Echeverria izquierdo",
     "rubro": "Construcción",
-    "logo": "https://www.google.com/s2/favicons?domain=echeverria-izquierdo.cl&sz=128",
+    "logo": null,
     "resenas": [
       {
         "id": 57,
@@ -2884,7 +2884,7 @@
     "id": "timix-chile",
     "nombre": "Timix Chile",
     "rubro": "Tecnología",
-    "logo": "https://www.google.com/s2/favicons?domain=timix.la&sz=128",
+    "logo": null,
     "resenas": [
       {
         "id": 28,

@@ -245,8 +245,8 @@ function buildJson() {
     if (!empresas[id]) {
       // Prioridad de logo: manifest del repo > LOGOS dict > fallback favicon
       var logo;
-      if (manifest[id]) {
-        logo = manifest[id];
+      if (manifest[id] !== undefined) {
+        logo = manifest[id];  // null en manifest = sin logo (muestra placeholder)
       } else if (LOGOS[id] !== undefined) {
         logo = LOGOS[id];
       } else {
