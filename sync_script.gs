@@ -139,10 +139,13 @@ function buildColMap(headerRow) {
     if (s.indexOf('calificar') !== -1)                                      { set('cal_general', i);       return; }
     if (s === 'sueldo')                                                      { set('sueldo', i);            return; }
     if (s.indexOf('desarrollo de carrera') !== -1 || s.indexOf('desarrollo') !== -1) { set('carrera', i); return; }
-    if (s === 'flexibilidad')                                                { set('flexibilidad', i);      return; }
-    if (s === 'liderazgo')                                                   { set('liderazgo', i);         return; }
-    if (s.indexOf('cultura') !== -1)                                         { set('cultura', i);           return; }
+    // que_bien ANTES de cultura para evitar que "¿Qué está bien...? Cultura, beneficios..." matchee como cultura
     if (s.indexOf('está bien') !== -1 || s.indexOf('esta bien') !== -1)     { set('que_bien', i);          return; }
+    // flexibilidad/liderazgo: indexOf en vez de === por si el header tiene texto extra tras cambio de tipo
+    if (s.indexOf('flexibilidad') !== -1 && s.indexOf('está') === -1 && s.indexOf('esta') === -1) { set('flexibilidad', i); return; }
+    if (s.indexOf('liderazgo') !== -1 && s.indexOf('está') === -1 && s.indexOf('esta') === -1)    { set('liderazgo', i);    return; }
+    // cultura: requiere "cultura y" para matchear "Cultura y ambiente" pero no el texto ayuda de que_bien
+    if (s.indexOf('cultura y') !== -1 || s === 'cultura')                   { set('cultura', i);           return; }
     if (s.indexOf('está mal') !== -1 || s.indexOf('esta mal') !== -1)       { set('que_mal', i);           return; }
     if (s.indexOf('desear') !== -1)                                          { set('que_desearias', i);     return; }
     if (s.indexOf('gerencia') !== -1)                                        { set('consejo_gerencia', i);  return; }
