@@ -535,8 +535,9 @@
 
   function maskCargo(texto) {
     if (!texto) return { text: texto, masked: false };
+    // Matches: cargo + optional qualifiers (de/del/en/y/senior/jr/sr) + optional words (upper or lower case)
     var re = new RegExp(
-      '\\b(' + CARGO_PALABRAS.join('|') + ')\\b(\\s+(?:de|del|en|y|sr\\.?|jr\\.?|senior|junior))*(?:\\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+){1,3}',
+      '\\b(' + CARGO_PALABRAS.join('|') + ')\\b(\\s+(?:de|del|en|y|sr\\.?|jr\\.?|senior|junior|área|area))*(?:\\s+[A-ZÁÉÍÓÚÑa-záéíóúñ]+){0,3}',
       'gi'
     );
     var masked = false;
@@ -742,8 +743,8 @@
     // Highlights (reseña más reciente con texto)
     var conBien = resenas.filter(function(r) { return r.que_bien; });
     var conMal  = resenas.filter(function(r) { return r.que_mal; });
-    var highlightBien = conBien.length ? conBien[0].que_bien : null;
-    var highlightMal  = conMal.length  ? conMal[0].que_mal   : null;
+    var highlightBien = conBien.length ? maskCargo(conBien[0].que_bien).text : null;
+    var highlightMal  = conMal.length  ? maskCargo(conMal[0].que_mal).text   : null;
 
     var gridItems = '';
     var flexVals  = resenas.map(function(r) { return r.flexibilidad; });
