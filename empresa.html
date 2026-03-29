@@ -402,7 +402,9 @@
     .bloque-bien .bloque-label { color: var(--green-text); }
     .bloque-mal .bloque-label { color: var(--red-text); }
     .bloque-desearias .bloque-label { color: var(--yellow-text); }
+    .bloque-gerencia .bloque-label { color: var(--blue); }
     .bloque-text { color: var(--text); line-height: 1.6; }
+    .resena-masked-note { font-size: 11px; color: var(--text-muted); margin-top: 6px; font-style: italic; }
 
     .resena-footer {
       display: flex;
@@ -508,13 +510,38 @@
     return html;
   }
 
+  var ESCALA_OPTIONS = ['Muy malo', 'Malo', 'Bueno', 'Muy bueno'];
+
+  function escalaColor(val) {
+    if (val === 'Muy bueno') return 'var(--green-text)';
+    if (val === 'Bueno')     return '#16a34a';
+    if (val === 'Malo')      return '#ca8a04';
+    if (val === 'Muy malo')  return 'var(--red-text)';
+    return 'inherit';
+  }
+
   function subcatColor(label, val) {
     if (val === null || val === undefined) return 'inherit';
     if (label === 'Sueldo') return val === 'sobre el mercado' ? 'var(--green-text)' : val === 'bajo el mercado' ? 'var(--red-text)' : '#ca8a04';
     if (label === 'Crecimiento') return val === 'muchas oportunidades' ? 'var(--green-text)' : val === 'pocas oportunidades' ? 'var(--red-text)' : '#ca8a04';
-    var n = parseFloat(val);
-    if (!isNaN(n)) return n >= 4 ? 'var(--green-text)' : n <= 2 ? 'var(--red-text)' : '#ca8a04';
-    return 'inherit';
+    return escalaColor(val);
+  }
+
+  var CARGO_PALABRAS = ['gerente','gerenta','subgerente','director','directora',
+    'jefe','jefa','coordinador','coordinadora','supervisor','supervisora',
+    'encargado','encargada','líder','lider','analista','desarrollador','desarrolladora',
+    'programador','programadora','ingeniero','ingeniera','diseñador','diseñadora',
+    'consultor','consultora','especialista','ejecutivo','ejecutiva'];
+
+  function maskCargo(texto) {
+    if (!texto) return { text: texto, masked: false };
+    var re = new RegExp(
+      '\\b(' + CARGO_PALABRAS.join('|') + ')\\b(\\s+(?:de|del|en|y|sr\\.?|jr\\.?|senior|junior))*(?:\\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+){1,3}',
+      'gi'
+    );
+    var masked = false;
+    var result = texto.replace(re, function() { masked = true; return '[cargo omitido]'; });
+    return { text: result, masked: masked };
   }
 
   function subcatPill(label, val) {
@@ -569,13 +596,17 @@
       { label: 'Cultura', val: r.cultura },
     ].filter(c => c.val !== null && c.val !== undefined);
 
+    var queB = maskCargo(r.que_bien);
+    var queM = maskCargo(r.que_mal);
+    var queD = maskCargo(r.que_desearias);
+
     return `
       <div class="resena" id="resena-${r.id}">
         <div class="resena-header">
           ${stars(r.cal_general, 16)}
           ${r.cal_general ? `<span class="resena-rating">${r.cal_general}/5</span>` : ''}
           ${r.tiempo ? `<span class="resena-tiempo">${r.tiempo}</span>` : ''}
-
+          ${r.area && r.area !== 'Prefiero no decirlo' ? `<span class="resena-tiempo">${r.area}</span>` : ''}
           ${r.sigue ? (String(r.sigue).toLowerCase().startsWith('s')
             ? `<span class="badge-sigue badge-sigue-si">Sigue trabajando ahí</span>`
             : `<span class="badge-sigue badge-sigue-no">Ya no trabaja ahí</span>`) : ''}
@@ -583,9 +614,11 @@
         </div>
         ${r.fecha ? `<div class="resena-publicado">Publicado en ${formatFecha(r.fecha)}</div>` : ''}
         ${resSubcats.length ? `<div class="resena-subcats">${resSubcats.map(c => `<div class="resena-subcat">${c.label} <span style="color:${subcatColor(c.label, c.val)};font-weight:700">${c.val}</span></div>`).join('')}</div>` : ''}
-        ${bloque('bien', '✅', 'Qué está bien', r.que_bien)}
-        ${bloque('mal', '❌', 'Qué está mal', r.que_mal)}
-        ${bloque('desearias', '💡', 'Qué desearías haber sabido', r.que_desearias)}
+        ${bloque('bien', '✅', 'Qué está bien', queB.text)}
+        ${bloque('mal', '❌', 'Qué está mal', queM.text)}
+        ${bloque('desearias', '💡', 'Qué desearías haber sabido', queD.text)}
+        ${bloque('gerencia', '🎯', 'Consejo para la gerencia', r.consejo_gerencia)}
+        ${(queB.masked || queM.masked || queD.masked) ? '<div class="resena-masked-note">* Se ocultó una mención de cargo para proteger el anonimato</div>' : ''}
         <div class="resena-footer">
           <button class="btn-voto${voted ? ' voted' : ''}" onclick="votar(${r.id}, this)">
             👍 Yo también lo viví &nbsp;<span class="voto-count">${count > 0 ? count : ''}</span>
@@ -713,11 +746,18 @@
     var highlightMal  = conMal.length  ? conMal[0].que_mal   : null;
 
     var gridItems = '';
+    var flexVals  = resenas.map(function(r) { return r.flexibilidad; });
+    var liVals    = resenas.map(function(r) { return r.liderazgo; });
+    var cultVals  = resenas.map(function(r) { return r.cultura; });
+    var flexDato  = dominante(flexVals,  ESCALA_OPTIONS);
+    var liDato    = dominante(liVals,    ESCALA_OPTIONS);
+    var cultDato  = dominante(cultVals,  ESCALA_OPTIONS);
+
     gridItems += cualHtml('Sueldo', sdato, 'sueldo', SUELDO_OPTIONS);
     gridItems += cualHtml('Crecimiento', cdato, 'carrera', CARRERA_OPTIONS);
-    gridItems += barHtml('Flexibilidad', emp.prom_flexibilidad);
-    gridItems += barHtml('Liderazgo', emp.prom_liderazgo);
-    gridItems += barHtml('Cultura', emp.prom_cultura);
+    gridItems += cualHtml('Flexibilidad', flexDato, 'flexibilidad', ESCALA_OPTIONS);
+    gridItems += cualHtml('Liderazgo', liDato, 'liderazgo', ESCALA_OPTIONS);
+    gridItems += cualHtml('Cultura', cultDato, 'cultura', ESCALA_OPTIONS);
 
     var statsHtml = '';
     if (totalRec > 0) {

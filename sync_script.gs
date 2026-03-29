@@ -115,23 +115,69 @@ var RUBROS = {
   'hogar-de-cristo':  'ONG'
 };
 
-var COL = {
-  timestamp:    0,
-  empresa:      1,
-  rubro:        2,
-  tiempo:       3,
-  sigue:        4,
-  cal_general:  5,
-  que_bien:     6,
-  que_mal:      7,
-  que_desearias:8,
-  recomienda:   9,
-  sueldo:       11,
-  carrera:      12,
-  flexibilidad: 13,
-  liderazgo:    14,
-  cultura:      15
-};
+// COL se construye dinámicamente desde los headers de la hoja
+function buildColMap(headerRow) {
+  var map = {};
+  headerRow.forEach(function(h, i) {
+    var s = String(h || '').toLowerCase().trim();
+    if (!s) return;
+    if (s.indexOf('marca') !== -1) { map.timestamp = i; return; }
+    if (s.indexOf('empresa') !== -1 && s.indexOf('rubro') === -1) { map.empresa = i; return; }
+    if (s.indexOf('rubro') !== -1) { map.rubro = i; return; }
+    if ((s.indexOf('área') !== -1 || s.indexOf('area') !== -1) && s.indexOf('carrera') === -1) { map.area = i; return; }
+    if (s === 'cargo') { map.cargo = i; return; }
+    if (s.indexOf('tiempo') !== -1 && s.indexOf('marca') === -1) { map.tiempo = i; return; }
+    if (s.indexOf('sigues') !== -1 || (s.indexOf('sigue') !== -1 && s.indexOf('empresa') === -1)) { map.sigue = i; return; }
+    if (s.indexOf('calificar') !== -1) { map.cal_general = i; return; }
+    if (s === 'sueldo') { map.sueldo = i; return; }
+    if (s.indexOf('carrera') !== -1 || s.indexOf('desarrollo') !== -1) { map.carrera = i; return; }
+    if (s === 'flexibilidad') { map.flexibilidad = i; return; }
+    if (s === 'liderazgo') { map.liderazgo = i; return; }
+    if (s.indexOf('cultura') !== -1) { map.cultura = i; return; }
+    if (s.indexOf('está bien') !== -1 || s.indexOf('esta bien') !== -1) { map.que_bien = i; return; }
+    if (s.indexOf('está mal') !== -1 || s.indexOf('esta mal') !== -1) { map.que_mal = i; return; }
+    if (s.indexOf('desear') !== -1) { map.que_desearias = i; return; }
+    if (s.indexOf('gerencia') !== -1) { map.consejo_gerencia = i; return; }
+    if (s.indexOf('recomendar') !== -1) { map.recomienda = i; return; }
+    if (s.indexOf('confirmo') !== -1) { map.confirmacion = i; return; }
+  });
+  Logger.log('ColMap detectado: ' + JSON.stringify(map));
+  return map;
+}
+
+// Normaliza valores de escala: texto nuevo o número viejo → texto etiqueta
+function normalizarEscala(val) {
+  if (val === null || val === undefined || val === '') return null;
+  var v = String(val).trim().toLowerCase();
+  if (v === 'muy malo')  return 'Muy malo';
+  if (v === 'malo')      return 'Malo';
+  if (v === 'bueno')     return 'Bueno';
+  if (v === 'muy bueno') return 'Muy bueno';
+  var n = parseInt(v);
+  if (isNaN(n)) return null;
+  if (n === 1) return 'Muy malo';
+  if (n === 2) return 'Malo';
+  if (n === 3) return null;   // Opción A: sin equivalente, excluir
+  if (n === 4) return 'Bueno';
+  if (n === 5) return 'Muy bueno';
+  return null;
+}
+
+function escalaANum(texto) {
+  if (texto === 'Muy malo')  return 1;
+  if (texto === 'Malo')      return 2;
+  if (texto === 'Bueno')     return 3;
+  if (texto === 'Muy bueno') return 4;
+  return null;
+}
+
+function avgEscala(resenas, campo) {
+  var vals = resenas
+    .map(function(r) { return escalaANum(r[campo]); })
+    .filter(function(v) { return v !== null; });
+  if (!vals.length) return null;
+  return Math.round(vals.reduce(function(a, b) { return a + b; }, 0) / vals.length * 10) / 10;
+}
 
 // =============================================
 // HELPERS GITHUB
@@ -224,6 +270,7 @@ function buildJson() {
 
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Respuestas de formulario 1');
   var data  = sheet.getDataRange().getValues();
+  var COL   = buildColMap(data[0]);
   var empresas = {};
   var orden = [];
   var resenaId = 0;
@@ -274,21 +321,24 @@ function buildJson() {
 
     resenaId++;
     empresas[id].resenas.push({
-      id:            resenaId,
-      fecha:         fecha,
-      tiempo:        row[COL.tiempo]       || null,
-      sigue:         row[COL.sigue]        || null,
-      cal_general:   row[COL.cal_general]  ? parseInt(row[COL.cal_general])  : null,
-      sueldo:        row[COL.sueldo]        || null,
-      carrera:       row[COL.carrera]       || null,
-      flexibilidad:  row[COL.flexibilidad] ? parseInt(row[COL.flexibilidad]) : null,
-      liderazgo:     row[COL.liderazgo]    ? parseInt(row[COL.liderazgo])    : null,
-      cultura:       row[COL.cultura]      ? parseInt(row[COL.cultura])      : null,
-      que_bien:      String(row[COL.que_bien]      || '').trim() || null,
-      que_mal:       String(row[COL.que_mal]       || '').trim() || null,
-      que_desearias: String(row[COL.que_desearias] || '').trim() || null,
-      recomienda:    row[COL.recomienda]   || null,
-      votos:         0
+      id:               resenaId,
+      fecha:            fecha,
+      area:             COL.area             !== undefined ? (String(row[COL.area]             || '').trim() || null) : null,
+      cargo:            COL.cargo            !== undefined ? (String(row[COL.cargo]            || '').trim() || null) : null,
+      tiempo:           COL.tiempo           !== undefined ? (row[COL.tiempo]                  || null) : null,
+      sigue:            COL.sigue            !== undefined ? (row[COL.sigue]                   || null) : null,
+      cal_general:      COL.cal_general      !== undefined ? (row[COL.cal_general] ? parseInt(row[COL.cal_general]) : null) : null,
+      sueldo:           COL.sueldo           !== undefined ? (row[COL.sueldo]                  || null) : null,
+      carrera:          COL.carrera          !== undefined ? (row[COL.carrera]                 || null) : null,
+      flexibilidad:     COL.flexibilidad     !== undefined ? normalizarEscala(row[COL.flexibilidad]) : null,
+      liderazgo:        COL.liderazgo        !== undefined ? normalizarEscala(row[COL.liderazgo])    : null,
+      cultura:          COL.cultura          !== undefined ? normalizarEscala(row[COL.cultura])      : null,
+      que_bien:         COL.que_bien         !== undefined ? (String(row[COL.que_bien]         || '').trim() || null) : null,
+      que_mal:          COL.que_mal          !== undefined ? (String(row[COL.que_mal]          || '').trim() || null) : null,
+      que_desearias:    COL.que_desearias    !== undefined ? (String(row[COL.que_desearias]    || '').trim() || null) : null,
+      consejo_gerencia: COL.consejo_gerencia !== undefined ? (String(row[COL.consejo_gerencia] || '').trim() || null) : null,
+      recomienda:       COL.recomienda       !== undefined ? (row[COL.recomienda]              || null) : null,
+      votos:            0
     });
   }
 
@@ -303,9 +353,9 @@ function buildJson() {
     emp.promedio          = avg(emp.resenas.map(function(r){ return r.cal_general; }));
     emp.prom_sueldo       = null;
     emp.prom_carrera      = null;
-    emp.prom_flexibilidad = avg(emp.resenas.map(function(r){ return r.flexibilidad; }));
-    emp.prom_liderazgo    = avg(emp.resenas.map(function(r){ return r.liderazgo; }));
-    emp.prom_cultura      = avg(emp.resenas.map(function(r){ return r.cultura; }));
+    emp.prom_flexibilidad = avgEscala(emp.resenas, 'flexibilidad');
+    emp.prom_liderazgo    = avgEscala(emp.resenas, 'liderazgo');
+    emp.prom_cultura      = avgEscala(emp.resenas, 'cultura');
     return emp;
   });
 

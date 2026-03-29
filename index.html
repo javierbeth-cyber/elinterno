@@ -505,18 +505,40 @@
     return 'No recomendada';
   }
 
+    var ESCALA_OPTIONS = ['Muy malo', 'Malo', 'Bueno', 'Muy bueno'];
+
+  function escalaColor(val) {
+    if (val === 'Muy bueno') return 'var(--green)';
+    if (val === 'Bueno')     return '#16a34a';
+    if (val === 'Malo')      return '#ca8a04';
+    if (val === 'Muy malo')  return 'var(--red)';
+    return 'inherit';
+  }
+
+  function dominanteEscala(resenas, campo) {
+    var counts = {};
+    ESCALA_OPTIONS.forEach(function(o) { counts[o] = 0; });
+    resenas.forEach(function(r) { if (r[campo] && counts[r[campo]] !== undefined) counts[r[campo]]++; });
+    var max = 0, winner = null;
+    ESCALA_OPTIONS.forEach(function(o) { if (counts[o] > max) { max = counts[o]; winner = o; } });
+    return winner;
+  }
+
   function subcats(emp) {
     const resenas = emp.resenas || [];
     const sueldo  = dominante(resenas, 'sueldo', SUELDO_MAP, SUELDO_OPTIONS);
     const carrera = dominante(resenas, 'carrera', CARRERA_MAP, CARRERA_OPTIONS);
+    const flex    = dominanteEscala(resenas, 'flexibilidad');
+    const li      = dominanteEscala(resenas, 'liderazgo');
+    const cult    = dominanteEscala(resenas, 'cultura');
     const rec     = recomiendaDominante(resenas);
 
     const cats = [
       { label: 'Sueldo', val: sueldo },
       { label: 'Carrera', val: carrera },
-      { label: 'Flex.', val: emp.prom_flexibilidad },
-      { label: 'Liderazgo', val: emp.prom_liderazgo },
-      { label: 'Cultura', val: emp.prom_cultura },
+      { label: 'Flex.', val: flex },
+      { label: 'Liderazgo', val: li },
+      { label: 'Cultura', val: cult },
       { label: 'Recomendación', val: rec },
     ].filter(c => c.val !== null && c.val !== undefined);
 
@@ -534,8 +556,7 @@
         } else if (c.label === 'Carrera') {
           color = c.val === 'muchas oportunidades' ? 'var(--green)' : c.val === 'pocas oportunidades' ? 'var(--red)' : '#ca8a04';
         } else if (['Flex.', 'Liderazgo', 'Cultura'].includes(c.label)) {
-          var n = parseFloat(c.val);
-          color = n >= 4 ? 'var(--green)' : n <= 2 ? 'var(--red)' : '#ca8a04';
+          color = escalaColor(c.val);
         }
 
         return `<div class="subcat">${c.label} <span style="color:${color};font-weight:700">${display}</span></div>`;
