@@ -170,6 +170,35 @@ var PALABRAS_OK = {
   'Área': true, 'Area': true, 'Cultura': true, 'Empresa': true
 };
 
+// Términos legalmente sensibles y sus reemplazos
+var TERMINOS_SENSIBLES = [
+  { re: /\bnepotismo\b/gi,       rep: 'favoritismo interno' },
+  { re: /\bnepotista[s]?\b/gi,   rep: 'con favoritismo' },
+  { re: /\bcorrupci[oó]n\b/gi,   rep: 'malas prácticas' },
+  { re: /\bcorrupto[s]?\b/gi,    rep: 'deshonesto' },
+  { re: /\bcorrupta[s]?\b/gi,    rep: 'deshonesta' },
+  { re: /\bfraude[s]?\b/gi,      rep: 'irregularidades' },
+  { re: /\bfraudulento[s]?\b/gi, rep: 'irregular' },
+  { re: /\bfraudulenta[s]?\b/gi, rep: 'irregular' },
+  { re: /\bilegal(es)?\b/gi,     rep: 'fuera de norma' },
+  { re: /\bilegalmente\b/gi,     rep: 'de forma cuestionable' },
+  { re: /\bestafa[s]?\b/gi,      rep: 'incumplimiento' },
+  { re: /\bestafar\b/gi,         rep: 'incumplir' },
+  { re: /\bladr[oó]n\b/gi,       rep: '[omitido]' },
+  { re: /\bladrones\b/gi,        rep: '[omitido]' },
+  { re: /\bdelito[s]?\b/gi,      rep: 'irregularidad' },
+  { re: /\bdelictivo[s]?\b/gi,   rep: 'cuestionable' },
+  { re: /\bdelictiva[s]?\b/gi,   rep: 'cuestionable' }
+];
+
+function filtrarTerminosSensibles(texto) {
+  if (!texto) return texto;
+  TERMINOS_SENSIBLES.forEach(function(t) {
+    texto = texto.replace(t.re, t.rep);
+  });
+  return texto;
+}
+
 // Detecta y reemplaza secuencias de 2+ palabras capitalizadas que parezcan nombre de persona
 function filtrarNombres(texto) {
   if (!texto) return texto;
@@ -413,10 +442,10 @@ function buildJson() {
       flexibilidad:     COL.flexibilidad     !== undefined ? normalizarEscala(row[COL.flexibilidad]) : null,
       liderazgo:        COL.liderazgo        !== undefined ? normalizarEscala(row[COL.liderazgo])    : null,
       cultura:          COL.cultura          !== undefined ? normalizarEscala(row[COL.cultura])      : null,
-      que_bien:         COL.que_bien         !== undefined ? (filtrarNombres(String(row[COL.que_bien]         || '').trim()) || null) : null,
-      que_mal:          COL.que_mal          !== undefined ? (filtrarNombres(String(row[COL.que_mal]          || '').trim()) || null) : null,
-      que_desearias:    COL.que_desearias    !== undefined ? (filtrarNombres(String(row[COL.que_desearias]    || '').trim()) || null) : null,
-      consejo_gerencia: COL.consejo_gerencia !== undefined ? (filtrarNombres(String(row[COL.consejo_gerencia] || '').trim()) || null) : null,
+      que_bien:         COL.que_bien         !== undefined ? (filtrarTerminosSensibles(filtrarNombres(String(row[COL.que_bien]         || '').trim())) || null) : null,
+      que_mal:          COL.que_mal          !== undefined ? (filtrarTerminosSensibles(filtrarNombres(String(row[COL.que_mal]          || '').trim())) || null) : null,
+      que_desearias:    COL.que_desearias    !== undefined ? (filtrarTerminosSensibles(filtrarNombres(String(row[COL.que_desearias]    || '').trim())) || null) : null,
+      consejo_gerencia: COL.consejo_gerencia !== undefined ? (filtrarTerminosSensibles(filtrarNombres(String(row[COL.consejo_gerencia] || '').trim())) || null) : null,
       recomienda:       COL.recomienda       !== undefined ? (row[COL.recomienda]              || null) : null,
       votos:            0
     });

@@ -463,7 +463,7 @@
         "liderazgo": "Muy malo",
         "cultura": "Malo",
         "que_bien": "Eventualidad para teletrabajo",
-        "que_mal": "Nepotismo extremo, si estas fuera de los dos grupos predominantes, no durarás mucho. Casos de acoso laboral por parte del cliente [nombre omitido] de Seguros.",
+        "que_mal": "favoritismo interno extremo, si estas fuera de los dos grupos predominantes, no durarás mucho. Casos de acoso laboral por parte del cliente [nombre omitido] de Seguros.",
         "que_desearias": "La situación mencionada",
         "consejo_gerencia": null,
         "recomienda": "No",
@@ -478,7 +478,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 2,
     "resumen_bien": "Eventualidad para teletrabajo",
-    "resumen_mal": "Nepotismo extremo, si estas fuera de los dos grupos predominantes, no durarás mucho. Casos de acoso laboral por parte del cliente [nombre omitido] de Seguros."
+    "resumen_mal": "favoritismo interno extremo, si estas fuera de los dos grupos predominantes, no durarás mucho. Casos de acoso laboral por parte del cliente [nombre omitido] de Seguros."
   },
   {
     "id": "capitaria",
@@ -2311,7 +2311,7 @@
         "liderazgo": null,
         "cultura": null,
         "que_bien": "Flexibilidad - teletrabajo 100%",
-        "que_mal": "Cultura - nepotismo",
+        "que_mal": "Cultura - favoritismo interno",
         "que_desearias": null,
         "consejo_gerencia": null,
         "recomienda": "No",
