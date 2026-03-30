@@ -302,6 +302,44 @@ function getExtension(blob) {
 }
 
 // =============================================
+// GEMINI — RESUMEN DE RESEÑAS
+// =============================================
+
+function generarResumen(textos, tipo) {
+  if (!textos || !textos.length) return null;
+  if (textos.length === 1) return textos[0]; // con 1 reseña no hace falta resumir
+
+  var key = PropertiesService.getScriptProperties().getProperty('GEMINI_KEY');
+  if (!key) return textos[0];
+
+  var prompt = tipo === 'bien'
+    ? 'Eres un asistente que resume reseñas laborales. A continuación hay ' + textos.length + ' respuestas de trabajadores a la pregunta "¿Qué está bien en esta empresa?". Escribe un resumen en español de 1 a 2 oraciones que capture los puntos en común. Sin bullet points, sin títulos, solo el resumen. Si no hay puntos en común claros, elige el punto más representativo.\n\nReseñas:\n' + textos.map(function(t,i){ return (i+1)+'. '+t; }).join('\n')
+    : 'Eres un asistente que resume reseñas laborales. A continuación hay ' + textos.length + ' respuestas de trabajadores a la pregunta "¿Qué está mal en esta empresa?". Escribe un resumen en español de 1 a 2 oraciones que capture las quejas en común. Sin bullet points, sin títulos, solo el resumen. Si no hay quejas en común claras, elige la más representativa.\n\nReseñas:\n' + textos.map(function(t,i){ return (i+1)+'. '+t; }).join('\n');
+
+  try {
+    var response = UrlFetchApp.fetch(
+      'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + key,
+      {
+        method: 'post',
+        contentType: 'application/json',
+        payload: JSON.stringify({
+          contents: [{ parts: [{ text: prompt }] }],
+          generationConfig: { maxOutputTokens: 150, temperature: 0.3 }
+        }),
+        muteHttpExceptions: true
+      }
+    );
+    var json = JSON.parse(response.getContentText());
+    var texto = json.candidates && json.candidates[0] &&
+                json.candidates[0].content && json.candidates[0].content.parts &&
+                json.candidates[0].content.parts[0].text;
+    return texto ? texto.trim() : textos[0];
+  } catch(e) {
+    return textos[0]; // fallback silencioso
+  }
+}
+
+// =============================================
 // BUILD JSON
 // =============================================
 
@@ -398,6 +436,12 @@ function buildJson() {
     emp.prom_flexibilidad = avgEscala(emp.resenas, 'flexibilidad');
     emp.prom_liderazgo    = avgEscala(emp.resenas, 'liderazgo');
     emp.prom_cultura      = avgEscala(emp.resenas, 'cultura');
+
+    var textosBien = emp.resenas.map(function(r){ return r.que_bien; }).filter(Boolean);
+    var textosMal  = emp.resenas.map(function(r){ return r.que_mal;  }).filter(Boolean);
+    emp.resumen_bien = generarResumen(textosBien, 'bien');
+    emp.resumen_mal  = generarResumen(textosMal,  'mal');
+
     return emp;
   });
 

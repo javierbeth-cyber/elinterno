@@ -781,11 +781,13 @@
     }).length;
     var pctSigue = total > 0 ? Math.round(sigue / total * 100) : null;
 
-    // Highlights (reseña más reciente con texto)
+    // Highlights: resumen generado por Gemini (campo resumen_bien/mal) o fallback a primera reseña
     var conBien = resenas.filter(function(r) { return r.que_bien; });
     var conMal  = resenas.filter(function(r) { return r.que_mal; });
-    var highlightBien = conBien.length ? maskCargo(conBien[0].que_bien).text : null;
-    var highlightMal  = conMal.length  ? maskCargo(conMal[0].que_mal).text   : null;
+    var highlightBien = emp.resumen_bien ? maskCargo(emp.resumen_bien).text
+                      : conBien.length   ? maskCargo(conBien[0].que_bien).text : null;
+    var highlightMal  = emp.resumen_mal  ? maskCargo(emp.resumen_mal).text
+                      : conMal.length    ? maskCargo(conMal[0].que_mal).text   : null;
 
     var gridItems = '';
     var flexVals  = resenas.map(function(r) { return r.flexibilidad; });
