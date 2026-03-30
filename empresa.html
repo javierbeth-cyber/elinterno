@@ -428,6 +428,7 @@
     .bloque-gerencia .bloque-label { color: var(--blue); }
     .bloque-text { color: var(--text); line-height: 1.6; }
     .resena-masked-note { font-size: 11px; color: var(--text-muted); margin-top: 6px; font-style: italic; }
+    .resumen-ia-note { font-size: 11px; color: var(--text-muted); margin-top: 8px; font-style: italic; }
 
     .resena-footer {
       display: flex;
@@ -811,12 +812,16 @@
     }
     if (pctSigue !== null) statsHtml += '<div class="resumen-stat-item"><strong>' + pctSigue + '%</strong> sigue trabajando ahí</div>';
 
+    var usaResumenIA = !!(emp.resumen_bien || emp.resumen_mal) && resenas.length > 1;
     var highlightsHtml = '';
     if (highlightBien || highlightMal) {
+      var labelBien = usaResumenIA ? '✅ Lo que más valoran*' : '✅ Lo que más valoran';
+      var labelMal  = usaResumenIA ? '❌ Principal queja*'    : '❌ Principal queja';
       highlightsHtml = '<div class="highlights">';
-      if (highlightBien) highlightsHtml += '<div class="highlight-card highlight-card-bien"><div class="highlight-label">✅ Lo que más valoran</div><div class="highlight-text">' + highlightBien + '</div></div>';
-      if (highlightMal)  highlightsHtml += '<div class="highlight-card highlight-card-mal"><div class="highlight-label">❌ Principal queja</div><div class="highlight-text">' + highlightMal + '</div></div>';
+      if (highlightBien) highlightsHtml += '<div class="highlight-card highlight-card-bien"><div class="highlight-label">' + labelBien + '</div><div class="highlight-text">' + highlightBien + '</div></div>';
+      if (highlightMal)  highlightsHtml += '<div class="highlight-card highlight-card-mal"><div class="highlight-label">' + labelMal  + '</div><div class="highlight-text">' + highlightMal  + '</div></div>';
       highlightsHtml += '</div>';
+      if (usaResumenIA) highlightsHtml += '<div class="resumen-ia-note">* Resumen generado con IA a partir de ' + resenas.length + ' reseñas</div>';
     }
 
     return '<div class="resumen">' +
