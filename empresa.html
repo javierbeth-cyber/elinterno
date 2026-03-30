@@ -619,8 +619,9 @@
   function formatFecha(fecha) {
     if (!fecha) return null;
     var parts = fecha.split('-');
+    var dia = parseInt(parts[2]);
     var mes = MESES[parseInt(parts[1]) - 1];
-    return mes + ' ' + parts[0];
+    return dia + ' de ' + mes + ' de ' + parts[0];
   }
 
   function renderResena(r) {
@@ -928,10 +929,15 @@
         main.innerHTML = '<p style="color:var(--text-muted)">Sin reseñas aún.</p>';
         return;
       }
+      const resenasOrdenadas = emp.resenas.slice().sort(function(a, b) {
+        var vDiff = (b.votos || 0) - (a.votos || 0);
+        if (vDiff !== 0) return vDiff;
+        return (b.fecha || '').localeCompare(a.fecha || '');
+      });
       main.innerHTML = renderResumen(emp) + `
         <div class="section-title">${emp.total_resenas} reseña${emp.total_resenas !== 1 ? 's' : ''}</div>
-        ${emp.resenas.map(renderResena).join('')}`;
-      cargarVotosFirebase(emp.resenas);
+        ${resenasOrdenadas.map(renderResena).join('')}`;
+      cargarVotosFirebase(resenasOrdenadas);
     });
 </script>
 </body>
