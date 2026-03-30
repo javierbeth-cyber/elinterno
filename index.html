@@ -749,11 +749,13 @@
           if (filtroMinStars === n) {
             filtroMinStars = 0;
             document.querySelectorAll('.star-btn').forEach(function(b){ b.classList.remove('on'); });
+            document.getElementById('ordenar').value = 'az';
           } else {
             filtroMinStars = n;
             document.querySelectorAll('.star-btn').forEach(function(b){
               b.classList.toggle('on', parseInt(b.dataset.stars) <= n);
             });
+            if (n >= 2) document.getElementById('ordenar').value = 'mejor';
           }
           filter();
         });
