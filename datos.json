@@ -32,7 +32,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 2,
     "prom_liderazgo": 1,
-    "prom_cultura": 1
+    "prom_cultura": 1,
+    "resumen_bien": "Si te asignan a un proyecto de banco, puedes llegar a ser internalizado",
+    "resumen_mal": "El area de software factory esta mal organizado y los jefes son malisimos"
   },
   {
     "id": "accenture",
@@ -67,7 +69,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 4,
     "prom_liderazgo": 3,
-    "prom_cultura": 3
+    "prom_cultura": 3,
+    "resumen_bien": "Beneficios de salud, compañerismo, gente amable para trabajar. Opción de teletrabajo a distancia. Se adapta a todo.",
+    "resumen_mal": "Podría mejorar los ascensos, es coave mostrarse para que todos te conozcan."
   },
   {
     "id": "achs",
@@ -102,7 +106,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 1,
     "prom_liderazgo": null,
-    "prom_cultura": 3
+    "prom_cultura": 3,
+    "resumen_bien": "Buenos compañeros, y que como es una mutualidad , en algunos perfiles puede ser una buena opción para trabajar, como para el rubro de ingenieros en prevención, que pueden encontrar mayor espacio de desarrollo",
+    "resumen_mal": "Es una empresa que al inicio parece idílica, personas educadas, compañerismo, posibilidad de crecimiento, y pronto esa burbuja explota a ambiente competitivo, jefaturas superficiales (parecen cercanas, pero en realidad no le importas nada), algunos subgerentes muy déspotas( y que parecen peluches frente a otros) pero nunca con gerentes ni pares.. y muchas personas que rotan sin entender porqué, poco transparente... crean una imagen de perfección, y la suciedad sale por la alfombra. Es una empresa que vende bien humo, pero por dentro es otra realidad."
   },
   {
     "id": "afp-cuprum",
@@ -137,7 +143,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 3,
     "prom_liderazgo": 4,
-    "prom_cultura": 4
+    "prom_cultura": 4,
+    "resumen_bien": "Muy buen ambiente de trabajo, la cultura también es muy dinámica. Posibilidades claras de desarrollo de carrera. Se realizan hackatones internas.",
+    "resumen_mal": "Acelerar un poco procesos para ascender si el trabajador lo amerita."
   },
   {
     "id": "amaris",
@@ -172,7 +180,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 1,
     "prom_liderazgo": 2,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Existen beneficios como cursos de ingles y acceso a plataformas de cursls",
+    "resumen_mal": "Las horas de trabajo, si el cliente pide 12 horas diarias, las jefaturas se lavaran las manos, no hay compensación ni en tiempo ni en remuneración"
   },
   {
     "id": "amipass",
@@ -207,7 +217,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Ofrece muy pocas opciones de ascender ya que la parte de tecnología donde estaba yo era muy chica, muy poco personal. Los bonos son 50 Lucas en Amipass en septiembre y Navidad después de cumplidos un año y eso no encanta a nadie. Trabajo remoto 100% eso lo veía positivo, nula capacitación con apoyo en tecnologías , no existe udemy ni ningún convenio con empresas de educación para seguir aprendiendo",
+    "resumen_mal": "Podría poner gente más capacitada a nivel técnico el personaje que era TL dejaba mucho que desear con desiciones poco escalables , e invertir en crecimiento profesional mediante academias online"
   },
   {
     "id": "atcom-outsourcing",
@@ -242,7 +254,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 1,
     "prom_liderazgo": 1,
-    "prom_cultura": 1
+    "prom_cultura": 1,
+    "resumen_bien": "Nada esta bien, nefasto todo",
+    "resumen_mal": "No hay comunicación con tu empleador, te pasan con el cliente, el cual no se hace cargo de ti, no tienes donde reclamar."
   },
   {
     "id": "autofact",
@@ -277,7 +291,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 4,
     "prom_liderazgo": 3,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Horarios flexibles, trabajo constante",
+    "resumen_mal": "Oportunidades de escalar"
   },
   {
     "id": "banco-consorcio",
@@ -312,7 +328,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 1,
     "prom_liderazgo": 1,
-    "prom_cultura": 1
+    "prom_cultura": 1,
+    "resumen_bien": "Tiene una buena ubicación, cerca del metro el golf o tobalaba",
+    "resumen_mal": "Una cultura violenta, donde la humillación y el mal trato es una constante, jefaturas sin preparación, mucha envidia. Jefaturas medias que abusan de su poder, y para poder escalar debes tener \" algo\" con ellos, y personas que acceden a esto para lograrlo, por lo que se perpetua el ciclo de las jefaturas mal preparadas. Como las jefaturas están muy mal preparadas, es muy difícil escalar, porque soy inseguras, y ocupan medios para bajarte. El horario extendido es una constante, y es visto como el desde, porque es un caos total, no existe la planificación, todo es un constante apagar incendios (jefaturas sin capacidad estratégica ni planificación). Por último áreas que deberían apoyar a mejorar la cultura, como RRHH, son parte de la misma, y antiéticos."
   },
   {
     "id": "bancoestado",
@@ -347,7 +365,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": 2,
-    "prom_cultura": 2
+    "prom_cultura": 2,
+    "resumen_bien": "Muchos beneficios, si entras puedes no salir más si lo deseas.",
+    "resumen_mal": "El nivel de burocracia para muchas cosas, se mantienen muy poco actualizados con respecto a tecnología."
   },
   {
     "id": "brass-chile",
@@ -382,7 +402,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 2,
     "prom_liderazgo": 1,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": null,
+    "resumen_mal": "Falta de liderazgo e ideas innovadoras en el área de la tecnología"
   },
   {
     "id": "caja-de-compensacion-los-heroes",
@@ -417,7 +439,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": 2,
-    "prom_cultura": 2
+    "prom_cultura": 2,
+    "resumen_bien": "Beneficios y flexibilidad si tienes hijos",
+    "resumen_mal": "Claridad de roles, falta de competencias en lideres, burocracia excesiva"
   },
   {
     "id": "callbusiness",
@@ -452,7 +476,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 2,
     "prom_liderazgo": 1,
-    "prom_cultura": 2
+    "prom_cultura": 2,
+    "resumen_bien": "Eventualidad para teletrabajo",
+    "resumen_mal": "Nepotismo extremo, si estas fuera de los dos grupos predominantes, no durarás mucho. Casos de acoso laboral por parte del cliente [nombre omitido] de Seguros."
   },
   {
     "id": "capitaria",
@@ -487,7 +513,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 1,
     "prom_liderazgo": 2,
-    "prom_cultura": 4
+    "prom_cultura": 4,
+    "resumen_bien": "El ambiente es muy de amigos, gente jóven, hay harto carrete, muy buena onda y los sueldos pueden llegar a ser bastante buenos",
+    "resumen_mal": "Hay mucha incertidumbre, muchísima rotación, falta capacitación para líderes porque no hay buenos liderazgos y puede ser muy dificil ascender dependiendo de en qué momento entraste"
   },
   {
     "id": "cencosud",
@@ -542,7 +570,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Es una empresa con un ritmo de trabajo alto, lo que la convierte en una excelente escuela acelerada. Permite aprender rápidamente.",
+    "resumen_mal": "En algunos momentos, el alto nivel de exigencia y el interés por destacar pueden generar una competencia interna que no siempre favorece la colaboración. A veces esto se traduce en objetivos poco realistas o en falta de claridad sobre quién es responsable de cada tema."
   },
   {
     "id": "chita-factoring",
@@ -577,7 +607,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Liderazgo, compañerismo, transparencia, modalidad 1 dia presencial a la semana",
+    "resumen_mal": "Hay que aprender sobre la marcha, te tiran a los leones de inmediato"
   },
   {
     "id": "clickie",
@@ -612,7 +644,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 4,
     "prom_liderazgo": 2,
-    "prom_cultura": 3
+    "prom_cultura": 3,
+    "resumen_bien": "Flexibilidad",
+    "resumen_mal": null
   },
   {
     "id": "copec",
@@ -647,7 +681,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 3,
     "prom_liderazgo": 3,
-    "prom_cultura": 3
+    "prom_cultura": 3,
+    "resumen_bien": "Beneficios, algunos líderes y la movilidad",
+    "resumen_mal": null
   },
   {
     "id": "corporacion-3xi",
@@ -682,7 +718,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 4,
     "prom_liderazgo": 4,
-    "prom_cultura": 3
+    "prom_cultura": 3,
+    "resumen_bien": "Trabajar con propósito. Ser un punto donde tienes mucha visibilidad hacia afuera y el liderazgo que se puede ejercer.",
+    "resumen_mal": "al ser una organización chica todavía, es poco estructurada en cultura, beneficios, etc. Está en construcción, hay que tener paciencia"
   },
   {
     "id": "cristalchile",
@@ -717,7 +755,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Muy buen lugar para mostrar conocimientos y habilidades",
+    "resumen_mal": "Malos liderazgos, beneficios desalineados con los intereses de los trabajadores"
   },
   {
     "id": "cumplo-chile",
@@ -752,7 +792,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "La cultura de los trabajadores, mas no la de la empresa. El grupo humano que se forma adentro es lo más rescatable. Estaba bien la flexibilidad pero ya no existe.",
+    "resumen_mal": "El como se contrata (Te engañan con las condiciones, sobre todo a los que son su primer trabajo)\nEl como despiden personal (Rotación muy alta, nunca los dejan despedirse de sus compañeros, es todo muy impersonal)\nLa rotación interna (Lo plantean cómo algo que existe pero es solo para aquellos que se llevan bien con los jefes, no los mas capaces)\nEl nivel de pituto (Trabaja el sobrino del gerente, entran a trabajar sobrinas, primas, tias, etc de personas del directorio, todo se basa en a quien conoces, como te llevas con x, etc)"
   },
   {
     "id": "deloitte",
@@ -827,7 +869,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 3,
     "prom_liderazgo": 2.7,
-    "prom_cultura": 2.5
+    "prom_cultura": 2.5,
+    "resumen_bien": "Valoro positivamente la flexibilidad que se gestiona a nivel interno. Aunque la política oficial establece tres días de presencialidad, la capacidad de mi jefatura directa para adaptar esto a un esquema de un día semanal ha sido fundamental. Esta autonomía permite un mejor equilibrio vida-trabajo y demuestra confianza en el desempeño orientado a resultados sobre el cumplimiento de horas en oficina",
+    "resumen_mal": "Existe una sobrecarga en la agenda debido al exceso de actividades extraprogramáticas que restan tiempo valioso a las tareas operativas principales. Asimismo, la asignación simultánea de múltiples proyectos genera una sensación constante de estar 'sobrevendidos', lo que compromete la profundidad y calidad del trabajo. Sería ideal optimizar la priorización de proyectos para evitar el agotamiento del equipo."
   },
   {
     "id": "dinecom",
@@ -862,7 +906,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Poco se salva. Es un barco quemándose mientras se dirige hacia una catarata",
+    "resumen_mal": "Es una PYME familiar donde el orden, la estructura, la protocolización y la planificación están totalmente fuera."
   },
   {
     "id": "dispolab",
@@ -897,7 +943,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": 1,
-    "prom_cultura": 1
+    "prom_cultura": 1,
+    "resumen_bien": null,
+    "resumen_mal": "Empresa arcaica, con poco respeto por los trabajadores, cero foco estratégico, malos tratos, alta rotación."
   },
   {
     "id": "e-contact",
@@ -932,7 +980,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 3,
     "prom_liderazgo": 2,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Cultura, flexibilidad, si insistes te pagan cursos y/o certificaciones.",
+    "resumen_mal": "Sueldos en la media para abajo, mucho amiguismo, los jefes de area algunos terminaron de estudiar después de estar como 10 años en la empresa. El ambiente estresante que se ha generado en los últimos años, no necesariamente por carga laboral, sino por la incertidumbre de estabilidad laboral y hacia donde apunta la empresa. La ilusión en la que vive la gerencia donde creen que es la mejor empresa, pero se quedaron estancados en el éxito y crecimiento explosivo que hubo. La desvinculación de gente competente por sobre profesionales sobrevalorados, consecuencias del “amiguismo”.\nLa falta de empatia de “la alta gerencia“ y educación de los gerentes."
   },
   {
     "id": "echeverria-izquierdo",
@@ -967,7 +1017,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 1,
     "prom_liderazgo": 1,
-    "prom_cultura": 1
+    "prom_cultura": 1,
+    "resumen_bien": "Hay muchas oportunidades de ayudar a otros compañeros de trabajo por lo que se hacen buenas amistades",
+    "resumen_mal": "Las decisiones se toman por las emociones puntuales de las jefaturas o gerentes, por lo que te puede ir muy bien o muy mal dependiendo de su estado de ánimo"
   },
   {
     "id": "edarkstore",
@@ -1002,7 +1054,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 1,
     "prom_liderazgo": 1,
-    "prom_cultura": 1
+    "prom_cultura": 1,
+    "resumen_bien": "No se controlan los horarios.",
+    "resumen_mal": "Al principio era intentar copiar a la competencia ahora es modo supervivencia. Se gastaron toda la plata que levantamos."
   },
   {
     "id": "edipro",
@@ -1037,7 +1091,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": 1,
-    "prom_cultura": 1
+    "prom_cultura": 1,
+    "resumen_bien": "Como esconden que cada mes estan a punto de irse a quiebra",
+    "resumen_mal": "No hay habilidades blandas en las jefaturas y gerencias, se denosta mucho a los trabajadores y clientes"
   },
   {
     "id": "enaex",
@@ -1072,7 +1128,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 3,
     "prom_liderazgo": 3,
-    "prom_cultura": 4
+    "prom_cultura": 4,
+    "resumen_bien": "Muy buenos beneficios, su cultura llega a todas las líneas y escalones de la compañía y el ambiente laboral es bueno.",
+    "resumen_mal": "Los cargos de entrada tienen buenos sueldos pero el reajuste queda al debe. Hay que cambiarse de área o subir de cargo para percibir un aumento un poco más atractivo. Al ser tantas personas está todo súper estandarizado."
   },
   {
     "id": "entel",
@@ -1147,7 +1205,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 3,
     "prom_liderazgo": 2.7,
-    "prom_cultura": 3.7
+    "prom_cultura": 3.7,
+    "resumen_bien": "Muchas oportunidades de aprender de manera autónoma, además los espacios físicos suelen ser de alta calidad. Los beneficios en general son muy buenos y los sueldos sobre la media.",
+    "resumen_mal": "Principalmente 2 cosas mal: liderazgo de subgerentes y gerentes con sarcasmo y toxicidad.\nPor otro lado la carga laboral es enorme, imposible de cumplir por lo que eventualmente debes hacer las cosas a medias solo por salud mental."
   },
   {
     "id": "epiroc",
@@ -1182,7 +1242,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 4,
     "prom_liderazgo": 4,
-    "prom_cultura": 4
+    "prom_cultura": 4,
+    "resumen_bien": "Beneficios, cultura organizacional, flexibilidad",
+    "resumen_mal": null
   },
   {
     "id": "equans-chile",
@@ -1217,7 +1279,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 4,
     "prom_liderazgo": 4,
-    "prom_cultura": 4
+    "prom_cultura": 4,
+    "resumen_bien": "Empresa grande, buenos beneficios, buenos salarios, Inglés excluyente, oportunidades para viajar al extranjero.",
+    "resumen_mal": "oficina central en cerrillos, un poco dificil el acceso."
   },
   {
     "id": "escuela-de-ing-uc",
@@ -1252,7 +1316,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Solo destaco que entrega posibilidades de desarrollo en estudios y capacitaciones.",
+    "resumen_mal": "Casi todo: cultura, liderazgo, visión de futuro, planificación, ambiente laboral, beneficios, entre otros."
   },
   {
     "id": "evalueserve",
@@ -1287,7 +1353,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
-    "prom_cultura": 3
+    "prom_cultura": 3,
+    "resumen_bien": "La gente, la estructua, plan de carrera claro",
+    "resumen_mal": "Claridad en la expectativa de los cargos,"
   },
   {
     "id": "evertec",
@@ -1322,7 +1390,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Nada, empresa asquerosa y funada, te hacen trabajar turnos (como analista) con horas extras y sin pagos correspondientes",
+    "resumen_mal": "Todo, la mentalidad de los equipos es muy pobre"
   },
   {
     "id": "examedi",
@@ -1357,7 +1427,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Flexibilidad en el horario, oportunidad de aprendizaje",
+    "resumen_mal": "Falta de planificación organizacional, faltan muchos puestos, equilibrio vida-trabajo haciendo 60 horas a la semana por 1.000.000"
   },
   {
     "id": "experian",
@@ -1392,7 +1464,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 4,
     "prom_liderazgo": 3,
-    "prom_cultura": 4
+    "prom_cultura": 4,
+    "resumen_bien": "Mucha flexibilidad, muchos beneficios y mucha amabilidad de los lideres, han mejorado mucho en esa area sobretodo.",
+    "resumen_mal": "A veces la burocracia en nombre de la seguridad de datos puede ser un poco frustrante, se entienden las razones pero a veces eso previene el avance en tecnología."
   },
   {
     "id": "explora",
@@ -1427,7 +1501,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 2,
     "prom_liderazgo": 1,
-    "prom_cultura": 3
+    "prom_cultura": 3,
+    "resumen_bien": "Cultura y poder viajar",
+    "resumen_mal": "Promoción a los amigos de los jefes vs merito"
   },
   {
     "id": "falabella-com",
@@ -1462,7 +1538,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 4,
     "prom_liderazgo": 2,
-    "prom_cultura": 2
+    "prom_cultura": 2,
+    "resumen_bien": "Lo mejor son los beneficios, bonos, giftcard, seguro, descuentos, etc",
+    "resumen_mal": "Mejorar liderazgo, enfoque de equipos, disminución de personal asi que toca hacer la pega de varios"
   },
   {
     "id": "femsa",
@@ -1517,7 +1595,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 4,
     "prom_liderazgo": 1,
-    "prom_cultura": 2
+    "prom_cultura": 2,
+    "resumen_bien": "Horario",
+    "resumen_mal": "Jefaturas, despidos masivos, cargos mal definidos"
   },
   {
     "id": "fundacion-docere",
@@ -1552,7 +1632,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": 1,
-    "prom_cultura": 2
+    "prom_cultura": 2,
+    "resumen_bien": "Los dias de descansi",
+    "resumen_mal": "Jefatura, que horrible por dios. Miradores en  menos, acosadores con las mujeres."
   },
   {
     "id": "fundacion-puerto-de-ideas",
@@ -1587,7 +1669,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "El equipo de planta",
+    "resumen_mal": "La presidenta del directorio y dueña"
   },
   {
     "id": "geovictoria",
@@ -1662,7 +1746,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 1,
     "prom_liderazgo": 1,
-    "prom_cultura": 2
+    "prom_cultura": 2,
+    "resumen_bien": "Los compañeros eran buenos, siempre con sus personajes destacados, pero como en todos los ambientes laborales, pero en general eran buenos compañeros",
+    "resumen_mal": "Un desastre los \" gerentes\" . Como es una empresa tipo \" pyme\" los gerentes son personas que partieron o estuvieron en el proyecto inicial, y lamentablemente no tienen ninguna habilidad de liderazgo,  súper ególatras.. es una empresa que sobrevive a una idea de negocio que fue fortalecida por ciertas leyes. No es una empresa para proyectarse ni tampoco para ganar plata, solo la recomiendo al igual que cualquier otra empresa, si necesitas mucho un trabajo"
   },
   {
     "id": "gft-technologies",
@@ -1697,7 +1783,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 4,
     "prom_liderazgo": 1,
-    "prom_cultura": 2
+    "prom_cultura": 2,
+    "resumen_bien": "Flexibilidad, trabajo remoto",
+    "resumen_mal": "Mala organización, sueldos bajos"
   },
   {
     "id": "global66",
@@ -1732,7 +1820,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 2,
     "prom_liderazgo": 2,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Las oportunidades de crecimiento o exposición se van dando a medida que uno mismo se visibiliza o expone.",
+    "resumen_mal": "Poca o nula flexibilidad en términos de home office. Si uno no cumple con una modalidad de 4x1, no puede obtener aumentos de sueldo, cambios de roles, etc (incluso cumpliendo con los objetivos del rol). Alta rotación y sin feedback real por parte de los líderes. Contratan gente con plazo fijo a los 3 meses, porque saben que existe una alta probabilidad de desvinculación o no renovación de contrato."
   },
   {
     "id": "gtd",
@@ -1767,7 +1857,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Cultura: empresa de la familia Casanueva, aún con muchos rasgos muy formales y poco actualizado a culturas empresariales más modernas. La mano del dueño fundador aun está muy presente (para bien y para mal).\n\nBeneficios: seguro complementario de salud, convenios, amipass, bono navidad, bono fiestas patrias, etc ... lo normal (nada del otro mundo) para una empresa de aprox. 3000 trabajadores.\n\nFlexibilidad: no abiertamente, pero esto siempre dependerá mucho de tu área, jefatura y responsabilidades.",
+    "resumen_mal": "Los sueldos no son los mejores del mercado y no siempre se asciende al que lo merece sino que al que tiene contactos, es amigo o familiar de alguien."
   },
   {
     "id": "hogar-de-cristo",
@@ -1802,7 +1894,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 4,
     "prom_liderazgo": 2,
-    "prom_cultura": 3
+    "prom_cultura": 3,
+    "resumen_bien": "El ambiente es muy rico en el sentido de que todos viven el propósito de la fundación. Además en mi área estábamos casi full teletrabajo, íbamos media jornada 1 vez a la semana.",
+    "resumen_mal": "No tienen buenas jefaturas. Hay mucha gente antigua, crecer dentro de la organización es casi imposible. La cultura es muy difícil de trabajar, los colaboradores (al ser tan antiguos) no quieren implementar cambios y muchas veces boicotean los proyectos de mejora. No hay espacio (ni recursos) para la innovación. No hay cultura de trabajo, las personas andan marcando el paso. La conexión del internet es muy mala, al igual que los equipos que te entregan. Las oficinas son demasiado básicas y no tienen todo lo suficiente para poder trabajar bien. Los sueldos son demasiado bajos y pedir aumento es un trámite enorme y te ofrecen 20-30 lucas, un chiste."
   },
   {
     "id": "i-municipalidad-de-coquimbo",
@@ -1837,7 +1931,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": 1,
-    "prom_cultura": 1
+    "prom_cultura": 1,
+    "resumen_bien": "Las colegas que entramos en conjunto y trabajar en conjunto es muy grato",
+    "resumen_mal": "La jefatura de social, existe un pésimo liderazgo, no tiene empatía por los trabajadores y existe un hostigamiento laboral que hace dos años (cuando estaba la ex jefa) no teníamos ese problema. Además el nivel de desconfianza con los profesionales llegando al límite de que estén llamando por teléfono para verificar si estamos realizando nuestro trabajo. Además estamos a honorarios y nos tienen marcando, realizan descuento si marcamos atrasados y el ambiente laboral está pésimo."
   },
   {
     "id": "isapre-consalud",
@@ -1872,7 +1968,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Son ordenados con la informacion que recopilan de las personas.",
+    "resumen_mal": "Poca empatia con los trabajadores, además hay ciertos procesos internos de la empresa que obligan, directa o indirectamente al trabajador a desempeñarse fuera del horario laboral."
   },
   {
     "id": "kibernum",
@@ -1907,7 +2005,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Flexibilidad, al principio todo era remoto,  pero ahora los clientes quieren híbrido o presencial. Tienen buenos beneficios si te inscribes en el\nSindicato",
+    "resumen_mal": "Cuando en una vacante ponen que suben sueldo anual, no es la realidad, solo sube por IPC pero no por el desempeño (tengo excelente desempeño recomendado por cliente y la consultora), sin embargo al estar en el sindicato hay bonos decentes."
   },
   {
     "id": "komatsu-cummins",
@@ -1942,7 +2042,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 3,
     "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Buen ambiente, buenas oportunidades.",
+    "resumen_mal": "Hay personas que no debiesen de estar como líderes, demasiados puestos gerenciales. Desorden organizativo."
   },
   {
     "id": "l-oreal-chile",
@@ -1977,7 +2079,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": 3,
-    "prom_cultura": 2
+    "prom_cultura": 2,
+    "resumen_bien": "Tiene buenos beneficios, hay posibilidad de crecer, ofrecen capacitaciones constantes",
+    "resumen_mal": "Me tocó un director de operaciones muy desagradable, sentía que la posibilidad de crecer dependía más de la popularidad que de la productividad. Se sentía un ambiente de competencia entre divisiones"
   },
   {
     "id": "laboratorios-saval",
@@ -2012,7 +2116,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 3,
     "prom_liderazgo": 4,
-    "prom_cultura": 3
+    "prom_cultura": 3,
+    "resumen_bien": "Empresa seria, con procesos establecidos, en constante crecimiento.",
+    "resumen_mal": "Falta de plan de carrera y crecimiento."
   },
   {
     "id": "latam-airlines",
@@ -2047,7 +2153,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Es lindo decir que estás en latam, y trabajar en una industria muy dinamica",
+    "resumen_mal": "La dirección de aeropuertos (administrativa) completa hay directores que piden sacar jefes, toda la plana de gerentes se conocen y carretean entre ellos hace años, se apitutean entre ellos y si no eres \"de su perfil\" no te dan bola para ningun proyecto esperando que te vayas o puedan traer a alguien para reemplazarte"
   },
   {
     "id": "lemontech",
@@ -2102,7 +2210,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 2.5,
     "prom_liderazgo": 1,
-    "prom_cultura": 3
+    "prom_cultura": 3,
+    "resumen_bien": "Es por lejos la mejora empresa en la que he trabajado. Buenos beneficios, flexibilidad y renta. Hay cultura centrada en las personas y se les trata con respeto",
+    "resumen_mal": "Los sesgos y brechas de género."
   },
   {
     "id": "lider-bci",
@@ -2157,7 +2267,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 4,
     "prom_liderazgo": 4,
-    "prom_cultura": 4
+    "prom_cultura": 4,
+    "resumen_bien": "Cultura, flexibilidad y beneficios",
+    "resumen_mal": "La cultura organizacional es muy desorganizada y sueldos para profesionales con más experiencia por debajo del mercado."
   },
   {
     "id": "lirmi",
@@ -2312,7 +2424,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 1,
     "prom_liderazgo": 1,
-    "prom_cultura": 2
+    "prom_cultura": 2,
+    "resumen_bien": "Nada",
+    "resumen_mal": "Liderazgo, ambiente, poca claridad en metas y objetivos"
   },
   {
     "id": "mercado-libre-chile",
@@ -2347,7 +2461,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": 2,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Beneficios, sueldo, desafios",
+    "resumen_mal": "La gerencia, la burocracia, el sistema cerrado"
   },
   {
     "id": "metlife",
@@ -2382,7 +2498,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 3,
     "prom_liderazgo": null,
-    "prom_cultura": 4
+    "prom_cultura": 4,
+    "resumen_bien": "Buenos beneficios y ambiente laboral",
+    "resumen_mal": "Lo malo: Mucho amiguismo, no vi meritocracia.\nQue podría mejorar:  falta capacidad de innovación"
   },
   {
     "id": "microglobal",
@@ -2417,7 +2535,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 2,
     "prom_liderazgo": 1,
-    "prom_cultura": 1
+    "prom_cultura": 1,
+    "resumen_bien": null,
+    "resumen_mal": "Machistas, no saben liderar, no hay comunicación en tomas de decisiones de gerencias que afectan a los trabajadores, toman acciones injustificadas, no pagan los feriados, se saltan protocolos de seguridad"
   },
   {
     "id": "minera-centinela",
@@ -2452,7 +2572,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 1,
     "prom_liderazgo": 1,
-    "prom_cultura": 2
+    "prom_cultura": 2,
+    "resumen_bien": "Buenos bonos y sueldo gracias a los sindicatos",
+    "resumen_mal": "Malos liderazgos, poca flexibilidad, sabotaje entre compañeros y áreas, exceso de política interna, malos tratos, prepotencia"
   },
   {
     "id": "mining-tag",
@@ -2487,7 +2609,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
-    "prom_cultura": 3
+    "prom_cultura": 3,
+    "resumen_bien": "Cultura quizas, buen compañerismo",
+    "resumen_mal": "Oportunidad de crecimiento, planes de carrera, sueldos y ascensos acordes al tiempo de la persona"
   },
   {
     "id": "mosaico",
@@ -2522,7 +2646,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 3,
     "prom_liderazgo": 2,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Oportunidades de crecimiento personal",
+    "resumen_mal": "Empresa arcaica, pocos procesos definidos, sin RRHH, cultura politizada"
   },
   {
     "id": "ntt-data",
@@ -2557,7 +2683,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 1,
     "prom_liderazgo": 2,
-    "prom_cultura": 1
+    "prom_cultura": 1,
+    "resumen_bien": "Oportunidad de trabajar con clientes importantes y aprender cuando se está empezando.",
+    "resumen_mal": "La cultura de trabajo y el micromanagement excesivo, múltiples plataformas para ir anotando lo que estás haciendo."
   },
   {
     "id": "oracle",
@@ -2612,7 +2740,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 3.5,
     "prom_liderazgo": 2,
-    "prom_cultura": 2
+    "prom_cultura": 2,
+    "resumen_bien": "Salario",
+    "resumen_mal": "Liderazgo y no hay interes por las personas"
   },
   {
     "id": "pwc-chile",
@@ -2647,7 +2777,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": 2,
-    "prom_cultura": 2
+    "prom_cultura": 2,
+    "resumen_bien": "Los compañeros de trabajo generaban un buen ambiente.",
+    "resumen_mal": "Lideres vende humo, alta rotación, sueldos muy bajos, horas extras impagas."
   },
   {
     "id": "r-y-c-consultores",
@@ -2682,7 +2814,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 1,
     "prom_liderazgo": 1,
-    "prom_cultura": 1
+    "prom_cultura": 1,
+    "resumen_bien": "Pagan al día.",
+    "resumen_mal": "Los proyectos que llevan de manera interna para clientes son un absoluto caos, tiran gente recién egresada o titulada a los leones sin mayor apoyo. Te \"enseñan\" a través de un coaching bastante malo cómo responder las entrevistas cuando te quieren enviar a algún cliente."
   },
   {
     "id": "samsung-electronics",
@@ -2717,7 +2851,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 3,
     "prom_liderazgo": 1,
-    "prom_cultura": 1
+    "prom_cultura": 1,
+    "resumen_bien": "Beneficios tipo teletrabajo. Algunas áreas son ampliamente superiores a otras, de preferencia irse a la tecnología o áreas más técnicas. Te toca en alguna diferente y es lo peor.",
+    "resumen_mal": "Honestidad y lealtad, si no haces lo que superiores te ordenan son capaces de perjudicarte. Las conductas de acoso laboral o incluso sexual no son protegidas, dado que la mayoría que trabajan son hombres. Gente aspiracional que trabaja por poco pero se cree lo mejor por trabajar en esta multinacional."
   },
   {
     "id": "seguros-sura-chile",
@@ -2752,7 +2888,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Buenos beneficios (ganados por la Mesa Negociadora, no por la benevolencia de la empresa)",
+    "resumen_mal": "Cultura del chisme muy normalizada, jefaturas y liderazgos que ascendieron solo por obedecer órdenes de superiores sin cuestionar nada (aunque fueran incluso cosas que perjudicaron el negocio), \"liderazgo\" basado infundir miedo y ego desproporcionado de las personas que ganan mayor sueldo"
   },
   {
     "id": "serv-impuestos-internos",
@@ -2787,7 +2925,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Beneficios y flexibilidad horaria. El ambiente laboral es muy bueno",
+    "resumen_mal": "La Cultura del estamento publica es horrible y el liderazgo incompetente"
   },
   {
     "id": "simpliroute",
@@ -2822,7 +2962,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 4,
     "prom_liderazgo": 3,
-    "prom_cultura": 4
+    "prom_cultura": 4,
+    "resumen_bien": "Flexibilidad, se puede trabajar 100% remoto. Las personas de los equipos generan un buen ambiente.",
+    "resumen_mal": "Decisiones estratégicas, se tomaba una dirección al poco tiempo se cambiaba, poca constancia en las decisiones estratégicas."
   },
   {
     "id": "smu-s-a",
@@ -2857,7 +2999,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "beneficios",
+    "resumen_mal": "cultura, flexibilidad, liderazgo, trato"
   },
   {
     "id": "sodexo",
@@ -2912,7 +3056,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 3,
     "prom_liderazgo": 2,
-    "prom_cultura": 1
+    "prom_cultura": 1,
+    "resumen_bien": "El sueldo que tenia  en  ese momento  (780.000)  para un cargo que no exige titulo ni experiencia es muy bueno, los beneficios del teletrabajo, lindas oficinas en un buen barrio.",
+    "resumen_mal": "Jefaturas sin conocimiento, me decían que  tenia que mentir  para perjudicar a las demás áreas, una competitividad estúpida, no puedes decir que te comprometa porque se  agarran de ello y copian por correo hasta a la tía del aseo,  MUCHO pituto, demasiados cargos inventados, todos los directores, jefes, gerentes y subgerentes se conocen hace años, son todos amigos desde hace tiempo atras."
   },
   {
     "id": "sodimac",
@@ -2947,7 +3093,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": 3,
-    "prom_cultura": 3
+    "prom_cultura": 3,
+    "resumen_bien": "tenia buenos beneficios, buen sueldo, muy buen ambiente, buenos lideres y se aprende harto, tambien eran flexibles si uno tenia que ir al medico o algo asi. jornada hibrida y relajados igual con los horarios de entrada cuando habia que ir a la oficina.",
+    "resumen_mal": "la jornada laboral era mucho mayor que lo establecido, yo estaba en una de apoyo, no en las tiendas. siempre habia que quedarse hasta mas tarde  a veces noche y  los dias que se teletrabajaba te decian que daba lo mismo si total estabas en la casa."
   },
   {
     "id": "solcor",
@@ -2982,7 +3130,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Lo mejor del mundo Solcor. Flexibilidad y posibilidades de crecimiento. Muy buenos profesionales de quienes aprendí mucho",
+    "resumen_mal": "Horario de trabajo"
   },
   {
     "id": "sonda-s-a",
@@ -3017,7 +3167,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Lo unico rescatable es que es una escuela, aprendes un monton de lo bueno y de lo malo",
+    "resumen_mal": "Precisamente su mayor debilidad es su incapacidad para retener talento sin importar cuanto inviertan en formarte, los aumentos de renta no se negocian, se ruegan, los beneficios son ridiculos (tienes que pagar para recibirlos) las estructuras cambian, la gente se va y no la reemplazan, no hay puestos imprescindibles, y en recursos humanos simplemente no conocen el negocio, asi que puedes terminar con compañeros de trabajo que no solo no tienen dedos para el piano, sino que simplemente no saben que un piano es un instrumento músical..."
   },
   {
     "id": "starbucks",
@@ -3052,7 +3204,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 4,
     "prom_liderazgo": 1,
-    "prom_cultura": 1
+    "prom_cultura": 1,
+    "resumen_bien": "la flexibilidad es buena, perfecta si estas estudiando, los beneficios dentro de la tienda igual salvan algo",
+    "resumen_mal": "la cultura de la empresa promueve la competencia toxica para ascender, te van a cambiar de tienda cada vez que puedan si es que quieres ascender, los gerentes son todos pro empresa que te harán la vida imposible."
   },
   {
     "id": "talana",
@@ -3087,7 +3241,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 4,
     "prom_liderazgo": null,
-    "prom_cultura": 4
+    "prom_cultura": 4,
+    "resumen_bien": "Como es startup cuidan mucho el ambiente",
+    "resumen_mal": "Que operaciones es un incendio constante y no hay mucha voluntad de inyectar recursos en esa gerencia ya que no es rentable"
   },
   {
     "id": "tanner-servicios-financieros",
@@ -3122,7 +3278,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 4,
     "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "no es buena, pero tampoco mala.",
+    "resumen_mal": "Procesos, en el Area TI son casi inexistentes, se sacan requerimientos del culo."
   },
   {
     "id": "tata-consultancy-services",
@@ -3157,7 +3315,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 2,
     "prom_liderazgo": null,
-    "prom_cultura": 2
+    "prom_cultura": 2,
+    "resumen_bien": "Sueldo un poco sobre el mercado, puede que haya sido mi experiencia solamente.",
+    "resumen_mal": "En 2 años el sueldo no se movió nada, a pesar de entrar bastante alto para el mercado, ahí se quedó."
   },
   {
     "id": "termas-de-puyehue",
@@ -3192,7 +3352,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Flexibilidad",
+    "resumen_mal": "Cultura se servicio pésima, atención al cliente, bpm"
   },
   {
     "id": "the-home",
@@ -3227,7 +3389,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 2,
     "prom_liderazgo": 2,
-    "prom_cultura": 3
+    "prom_cultura": 3,
+    "resumen_bien": "Cultura laboral compañeros, buen ambiente",
+    "resumen_mal": "Sueldo, organización de presupuestos, exigencias jefatura, apoyo transporte y herramientas laborales"
   },
   {
     "id": "timix-chile",
@@ -3262,7 +3426,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Experiencia requerida para cargos iniciales",
+    "resumen_mal": "Ambiente laboral y salario, te paga con boletas de honorarios cargos iniciales; con horarios de 44 horas pero sueldo muy por debajo del mínimo, garantizándote subir a un poco más del mínimo después de tres meses, pero un mes antes te sacan por reestructuración. Adicionalmente no dan buena inducción y exigen que sepas bien el proceso sin nunca haberlo explicado con anterioridad no claridad."
   },
   {
     "id": "toteat",
@@ -3297,7 +3463,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 2,
     "prom_liderazgo": 2,
-    "prom_cultura": null
+    "prom_cultura": null,
+    "resumen_bien": "Las personas son full comprometidas.",
+    "resumen_mal": "Liderazgo y espacios de decisión poco representativos. Las personas no están en el centro de la conversación. Se intenta pasar el compromiso y dar la milla extra como algo normal, cuando bordea la sobre explotación. Sin capacidad real de desconexión ni descanso, escudándose en lo que el negocio necesita. Y por último, los equipos con bajas rentas que pudiera ser una medida paleativa."
   },
   {
     "id": "touch",
@@ -3352,7 +3520,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 2,
     "prom_liderazgo": 1.5,
-    "prom_cultura": 1.5
+    "prom_cultura": 1.5,
+    "resumen_bien": "Nada",
+    "resumen_mal": "Los líderes de esta empresa son patanes que creen que midiendo tu cráneo y sabiendo el mes en que naciste, actuaras de cierta manera. Hablo del CEO de la empresa. No se puede esperar nada del resto de jefaturas."
   },
   {
     "id": "transbank",
@@ -3387,7 +3557,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": 2,
-    "prom_cultura": 2
+    "prom_cultura": 2,
+    "resumen_bien": "Algunos beneficios y un sindicato fuerte que en los últimos 6 o 7 años ha hecho más que una negociación pactada una imposición de términos para conseguir que la empresa no quite beneficios.",
+    "resumen_mal": "Los liderazgos son mediocres en todos los niveles. Demasiados procesos manuales y sistemas legados que hacen que administrar las transacciones financieras de todo Chile sea impreciso y un dolor para los equipos de procesos. La empresa cambió cuando el líder “histórico” (gerente) de RRHH fue desvinculado, entró en un proceso de deterioro de su cultura sabiendo que la empresa además perdía su posición monopólica dominante debido a la apertura del mercado con la transición al modelo de procesamiento de 4 partes."
   },
   {
     "id": "uber",
@@ -3422,7 +3594,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 4,
     "prom_liderazgo": 3,
-    "prom_cultura": 3
+    "prom_cultura": 3,
+    "resumen_bien": "Flexibilidad, El equipo, La cultura, Las oficinas.",
+    "resumen_mal": "En los equipos globales, había poca dinámica de equipo."
   },
   {
     "id": "udp",
@@ -3457,7 +3631,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 2,
     "prom_liderazgo": 2,
-    "prom_cultura": 2
+    "prom_cultura": 2,
+    "resumen_bien": "Estudiante,  colegas",
+    "resumen_mal": "Directora de carrera"
   },
   {
     "id": "universidad-alberto-hurtado",
@@ -3492,7 +3668,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 2,
     "prom_liderazgo": 2,
-    "prom_cultura": 3
+    "prom_cultura": 3,
+    "resumen_bien": "La cultura, buenas relaciones en algunas áreas, estabilidad",
+    "resumen_mal": "Pocas oportunidades de desarrollo, si bien hay estabilidad esto se debe a un estancamiento en los cargos, funciones y el liderazgo en la organización tiene poca visión de crecimiento para la institución."
   },
   {
     "id": "veltis-ex-ferrovial",
@@ -3527,7 +3705,9 @@
     "prom_carrera": null,
     "prom_flexibilidad": 1,
     "prom_liderazgo": null,
-    "prom_cultura": 2
+    "prom_cultura": 2,
+    "resumen_bien": "Opción como primera pega",
+    "resumen_mal": "Cultura explotadora, te paquean a cada rato, cultura de acusar al otro y malos sueldos"
   },
   {
     "id": "zerviz",
@@ -3562,6 +3742,8 @@
     "prom_carrera": null,
     "prom_flexibilidad": 3,
     "prom_liderazgo": 4,
-    "prom_cultura": 3
+    "prom_cultura": 3,
+    "resumen_bien": "Por el lado de consultoría tienen buenos clientes. El ambiente en general es muy ameno.",
+    "resumen_mal": "Mi experiencia directa con la empresa fue bastante positiva."
   }
 ]
