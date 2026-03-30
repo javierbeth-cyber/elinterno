@@ -24,6 +24,21 @@
   <meta name="twitter:description" content="Reseñas anónimas de empleados sobre empresas chilenas.">
   <meta name="twitter:image" content="https://elinterno.com/elinterno_og.png">
   <script>(function(){var id=new URLSearchParams(window.location.search).get('id');var l=document.createElement('link');l.rel='canonical';l.href='https://elinterno.com/empresa.html'+(id?'?id='+id:'');document.currentScript.parentNode.insertBefore(l,document.currentScript);})()</script>
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-database-compat.js"></script>
+  <script>
+    firebase.initializeApp({
+      apiKey: "AIzaSyC3R7v6LvQbEXQWHgdqpyZVwEhL_PNK9WE",
+      authDomain: "elinterno-a7faf.firebaseapp.com",
+      databaseURL: "https://elinterno-a7faf-default-rtdb.firebaseio.com",
+      projectId: "elinterno-a7faf",
+      storageBucket: "elinterno-a7faf.firebasestorage.app",
+      messagingSenderId: "858193746758",
+      appId: "1:858193746758:web:680222b013502d6f56a347"
+    });
+    var db = firebase.database();
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
@@ -577,11 +592,26 @@
       </div>`;
   }
 
-  function getVotos() {
+  // localStorage: solo guarda si ESTE usuario ya votó (no el conteo)
+  function getVotosLocales() {
     try { return JSON.parse(localStorage.getItem('ei_votos') || '{}'); } catch { return {}; }
   }
-  function saveVotos(v) {
+  function saveVotosLocales(v) {
     localStorage.setItem('ei_votos', JSON.stringify(v));
+  }
+
+  // Carga conteos reales desde Firebase y actualiza los botones en el DOM
+  function cargarVotosFirebase(resenas) {
+    var ids = resenas.map(function(r) { return r.id; });
+    ids.forEach(function(id) {
+      db.ref('votos/' + id).on('value', function(snap) {
+        var count = snap.val() || 0;
+        var btn = document.querySelector('#resena-' + id + ' .btn-voto');
+        if (!btn) return;
+        var countEl = btn.querySelector('.voto-count');
+        countEl.textContent = count > 0 ? count : '';
+      });
+    });
   }
 
   var MESES = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
@@ -594,9 +624,9 @@
   }
 
   function renderResena(r) {
-    const votos = getVotos();
+    const votos = getVotosLocales();
     const voted = !!votos[r.id];
-    const count = (r.votos || 0) + (voted ? 1 : 0);
+    const count = 0; // Firebase actualiza el conteo real via listener
 
     const resSubcats = [
       { label: 'Sueldo', val: cualitativo(r.sueldo, SUELDO_MAP) },
@@ -638,19 +668,20 @@
   }
 
   function votar(id, btn) {
-    const votos = getVotos();
-    const countEl = btn.querySelector('.voto-count');
-    const current = parseInt(countEl.textContent) || 0;
+    const votos = getVotosLocales();
+    const ref = db.ref('votos/' + id);
     if (votos[id]) {
+      // Quitar voto
+      ref.transaction(function(current) { return Math.max((current || 0) - 1, 0); });
       delete votos[id];
-      saveVotos(votos);
+      saveVotosLocales(votos);
       btn.classList.remove('voted');
-      countEl.textContent = current > 1 ? current - 1 : '';
     } else {
+      // Agregar voto
+      ref.transaction(function(current) { return (current || 0) + 1; });
       votos[id] = true;
-      saveVotos(votos);
+      saveVotosLocales(votos);
       btn.classList.add('voted');
-      countEl.textContent = current + 1;
     }
   }
 
@@ -900,6 +931,7 @@
       main.innerHTML = renderResumen(emp) + `
         <div class="section-title">${emp.total_resenas} reseña${emp.total_resenas !== 1 ? 's' : ''}</div>
         ${emp.resenas.map(renderResena).join('')}`;
+      cargarVotosFirebase(emp.resenas);
     });
 </script>
 </body>
