@@ -108,37 +108,31 @@
     .hero {
       background: linear-gradient(135deg, var(--navy) 0%, #1a3a5c 100%);
       color: var(--white);
-      padding: 56px 24px 48px;
+      padding: 32px 24px 28px;
       text-align: center;
     }
     .hero h1 {
-      font-size: clamp(28px, 5vw, 42px);
+      font-size: clamp(24px, 4vw, 36px);
       font-weight: 700;
-      margin-bottom: 12px;
+      margin-bottom: 10px;
       line-height: 1.2;
     }
     .hero p {
-      font-size: 17px;
+      font-size: 16px;
       color: rgba(255,255,255,0.7);
-      max-width: 520px;
-      margin: 0 auto 24px;
-    }
-    .hero-disclaimer {
-      font-size: 12px;
-      color: rgba(255,255,255,0.4);
-      max-width: 480px;
-      margin: 0 auto 28px;
-      line-height: 1.5;
+      max-width: 800px;
+      margin: 0 auto 20px;
     }
     .hero-stats {
       display: flex;
       justify-content: center;
       gap: 40px;
       flex-wrap: wrap;
+      margin-top: 20px;
     }
     .stat { text-align: center; }
-    .stat-num { font-size: 28px; font-weight: 700; color: var(--white); }
-    .stat-label { font-size: 13px; color: rgba(255,255,255,0.55); margin-top: 2px; }
+    .stat-num { font-size: 26px; font-weight: 700; color: var(--white); }
+    .stat-label { font-size: 12px; color: rgba(255,255,255,0.55); margin-top: 2px; }
 
     /* FILTROS */
     .filters {
@@ -431,18 +425,15 @@
 </header>
 
 <section class="hero">
-  <h1>¿Cómo es trabajar ahí<br>de verdad?</h1>
-  <p>Las empresas saben mucho de ti antes de contratarte. Tú mereces saber lo mismo de ellas. ¿Trabajaste en alguna? Deja tu reseña.</p>
+  <h1>¿Cómo es trabajar ahí de verdad?</h1>
+  <p>Antes de postular, revisa sueldo, ambiente y liderazgo. Contado por quienes lo vivieron.</p>
   <a href="https://docs.google.com/forms/d/1PE9o66InYWImPOK86dJK9kzq2BmRucWub5KOmPAEz04/viewform" target="_blank" class="btn-hero-resena">
     ✍️ Deja tu reseña
   </a>
-  <div class="hero-disclaimer">
-    Son opiniones de primera mano de trabajadores chilenos. Cada reseña refleja la experiencia personal de quien la escribió.
-  </div>
   <div class="hero-stats">
     <div class="stat">
       <div class="stat-num" id="stat-empresas">—</div>
-      <div class="stat-label">empresas evaluadas</div>
+      <div class="stat-label">empresas</div>
     </div>
     <div class="stat">
       <div class="stat-num" id="stat-resenas">—</div>
