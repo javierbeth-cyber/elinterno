@@ -182,7 +182,7 @@
       transition: border-color 0.15s;
     }
     #buscar:focus { border-color: var(--blue); }
-    #filtro-rubro {
+    #filtro-rubro, #ordenar {
       padding: 9px 12px;
       border: 1px solid var(--border);
       border-radius: 8px;
@@ -192,7 +192,7 @@
       cursor: pointer;
       outline: none;
     }
-    #filtro-rubro:focus { border-color: var(--blue); }
+    #filtro-rubro:focus, #ordenar:focus { border-color: var(--blue); }
     .results-count {
       font-size: 13px;
       color: var(--text-muted);
@@ -340,11 +340,49 @@
     footer a { color: rgba(255,255,255,0.6); text-decoration: none; }
     footer a:hover { color: var(--white); }
 
+    /* Filtro pills recomendación */
+    .filter-pills { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; }
+    .pill {
+      padding: 6px 12px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      background: var(--white);
+      font-size: 12px;
+      font-family: inherit;
+      cursor: pointer;
+      transition: all 0.15s;
+      color: var(--text-muted);
+      white-space: nowrap;
+      line-height: 1.4;
+    }
+    .pill:hover { border-color: var(--blue); color: var(--text); }
+    .pill.active-si      { background: #dcfce7; border-color: var(--green); color: var(--green); font-weight: 600; }
+    .pill.active-depende { background: #fef9c3; border-color: #ca8a04; color: #854d0e; font-weight: 600; }
+    .pill.active-no      { background: #fee2e2; border-color: var(--red); color: var(--red); font-weight: 600; }
+
+    /* Filtro estrellas */
+    .star-filter { display: flex; align-items: center; gap: 2px; }
+    .star-filter-label { font-size: 12px; color: var(--text-muted); margin-right: 4px; white-space: nowrap; }
+    .star-btn {
+      cursor: pointer;
+      font-size: 17px;
+      color: var(--star-off);
+      background: none;
+      border: none;
+      padding: 0 1px;
+      transition: color 0.1s;
+      line-height: 1;
+    }
+    .star-btn.on { color: var(--star-on); }
+
+    .filter-sep { width: 1px; height: 20px; background: var(--border); flex-shrink: 0; }
+
     @media (max-width: 600px) {
       .hero { padding: 40px 16px 32px; }
       .hero-stats { gap: 24px; }
-      .filters-inner { flex-direction: column; }
+      .filters-inner { flex-direction: column; align-items: flex-start; }
       .grid { grid-template-columns: 1fr; }
+      .filter-sep { display: none; }
     }
 
     /* CTA Hero */
@@ -439,6 +477,28 @@
     <select id="filtro-rubro">
       <option value="">Todos los rubros</option>
     </select>
+    <select id="ordenar">
+      <option value="resenas">Más reseñas</option>
+      <option value="mejor">Mejor calificada</option>
+      <option value="peor">Peor calificada</option>
+      <option value="reciente">Más reciente</option>
+    </select>
+    <div class="filter-sep"></div>
+    <div class="filter-pills">
+      <span class="star-filter-label">Recomendación:</span>
+      <button class="pill" id="pill-si">✓ Sí</button>
+      <button class="pill" id="pill-depende">↔ Depende</button>
+      <button class="pill" id="pill-no">✗ No</button>
+    </div>
+    <div class="filter-sep"></div>
+    <div class="star-filter">
+      <span class="star-filter-label">Mín.</span>
+      <button class="star-btn" data-stars="1">★</button>
+      <button class="star-btn" data-stars="2">★</button>
+      <button class="star-btn" data-stars="3">★</button>
+      <button class="star-btn" data-stars="4">★</button>
+      <button class="star-btn" data-stars="5">★</button>
+    </div>
     <span class="results-count" id="results-count"></span>
   </div>
 </div>
@@ -603,14 +663,39 @@
     count.textContent = `${data.length} empresa${data.length !== 1 ? 's' : ''}`;
   }
 
+  var filtroRec = null;
+  var filtroMinStars = 0;
+
+  function maxFecha(emp) {
+    if (!emp.resenas || !emp.resenas.length) return '';
+    return emp.resenas.reduce(function(max, r) { return r.fecha > max ? r.fecha : max; }, '');
+  }
+
   function filter() {
-    const q = document.getElementById('buscar').value.toLowerCase().trim();
+    const q     = document.getElementById('buscar').value.toLowerCase().trim();
     const rubro = document.getElementById('filtro-rubro').value;
-    const result = empresas.filter(e => {
-      const matchQ = !q || e.nombre.toLowerCase().includes(q) || (e.rubro || '').toLowerCase().includes(q);
-      const matchR = !rubro || e.rubro === rubro;
-      return matchQ && matchR;
+    const orden = document.getElementById('ordenar').value;
+
+    var result = empresas.filter(function(e) {
+      const matchQ     = !q || e.nombre.toLowerCase().includes(q) || (e.rubro || '').toLowerCase().includes(q);
+      const matchR     = !rubro || e.rubro === rubro;
+      const matchStars = !filtroMinStars || (e.promedio && e.promedio >= filtroMinStars);
+      var matchRec = true;
+      if (filtroRec) {
+        const rec = recomiendaDominante(e.resenas || []);
+        if (filtroRec === 'si')      matchRec = rec === '✓ Sí';
+        else if (filtroRec === 'depende') matchRec = rec === '↔ Según el perfil';
+        else if (filtroRec === 'no') matchRec = rec === 'No recomendada';
+      }
+      return matchQ && matchR && matchStars && matchRec;
     });
+
+    result = result.slice();
+    if (orden === 'mejor')   result.sort(function(a,b){ return (b.promedio||0)-(a.promedio||0); });
+    else if (orden === 'peor')    result.sort(function(a,b){ return (a.promedio||0)-(b.promedio||0); });
+    else if (orden === 'reciente') result.sort(function(a,b){ return maxFecha(b).localeCompare(maxFecha(a)); });
+    else result.sort(function(a,b){ return b.total_resenas - a.total_resenas; });
+
     render(result);
   }
 
@@ -642,6 +727,39 @@
 
       document.getElementById('buscar').addEventListener('input', filter);
       document.getElementById('filtro-rubro').addEventListener('change', filter);
+      document.getElementById('ordenar').addEventListener('change', filter);
+
+      // Pills recomendación
+      ['si','depende','no'].forEach(function(tipo) {
+        document.getElementById('pill-' + tipo).addEventListener('click', function() {
+          if (filtroRec === tipo) {
+            filtroRec = null;
+            document.querySelectorAll('.pill').forEach(function(p){ p.className = 'pill'; });
+          } else {
+            filtroRec = tipo;
+            document.querySelectorAll('.pill').forEach(function(p){ p.className = 'pill'; });
+            this.className = 'pill active-' + tipo;
+          }
+          filter();
+        });
+      });
+
+      // Estrellas mínimas
+      document.querySelectorAll('.star-btn').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          var n = parseInt(this.dataset.stars);
+          if (filtroMinStars === n) {
+            filtroMinStars = 0;
+            document.querySelectorAll('.star-btn').forEach(function(b){ b.classList.remove('on'); });
+          } else {
+            filtroMinStars = n;
+            document.querySelectorAll('.star-btn').forEach(function(b){
+              b.classList.toggle('on', parseInt(b.dataset.stars) <= n);
+            });
+          }
+          filter();
+        });
+      });
     });
 </script>
 <a href="https://docs.google.com/forms/d/1PE9o66InYWImPOK86dJK9kzq2BmRucWub5KOmPAEz04/viewform" target="_blank" class="btn-flotante" id="btn-flotante" title="Deja tu reseña">
