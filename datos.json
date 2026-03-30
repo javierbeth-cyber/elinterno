@@ -761,6 +761,26 @@
     "logo": "assets/logos/deloitte.svg",
     "resenas": [
       {
+        "id": 110,
+        "fecha": "2026-03-29",
+        "area": "TS&T",
+        "cargo": "Consultor",
+        "tiempo": "Más de 3 años",
+        "sigue": "Sí",
+        "cal_general": 3,
+        "sueldo": "bajo el mercado",
+        "carrera": "crecimiento moderado",
+        "flexibilidad": "Bueno",
+        "liderazgo": "Bueno",
+        "cultura": "Malo",
+        "que_bien": "Valoro positivamente la flexibilidad que se gestiona a nivel interno. Aunque la política oficial establece tres días de presencialidad, la capacidad de mi jefatura directa para adaptar esto a un esquema de un día semanal ha sido fundamental. Esta autonomía permite un mejor equilibrio vida-trabajo y demuestra confianza en el desempeño orientado a resultados sobre el cumplimiento de horas en oficina",
+        "que_mal": "Existe una sobrecarga en la agenda debido al exceso de actividades extraprogramáticas que restan tiempo valioso a las tareas operativas principales. Asimismo, la asignación simultánea de múltiples proyectos genera una sensación constante de estar 'sobrevendidos', lo que compromete la profundidad y calidad del trabajo. Sería ideal optimizar la priorización de proyectos para evitar el agotamiento del equipo.",
+        "que_desearias": "Es importante negociar una compensación acorde a la alta rentabilidad del área y los requisitos técnicos. El equipo maneja proyectos internacionales (específicamente en Canadá) que exigen un dominio avanzado del inglés, pero esto no se refleja en la estructura salarial actual, la cual carece de bonos por cumplimiento y solo contempla aumentos mediante ascensos verticales.",
+        "consejo_gerencia": "Realizar un análisis detallado de la necesidad de presencialidad según el perfil de cada proyecto. Actualmente, el tiempo en oficina se diluye en interacciones informales o reuniones que no agregan valor real a la ejecución técnica, beneficiando solo a roles de gestión. Implementar un criterio de presencialidad basado en objetivos específicos ayudaría a maximizar la eficiencia y el foco del personal operativo",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      },
+      {
         "id": 86,
         "fecha": "2026-03-28",
         "area": null,
@@ -801,13 +821,13 @@
         "votos": 0
       }
     ],
-    "total_resenas": 2,
-    "promedio": 2.5,
+    "total_resenas": 3,
+    "promedio": 2.7,
     "prom_sueldo": null,
     "prom_carrera": null,
     "prom_flexibilidad": 3,
-    "prom_liderazgo": 2.5,
-    "prom_cultura": 3
+    "prom_liderazgo": 2.7,
+    "prom_cultura": 2.5
   },
   {
     "id": "dinecom",
