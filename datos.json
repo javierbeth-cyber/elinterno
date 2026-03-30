@@ -1936,6 +1936,43 @@
     "resumen_mal": "La jefatura de social, existe un pésimo liderazgo, no tiene empatía por los trabajadores y existe un hostigamiento laboral que hace dos años (cuando estaba la ex jefa) no teníamos ese problema. Además el nivel de desconfianza con los profesionales llegando al límite de que estén llamando por teléfono para verificar si estamos realizando nuestro trabajo. Además estamos a honorarios y nos tienen marcando, realizan descuento si marcamos atrasados y el ambiente laboral está pésimo."
   },
   {
+    "id": "ibm-chile",
+    "nombre": "IBM Chile",
+    "rubro": "Tecnología",
+    "logo": "https://www.google.com/s2/favicons?domain=ibm-chile.cl&sz=128",
+    "resenas": [
+      {
+        "id": 112,
+        "fecha": "2026-03-30",
+        "area": "Tecnología",
+        "cargo": null,
+        "tiempo": "1 a 3 años",
+        "sigue": "No",
+        "cal_general": 2,
+        "sueldo": "bajo el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": "Malo",
+        "liderazgo": "Malo",
+        "cultura": "Malo",
+        "que_bien": null,
+        "que_mal": null,
+        "que_desearias": null,
+        "consejo_gerencia": null,
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 2,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 2,
+    "prom_liderazgo": 2,
+    "prom_cultura": 2,
+    "resumen_bien": null,
+    "resumen_mal": null
+  },
+  {
     "id": "isapre-consalud",
     "nombre": "Isapre Consalud",
     "rubro": "Salud",
