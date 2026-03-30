@@ -415,12 +415,40 @@ function pushToGitHub(content) {
 }
 
 // =============================================
+// SITEMAP
+// =============================================
+
+function buildSitemap(empresas) {
+  var hoy = Utilities.formatDate(new Date(), 'America/Santiago', 'yyyy-MM-dd');
+  var urls = [
+    '  <url>\n    <loc>https://elinterno.com/</loc>\n    <lastmod>' + hoy + '</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>',
+    '  <url>\n    <loc>https://elinterno.com/legal.html</loc>\n    <lastmod>' + hoy + '</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.3</priority>\n  </url>'
+  ];
+  empresas.forEach(function(emp) {
+    urls.push('  <url>\n    <loc>https://elinterno.com/empresa.html?id=' + emp.id + '</loc>\n    <lastmod>' + hoy + '</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>');
+  });
+  return '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + urls.join('\n') + '\n</urlset>';
+}
+
+function pushSitemap(xml) {
+  var apiUrl = 'https://api.github.com/repos/' + GITHUB_REPO + '/contents/sitemap.xml';
+  var getSha = UrlFetchApp.fetch(apiUrl, { headers: { Authorization: 'token ' + GITHUB_TOKEN }, muteHttpExceptions: true });
+  var sha = getSha.getResponseCode() === 200 ? JSON.parse(getSha.getContentText()).sha : null;
+  var payload = { message: 'seo: sitemap auto-actualizado', content: Utilities.base64Encode(xml, Utilities.Charset.UTF_8), branch: GITHUB_BRANCH };
+  if (sha) payload.sha = sha;
+  var res = UrlFetchApp.fetch(apiUrl, { method: 'put', headers: { Authorization: 'token ' + GITHUB_TOKEN, 'Content-Type': 'application/json' }, payload: JSON.stringify(payload), muteHttpExceptions: true });
+  var code = res.getResponseCode();
+  Logger.log(code === 200 || code === 201 ? 'OK: sitemap.xml actualizado' : 'Error sitemap: ' + res.getContentText());
+}
+
+// =============================================
 // TRIGGERS PRINCIPALES
 // =============================================
 
 function onFormSubmit() {
   var json = buildJson();
   pushToGitHub(json);
+  pushSitemap(buildSitemap(JSON.parse(json)));
 }
 
 function syncManual() {
