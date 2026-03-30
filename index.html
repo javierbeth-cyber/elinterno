@@ -360,22 +360,7 @@
     .pill.active-depende { background: #fef9c3; border-color: #ca8a04; color: #854d0e; font-weight: 600; }
     .pill.active-no      { background: #fee2e2; border-color: var(--red); color: var(--red); font-weight: 600; }
 
-    /* Filtro estrellas */
-    .star-filter { display: flex; align-items: center; gap: 2px; }
-    .star-filter-label { font-size: 12px; color: var(--text-muted); margin-right: 4px; white-space: nowrap; }
-    .star-btn {
-      cursor: pointer;
-      font-size: 17px;
-      color: var(--star-off);
-      background: none;
-      border: none;
-      padding: 0 1px;
-      transition: color 0.1s;
-      line-height: 1;
-    }
-    .star-btn.on { color: var(--star-on); }
-
-    .filter-sep { width: 1px; height: 20px; background: var(--border); flex-shrink: 0; }
+.filter-sep { width: 1px; height: 20px; background: var(--border); flex-shrink: 0; }
 
     @media (max-width: 600px) {
       .hero { padding: 40px 16px 32px; }
@@ -490,15 +475,6 @@
       <button class="pill" id="pill-si">✓ Sí</button>
       <button class="pill" id="pill-depende">↔ Depende</button>
       <button class="pill" id="pill-no">✗ No</button>
-    </div>
-    <div class="filter-sep"></div>
-    <div class="star-filter">
-      <span class="star-filter-label">Mín.</span>
-      <button class="star-btn" data-stars="1">★</button>
-      <button class="star-btn" data-stars="2">★</button>
-      <button class="star-btn" data-stars="3">★</button>
-      <button class="star-btn" data-stars="4">★</button>
-      <button class="star-btn" data-stars="5">★</button>
     </div>
   </div>
 </div>
@@ -661,7 +637,6 @@
   }
 
   var filtroRec = null;
-  var filtroMinStars = 0;
 
   function maxFecha(emp) {
     if (!emp.resenas || !emp.resenas.length) return '';
@@ -676,15 +651,14 @@
     var result = empresas.filter(function(e) {
       const matchQ     = !q || e.nombre.toLowerCase().includes(q) || (e.rubro || '').toLowerCase().includes(q);
       const matchR     = !rubro || e.rubro === rubro;
-      const matchStars = !filtroMinStars || (e.promedio && e.promedio >= filtroMinStars);
-      var matchRec = true;
+var matchRec = true;
       if (filtroRec) {
         const rec = recomiendaDominante(e.resenas || []);
         if (filtroRec === 'si')      matchRec = rec === '✓ Sí';
         else if (filtroRec === 'depende') matchRec = rec === '↔ Según el perfil';
         else if (filtroRec === 'no') matchRec = rec === 'No recomendada';
       }
-      return matchQ && matchR && matchStars && matchRec;
+      return matchQ && matchR && matchRec;
     });
 
     result = result.slice();
@@ -742,24 +716,6 @@
         });
       });
 
-      // Estrellas mínimas
-      document.querySelectorAll('.star-btn').forEach(function(btn) {
-        btn.addEventListener('click', function() {
-          var n = parseInt(this.dataset.stars);
-          if (filtroMinStars === n) {
-            filtroMinStars = 0;
-            document.querySelectorAll('.star-btn').forEach(function(b){ b.classList.remove('on'); });
-            document.getElementById('ordenar').value = 'az';
-          } else {
-            filtroMinStars = n;
-            document.querySelectorAll('.star-btn').forEach(function(b){
-              b.classList.toggle('on', parseInt(b.dataset.stars) <= n);
-            });
-            if (n >= 2) document.getElementById('ordenar').value = 'mejor';
-          }
-          filter();
-        });
-      });
     });
 </script>
 <a href="https://docs.google.com/forms/d/1PE9o66InYWImPOK86dJK9kzq2BmRucWub5KOmPAEz04/viewform" target="_blank" class="btn-flotante" id="btn-flotante" title="Deja tu reseña">
