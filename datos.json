@@ -8,20 +8,17 @@
       {
         "id": 90,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "6 meses a 1 año",
         "sigue": "No",
         "cal_general": 4,
         "sueldo": "en el mercado",
         "carrera": "crecimiento moderado",
-        "flexibilidad": "Muy bueno",
-        "liderazgo": "Bueno",
-        "cultura": "Bueno",
+        "flexibilidad": 5,
+        "liderazgo": 4,
+        "cultura": 4,
         "que_bien": "Beneficios de salud, compañerismo, gente amable para trabajar. Opción de teletrabajo a distancia. Se adapta a todo.",
         "que_mal": "Podría mejorar los ascensos, es coave mostrarse para que todos te conozcan.",
         "que_desearias": "Es una empresa muy buena, te abre las puertas en todos lados. Sin duda postulen, micho mejor que cualquiera de las otras consultoras (big four)",
-        "consejo_gerencia": null,
         "recomienda": "Sí",
         "votos": 0
       }
@@ -30,9 +27,9 @@
     "promedio": 4,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 4,
-    "prom_liderazgo": 3,
-    "prom_cultura": 3
+    "prom_flexibilidad": 5,
+    "prom_liderazgo": 4,
+    "prom_cultura": 4
   },
   {
     "id": "achs",
@@ -43,20 +40,17 @@
       {
         "id": 62,
         "fecha": "2026-03-25",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 3,
         "sueldo": "en el mercado",
         "carrera": "crecimiento moderado",
-        "flexibilidad": "Muy malo",
-        "liderazgo": null,
-        "cultura": "Bueno",
+        "flexibilidad": 1,
+        "liderazgo": 3,
+        "cultura": 4,
         "que_bien": "Buenos compañeros, y que como es una mutualidad , en algunos perfiles puede ser una buena opción para trabajar, como para el rubro de ingenieros en prevención, que pueden encontrar mayor espacio de desarrollo",
         "que_mal": "Es una empresa que al inicio parece idílica, personas educadas, compañerismo, posibilidad de crecimiento, y pronto esa burbuja explota a ambiente competitivo, jefaturas superficiales (parecen cercanas, pero en realidad no le importas nada), algunos subgerentes muy déspotas( y que parecen peluches frente a otros) pero nunca con gerentes ni pares.. y muchas personas que rotan sin entender porqué, poco transparente... crean una imagen de perfección, y la suciedad sale por la alfombra. Es una empresa que vende bien humo, pero por dentro es otra realidad.",
         "que_desearias": "Que es una empresa que valora mucho el aparentar. Si no tienes problemas con aparentar constantemente, puedes encajar.",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -66,8 +60,8 @@
     "prom_sueldo": null,
     "prom_carrera": null,
     "prom_flexibilidad": 1,
-    "prom_liderazgo": null,
-    "prom_cultura": 3
+    "prom_liderazgo": 3,
+    "prom_cultura": 4
   },
   {
     "id": "afp-cuprum",
@@ -78,20 +72,17 @@
       {
         "id": 82,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 5,
         "sueldo": "en el mercado",
         "carrera": "muchas oportunidades",
-        "flexibilidad": "Bueno",
-        "liderazgo": "Muy bueno",
-        "cultura": "Muy bueno",
+        "flexibilidad": 4,
+        "liderazgo": 5,
+        "cultura": 5,
         "que_bien": "Muy buen ambiente de trabajo, la cultura también es muy dinámica. Posibilidades claras de desarrollo de carrera. Se realizan hackatones internas.",
         "que_mal": "Acelerar un poco procesos para ascender si el trabajador lo amerita.",
         "que_desearias": "La cultura dentro del grupo Principal/Cuprum es muy buena, al menos en el área de desarrollo, lo vas a extrañar si te vas.",
-        "consejo_gerencia": null,
         "recomienda": "Sí",
         "votos": 0
       }
@@ -100,9 +91,9 @@
     "promedio": 5,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 3,
-    "prom_liderazgo": 4,
-    "prom_cultura": 4
+    "prom_flexibilidad": 4,
+    "prom_liderazgo": 5,
+    "prom_cultura": 5
   },
   {
     "id": "amaris",
@@ -113,20 +104,17 @@
       {
         "id": 103,
         "fecha": "2026-03-29",
-        "area": null,
-        "cargo": null,
         "tiempo": "6 meses a 1 año",
         "sigue": "No",
         "cal_general": 2,
         "sueldo": "en el mercado",
         "carrera": "crecimiento moderado",
-        "flexibilidad": "Muy malo",
-        "liderazgo": "Malo",
-        "cultura": null,
+        "flexibilidad": 1,
+        "liderazgo": 2,
+        "cultura": 3,
         "que_bien": "Existen beneficios como cursos de ingles y acceso a plataformas de cursls",
         "que_mal": "Las horas de trabajo, si el cliente pide 12 horas diarias, las jefaturas se lavaran las manos, no hay compensación ni en tiempo ni en remuneración",
         "que_desearias": "Que firmas 40 horas pero trabajas 55-60",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -137,19 +125,17 @@
     "prom_carrera": null,
     "prom_flexibilidad": 1,
     "prom_liderazgo": 2,
-    "prom_cultura": null
+    "prom_cultura": 3
   },
   {
     "id": "amipass",
     "nombre": "Amipass",
-    "rubro": "Beneficios sociales",
+    "rubro": "Alimentación",
     "logo": "assets/logos/amipass.png",
     "resenas": [
       {
         "id": 31,
         "fecha": "2026-03-23",
-        "area": null,
-        "cargo": null,
         "tiempo": "Menos de 6 meses",
         "sigue": "No",
         "cal_general": 3,
@@ -161,7 +147,6 @@
         "que_bien": "Ofrece muy pocas opciones de ascender ya que la parte de tecnología donde estaba yo era muy chica, muy poco personal. Los bonos son 50 Lucas en Amipass en septiembre y Navidad después de cumplidos un año y eso no encanta a nadie. Trabajo remoto 100% eso lo veía positivo, nula capacitación con apoyo en tecnologías , no existe udemy ni ningún convenio con empresas de educación para seguir aprendiendo",
         "que_mal": "Podría poner gente más capacitada a nivel técnico el personaje que era TL dejaba mucho que desear con desiciones poco escalables , e invertir en crecimiento profesional mediante academias online",
         "que_desearias": "Que no capacitan al personal, las nulas probabilidades de ascender y el inexistente  reconocimiento a nivel profesional por méritos técnicos o arquitectónicos.",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -177,26 +162,23 @@
   {
     "id": "atcom-outsourcing",
     "nombre": "Atcom Outsourcing",
-    "rubro": "Outsourcing",
+    "rubro": "Tecnología",
     "logo": "assets/logos/atcom-outsourcing.png",
     "resenas": [
       {
         "id": 73,
         "fecha": "2026-03-27",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 1,
         "sueldo": "en el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": "Muy malo",
-        "liderazgo": "Muy malo",
-        "cultura": "Muy malo",
+        "flexibilidad": 1,
+        "liderazgo": 1,
+        "cultura": 1,
         "que_bien": "Nada esta bien, nefasto todo",
         "que_mal": "No hay comunicación con tu empleador, te pasan con el cliente, el cual no se hace cargo de ti, no tienes donde reclamar.",
         "que_desearias": "Que no hay jefaturas claras, que te dan mas y mas trabajo por el mismo sueldo, no respetan ni los horarios.",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -218,20 +200,17 @@
       {
         "id": 104,
         "fecha": "2026-03-29",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 3,
         "sueldo": "en el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": "Muy bueno",
-        "liderazgo": "Bueno",
-        "cultura": null,
+        "flexibilidad": 5,
+        "liderazgo": 4,
+        "cultura": 3,
         "que_bien": "Horarios flexibles, trabajo constante",
         "que_mal": "Oportunidades de escalar",
         "que_desearias": "Como solicitar un aumento de sueldo",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -240,9 +219,9 @@
     "promedio": 3,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 4,
-    "prom_liderazgo": 3,
-    "prom_cultura": null
+    "prom_flexibilidad": 5,
+    "prom_liderazgo": 4,
+    "prom_cultura": 3
   },
   {
     "id": "banco-consorcio",
@@ -253,20 +232,17 @@
       {
         "id": 60,
         "fecha": "2026-03-25",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 1,
         "sueldo": "en el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": "Muy malo",
-        "liderazgo": "Muy malo",
-        "cultura": "Muy malo",
+        "flexibilidad": 1,
+        "liderazgo": 1,
+        "cultura": 1,
         "que_bien": "Tiene una buena ubicación, cerca del metro el golf o tobalaba",
         "que_mal": "Una cultura violenta, donde la humillación y el mal trato es una constante, jefaturas sin preparación, mucha envidia. Jefaturas medias que abusan de su poder, y para poder escalar debes tener \" algo\" con ellos, y personas que acceden a esto para lograrlo, por lo que se perpetua el ciclo de las jefaturas mal preparadas. Como las jefaturas están muy mal preparadas, es muy difícil escalar, porque soy inseguras, y ocupan medios para bajarte. El horario extendido es una constante, y es visto como el desde, porque es un caos total, no existe la planificación, todo es un constante apagar incendios (jefaturas sin capacidad estratégica ni planificación). Por último áreas que deberían apoyar a mejorar la cultura, como RRHH, son parte de la misma, y antiéticos.",
         "que_desearias": "Que solo si saliste de una cárcel, será una cultura aceptable para ti",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -288,20 +264,17 @@
       {
         "id": 84,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 3,
         "sueldo": "sobre el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": null,
-        "liderazgo": "Malo",
-        "cultura": "Malo",
+        "flexibilidad": 3,
+        "liderazgo": 2,
+        "cultura": 2,
         "que_bien": "Muchos beneficios, si entras puedes no salir más si lo deseas.",
         "que_mal": "El nivel de burocracia para muchas cosas, se mantienen muy poco actualizados con respecto a tecnología.",
         "que_desearias": "Vas a convivir con gente mayor, hay un par de proyectos más novedosos pero en general se ven muchos colegas que entraron hace muchos años con lo que sabían en ese tiempo y ahí se quedaron.",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -310,7 +283,7 @@
     "promedio": 3,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": null,
+    "prom_flexibilidad": 3,
     "prom_liderazgo": 2,
     "prom_cultura": 2
   },
@@ -323,20 +296,17 @@
       {
         "id": 101,
         "fecha": "2026-03-29",
-        "area": null,
-        "cargo": null,
         "tiempo": "6 meses a 1 año",
         "sigue": "No",
         "cal_general": 1,
         "sueldo": "bajo el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": "Malo",
-        "liderazgo": "Muy malo",
-        "cultura": null,
+        "flexibilidad": 2,
+        "liderazgo": 1,
+        "cultura": 3,
         "que_bien": null,
         "que_mal": "Falta de liderazgo e ideas innovadoras en el área de la tecnología",
         "que_desearias": "Que el área de TI era de múltiples tareas.",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -347,7 +317,7 @@
     "prom_carrera": null,
     "prom_flexibilidad": 2,
     "prom_liderazgo": 1,
-    "prom_cultura": null
+    "prom_cultura": 3
   },
   {
     "id": "caja-de-compensacion-los-heroes",
@@ -358,20 +328,17 @@
       {
         "id": 106,
         "fecha": "2026-03-29",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 3,
         "sueldo": "en el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": null,
-        "liderazgo": "Malo",
-        "cultura": "Malo",
+        "flexibilidad": 3,
+        "liderazgo": 2,
+        "cultura": 2,
         "que_bien": "Beneficios y flexibilidad si tienes hijos",
         "que_mal": "Claridad de roles, falta de competencias en lideres, burocracia excesiva",
         "que_desearias": "Oportunidad de ascender, falta de liderazgo, claridad en roles",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -380,33 +347,30 @@
     "promedio": 3,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": null,
+    "prom_flexibilidad": 3,
     "prom_liderazgo": 2,
     "prom_cultura": 2
   },
   {
     "id": "callbusiness",
     "nombre": "CallBusiness",
-    "rubro": "Outsourcing",
-    "logo": null,
+    "rubro": "Banca y finanzas",
+    "logo": "https://www.google.com/s2/favicons?domain=callbusiness.cl&sz=128",
     "resenas": [
       {
         "id": 68,
         "fecha": "2026-03-27",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 2,
         "sueldo": "bajo el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": "Malo",
-        "liderazgo": "Muy malo",
-        "cultura": "Malo",
+        "flexibilidad": 2,
+        "liderazgo": 1,
+        "cultura": 2,
         "que_bien": "Eventualidad para teletrabajo",
         "que_mal": "Nepotismo extremo, si estas fuera de los dos grupos predominantes, no durarás mucho. Casos de acoso laboral por parte del cliente Banchile Corredores de Seguros.",
         "que_desearias": "La situación mencionada",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -428,20 +392,17 @@
       {
         "id": 51,
         "fecha": "2026-03-24",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 2,
         "sueldo": 4,
         "carrera": 3,
-        "flexibilidad": "Muy malo",
-        "liderazgo": "Malo",
-        "cultura": "Muy bueno",
+        "flexibilidad": 1,
+        "liderazgo": 2,
+        "cultura": 5,
         "que_bien": "El ambiente es muy de amigos, gente jóven, hay harto carrete, muy buena onda y los sueldos pueden llegar a ser bastante buenos",
         "que_mal": "Hay mucha incertidumbre, muchísima rotación, falta capacitación para líderes porque no hay buenos liderazgos y puede ser muy dificil ascender dependiendo de en qué momento entraste",
         "que_desearias": "Que valoran mucho la capacidad comercial vs el contenido o capacidad de analisis y que hay muchísima rotación, el promedio de años del área comercial debe ser 1 año",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -452,7 +413,7 @@
     "prom_carrera": null,
     "prom_flexibilidad": 1,
     "prom_liderazgo": 2,
-    "prom_cultura": 4
+    "prom_cultura": 5
   },
   {
     "id": "cencosud",
@@ -463,8 +424,6 @@
       {
         "id": 32,
         "fecha": "2026-03-23",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 4,
@@ -476,15 +435,12 @@
         "que_bien": "Es una empresa con un ritmo de trabajo alto, lo que la convierte en una excelente escuela acelerada. Permite aprender rápidamente.",
         "que_mal": "En algunos momentos, el alto nivel de exigencia y el interés por destacar pueden generar una competencia interna que no siempre favorece la colaboración. A veces esto se traduce en objetivos poco realistas o en falta de claridad sobre quién es responsable de cada tema.",
         "que_desearias": "Me faltó entender que ‘vender humo’ puede tener más impacto que los resultados reales.",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       },
       {
         "id": 8,
         "fecha": "2026-03-20",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 2,
@@ -496,7 +452,6 @@
         "que_bien": "Nada",
         "que_mal": "Nunca se evalúa al trabajador con nota máxima porque no se permite ascender por esa vía, suben las metas a números irrisorios para no pagar bonos",
         "que_desearias": "Que si eres despedido, aunque sea por necesidades de la empresa, nunca podrás volver a trabajar en el holding",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -518,8 +473,6 @@
       {
         "id": 4,
         "fecha": "2026-03-20",
-        "area": null,
-        "cargo": null,
         "tiempo": "Menos de 6 meses",
         "sigue": "Sí",
         "cal_general": 3,
@@ -531,7 +484,6 @@
         "que_bien": "Liderazgo, compañerismo, transparencia, modalidad 1 dia presencial a la semana",
         "que_mal": "Hay que aprender sobre la marcha, te tiran a los leones de inmediato",
         "que_desearias": null,
-        "consejo_gerencia": null,
         "recomienda": "Sí",
         "votos": 0
       }
@@ -548,25 +500,22 @@
     "id": "clickie",
     "nombre": "Clickie",
     "rubro": "Consultoría",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=clickie.cl&sz=128",
     "resenas": [
       {
         "id": 85,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 3,
         "sueldo": "bajo el mercado",
         "carrera": "crecimiento moderado",
-        "flexibilidad": "Muy bueno",
-        "liderazgo": "Malo",
-        "cultura": "Bueno",
+        "flexibilidad": 5,
+        "liderazgo": 2,
+        "cultura": 4,
         "que_bien": "Flexibilidad",
         "que_mal": null,
         "que_desearias": null,
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -575,9 +524,9 @@
     "promedio": 3,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 4,
+    "prom_flexibilidad": 5,
     "prom_liderazgo": 2,
-    "prom_cultura": 3
+    "prom_cultura": 4
   },
   {
     "id": "copec",
@@ -588,20 +537,17 @@
       {
         "id": 52,
         "fecha": "2026-03-24",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 5,
         "sueldo": 5,
         "carrera": 5,
-        "flexibilidad": "Bueno",
-        "liderazgo": "Bueno",
-        "cultura": "Bueno",
+        "flexibilidad": 4,
+        "liderazgo": 4,
+        "cultura": 4,
         "que_bien": "Beneficios, algunos líderes y la movilidad",
         "que_mal": null,
         "que_desearias": null,
-        "consejo_gerencia": null,
         "recomienda": "Sí",
         "votos": 0
       }
@@ -610,9 +556,9 @@
     "promedio": 5,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 3,
-    "prom_liderazgo": 3,
-    "prom_cultura": 3
+    "prom_flexibilidad": 4,
+    "prom_liderazgo": 4,
+    "prom_cultura": 4
   },
   {
     "id": "corporacion-3xi",
@@ -623,20 +569,17 @@
       {
         "id": 42,
         "fecha": "2026-03-24",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 4,
         "sueldo": 3,
         "carrera": 1,
-        "flexibilidad": "Muy bueno",
-        "liderazgo": "Muy bueno",
-        "cultura": "Bueno",
+        "flexibilidad": 5,
+        "liderazgo": 5,
+        "cultura": 4,
         "que_bien": "Trabajar con propósito. Ser un punto donde tienes mucha visibilidad hacia afuera y el liderazgo que se puede ejercer.",
         "que_mal": "al ser una organización chica todavía, es poco estructurada en cultura, beneficios, etc. Está en construcción, hay que tener paciencia",
         "que_desearias": "que no hay desarrollo de carrera. es lo que es y fin.",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -645,9 +588,9 @@
     "promedio": 4,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 4,
-    "prom_liderazgo": 4,
-    "prom_cultura": 3
+    "prom_flexibilidad": 5,
+    "prom_liderazgo": 5,
+    "prom_cultura": 4
   },
   {
     "id": "cristalchile",
@@ -658,8 +601,6 @@
       {
         "id": 17,
         "fecha": "2026-03-21",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 1,
@@ -671,7 +612,6 @@
         "que_bien": "Muy buen lugar para mostrar conocimientos y habilidades",
         "que_mal": "Malos liderazgos, beneficios desalineados con los intereses de los trabajadores",
         "que_desearias": "Más información de la cultura de trabajo",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -693,8 +633,6 @@
       {
         "id": 2,
         "fecha": "2026-03-20",
-        "area": null,
-        "cargo": null,
         "tiempo": "6 meses a 1 año",
         "sigue": "No",
         "cal_general": 1,
@@ -706,7 +644,6 @@
         "que_bien": "La cultura de los trabajadores, mas no la de la empresa. El grupo humano que se forma adentro es lo más rescatable. Estaba bien la flexibilidad pero ya no existe.",
         "que_mal": "El como se contrata (Te engañan con las condiciones, sobre todo a los que son su primer trabajo)\nEl como despiden personal (Rotación muy alta, nunca los dejan despedirse de sus compañeros, es todo muy impersonal)\nLa rotación interna (Lo plantean cómo algo que existe pero es solo para aquellos que se llevan bien con los jefes, no los mas capaces)\nEl nivel de pituto (Trabaja el sobrino del gerente, entran a trabajar sobrinas, primas, tias, etc de personas del directorio, todo se basa en a quien conoces, como te llevas con x, etc)",
         "que_desearias": "Me hubiera encantado saber que me mentirían tanto, que seria tan inestable, que poco importaría como realice mi trabajo sino que será mas importante como me llevo con cada quien, o a cuantas reuniones sociales asisto, que cambiaria tanto en tan poco tiempo (condiciones, presencialidad, dresscode, etc).",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -728,40 +665,34 @@
       {
         "id": 86,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 3,
         "sueldo": "en el mercado",
         "carrera": "crecimiento moderado",
-        "flexibilidad": "Bueno",
-        "liderazgo": "Bueno",
-        "cultura": "Bueno",
+        "flexibilidad": 4,
+        "liderazgo": 4,
+        "cultura": 4,
         "que_bien": "Trabajar en el área de la tecnología como consultor puede ser bastante relajado dependiendo del proyecto y el área al que llegas, con modalidades totalmente remotas",
         "que_mal": "El sueldo inicial va a ser tu sueldo final de por vida, cuesta mucho subirlo",
         "que_desearias": "Muchos proyectos de consultoría ocupan un stack demasiado anticuado, así que no te permite moverte a empresas tech con stacks más nuevos",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       },
       {
         "id": 46,
         "fecha": "2026-03-24",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "Sí",
         "cal_general": 2,
         "sueldo": 2,
         "carrera": 2,
-        "flexibilidad": null,
-        "liderazgo": "Malo",
-        "cultura": null,
+        "flexibilidad": 3,
+        "liderazgo": 2,
+        "cultura": 3,
         "que_bien": "una cosa es consultoria y otra es auditoría. Consultoría tiene un buen ambiente de trabajo",
         "que_mal": "la carga laboral es grande y en auditoría es mucho peor. Además, el ambiente de auditoría es muy tóxico con largas jornadas",
         "que_desearias": "el modo de trabajo en general está complicado. Constantemente tienen reestructuraciones y siempre cambian los equipos y jefes",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -770,9 +701,9 @@
     "promedio": 2.5,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 3,
-    "prom_liderazgo": 2.5,
-    "prom_cultura": 3
+    "prom_flexibilidad": 3.5,
+    "prom_liderazgo": 3,
+    "prom_cultura": 3.5
   },
   {
     "id": "dinecom",
@@ -783,8 +714,6 @@
       {
         "id": 10,
         "fecha": "2026-03-20",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 1,
@@ -796,7 +725,6 @@
         "que_bien": "Poco se salva. Es un barco quemándose mientras se dirige hacia una catarata",
         "que_mal": "Es una PYME familiar donde el orden, la estructura, la protocolización y la planificación están totalmente fuera.",
         "que_desearias": "Más allá de que de igual manera logré dejar una marca positiva indeleble en casi 12 años de trabajo, nunca pensé que podrían ser tan maricones.",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -812,26 +740,23 @@
   {
     "id": "dispolab",
     "nombre": "Dispolab",
-    "rubro": "Salud",
+    "rubro": "Retail",
     "logo": "assets/logos/dispolab.png",
     "resenas": [
       {
         "id": 43,
         "fecha": "2026-03-24",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 1,
         "sueldo": 3,
         "carrera": 3,
-        "flexibilidad": null,
-        "liderazgo": "Muy malo",
-        "cultura": "Muy malo",
+        "flexibilidad": 3,
+        "liderazgo": 1,
+        "cultura": 1,
         "que_bien": null,
         "que_mal": "Empresa arcaica, con poco respeto por los trabajadores, cero foco estratégico, malos tratos, alta rotación.",
         "que_desearias": "Que la empresa tiene alta rotación por malos tratos y varias demandas a la inspección del trabajo.",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -840,7 +765,7 @@
     "promedio": 1,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": null,
+    "prom_flexibilidad": 3,
     "prom_liderazgo": 1,
     "prom_cultura": 1
   },
@@ -848,25 +773,22 @@
     "id": "e-contact",
     "nombre": "E-contact",
     "rubro": "Telecomunicaciones",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=e-contact.cl&sz=128",
     "resenas": [
       {
         "id": 78,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 3,
         "sueldo": "bajo el mercado",
         "carrera": "crecimiento moderado",
-        "flexibilidad": "Bueno",
-        "liderazgo": "Malo",
-        "cultura": null,
+        "flexibilidad": 4,
+        "liderazgo": 2,
+        "cultura": 3,
         "que_bien": "Cultura, flexibilidad, si insistes te pagan cursos y/o certificaciones.",
         "que_mal": "Sueldos en la media para abajo, mucho amiguismo, los jefes de area algunos terminaron de estudiar después de estar como 10 años en la empresa. El ambiente estresante que se ha generado en los últimos años, no necesariamente por carga laboral, sino por la incertidumbre de estabilidad laboral y hacia donde apunta la empresa. La ilusión en la que vive la gerencia donde creen que es la mejor empresa, pero se quedaron estancados en el éxito y crecimiento explosivo que hubo. La desvinculación de gente competente por sobre profesionales sobrevalorados, consecuencias del “amiguismo”.\nLa falta de empatia de “la alta gerencia“ y educación de los gerentes.",
         "que_desearias": "Que no existe una estabilidad profesional, muchas veces terminas haciendo el trabajo de otros.\nUna gerencia, hasta cierto punto, sesgada. Que las oportunidades de crecimiento profesional ya no son bastas como antes.\nPésima comunicación entre áreas, se hablaba más en pandemia que presencial, será quizás por la naturaleza de cierto tipo de gente.\nY en áreas, existen jefes narcisistas que siempre tienen la razón, y quieren que se mueva todo a su ritmo.",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -875,33 +797,30 @@
     "promedio": 3,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 3,
+    "prom_flexibilidad": 4,
     "prom_liderazgo": 2,
-    "prom_cultura": null
+    "prom_cultura": 3
   },
   {
     "id": "echeverria-izquierdo",
     "nombre": "Echeverria izquierdo",
     "rubro": "Construcción",
-    "logo": null,
+    "logo": "https://www.google.com/s2/favicons?domain=echeverria-izquierdo.cl&sz=128",
     "resenas": [
       {
         "id": 57,
         "fecha": "2026-03-25",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 1,
         "sueldo": "en el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": "Muy malo",
-        "liderazgo": "Muy malo",
-        "cultura": "Muy malo",
+        "flexibilidad": 1,
+        "liderazgo": 1,
+        "cultura": 1,
         "que_bien": "Hay muchas oportunidades de ayudar a otros compañeros de trabajo por lo que se hacen buenas amistades",
         "que_mal": "Las decisiones se toman por las emociones puntuales de las jefaturas o gerentes, por lo que te puede ir muy bien o muy mal dependiendo de su estado de ánimo",
         "que_desearias": "La falta de dirección al momento de tomar decisiones ya que estas cambian constantemente",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -923,20 +842,17 @@
       {
         "id": 37,
         "fecha": "2026-03-24",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 1,
         "sueldo": 1,
         "carrera": 1,
-        "flexibilidad": "Muy malo",
-        "liderazgo": "Muy malo",
-        "cultura": "Muy malo",
+        "flexibilidad": 1,
+        "liderazgo": 1,
+        "cultura": 1,
         "que_bien": "No se controlan los horarios.",
         "que_mal": "Al principio era intentar copiar a la competencia ahora es modo supervivencia. Se gastaron toda la plata que levantamos.",
         "que_desearias": "El desorden que había.",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -958,20 +874,17 @@
       {
         "id": 67,
         "fecha": "2026-03-26",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 1,
         "sueldo": "bajo el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": null,
-        "liderazgo": "Muy malo",
-        "cultura": "Muy malo",
+        "flexibilidad": 3,
+        "liderazgo": 1,
+        "cultura": 1,
         "que_bien": "Como esconden que cada mes estan a punto de irse a quiebra",
         "que_mal": "No hay habilidades blandas en las jefaturas y gerencias, se denosta mucho a los trabajadores y clientes",
         "que_desearias": "La calidad humana. Cuando alguno se enferma, lo ponen en la lista negra.",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -980,7 +893,7 @@
     "promedio": 1,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": null,
+    "prom_flexibilidad": 3,
     "prom_liderazgo": 1,
     "prom_cultura": 1
   },
@@ -993,20 +906,17 @@
       {
         "id": 38,
         "fecha": "2026-03-24",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 4,
         "sueldo": 3,
         "carrera": 4,
-        "flexibilidad": "Bueno",
-        "liderazgo": "Bueno",
-        "cultura": "Muy bueno",
+        "flexibilidad": 4,
+        "liderazgo": 4,
+        "cultura": 5,
         "que_bien": "Muy buenos beneficios, su cultura llega a todas las líneas y escalones de la compañía y el ambiente laboral es bueno.",
         "que_mal": "Los cargos de entrada tienen buenos sueldos pero el reajuste queda al debe. Hay que cambiarse de área o subir de cargo para percibir un aumento un poco más atractivo. Al ser tantas personas está todo súper estandarizado.",
         "que_desearias": "Qué es una empresa tradicional",
-        "consejo_gerencia": null,
         "recomienda": "Sí",
         "votos": 0
       }
@@ -1015,9 +925,9 @@
     "promedio": 4,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 3,
-    "prom_liderazgo": 3,
-    "prom_cultura": 4
+    "prom_flexibilidad": 4,
+    "prom_liderazgo": 4,
+    "prom_cultura": 5
   },
   {
     "id": "entel",
@@ -1028,60 +938,51 @@
       {
         "id": 92,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "Sí",
         "cal_general": 5,
         "sueldo": "sobre el mercado",
         "carrera": "muchas oportunidades",
-        "flexibilidad": "Bueno",
-        "liderazgo": "Muy malo",
-        "cultura": "Bueno",
+        "flexibilidad": 4,
+        "liderazgo": 1,
+        "cultura": 4,
         "que_bien": "Muchas oportunidades de aprender de manera autónoma, además los espacios físicos suelen ser de alta calidad. Los beneficios en general son muy buenos y los sueldos sobre la media.",
         "que_mal": "Principalmente 2 cosas mal: liderazgo de subgerentes y gerentes con sarcasmo y toxicidad.\nPor otro lado la carga laboral es enorme, imposible de cumplir por lo que eventualmente debes hacer las cosas a medias solo por salud mental.",
         "que_desearias": "El modelo híbrido te hace ir 2 veces a la semana a la oficina. Considerando la ubicación, es imposible evitar los horarios colapsados de Santiago tanto al entrar como al salir. Ideal vivir cerca de la oficina.",
-        "consejo_gerencia": null,
         "recomienda": "Sí",
         "votos": 0
       },
       {
         "id": 99,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 4,
         "sueldo": "en el mercado",
         "carrera": "muchas oportunidades",
-        "flexibilidad": "Muy bueno",
-        "liderazgo": "Muy bueno",
-        "cultura": "Muy bueno",
+        "flexibilidad": 5,
+        "liderazgo": 5,
+        "cultura": 5,
         "que_bien": "La cultura de entel es algo unico. En el tiempo que trabaje era lo que mas me hacia sentirne en un buen lugar de trabajo. Eso si, puede variar entre areas, en general era muy bueno.",
         "que_mal": null,
         "que_desearias": "Conocer las areas. Es bueno entender a que parte uno va a entrar, ya que de ello depende lo mas beneficioso del trabajar ahi",
-        "consejo_gerencia": null,
         "recomienda": "Sí",
         "votos": 0
       },
       {
         "id": 41,
         "fecha": "2026-03-24",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 5,
         "sueldo": 3,
         "carrera": 5,
-        "flexibilidad": "Malo",
-        "liderazgo": "Bueno",
-        "cultura": "Muy bueno",
+        "flexibilidad": 2,
+        "liderazgo": 4,
+        "cultura": 5,
         "que_bien": "la cultura es muy inclusiva, \"viva\", siempre están haciendo cosas extras para los trabajadores, actividades, cursos. Hay mucho espacio para el liderazgo, y desarrollo de carrera muy estructurado: después de dos años si o si corresponde un cambio a no ser que lo estés haciendo mal.",
         "que_mal": "la flexibilidad, y la mucha carga laboral (sin respetar horarios, balance con la vida personal, etc)",
         "que_desearias": "lo de la carga laboral",
-        "consejo_gerencia": null,
         "recomienda": "Sí",
         "votos": 0
       }
@@ -1090,9 +991,9 @@
     "promedio": 4.7,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 3,
-    "prom_liderazgo": 2.7,
-    "prom_cultura": 3.7
+    "prom_flexibilidad": 3.7,
+    "prom_liderazgo": 3.3,
+    "prom_cultura": 4.7
   },
   {
     "id": "epiroc",
@@ -1103,20 +1004,17 @@
       {
         "id": 95,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "Sí",
         "cal_general": 5,
         "sueldo": "sobre el mercado",
         "carrera": "crecimiento moderado",
-        "flexibilidad": "Muy bueno",
-        "liderazgo": "Muy bueno",
-        "cultura": "Muy bueno",
+        "flexibilidad": 5,
+        "liderazgo": 5,
+        "cultura": 5,
         "que_bien": "Beneficios, cultura organizacional, flexibilidad",
         "que_mal": null,
         "que_desearias": null,
-        "consejo_gerencia": null,
         "recomienda": "Sí",
         "votos": 0
       }
@@ -1125,9 +1023,9 @@
     "promedio": 5,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 4,
-    "prom_liderazgo": 4,
-    "prom_cultura": 4
+    "prom_flexibilidad": 5,
+    "prom_liderazgo": 5,
+    "prom_cultura": 5
   },
   {
     "id": "equans-chile",
@@ -1138,20 +1036,17 @@
       {
         "id": 91,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "Menos de 6 meses",
         "sigue": "Sí",
         "cal_general": 5,
         "sueldo": "sobre el mercado",
         "carrera": "muchas oportunidades",
-        "flexibilidad": "Muy bueno",
-        "liderazgo": "Muy bueno",
-        "cultura": "Muy bueno",
+        "flexibilidad": 5,
+        "liderazgo": 5,
+        "cultura": 5,
         "que_bien": "Empresa grande, buenos beneficios, buenos salarios, Inglés excluyente, oportunidades para viajar al extranjero.",
         "que_mal": "oficina central en cerrillos, un poco dificil el acceso.",
         "que_desearias": "lo grande que es la empresa, de momento no veo nada malo.",
-        "consejo_gerencia": null,
         "recomienda": "Sí",
         "votos": 0
       }
@@ -1160,9 +1055,9 @@
     "promedio": 5,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 4,
-    "prom_liderazgo": 4,
-    "prom_cultura": 4
+    "prom_flexibilidad": 5,
+    "prom_liderazgo": 5,
+    "prom_cultura": 5
   },
   {
     "id": "escuela-de-ing-uc",
@@ -1173,8 +1068,6 @@
       {
         "id": 6,
         "fecha": "2026-03-20",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 2,
@@ -1186,7 +1079,6 @@
         "que_bien": "Solo destaco que entrega posibilidades de desarrollo en estudios y capacitaciones.",
         "que_mal": "Casi todo: cultura, liderazgo, visión de futuro, planificación, ambiente laboral, beneficios, entre otros.",
         "que_desearias": "Las restricciones para obtener los beneficios que publican. También considero que si un lugar de trabajo está bajo una intervención de clima laboral, es algo que un nuevo trabajador debería tener derecho a saber antes de ingresar.",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -1208,20 +1100,17 @@
       {
         "id": 55,
         "fecha": "2026-03-24",
-        "area": null,
-        "cargo": null,
         "tiempo": "6 meses a 1 año",
         "sigue": "No",
         "cal_general": 3,
         "sueldo": 5,
         "carrera": 4,
-        "flexibilidad": null,
-        "liderazgo": null,
-        "cultura": "Bueno",
+        "flexibilidad": 3,
+        "liderazgo": 3,
+        "cultura": 4,
         "que_bien": "La gente, la estructua, plan de carrera claro",
         "que_mal": "Claridad en la expectativa de los cargos,",
         "que_desearias": "Que si no te encuentran empresa te sacaran luego.",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -1230,9 +1119,9 @@
     "promedio": 3,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": null,
-    "prom_liderazgo": null,
-    "prom_cultura": 3
+    "prom_flexibilidad": 3,
+    "prom_liderazgo": 3,
+    "prom_cultura": 4
   },
   {
     "id": "evertec",
@@ -1243,8 +1132,6 @@
       {
         "id": 19,
         "fecha": "2026-03-22",
-        "area": null,
-        "cargo": null,
         "tiempo": "6 meses a 1 año",
         "sigue": "No",
         "cal_general": 1,
@@ -1256,7 +1143,6 @@
         "que_bien": "Nada, empresa asquerosa y funada, te hacen trabajar turnos (como analista) con horas extras y sin pagos correspondientes",
         "que_mal": "Todo, la mentalidad de los equipos es muy pobre",
         "que_desearias": "Que te dejarán solo en tus primeros meses, sin apoyo, sin guía, además de que no hay documentación técnica de nada",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -1278,8 +1164,6 @@
       {
         "id": 11,
         "fecha": "2026-03-20",
-        "area": null,
-        "cargo": null,
         "tiempo": "Menos de 6 meses",
         "sigue": "No",
         "cal_general": 2,
@@ -1291,7 +1175,6 @@
         "que_bien": "Flexibilidad en el horario, oportunidad de aprendizaje",
         "que_mal": "Falta de planificación organizacional, faltan muchos puestos, equilibrio vida-trabajo haciendo 60 horas a la semana por 1.000.000",
         "que_desearias": "No hay plan de carrera o plan en general con tu puesto, ni si quiera una pista, el data engineer es jefe de operaciones, la jefa de RRHH hace operaciones y la gente de marketing debe hacer producto y la gente de ventas hace finanzas corporativas",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -1313,20 +1196,17 @@
       {
         "id": 72,
         "fecha": "2026-03-27",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "Sí",
         "cal_general": 5,
         "sueldo": "sobre el mercado",
         "carrera": "crecimiento moderado",
-        "flexibilidad": "Muy bueno",
-        "liderazgo": "Bueno",
-        "cultura": "Muy bueno",
+        "flexibilidad": 5,
+        "liderazgo": 4,
+        "cultura": 5,
         "que_bien": "Mucha flexibilidad, muchos beneficios y mucha amabilidad de los lideres, han mejorado mucho en esa area sobretodo.",
         "que_mal": "A veces la burocracia en nombre de la seguridad de datos puede ser un poco frustrante, se entienden las razones pero a veces eso previene el avance en tecnología.",
         "que_desearias": "Nada, la verdad desde que entre ahi las cosas han mejorado en absolutamente todo.",
-        "consejo_gerencia": null,
         "recomienda": "Sí",
         "votos": 0
       }
@@ -1335,9 +1215,9 @@
     "promedio": 5,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 4,
-    "prom_liderazgo": 3,
-    "prom_cultura": 4
+    "prom_flexibilidad": 5,
+    "prom_liderazgo": 4,
+    "prom_cultura": 5
   },
   {
     "id": "explora",
@@ -1348,20 +1228,17 @@
       {
         "id": 63,
         "fecha": "2026-03-25",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 2,
         "sueldo": "bajo el mercado",
         "carrera": "crecimiento moderado",
-        "flexibilidad": "Malo",
-        "liderazgo": "Muy malo",
-        "cultura": "Bueno",
+        "flexibilidad": 2,
+        "liderazgo": 1,
+        "cultura": 4,
         "que_bien": "Cultura y poder viajar",
         "que_mal": "Promoción a los amigos de los jefes vs merito",
         "que_desearias": "Es para comenzar, pero no para hacer carrera",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -1372,7 +1249,7 @@
     "prom_carrera": null,
     "prom_flexibilidad": 2,
     "prom_liderazgo": 1,
-    "prom_cultura": 3
+    "prom_cultura": 4
   },
   {
     "id": "falabella-com",
@@ -1383,20 +1260,17 @@
       {
         "id": 56,
         "fecha": "2026-03-24",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 4,
         "sueldo": 4,
         "carrera": 3,
-        "flexibilidad": "Muy bueno",
-        "liderazgo": "Malo",
-        "cultura": "Malo",
+        "flexibilidad": 5,
+        "liderazgo": 2,
+        "cultura": 2,
         "que_bien": "Lo mejor son los beneficios, bonos, giftcard, seguro, descuentos, etc",
         "que_mal": "Mejorar liderazgo, enfoque de equipos, disminución de personal asi que toca hacer la pega de varios",
         "que_desearias": "Que rapidamente uno se siente sin foco y explotado",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -1405,41 +1279,36 @@
     "promedio": 4,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 4,
+    "prom_flexibilidad": 5,
     "prom_liderazgo": 2,
     "prom_cultura": 2
   },
   {
     "id": "femsa",
     "nombre": "Femsa",
-    "rubro": "Retail",
+    "rubro": "Banca y finanzas",
     "logo": "assets/logos/femsa.svg",
     "resenas": [
       {
         "id": 65,
         "fecha": "2026-03-26",
-        "area": null,
-        "cargo": null,
         "tiempo": "Menos de 6 meses",
         "sigue": "Sí",
         "cal_general": 3,
         "sueldo": "en el mercado",
         "carrera": "crecimiento moderado",
-        "flexibilidad": "Muy bueno",
-        "liderazgo": "Muy malo",
-        "cultura": "Malo",
+        "flexibilidad": 5,
+        "liderazgo": 1,
+        "cultura": 2,
         "que_bien": "Horario",
         "que_mal": "Jefaturas, despidos masivos, cargos mal definidos",
         "que_desearias": "Inestabilidad",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       },
       {
         "id": 9,
         "fecha": "2026-03-20",
-        "area": null,
-        "cargo": null,
         "tiempo": "Menos de 6 meses",
         "sigue": "Sí",
         "cal_general": 1,
@@ -1451,7 +1320,6 @@
         "que_bien": "Horarios",
         "que_mal": "Cultura organizacional",
         "que_desearias": "Clima laboral y condiciones laborales",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -1460,7 +1328,7 @@
     "promedio": 2,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 4,
+    "prom_flexibilidad": 5,
     "prom_liderazgo": 1,
     "prom_cultura": 2
   },
@@ -1473,20 +1341,17 @@
       {
         "id": 75,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 2,
         "sueldo": "bajo el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": null,
-        "liderazgo": "Muy malo",
-        "cultura": "Malo",
+        "flexibilidad": 3,
+        "liderazgo": 1,
+        "cultura": 2,
         "que_bien": "Los dias de descansi",
         "que_mal": "Jefatura, que horrible por dios. Miradores en  menos, acosadores con las mujeres.",
         "que_desearias": "Obviamente",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -1495,7 +1360,7 @@
     "promedio": 2,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": null,
+    "prom_flexibilidad": 3,
     "prom_liderazgo": 1,
     "prom_cultura": 2
   },
@@ -1508,8 +1373,6 @@
       {
         "id": 3,
         "fecha": "2026-03-20",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 1,
@@ -1521,7 +1384,6 @@
         "que_bien": "El equipo de planta",
         "que_mal": "La presidenta del directorio y dueña",
         "que_desearias": "Que hay una cultura de abuso con un liderazgo disfuncional declarado. Que no había una dirección ejecutiva que hiciera contrapeso a decisiones de la presidenta.",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -1543,48 +1405,40 @@
       {
         "id": 61,
         "fecha": "2026-03-25",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 1,
         "sueldo": "bajo el mercado",
         "carrera": "crecimiento moderado",
-        "flexibilidad": null,
-        "liderazgo": "Muy malo",
-        "cultura": "Bueno",
+        "flexibilidad": 3,
+        "liderazgo": 1,
+        "cultura": 4,
         "que_bien": "Los compañeros eran buenos, siempre con sus personajes destacados, pero como en todos los ambientes laborales, pero en general eran buenos compañeros",
         "que_mal": "Un desastre los \" gerentes\" . Como es una empresa tipo \" pyme\" los gerentes son personas que partieron o estuvieron en el proyecto inicial, y lamentablemente no tienen ninguna habilidad de liderazgo,  súper ególatras.. es una empresa que sobrevive a una idea de negocio que fue fortalecida por ciertas leyes. No es una empresa para proyectarse ni tampoco para ganar plata, solo la recomiendo al igual que cualquier otra empresa, si necesitas mucho un trabajo",
         "que_desearias": "La capacidad de los gerentes",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       },
       {
         "id": 48,
         "fecha": "2026-03-24",
-        "area": null,
-        "cargo": null,
         "tiempo": "Menos de 6 meses",
         "sigue": "No",
         "cal_general": 1,
         "sueldo": 2,
         "carrera": 1,
-        "flexibilidad": "Muy malo",
-        "liderazgo": "Muy malo",
-        "cultura": "Muy malo",
+        "flexibilidad": 1,
+        "liderazgo": 1,
+        "cultura": 1,
         "que_bien": null,
         "que_mal": "Demasiada rotacion de personal, contratan recien egresados y los despiden al aÑo de servicio, no hay feedback al despido, ambiente toxico, Siempre buscaban egresados en los foros de la universidad y publicaban los mismos puestos cada 3 o 6 meses.",
         "que_desearias": "SI",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       },
       {
         "id": 1,
         "fecha": "2026-03-20",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 3,
@@ -1596,7 +1450,6 @@
         "que_bien": "Cultura",
         "que_mal": "Salarios, liderazgo, orden",
         "que_desearias": "Mal salario, lentos para aumentos, poco movimiento dentro de la empresa",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -1605,9 +1458,9 @@
     "promedio": 1.7,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 1,
+    "prom_flexibilidad": 2,
     "prom_liderazgo": 1,
-    "prom_cultura": 2
+    "prom_cultura": 2.5
   },
   {
     "id": "gft-technologies",
@@ -1618,20 +1471,17 @@
       {
         "id": 70,
         "fecha": "2026-03-27",
-        "area": null,
-        "cargo": null,
         "tiempo": "Menos de 6 meses",
         "sigue": "No",
         "cal_general": 1,
         "sueldo": "bajo el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": "Muy bueno",
-        "liderazgo": "Muy malo",
-        "cultura": "Malo",
+        "flexibilidad": 5,
+        "liderazgo": 1,
+        "cultura": 2,
         "que_bien": "Flexibilidad, trabajo remoto",
         "que_mal": "Mala organización, sueldos bajos",
         "que_desearias": "Que harían depender mi puesto de un negocio en particular",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -1640,7 +1490,7 @@
     "promedio": 1,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 4,
+    "prom_flexibilidad": 5,
     "prom_liderazgo": 1,
     "prom_cultura": 2
   },
@@ -1653,20 +1503,17 @@
       {
         "id": 40,
         "fecha": "2026-03-24",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 2,
         "sueldo": 3,
         "carrera": 3,
-        "flexibilidad": "Malo",
-        "liderazgo": "Malo",
-        "cultura": null,
+        "flexibilidad": 2,
+        "liderazgo": 2,
+        "cultura": 3,
         "que_bien": "Las oportunidades de crecimiento o exposición se van dando a medida que uno mismo se visibiliza o expone.",
         "que_mal": "Poca o nula flexibilidad en términos de home office. Si uno no cumple con una modalidad de 4x1, no puede obtener aumentos de sueldo, cambios de roles, etc (incluso cumpliendo con los objetivos del rol). Alta rotación y sin feedback real por parte de los líderes. Contratan gente con plazo fijo a los 3 meses, porque saben que existe una alta probabilidad de desvinculación o no renovación de contrato.",
         "que_desearias": "Que lo más importante es cómo te lleves con los founders. De eso depende tu continuidad en la empresa. Si ellos no ven tu trabajo, no sirve de nada.",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -1677,7 +1524,7 @@
     "prom_carrera": null,
     "prom_flexibilidad": 2,
     "prom_liderazgo": 2,
-    "prom_cultura": null
+    "prom_cultura": 3
   },
   {
     "id": "gtd",
@@ -1688,8 +1535,6 @@
       {
         "id": 30,
         "fecha": "2026-03-23",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 4,
@@ -1701,7 +1546,6 @@
         "que_bien": "Cultura: empresa de la familia Casanueva, aún con muchos rasgos muy formales y poco actualizado a culturas empresariales más modernas. La mano del dueño fundador aun está muy presente (para bien y para mal).\n\nBeneficios: seguro complementario de salud, convenios, amipass, bono navidad, bono fiestas patrias, etc ... lo normal (nada del otro mundo) para una empresa de aprox. 3000 trabajadores.\n\nFlexibilidad: no abiertamente, pero esto siempre dependerá mucho de tu área, jefatura y responsabilidades.",
         "que_mal": "Los sueldos no son los mejores del mercado y no siempre se asciende al que lo merece sino que al que tiene contactos, es amigo o familiar de alguien.",
         "que_desearias": "Hay bastante clasismo y mucha formalidad en el día a día, si te adaptas a eso te puede ir bien y lo puedes pasar bien también. Todo dependerá del líder de tu área, también hay personas valiosas y de gran calidad humana.",
-        "consejo_gerencia": null,
         "recomienda": "Sí",
         "votos": 0
       }
@@ -1723,20 +1567,17 @@
       {
         "id": 39,
         "fecha": "2026-03-24",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 2,
         "sueldo": 2,
         "carrera": 1,
-        "flexibilidad": "Muy bueno",
-        "liderazgo": "Malo",
-        "cultura": "Bueno",
+        "flexibilidad": 5,
+        "liderazgo": 2,
+        "cultura": 4,
         "que_bien": "El ambiente es muy rico en el sentido de que todos viven el propósito de la fundación. Además en mi área estábamos casi full teletrabajo, íbamos media jornada 1 vez a la semana.",
         "que_mal": "No tienen buenas jefaturas. Hay mucha gente antigua, crecer dentro de la organización es casi imposible. La cultura es muy difícil de trabajar, los colaboradores (al ser tan antiguos) no quieren implementar cambios y muchas veces boicotean los proyectos de mejora. No hay espacio (ni recursos) para la innovación. No hay cultura de trabajo, las personas andan marcando el paso. La conexión del internet es muy mala, al igual que los equipos que te entregan. Las oficinas son demasiado básicas y no tienen todo lo suficiente para poder trabajar bien. Los sueldos son demasiado bajos y pedir aumento es un trámite enorme y te ofrecen 20-30 lucas, un chiste.",
         "que_desearias": "las pocas posibilidades de crecimiento. los bajos sueldos. el estado de la oficina.",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -1745,33 +1586,30 @@
     "promedio": 2,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 4,
+    "prom_flexibilidad": 5,
     "prom_liderazgo": 2,
-    "prom_cultura": 3
+    "prom_cultura": 4
   },
   {
     "id": "i-municipalidad-de-coquimbo",
     "nombre": "I. Municipalidad de Coquimbo",
-    "rubro": "Gobierno",
+    "rubro": "Departamento Social",
     "logo": "assets/logos/i-municipalidad-de-coquimbo.png",
     "resenas": [
       {
         "id": 66,
         "fecha": "2026-03-26",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "Sí",
         "cal_general": 1,
         "sueldo": "en el mercado",
         "carrera": "crecimiento moderado",
-        "flexibilidad": null,
-        "liderazgo": "Muy malo",
-        "cultura": "Muy malo",
+        "flexibilidad": 3,
+        "liderazgo": 1,
+        "cultura": 1,
         "que_bien": "Las colegas que entramos en conjunto y trabajar en conjunto es muy grato",
         "que_mal": "La jefatura de social, existe un pésimo liderazgo, no tiene empatía por los trabajadores y existe un hostigamiento laboral que hace dos años (cuando estaba la ex jefa) no teníamos ese problema. Además el nivel de desconfianza con los profesionales llegando al límite de que estén llamando por teléfono para verificar si estamos realizando nuestro trabajo. Además estamos a honorarios y nos tienen marcando, realizan descuento si marcamos atrasados y el ambiente laboral está pésimo.",
         "que_desearias": "Que no cambiarían nuestras condiciones laborales",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -1780,7 +1618,7 @@
     "promedio": 1,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": null,
+    "prom_flexibilidad": 3,
     "prom_liderazgo": 1,
     "prom_cultura": 1
   },
@@ -1793,8 +1631,6 @@
       {
         "id": 5,
         "fecha": "2026-03-20",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "Sí",
         "cal_general": 2,
@@ -1806,7 +1642,6 @@
         "que_bien": "Son ordenados con la informacion que recopilan de las personas.",
         "que_mal": "Poca empatia con los trabajadores, además hay ciertos procesos internos de la empresa que obligan, directa o indirectamente al trabajador a desempeñarse fuera del horario laboral.",
         "que_desearias": "lo que estaba mal.",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -1828,8 +1663,6 @@
       {
         "id": 27,
         "fecha": "2026-03-23",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 4,
@@ -1841,7 +1674,6 @@
         "que_bien": "Flexibilidad, al principio todo era remoto,  pero ahora los clientes quieren híbrido o presencial. Tienen buenos beneficios si te inscribes en el\nSindicato",
         "que_mal": "Cuando en una vacante ponen que suben sueldo anual, no es la realidad, solo sube por IPC pero no por el desempeño (tengo excelente desempeño recomendado por cliente y la consultora), sin embargo al estar en el sindicato hay bonos decentes.",
         "que_desearias": "Creo que estuvo bien la información que recibí antes de entrar",
-        "consejo_gerencia": null,
         "recomienda": "Sí",
         "votos": 0
       }
@@ -1863,20 +1695,17 @@
       {
         "id": 102,
         "fecha": "2026-03-29",
-        "area": null,
-        "cargo": null,
         "tiempo": "6 meses a 1 año",
         "sigue": "Sí",
         "cal_general": 4,
         "sueldo": "en el mercado",
         "carrera": "crecimiento moderado",
-        "flexibilidad": "Bueno",
-        "liderazgo": null,
-        "cultura": null,
+        "flexibilidad": 4,
+        "liderazgo": 3,
+        "cultura": 3,
         "que_bien": "Buen ambiente, buenas oportunidades.",
         "que_mal": "Hay personas que no debiesen de estar como líderes, demasiados puestos gerenciales. Desorden organizativo.",
         "que_desearias": null,
-        "consejo_gerencia": null,
         "recomienda": "Sí",
         "votos": 0
       }
@@ -1885,9 +1714,9 @@
     "promedio": 4,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 3,
-    "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_flexibilidad": 4,
+    "prom_liderazgo": 3,
+    "prom_cultura": 3
   },
   {
     "id": "l-oreal-chile",
@@ -1898,20 +1727,17 @@
       {
         "id": 97,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 3,
         "sueldo": "en el mercado",
         "carrera": "crecimiento moderado",
-        "flexibilidad": null,
-        "liderazgo": "Bueno",
-        "cultura": "Malo",
+        "flexibilidad": 3,
+        "liderazgo": 4,
+        "cultura": 2,
         "que_bien": "Tiene buenos beneficios, hay posibilidad de crecer, ofrecen capacitaciones constantes",
         "que_mal": "Me tocó un director de operaciones muy desagradable, sentía que la posibilidad de crecer dependía más de la popularidad que de la productividad. Se sentía un ambiente de competencia entre divisiones",
         "que_desearias": "Lo importante que consideran las habilidades blandas",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -1920,8 +1746,8 @@
     "promedio": 3,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": null,
-    "prom_liderazgo": 3,
+    "prom_flexibilidad": 3,
+    "prom_liderazgo": 4,
     "prom_cultura": 2
   },
   {
@@ -1933,20 +1759,17 @@
       {
         "id": 44,
         "fecha": "2026-03-24",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 4,
         "sueldo": 2,
         "carrera": 1,
-        "flexibilidad": "Bueno",
-        "liderazgo": "Muy bueno",
-        "cultura": "Bueno",
+        "flexibilidad": 4,
+        "liderazgo": 5,
+        "cultura": 4,
         "que_bien": "Empresa seria, con procesos establecidos, en constante crecimiento.",
         "que_mal": "Falta de plan de carrera y crecimiento.",
         "que_desearias": "Que podría pasar 3 años estancado en el mismo puesto sin ajuste de remuneración.",
-        "consejo_gerencia": null,
         "recomienda": "Sí",
         "votos": 0
       }
@@ -1955,9 +1778,9 @@
     "promedio": 4,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 3,
-    "prom_liderazgo": 4,
-    "prom_cultura": 3
+    "prom_flexibilidad": 4,
+    "prom_liderazgo": 5,
+    "prom_cultura": 4
   },
   {
     "id": "latam-airlines",
@@ -1968,8 +1791,6 @@
       {
         "id": 12,
         "fecha": "2026-03-21",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 2,
@@ -1981,7 +1802,6 @@
         "que_bien": "Es lindo decir que estás en latam, y trabajar en una industria muy dinamica",
         "que_mal": "La dirección de aeropuertos (administrativa) completa hay directores que piden sacar jefes, toda la plana de gerentes se conocen y carretean entre ellos hace años, se apitutean entre ellos y si no eres \"de su perfil\" no te dan bola para ningun proyecto esperando que te vayas o puedan traer a alguien para reemplazarte",
         "que_desearias": "Lo tóxico que es el ambiente político/enpresarial",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -2003,40 +1823,34 @@
       {
         "id": 35,
         "fecha": "2026-03-24",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 5,
         "sueldo": 5,
         "carrera": 4,
-        "flexibilidad": "Muy bueno",
-        "liderazgo": null,
-        "cultura": "Muy bueno",
+        "flexibilidad": 5,
+        "liderazgo": 3,
+        "cultura": 5,
         "que_bien": "Es por lejos la mejora empresa en la que he trabajado. Buenos beneficios, flexibilidad y renta. Hay cultura centrada en las personas y se les trata con respeto",
         "que_mal": "Los sesgos y brechas de género.",
         "que_desearias": "Las diferencias evidentes que existen en lo que refiere a equidad de género, y en cómo estas brechas acentúan comportamientos misoginos en las mesas de liderazgo. Como la falta de liderazgo en los equipos de desarrollo impacta en otros equipos y en sus resultados",
-        "consejo_gerencia": null,
         "recomienda": "Sí",
         "votos": 0
       },
       {
         "id": 33,
         "fecha": "2026-03-23",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 1,
         "sueldo": 2,
         "carrera": 1,
-        "flexibilidad": "Muy malo",
-        "liderazgo": "Muy malo",
-        "cultura": "Malo",
+        "flexibilidad": 1,
+        "liderazgo": 1,
+        "cultura": 2,
         "que_bien": "Solo su imagén",
         "que_mal": "Cultura, personas",
         "que_desearias": "Que fueran claro en sus mediciones tech",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -2045,9 +1859,9 @@
     "promedio": 3,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 2.5,
-    "prom_liderazgo": 1,
-    "prom_cultura": 3
+    "prom_flexibilidad": 3,
+    "prom_liderazgo": 2,
+    "prom_cultura": 3.5
   },
   {
     "id": "lider-bci",
@@ -2058,28 +1872,23 @@
       {
         "id": 50,
         "fecha": "2026-03-24",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 5,
         "sueldo": 4,
         "carrera": 4,
-        "flexibilidad": "Muy bueno",
-        "liderazgo": "Muy bueno",
-        "cultura": "Muy bueno",
+        "flexibilidad": 5,
+        "liderazgo": 5,
+        "cultura": 5,
         "que_bien": "Cultura, flexibilidad y beneficios",
         "que_mal": null,
         "que_desearias": "Bandas de sueldo, si entras muy abajo después acortar eso es dificil",
-        "consejo_gerencia": null,
         "recomienda": "Sí",
         "votos": 0
       },
       {
         "id": 29,
         "fecha": "2026-03-23",
-        "area": null,
-        "cargo": null,
         "tiempo": "Menos de 6 meses",
         "sigue": "Sí",
         "cal_general": 3,
@@ -2091,7 +1900,6 @@
         "que_bien": "Los salarios iniciales, beneficios y flexibilidad.",
         "que_mal": "La cultura organizacional es muy desorganizada y sueldos para profesionales con más experiencia por debajo del mercado.",
         "que_desearias": "Ambiente laboral.",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -2100,9 +1908,9 @@
     "promedio": 4,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 4,
-    "prom_liderazgo": 4,
-    "prom_cultura": 4
+    "prom_flexibilidad": 5,
+    "prom_liderazgo": 5,
+    "prom_cultura": 5
   },
   {
     "id": "lirmi",
@@ -2113,8 +1921,6 @@
       {
         "id": 20,
         "fecha": "2026-03-23",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "Sí",
         "cal_general": 2,
@@ -2126,15 +1932,12 @@
         "que_bien": "Nada",
         "que_mal": "Liderazgo, ambiente, poca claridad en metas y objetivos",
         "que_desearias": "La calidad del liderazgo",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       },
       {
         "id": 21,
         "fecha": "2026-03-23",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 1,
@@ -2146,15 +1949,12 @@
         "que_bien": "Flexibilidad - teletrabajo 100%",
         "que_mal": "Cultura - nepotismo",
         "que_desearias": null,
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       },
       {
         "id": 22,
         "fecha": "2026-03-23",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 1,
@@ -2166,15 +1966,12 @@
         "que_bien": "La empresa tiene un impacto real en la gestión educativa de colegios y sostenedores",
         "que_mal": "LA coherencia entre las expectativas de desempeño, las condiciones laborales y los sistemas de incentivos, asegurando transparencia y consistencia en los criterios utilizados.\n\nTambién mejorar la gestión del cambio organizacional, especialmente en temas como modalidades de trabajo, redefinición de roles o restructuraciones, promoviendo instancias de diálogo más tempranas y acompañamiento a los equipos.",
         "que_desearias": "habría agradecido tener una visión más concreta sobre la modalidad de trabajo futura y los cambios organizacionales esperables, para poder anticipar decisiones personales y profesionales.",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       },
       {
         "id": 24,
         "fecha": "2026-03-23",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "Sí",
         "cal_general": 1,
@@ -2186,15 +1983,12 @@
         "que_bien": "beneficio de trabajo remoto",
         "que_mal": "Liderazgo de las alta jerarquias, son poco humanos despiden por correo y la mayoría demandar por mal calculo de finiquitos",
         "que_desearias": "Procesos de desvinculación y demanda de la empresa",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       },
       {
         "id": 25,
         "fecha": "2026-03-23",
-        "area": null,
-        "cargo": null,
         "tiempo": "6 meses a 1 año",
         "sigue": "Sí",
         "cal_general": 1,
@@ -2206,35 +2000,29 @@
         "que_bien": "El producto es muy muy bueno",
         "que_mal": "La idea de la empresa es buena, partió bien, pero el hecho de que a nivel CLevel sean todos familiares hace que la exigencia no sea igual para todos. Las metas son imposibles de cumplir (te das cuenta de eso una vez dentro) ofrecen bonos que después no te pagan y apenas preguntas, pasas a la lista Negra donde te sacan de todos los grupos, reuniones y todo. \nTodas las personas que han despedido desde hace 4 meses a la fecha (más de 20 personas) es porque han reclamado algún pago pendiente.",
         "que_desearias": "Que las metas que te ponen suenan interesantes pero que uno no puede hacerse cargo del resultado de la unidad completa para que paguen los bonos y comisiones.",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       },
       {
         "id": 34,
         "fecha": "2026-03-23",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 1,
         "sueldo": 2,
         "carrera": 1,
-        "flexibilidad": "Muy malo",
-        "liderazgo": "Muy malo",
-        "cultura": "Malo",
+        "flexibilidad": 1,
+        "liderazgo": 1,
+        "cultura": 2,
         "que_bien": "Los compañeros la verdad que si no fuera por que somos unidos y nos prestamos ayuda uno a otros el ambiente y todo sería súper tóxico",
         "que_mal": "Toda la jefatura su falta de empatía y comunicación tienen un liderazgo y crecimiento deber de la empresa nefasto.",
         "que_desearias": "La falta de empatía y humanidad desde su ceo hasta sus líderes",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       },
       {
         "id": 13,
         "fecha": "2026-03-21",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 2,
@@ -2246,7 +2034,6 @@
         "que_bien": "Beneficios y flexibilidad",
         "que_mal": "Liderazgo y comunicación clara de procesos y decisiones.",
         "que_desearias": "Como íbamos a ser evaluados, o que repercusiones claras tendriamos de esas evaluaciones.",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -2268,20 +2055,17 @@
       {
         "id": 87,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 3,
         "sueldo": "sobre el mercado",
         "carrera": "crecimiento moderado",
-        "flexibilidad": null,
-        "liderazgo": "Malo",
-        "cultura": null,
+        "flexibilidad": 3,
+        "liderazgo": 2,
+        "cultura": 3,
         "que_bien": "Beneficios, sueldo, desafios",
         "que_mal": "La gerencia, la burocracia, el sistema cerrado",
         "que_desearias": "Tus conocimientos de cloud importan poco ya que todo lo maneja fury",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -2290,9 +2074,9 @@
     "promedio": 3,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": null,
+    "prom_flexibilidad": 3,
     "prom_liderazgo": 2,
-    "prom_cultura": null
+    "prom_cultura": 3
   },
   {
     "id": "metlife",
@@ -2303,20 +2087,17 @@
       {
         "id": 107,
         "fecha": "2026-03-29",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 4,
         "sueldo": "en el mercado",
         "carrera": "crecimiento moderado",
-        "flexibilidad": "Bueno",
-        "liderazgo": null,
-        "cultura": "Muy bueno",
+        "flexibilidad": 4,
+        "liderazgo": 3,
+        "cultura": 5,
         "que_bien": "Buenos beneficios y ambiente laboral",
         "que_mal": "Lo malo: Mucho amiguismo, no vi meritocracia.\nQue podría mejorar:  falta capacidad de innovación",
         "que_desearias": "La funciones completas del cargo y proyecciones de desarrollo",
-        "consejo_gerencia": null,
         "recomienda": "Sí",
         "votos": 0
       }
@@ -2325,9 +2106,9 @@
     "promedio": 4,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 3,
-    "prom_liderazgo": null,
-    "prom_cultura": 4
+    "prom_flexibilidad": 4,
+    "prom_liderazgo": 3,
+    "prom_cultura": 5
   },
   {
     "id": "microglobal",
@@ -2338,20 +2119,17 @@
       {
         "id": 76,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "6 meses a 1 año",
         "sigue": "Sí",
         "cal_general": 1,
         "sueldo": "bajo el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": "Malo",
-        "liderazgo": "Muy malo",
-        "cultura": "Muy malo",
+        "flexibilidad": 2,
+        "liderazgo": 1,
+        "cultura": 1,
         "que_bien": null,
         "que_mal": "Machistas, no saben liderar, no hay comunicación en tomas de decisiones de gerencias que afectan a los trabajadores, toman acciones injustificadas, no pagan los feriados, se saltan protocolos de seguridad",
         "que_desearias": "Que te tratan como esclavo en base a un sueldo miserables que ellos no estan dispuestos aumentar.",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -2373,20 +2151,17 @@
       {
         "id": 96,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 3,
         "sueldo": "sobre el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": "Muy malo",
-        "liderazgo": "Muy malo",
-        "cultura": "Malo",
+        "flexibilidad": 1,
+        "liderazgo": 1,
+        "cultura": 2,
         "que_bien": "Buenos bonos y sueldo gracias a los sindicatos",
         "que_mal": "Malos liderazgos, poca flexibilidad, sabotaje entre compañeros y áreas, exceso de política interna, malos tratos, prepotencia",
         "que_desearias": "Buenos sueldos a costa de un ambiente horrible",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -2408,20 +2183,17 @@
       {
         "id": 94,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 3,
         "sueldo": "bajo el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": null,
-        "liderazgo": null,
-        "cultura": "Bueno",
+        "flexibilidad": 3,
+        "liderazgo": 3,
+        "cultura": 4,
         "que_bien": "Cultura quizas, buen compañerismo",
         "que_mal": "Oportunidad de crecimiento, planes de carrera, sueldos y ascensos acordes al tiempo de la persona",
         "que_desearias": "Lo que se realiza es muy repetitivo",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -2430,9 +2202,9 @@
     "promedio": 3,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": null,
-    "prom_liderazgo": null,
-    "prom_cultura": 3
+    "prom_flexibilidad": 3,
+    "prom_liderazgo": 3,
+    "prom_cultura": 4
   },
   {
     "id": "mosaico",
@@ -2443,20 +2215,17 @@
       {
         "id": 47,
         "fecha": "2026-03-24",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "Sí",
         "cal_general": 3,
         "sueldo": 5,
         "carrera": 4,
-        "flexibilidad": "Bueno",
-        "liderazgo": "Malo",
-        "cultura": null,
+        "flexibilidad": 4,
+        "liderazgo": 2,
+        "cultura": 3,
         "que_bien": "Oportunidades de crecimiento personal",
         "que_mal": "Empresa arcaica, pocos procesos definidos, sin RRHH, cultura politizada",
         "que_desearias": "Que hay mucho trabajo por hacer, varios años de avances laborales que alcanzar",
-        "consejo_gerencia": null,
         "recomienda": "Sí",
         "votos": 0
       }
@@ -2465,9 +2234,9 @@
     "promedio": 3,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 3,
+    "prom_flexibilidad": 4,
     "prom_liderazgo": 2,
-    "prom_cultura": null
+    "prom_cultura": 3
   },
   {
     "id": "ntt-data",
@@ -2478,20 +2247,17 @@
       {
         "id": 79,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "Menos de 6 meses",
         "sigue": "No",
         "cal_general": 2,
         "sueldo": "bajo el mercado",
         "carrera": "crecimiento moderado",
-        "flexibilidad": "Muy malo",
-        "liderazgo": "Malo",
-        "cultura": "Muy malo",
+        "flexibilidad": 1,
+        "liderazgo": 2,
+        "cultura": 1,
         "que_bien": "Oportunidad de trabajar con clientes importantes y aprender cuando se está empezando.",
         "que_mal": "La cultura de trabajo y el micromanagement excesivo, múltiples plataformas para ir anotando lo que estás haciendo.",
         "que_desearias": "Es una empresa para mojar los pies en la industria, no para quedarse mucho tiempo. Por mucho que sobresalgas en tu trabajo, si entraste en un cargo más bajo te va a tomar bastante tiempo ir subiendo.",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -2513,40 +2279,34 @@
       {
         "id": 98,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 4,
         "sueldo": "sobre el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": "Bueno",
-        "liderazgo": null,
-        "cultura": "Malo",
+        "flexibilidad": 4,
+        "liderazgo": 3,
+        "cultura": 2,
         "que_bien": "Salario",
         "que_mal": "Liderazgo y no hay interes por las personas",
         "que_desearias": "haras dinero, pero estas solo contar el mundo, tus compañeros son tu competencia.",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       },
       {
         "id": 69,
         "fecha": "2026-03-27",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 2,
         "sueldo": "en el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": "Muy bueno",
-        "liderazgo": "Malo",
-        "cultura": null,
+        "flexibilidad": 5,
+        "liderazgo": 2,
+        "cultura": 3,
         "que_bien": "La flexibilidad es lo que va quedando.",
         "que_mal": "No hay aumentos de sueldo. El acceder a mejores.cargos es muy difícil. Cada vez menos beneficios.",
         "que_desearias": "Que no hay aumentos de sueldo.",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -2555,9 +2315,9 @@
     "promedio": 3,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 3.5,
-    "prom_liderazgo": 2,
-    "prom_cultura": 2
+    "prom_flexibilidad": 4.5,
+    "prom_liderazgo": 2.5,
+    "prom_cultura": 2.5
   },
   {
     "id": "pwc-chile",
@@ -2568,20 +2328,17 @@
       {
         "id": 88,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 2,
         "sueldo": "bajo el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": null,
-        "liderazgo": "Malo",
-        "cultura": "Malo",
+        "flexibilidad": 3,
+        "liderazgo": 2,
+        "cultura": 2,
         "que_bien": "Los compañeros de trabajo generaban un buen ambiente.",
         "que_mal": "Lideres vende humo, alta rotación, sueldos muy bajos, horas extras impagas.",
         "que_desearias": "Que no valoran tu esfuerzo ni tus habilidades técnicas, solo buscan que seas un buen charlatán para poder crecer en la empresa.",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -2590,7 +2347,7 @@
     "promedio": 2,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": null,
+    "prom_flexibilidad": 3,
     "prom_liderazgo": 2,
     "prom_cultura": 2
   },
@@ -2603,20 +2360,17 @@
       {
         "id": 80,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "6 meses a 1 año",
         "sigue": "No",
         "cal_general": 1,
         "sueldo": "bajo el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": "Muy malo",
-        "liderazgo": "Muy malo",
-        "cultura": "Muy malo",
+        "flexibilidad": 1,
+        "liderazgo": 1,
+        "cultura": 1,
         "que_bien": "Pagan al día.",
         "que_mal": "Los proyectos que llevan de manera interna para clientes son un absoluto caos, tiran gente recién egresada o titulada a los leones sin mayor apoyo. Te \"enseñan\" a través de un coaching bastante malo cómo responder las entrevistas cuando te quieren enviar a algún cliente.",
         "que_desearias": "Es una moledora de carne de esas que ya no se ven tanto.",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -2638,20 +2392,17 @@
       {
         "id": 89,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "6 meses a 1 año",
         "sigue": "No",
         "cal_general": 1,
         "sueldo": "bajo el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": "Bueno",
-        "liderazgo": "Muy malo",
-        "cultura": "Muy malo",
+        "flexibilidad": 4,
+        "liderazgo": 1,
+        "cultura": 1,
         "que_bien": "Beneficios tipo teletrabajo. Algunas áreas son ampliamente superiores a otras, de preferencia irse a la tecnología o áreas más técnicas. Te toca en alguna diferente y es lo peor.",
         "que_mal": "Honestidad y lealtad, si no haces lo que superiores te ordenan son capaces de perjudicarte. Las conductas de acoso laboral o incluso sexual no son protegidas, dado que la mayoría que trabajan son hombres. Gente aspiracional que trabaja por poco pero se cree lo mejor por trabajar en esta multinacional.",
         "que_desearias": "Que si no le haces caso a alguien de poder son capaces de esconder la verdad, injusticia. Competencia tóxica, si resaltas o tienes mejor carrera que las personas que estan allí se sienten amenazadas, sobre todo las señoras mayores.",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -2660,7 +2411,7 @@
     "promedio": 1,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 3,
+    "prom_flexibilidad": 4,
     "prom_liderazgo": 1,
     "prom_cultura": 1
   },
@@ -2673,8 +2424,6 @@
       {
         "id": 23,
         "fecha": "2026-03-23",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 3,
@@ -2686,7 +2435,6 @@
         "que_bien": "Buenos beneficios (ganados por la Mesa Negociadora, no por la benevolencia de la empresa)",
         "que_mal": "Cultura del chisme muy normalizada, jefaturas y liderazgos que ascendieron solo por obedecer órdenes de superiores sin cuestionar nada (aunque fueran incluso cosas que perjudicaron el negocio), \"liderazgo\" basado infundir miedo y ego desproporcionado de las personas que ganan mayor sueldo",
         "que_desearias": "Que no vas a ascender por el mérito de tu trabajo, sino que por hacerte amigo de las jefaturas o por obedecer ciegamente las órdenes de quienes ganan mayor sueldo",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -2708,8 +2456,6 @@
       {
         "id": 14,
         "fecha": "2026-03-21",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "Sí",
         "cal_general": 4,
@@ -2721,7 +2467,6 @@
         "que_bien": "Beneficios y flexibilidad horaria. El ambiente laboral es muy bueno",
         "que_mal": "La Cultura del estamento publica es horrible y el liderazgo incompetente",
         "que_desearias": "Que podría pasar meses o años haciendo algo que no está en las descripciones del cargo",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -2743,20 +2488,17 @@
       {
         "id": 59,
         "fecha": "2026-03-25",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 4,
         "sueldo": "en el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": "Muy bueno",
-        "liderazgo": "Bueno",
-        "cultura": "Muy bueno",
+        "flexibilidad": 5,
+        "liderazgo": 4,
+        "cultura": 5,
         "que_bien": "Flexibilidad, se puede trabajar 100% remoto. Las personas de los equipos generan un buen ambiente.",
         "que_mal": "Decisiones estratégicas, se tomaba una dirección al poco tiempo se cambiaba, poca constancia en las decisiones estratégicas.",
         "que_desearias": "Los cambios constantes que se realizaban en la dirección estratégica.",
-        "consejo_gerencia": null,
         "recomienda": "Sí",
         "votos": 0
       }
@@ -2765,9 +2507,9 @@
     "promedio": 4,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 4,
-    "prom_liderazgo": 3,
-    "prom_cultura": 4
+    "prom_flexibilidad": 5,
+    "prom_liderazgo": 4,
+    "prom_cultura": 5
   },
   {
     "id": "smu-s-a",
@@ -2778,8 +2520,6 @@
       {
         "id": 26,
         "fecha": "2026-03-23",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 2,
@@ -2791,7 +2531,6 @@
         "que_bien": "beneficios",
         "que_mal": "cultura, flexibilidad, liderazgo, trato",
         "que_desearias": "que hay mucho maltrato interno, perfiles de liderazgo anticuados",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -2807,34 +2546,29 @@
   {
     "id": "sodexo",
     "nombre": "Sodexo",
-    "rubro": "Beneficios sociales",
+    "rubro": "Seguridad",
     "logo": "assets/logos/sodexo.png",
     "resenas": [
       {
         "id": 93,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "6 meses a 1 año",
         "sigue": "No",
         "cal_general": 2,
         "sueldo": "en el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": "Bueno",
-        "liderazgo": "Malo",
-        "cultura": "Muy malo",
+        "flexibilidad": 4,
+        "liderazgo": 2,
+        "cultura": 1,
         "que_bien": "El sueldo que tenia  en  ese momento  (780.000)  para un cargo que no exige titulo ni experiencia es muy bueno, los beneficios del teletrabajo, lindas oficinas en un buen barrio.",
         "que_mal": "Jefaturas sin conocimiento, me decían que  tenia que mentir  para perjudicar a las demás áreas, una competitividad estúpida, no puedes decir que te comprometa porque se  agarran de ello y copian por correo hasta a la tía del aseo,  MUCHO pituto, demasiados cargos inventados, todos los directores, jefes, gerentes y subgerentes se conocen hace años, son todos amigos desde hace tiempo atras.",
         "que_desearias": "Que era una pega esclavizadora, la cantidad de pega era absurda para una sola persona. al menos en mi área, se notaba mucho la diferencia entre un trabajador 'analista' vs la de un jefe, esos llegaban mucho más tarde, no tenian problemas con nada, etc.",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       },
       {
         "id": 7,
         "fecha": "2026-03-20",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 4,
@@ -2846,7 +2580,6 @@
         "que_bien": "Remuneración por sobre el promedio gracias a beneficios por sindicato",
         "que_mal": "Jefaturas mediocres y recursos humanos horribles. Contratan gente floja y mediocre, cuando se termina el contrato a plazo les pasan a indefinido (no tiene ningúna lógica) y cuando tienen que echarlos aunque les salga gratis no lo hacen, le tienen miedo a las demandas de los cachos a la inspección del trabajo. \n\nQue el trabajador se puede mandar todas las cagas y faltas que quiera y no lo van a echar (Al menos en la instalación donde trabajaba yo).\n\nLas jefaturas tienen familiares en otros puestos de responsabilidad sin las competencias necesarias.",
         "que_desearias": "Sodexo pierde instalaciones tan rápido como las gana, considerar posible traslado dependiendo de tu antigüedad o despido por necesidad de la empresa",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -2855,7 +2588,7 @@
     "promedio": 3,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 3,
+    "prom_flexibilidad": 4,
     "prom_liderazgo": 2,
     "prom_cultura": 1
   },
@@ -2868,20 +2601,17 @@
       {
         "id": 53,
         "fecha": "2026-03-24",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 4,
         "sueldo": 4,
         "carrera": 3,
-        "flexibilidad": null,
-        "liderazgo": "Bueno",
-        "cultura": "Bueno",
+        "flexibilidad": 3,
+        "liderazgo": 4,
+        "cultura": 4,
         "que_bien": "tenia buenos beneficios, buen sueldo, muy buen ambiente, buenos lideres y se aprende harto, tambien eran flexibles si uno tenia que ir al medico o algo asi. jornada hibrida y relajados igual con los horarios de entrada cuando habia que ir a la oficina.",
         "que_mal": "la jornada laboral era mucho mayor que lo establecido, yo estaba en una de apoyo, no en las tiendas. siempre habia que quedarse hasta mas tarde  a veces noche y  los dias que se teletrabajaba te decian que daba lo mismo si total estabas en la casa.",
         "que_desearias": "se trabajan horas extras no remuneradas.",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -2890,9 +2620,9 @@
     "promedio": 4,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": null,
-    "prom_liderazgo": 3,
-    "prom_cultura": 3
+    "prom_flexibilidad": 3,
+    "prom_liderazgo": 4,
+    "prom_cultura": 4
   },
   {
     "id": "solcor",
@@ -2903,8 +2633,6 @@
       {
         "id": 16,
         "fecha": "2026-03-21",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 5,
@@ -2916,7 +2644,6 @@
         "que_bien": "Lo mejor del mundo Solcor. Flexibilidad y posibilidades de crecimiento. Muy buenos profesionales de quienes aprendí mucho",
         "que_mal": "Horario de trabajo",
         "que_desearias": null,
-        "consejo_gerencia": null,
         "recomienda": "Sí",
         "votos": 0
       }
@@ -2938,8 +2665,6 @@
       {
         "id": 15,
         "fecha": "2026-03-21",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "Sí",
         "cal_general": 1,
@@ -2951,7 +2676,6 @@
         "que_bien": "Lo unico rescatable es que es una escuela, aprendes un monton de lo bueno y de lo malo",
         "que_mal": "Precisamente su mayor debilidad es su incapacidad para retener talento sin importar cuanto inviertan en formarte, los aumentos de renta no se negocian, se ruegan, los beneficios son ridiculos (tienes que pagar para recibirlos) las estructuras cambian, la gente se va y no la reemplazan, no hay puestos imprescindibles, y en recursos humanos simplemente no conocen el negocio, asi que puedes terminar con compañeros de trabajo que no solo no tienen dedos para el piano, sino que simplemente no saben que un piano es un instrumento músical...",
         "que_desearias": "Que no vas a durar mucho, y que si duras mucho no te van a mejorar la renta ni que seas el mejor de los mejores, asi que aprende y enfocate en mejorar tu CV.",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -2967,26 +2691,23 @@
   {
     "id": "starbucks",
     "nombre": "Starbucks",
-    "rubro": "Gastronomía",
+    "rubro": "comida rapida",
     "logo": "https://www.google.com/s2/favicons?domain=starbucks.cl&sz=128",
     "resenas": [
       {
         "id": 100,
         "fecha": "2026-03-29",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 1,
         "sueldo": "sobre el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": "Muy bueno",
-        "liderazgo": "Muy malo",
-        "cultura": "Muy malo",
+        "flexibilidad": 5,
+        "liderazgo": 1,
+        "cultura": 1,
         "que_bien": "la flexibilidad es buena, perfecta si estas estudiando, los beneficios dentro de la tienda igual salvan algo",
         "que_mal": "la cultura de la empresa promueve la competencia toxica para ascender, te van a cambiar de tienda cada vez que puedan si es que quieres ascender, los gerentes son todos pro empresa que te harán la vida imposible.",
         "que_desearias": "si entran, no esperen ascender si la pega es para poder tener un trabajo mientras estudias o temporal es bueno, pero para intentar hacer carrera en, es casi imposible",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -2995,7 +2716,7 @@
     "promedio": 1,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 4,
+    "prom_flexibilidad": 5,
     "prom_liderazgo": 1,
     "prom_cultura": 1
   },
@@ -3008,20 +2729,17 @@
       {
         "id": 45,
         "fecha": "2026-03-24",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 5,
         "sueldo": 3,
         "carrera": 4,
-        "flexibilidad": "Muy bueno",
-        "liderazgo": null,
-        "cultura": "Muy bueno",
+        "flexibilidad": 5,
+        "liderazgo": 3,
+        "cultura": 5,
         "que_bien": "Como es startup cuidan mucho el ambiente",
         "que_mal": "Que operaciones es un incendio constante y no hay mucha voluntad de inyectar recursos en esa gerencia ya que no es rentable",
         "que_desearias": "Que no hay muchas intenciones de crecer exponencialmente",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -3030,9 +2748,9 @@
     "promedio": 5,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 4,
-    "prom_liderazgo": null,
-    "prom_cultura": 4
+    "prom_flexibilidad": 5,
+    "prom_liderazgo": 3,
+    "prom_cultura": 5
   },
   {
     "id": "tanner-servicios-financieros",
@@ -3043,20 +2761,17 @@
       {
         "id": 105,
         "fecha": "2026-03-29",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 4,
         "sueldo": "en el mercado",
         "carrera": "crecimiento moderado",
-        "flexibilidad": "Muy bueno",
-        "liderazgo": null,
-        "cultura": null,
+        "flexibilidad": 5,
+        "liderazgo": 3,
+        "cultura": 3,
         "que_bien": "no es buena, pero tampoco mala.",
         "que_mal": "Procesos, en el Area TI son casi inexistentes, se sacan requerimientos del culo.",
         "que_desearias": null,
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -3065,9 +2780,9 @@
     "promedio": 4,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 4,
-    "prom_liderazgo": null,
-    "prom_cultura": null
+    "prom_flexibilidad": 5,
+    "prom_liderazgo": 3,
+    "prom_cultura": 3
   },
   {
     "id": "tata-consultancy-services",
@@ -3078,20 +2793,17 @@
       {
         "id": 83,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 3,
         "sueldo": "sobre el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": "Malo",
-        "liderazgo": null,
-        "cultura": "Malo",
+        "flexibilidad": 2,
+        "liderazgo": 3,
+        "cultura": 2,
         "que_bien": "Sueldo un poco sobre el mercado, puede que haya sido mi experiencia solamente.",
         "que_mal": "En 2 años el sueldo no se movió nada, a pesar de entrar bastante alto para el mercado, ahí se quedó.",
         "que_desearias": "Mucho curso corporativo, muchos procesos internos y reuniones de la consultora que quitan tiempo para trabajar en el cliente.",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -3101,7 +2813,7 @@
     "prom_sueldo": null,
     "prom_carrera": null,
     "prom_flexibilidad": 2,
-    "prom_liderazgo": null,
+    "prom_liderazgo": 3,
     "prom_cultura": 2
   },
   {
@@ -3113,8 +2825,6 @@
       {
         "id": 18,
         "fecha": "2026-03-22",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
         "cal_general": 2,
@@ -3126,7 +2836,6 @@
         "que_bien": "Flexibilidad",
         "que_mal": "Cultura se servicio pésima, atención al cliente, bpm",
         "que_desearias": "Los supervisores llegaron ahí por pituto o por aserruchar el piso",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -3142,26 +2851,23 @@
   {
     "id": "the-home",
     "nombre": "The Home",
-    "rubro": "Construcción",
+    "rubro": "Diseño consultoría y construcción",
     "logo": "assets/logos/the-home.png",
     "resenas": [
       {
         "id": 71,
         "fecha": "2026-03-27",
-        "area": null,
-        "cargo": null,
         "tiempo": "Menos de 6 meses",
         "sigue": "No",
         "cal_general": 2,
         "sueldo": "bajo el mercado",
         "carrera": "crecimiento moderado",
-        "flexibilidad": "Malo",
-        "liderazgo": "Malo",
-        "cultura": "Bueno",
+        "flexibilidad": 2,
+        "liderazgo": 2,
+        "cultura": 4,
         "que_bien": "Cultura laboral compañeros, buen ambiente",
         "que_mal": "Sueldo, organización de presupuestos, exigencias jefatura, apoyo transporte y herramientas laborales",
         "que_desearias": null,
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -3172,7 +2878,7 @@
     "prom_carrera": null,
     "prom_flexibilidad": 2,
     "prom_liderazgo": 2,
-    "prom_cultura": 3
+    "prom_cultura": 4
   },
   {
     "id": "timix-chile",
@@ -3183,8 +2889,6 @@
       {
         "id": 28,
         "fecha": "2026-03-23",
-        "area": null,
-        "cargo": null,
         "tiempo": "Menos de 6 meses",
         "sigue": "No",
         "cal_general": 2,
@@ -3196,7 +2900,6 @@
         "que_bien": "Experiencia requerida para cargos iniciales",
         "que_mal": "Ambiente laboral y salario, te paga con boletas de honorarios cargos iniciales; con horarios de 44 horas pero sueldo muy por debajo del mínimo, garantizándote subir a un poco más del mínimo después de tres meses, pero un mes antes te sacan por reestructuración. Adicionalmente no dan buena inducción y exigen que sepas bien el proceso sin nunca haberlo explicado con anterioridad no claridad.",
         "que_desearias": "La metodología de trabajo y cultura empresarial.",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -3218,20 +2921,17 @@
       {
         "id": 36,
         "fecha": "2026-03-24",
-        "area": null,
-        "cargo": null,
         "tiempo": "6 meses a 1 año",
         "sigue": "Sí",
         "cal_general": 1,
         "sueldo": 3,
         "carrera": 3,
-        "flexibilidad": "Malo",
-        "liderazgo": "Malo",
-        "cultura": null,
+        "flexibilidad": 2,
+        "liderazgo": 2,
+        "cultura": 3,
         "que_bien": "Las personas son full comprometidas.",
         "que_mal": "Liderazgo y espacios de decisión poco representativos. Las personas no están en el centro de la conversación. Se intenta pasar el compromiso y dar la milla extra como algo normal, cuando bordea la sobre explotación. Sin capacidad real de desconexión ni descanso, escudándose en lo que el negocio necesita. Y por último, los equipos con bajas rentas que pudiera ser una medida paleativa.",
         "que_desearias": "El nivel de desconexión con los equipos y la sobrecarga de trabajo a la que te enfrentas, que es una constante y no representa una causa puntual que al abordarla se regula.",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -3242,7 +2942,7 @@
     "prom_carrera": null,
     "prom_flexibilidad": 2,
     "prom_liderazgo": 2,
-    "prom_cultura": null
+    "prom_cultura": 3
   },
   {
     "id": "touch",
@@ -3253,40 +2953,34 @@
       {
         "id": 49,
         "fecha": "2026-03-24",
-        "area": null,
-        "cargo": null,
         "tiempo": "Menos de 6 meses",
         "sigue": "No",
         "cal_general": 1,
         "sueldo": 2,
         "carrera": 1,
-        "flexibilidad": "Muy malo",
-        "liderazgo": "Muy malo",
-        "cultura": "Muy malo",
+        "flexibilidad": 1,
+        "liderazgo": 1,
+        "cultura": 1,
         "que_bien": "Nada",
         "que_mal": "Los líderes de esta empresa son patanes que creen que midiendo tu cráneo y sabiendo el mes en que naciste, actuaras de cierta manera. Hablo del CEO de la empresa. No se puede esperar nada del resto de jefaturas.",
         "que_desearias": "No recomiendo a nadie trabajar ahí. Alejate de ahí a menos que quieras pasarlo mal.",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       },
       {
         "id": 54,
         "fecha": "2026-03-24",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 2,
         "sueldo": 3,
         "carrera": 3,
-        "flexibilidad": "Bueno",
-        "liderazgo": "Malo",
-        "cultura": "Malo",
+        "flexibilidad": 4,
+        "liderazgo": 2,
+        "cultura": 2,
         "que_bien": "Algunos beneficios",
         "que_mal": "El ambiente, los jefes no sabian liderar, no tenian un rumbo claro de la empresa",
         "que_desearias": null,
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -3295,7 +2989,7 @@
     "promedio": 1.5,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 2,
+    "prom_flexibilidad": 2.5,
     "prom_liderazgo": 1.5,
     "prom_cultura": 1.5
   },
@@ -3308,20 +3002,17 @@
       {
         "id": 77,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 2,
         "sueldo": "en el mercado",
         "carrera": "crecimiento moderado",
-        "flexibilidad": null,
-        "liderazgo": "Malo",
-        "cultura": "Malo",
+        "flexibilidad": 3,
+        "liderazgo": 2,
+        "cultura": 2,
         "que_bien": "Algunos beneficios y un sindicato fuerte que en los últimos 6 o 7 años ha hecho más que una negociación pactada una imposición de términos para conseguir que la empresa no quite beneficios.",
         "que_mal": "Los liderazgos son mediocres en todos los niveles. Demasiados procesos manuales y sistemas legados que hacen que administrar las transacciones financieras de todo Chile sea impreciso y un dolor para los equipos de procesos. La empresa cambió cuando el líder “histórico” (gerente) de RRHH fue desvinculado, entró en un proceso de deterioro de su cultura sabiendo que la empresa además perdía su posición monopólica dominante debido a la apertura del mercado con la transición al modelo de procesamiento de 4 partes.",
         "que_desearias": "Haber conocido la visión corta y estrecha de los líderes operativos, tácticos y estratégicos. No son tipos especializados en lo que hacen, son reaccionarios y se dicen “de la vieja escuela” lo que se nota cuando uno conoce los tipos de liderazgo modernos orientados a las personas y al desarrollo de carrera.",
-        "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
         "votos": 0
       }
@@ -3330,7 +3021,7 @@
     "promedio": 2,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": null,
+    "prom_flexibilidad": 3,
     "prom_liderazgo": 2,
     "prom_cultura": 2
   },
@@ -3343,20 +3034,17 @@
       {
         "id": 64,
         "fecha": "2026-03-25",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 5,
         "sueldo": "sobre el mercado",
         "carrera": "muchas oportunidades",
-        "flexibilidad": "Muy bueno",
-        "liderazgo": "Bueno",
-        "cultura": "Bueno",
+        "flexibilidad": 5,
+        "liderazgo": 4,
+        "cultura": 4,
         "que_bien": "Flexibilidad, El equipo, La cultura, Las oficinas.",
         "que_mal": "En los equipos globales, había poca dinámica de equipo.",
         "que_desearias": null,
-        "consejo_gerencia": null,
         "recomienda": "Sí",
         "votos": 0
       }
@@ -3365,9 +3053,9 @@
     "promedio": 5,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 4,
-    "prom_liderazgo": 3,
-    "prom_cultura": 3
+    "prom_flexibilidad": 5,
+    "prom_liderazgo": 4,
+    "prom_cultura": 4
   },
   {
     "id": "udp",
@@ -3378,20 +3066,17 @@
       {
         "id": 74,
         "fecha": "2026-03-27",
-        "area": null,
-        "cargo": null,
         "tiempo": "Más de 3 años",
         "sigue": "No",
         "cal_general": 1,
         "sueldo": "sobre el mercado",
         "carrera": "crecimiento moderado",
-        "flexibilidad": "Malo",
-        "liderazgo": "Malo",
-        "cultura": "Malo",
+        "flexibilidad": 2,
+        "liderazgo": 2,
+        "cultura": 2,
         "que_bien": "Estudiante,  colegas",
         "que_mal": "Directora de carrera",
         "que_desearias": "No pagan un mes del segundo semestre a los honorarios.  Jefa tiene dos demandas por acoso laboral",
-        "consejo_gerencia": null,
         "recomienda": "No",
         "votos": 0
       }
@@ -3413,20 +3098,17 @@
       {
         "id": 58,
         "fecha": "2026-03-25",
-        "area": null,
-        "cargo": null,
         "tiempo": "1 a 3 años",
         "sigue": "No",
         "cal_general": 3,
         "sueldo": "en el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": "Malo",
-        "liderazgo": "Malo",
-        "cultura": "Bueno",
+        "flexibilidad": 2,
+        "liderazgo": 2,
+        "cultura": 4,
         "que_bien": "La cultura, buenas relaciones en algunas áreas, estabilidad",
         "que_mal": "Pocas oportunidades de desarrollo, si bien hay estabilidad esto se debe a un estancamiento en los cargos, funciones y el liderazgo en la organización tiene poca visión de crecimiento para la institución.",
         "que_desearias": "Oportunidades de crecimiento económico y profesional",
-        "consejo_gerencia": null,
         "recomienda": "Sí",
         "votos": 0
       }
@@ -3437,7 +3119,7 @@
     "prom_carrera": null,
     "prom_flexibilidad": 2,
     "prom_liderazgo": 2,
-    "prom_cultura": 3
+    "prom_cultura": 4
   },
   {
     "id": "veltis-ex-ferrovial",
@@ -3448,20 +3130,17 @@
       {
         "id": 108,
         "fecha": "2026-03-29",
-        "area": "RRHH",
-        "cargo": "Asistente de Reclutamiento",
         "tiempo": "Menos de 6 meses",
         "sigue": "No",
         "cal_general": 1,
         "sueldo": "bajo el mercado",
         "carrera": "pocas oportunidades",
-        "flexibilidad": "Muy malo",
+        "flexibilidad": null,
         "liderazgo": null,
-        "cultura": "Malo",
+        "cultura": null,
         "que_bien": "Opción como primera pega",
         "que_mal": "Cultura explotadora, te paquean a cada rato, cultura de acusar al otro y malos sueldos",
         "que_desearias": "Que había mejores oportunidades por más lucas",
-        "consejo_gerencia": "No la vendan como tremenda empresa, ya que son terrible de negreros",
         "recomienda": "No",
         "votos": 0
       }
@@ -3470,9 +3149,9 @@
     "promedio": 1,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 1,
+    "prom_flexibilidad": null,
     "prom_liderazgo": null,
-    "prom_cultura": 2
+    "prom_cultura": null
   },
   {
     "id": "zerviz",
@@ -3483,20 +3162,17 @@
       {
         "id": 81,
         "fecha": "2026-03-28",
-        "area": null,
-        "cargo": null,
         "tiempo": "6 meses a 1 año",
         "sigue": "No",
         "cal_general": 4,
         "sueldo": "en el mercado",
         "carrera": "crecimiento moderado",
-        "flexibilidad": "Bueno",
-        "liderazgo": "Muy bueno",
-        "cultura": "Bueno",
+        "flexibilidad": 4,
+        "liderazgo": 5,
+        "cultura": 4,
         "que_bien": "Por el lado de consultoría tienen buenos clientes. El ambiente en general es muy ameno.",
         "que_mal": "Mi experiencia directa con la empresa fue bastante positiva.",
         "que_desearias": "En mi carrera, esta fue la primera empresa donde sentí ese ambiente más grato y vi oportunidades de crecimiento.",
-        "consejo_gerencia": null,
         "recomienda": "Sí",
         "votos": 0
       }
@@ -3505,8 +3181,8 @@
     "promedio": 4,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 3,
-    "prom_liderazgo": 4,
-    "prom_cultura": 3
+    "prom_flexibilidad": 4,
+    "prom_liderazgo": 5,
+    "prom_cultura": 4
   }
 ]
