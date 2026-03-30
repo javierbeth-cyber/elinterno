@@ -329,6 +329,41 @@
       grid-column: 1/-1;
     }
     .empty p { font-size: 16px; margin-top: 8px; }
+    .btn-limpiar {
+      margin-top: 16px;
+      display: inline-block;
+      padding: 8px 20px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 14px;
+      font-family: inherit;
+      background: var(--white);
+      color: var(--blue);
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .btn-limpiar:hover { background: var(--bg); }
+
+    /* CARGAR MÁS */
+    .load-more-wrap {
+      text-align: center;
+      padding: 32px 0 8px;
+    }
+    .btn-cargar-mas {
+      padding: 10px 32px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 14px;
+      font-family: inherit;
+      background: var(--white);
+      color: var(--text);
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s;
+    }
+    .btn-cargar-mas:hover { border-color: var(--blue); color: var(--blue); }
+    .load-more-count { font-size: 13px; color: var(--text-muted); margin-top: 8px; }
 
     /* FOOTER */
     footer {
@@ -480,6 +515,10 @@
 
 <main class="main">
   <div class="grid" id="grid"></div>
+  <div class="load-more-wrap" id="load-more-wrap" style="display:none">
+    <button class="btn-cargar-mas" id="btn-cargar-mas">Cargar más empresas</button>
+    <div class="load-more-count" id="load-more-count"></div>
+  </div>
 </main>
 
 <footer>
@@ -626,13 +665,55 @@
       </a>`;
   }
 
-  function render(data) {
-    const grid = document.getElementById('grid');
-    if (!data.length) {
-      grid.innerHTML = '<div class="empty"><div style="font-size:40px">🔍</div><p>No se encontraron empresas</p></div>';
+  var PAGE_SIZE = 24;
+  var paginaActual = 1;
+  var resultadosFiltrados = [];
+
+  function hayFiltrosActivos() {
+    var q = document.getElementById('buscar') ? document.getElementById('buscar').value.trim() : '';
+    var rubro = document.getElementById('filtro-rubro') ? document.getElementById('filtro-rubro').value : '';
+    return q || rubro || filtroRec;
+  }
+
+  function limpiarFiltros() {
+    document.getElementById('buscar').value = '';
+    document.getElementById('filtro-rubro').value = '';
+    filtroRec = null;
+    document.querySelectorAll('.pill').forEach(function(p){ p.className = 'pill'; });
+    filter();
+  }
+
+  function renderPagina() {
+    var grid = document.getElementById('grid');
+    var wrap = document.getElementById('load-more-wrap');
+    var btn  = document.getElementById('btn-cargar-mas');
+    var cnt  = document.getElementById('load-more-count');
+
+    if (!resultadosFiltrados.length) {
+      var msg = hayFiltrosActivos()
+        ? '<div class="empty"><div style="font-size:40px">🔍</div><p>No hay empresas con esos filtros.</p><button class="btn-limpiar" onclick="limpiarFiltros()">Limpiar filtros</button></div>'
+        : '<div class="empty"><div style="font-size:40px">🔍</div><p>No se encontraron empresas</p></div>';
+      grid.innerHTML = msg;
+      wrap.style.display = 'none';
       return;
     }
-    grid.innerHTML = data.map(renderCard).join('');
+
+    var visibles = resultadosFiltrados.slice(0, paginaActual * PAGE_SIZE);
+    grid.innerHTML = visibles.map(renderCard).join('');
+
+    var restantes = resultadosFiltrados.length - visibles.length;
+    if (restantes > 0) {
+      wrap.style.display = 'block';
+      cnt.textContent = 'Mostrando ' + visibles.length + ' de ' + resultadosFiltrados.length + ' empresas — ¿No encuentras la tuya? Usa el buscador.';
+    } else {
+      wrap.style.display = 'none';
+    }
+  }
+
+  function render(data) {
+    resultadosFiltrados = data;
+    paginaActual = 1;
+    renderPagina();
   }
 
   var filtroRec = null;
@@ -699,6 +780,13 @@ var matchRec = true;
       document.getElementById('buscar').addEventListener('input', filter);
       document.getElementById('filtro-rubro').addEventListener('change', filter);
       document.getElementById('ordenar').addEventListener('change', filter);
+
+      // Cargar más
+      document.getElementById('btn-cargar-mas').addEventListener('click', function() {
+        paginaActual++;
+        renderPagina();
+        window.scrollBy({ top: 200, behavior: 'smooth' });
+      });
 
       // Pills recomendación
       ['si','depende','no'].forEach(function(tipo) {
