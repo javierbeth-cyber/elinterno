@@ -461,7 +461,7 @@
     </div>
     <div class="stat">
       <div class="stat-num" id="stat-resenas">—</div>
-      <div class="stat-label">reseñas anónimas</div>
+      <div class="stat-label">reseñas</div>
     </div>
   </div>
 </section>
@@ -478,6 +478,7 @@
       <option value="">Todos los rubros</option>
     </select>
     <select id="ordenar">
+      <option value="az">A-Z</option>
       <option value="resenas">Más reseñas</option>
       <option value="mejor">Mejor calificada</option>
       <option value="peor">Peor calificada</option>
@@ -499,7 +500,6 @@
       <button class="star-btn" data-stars="4">★</button>
       <button class="star-btn" data-stars="5">★</button>
     </div>
-    <span class="results-count" id="results-count"></span>
   </div>
 </div>
 
@@ -653,14 +653,11 @@
 
   function render(data) {
     const grid = document.getElementById('grid');
-    const count = document.getElementById('results-count');
     if (!data.length) {
       grid.innerHTML = '<div class="empty"><div style="font-size:40px">🔍</div><p>No se encontraron empresas</p></div>';
-      count.textContent = '0 empresas';
       return;
     }
     grid.innerHTML = data.map(renderCard).join('');
-    count.textContent = `${data.length} empresa${data.length !== 1 ? 's' : ''}`;
   }
 
   var filtroRec = null;
@@ -691,10 +688,11 @@
     });
 
     result = result.slice();
-    if (orden === 'mejor')   result.sort(function(a,b){ return (b.promedio||0)-(a.promedio||0); });
+    if (orden === 'resenas')  result.sort(function(a,b){ return b.total_resenas - a.total_resenas; });
+    else if (orden === 'mejor')   result.sort(function(a,b){ return (b.promedio||0)-(a.promedio||0); });
     else if (orden === 'peor')    result.sort(function(a,b){ return (a.promedio||0)-(b.promedio||0); });
     else if (orden === 'reciente') result.sort(function(a,b){ return maxFecha(b).localeCompare(maxFecha(a)); });
-    else result.sort(function(a,b){ return b.total_resenas - a.total_resenas; });
+    else result.sort(function(a,b){ return a.nombre.localeCompare(b.nombre, 'es'); }); // A-Z default
 
     render(result);
   }
