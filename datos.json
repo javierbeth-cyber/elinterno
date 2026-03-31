@@ -1993,6 +1993,43 @@
     "resumen_mal": null
   },
   {
+    "id": "isamax",
+    "nombre": "ISAMAX",
+    "rubro": "Tecnología",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 118,
+        "fecha": "2026-03-31",
+        "area": "Tecnología",
+        "cargo": "Desarollador de software",
+        "tiempo": "Menos de 6 meses",
+        "sigue": "No",
+        "cal_general": 1,
+        "sueldo": "bajo el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": "Bueno",
+        "liderazgo": "Malo",
+        "cultura": "Muy malo",
+        "que_bien": "El trabajo es remoto y por \"tareas\" por lo que no te molestan si haces lo tuyo.",
+        "que_mal": "Literalmente todo. Es un negrero emergente que captura personas sin experiencia para darles trabajo de semi senior y hacerlos sentir mal por no saber algo que te toma años de experiencia aprender (no lo digo por mi). Sueldo bajo y mala comunicacion, 0 documentacion y poca esperanza de crecer debido a que el dueño se maneja mal con la gestion de la empresa.",
+        "que_desearias": "Que era un nido de malas practicas, malos consejos, mal mentoring y 0 oportunidad de aprender. Basicamente se te obliga a sacar feats con AI.",
+        "consejo_gerencia": "Deberian formalizar de mejor forma el tema de recursos humanos que es inexistente y delegarlo a personas que sepan y no al dueño que es un tecnico con pocas habilidades blandas.",
+        "recomienda": "No",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 3,
+    "prom_liderazgo": 2,
+    "prom_cultura": 1,
+    "resumen_bien": "El trabajo es remoto y por \"tareas\" por lo que no te molestan si haces lo tuyo.",
+    "resumen_mal": "Literalmente todo. Es un negrero emergente que captura personas sin experiencia para darles trabajo de semi senior y hacerlos sentir mal por no saber algo que te toma años de experiencia aprender (no lo digo por mi). Sueldo bajo y mala comunicacion, 0 documentacion y poca esperanza de crecer debido a que el dueño se maneja mal con la gestion de la empresa."
+  },
+  {
     "id": "isapre-consalud",
     "nombre": "Isapre Consalud",
     "rubro": "Salud",
