@@ -478,7 +478,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 2,
     "resumen_bien": "Eventualidad para teletrabajo",
-    "resumen_mal": "favoritismo interno extremo, si estas fuera de los dos grupos predominantes, no durarás mucho. Casos de acoso laboral por parte del cliente [nombre omitido] de Seguros."
+    "resumen_mal": "favoritismo interno extremo, si estas fuera de los dos grupos predominantes, no durarás mucho. Casos de ambiente laboral negativo por parte del cliente [nombre omitido] de Seguros."
   },
   {
     "id": "capitaria",
@@ -1933,7 +1933,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 1,
     "resumen_bien": "Las colegas que entramos en conjunto y trabajar en conjunto es muy grato",
-    "resumen_mal": "La jefatura de social, existe un pésimo liderazgo, no tiene empatía por los trabajadores y existe un hostigamiento laboral que hace dos años (cuando estaba la ex jefa) no teníamos ese problema. Además el nivel de desconfianza con los profesionales llegando al límite de que estén llamando por teléfono para verificar si estamos realizando nuestro trabajo. Además estamos a honorarios y nos tienen marcando, realizan descuento si marcamos atrasados y el ambiente laboral está pésimo."
+    "resumen_mal": "La jefatura de social, existe un pésimo liderazgo, no tiene empatía por los trabajadores y existe un presión laboral excesiva que hace dos años (cuando estaba la ex jefa) no teníamos ese problema. Además el nivel de desconfianza con los profesionales llegando al límite de que estén llamando por teléfono para verificar si estamos realizando nuestro trabajo. Además estamos a honorarios y nos tienen marcando, realizan descuento si marcamos atrasados y el ambiente laboral está pésimo."
   },
   {
     "id": "ibm-chile",
@@ -2008,6 +2008,43 @@
     "prom_cultura": null,
     "resumen_bien": "Son ordenados con la informacion que recopilan de las personas.",
     "resumen_mal": "Poca empatia con los trabajadores, además hay ciertos procesos internos de la empresa que obligan, directa o indirectamente al trabajador a desempeñarse fuera del horario laboral."
+  },
+  {
+    "id": "jica-chile-agencia-japonesa-de-cooperacion-internacional",
+    "nombre": "JICA Chile-Agencia Japonesa de Cooperación Internacional",
+    "rubro": "Organismos internacionales",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 113,
+        "fecha": "2026-03-31",
+        "area": "Coordinación de programas",
+        "cargo": "Coordinador de programas",
+        "tiempo": "6 meses a 1 año",
+        "sigue": "No",
+        "cal_general": 2,
+        "sueldo": "bajo el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": "Muy malo",
+        "liderazgo": "Muy malo",
+        "cultura": "Muy malo",
+        "que_bien": "Posibilidad de aprender sobre proyectos de cooperación en Chile, lo que permite adquirir experiencia relevante en el área, y cumplimiento oportuno en el pago de remuneraciones.",
+        "que_mal": "Mal clima laboral, con una organización altamente jerárquica que limita la autonomía y la participación. Escasa oferta de formación y pocas oportunidades de crecimiento profesional. Además, existen problemas en los estilos de liderazgo, con jefaturas que tienden a generar ambientes poco respetuosos. \nExiste una subutilización de las capacidades de los/as especialistas contratados, lo que afecta tanto el desempeño como la motivación.",
+        "que_desearias": "Que las oportunidades de crecimiento y formación son más limitadas de lo que se plantea inicialmente, y que algunas expectativas en ese ámbito no son reales. También, que existe poca flexibilidad para el trabajo remoto y un estilo de gestión más bien centrado en el control, lo que puede traducirse en un ambiente poco flexible y, en ocasiones, tenso.\nExiste una dinámica jerárquica marcada en la que los funcionarios locales son tratados principalmente como apoyo operativo de los funcionarios japoneses, independientemente de su cargo, formación o experiencia profesional.",
+        "consejo_gerencia": "Revisar y fortalecer los estilos de liderazgo, promoviendo jefaturas más respetuosas, formativas y coherentes con buenas prácticas organizacionales. Asegurar el cumplimiento de los contratos conforme a la normativa laboral chilena. Implementar medidas concretas para mejorar el clima laboral y avanzar hacia mayor flexibilidad en las modalidades de trabajo, considerando las necesidades y funciones de los equipos.",
+        "recomienda": "No",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 2,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 1,
+    "prom_liderazgo": 1,
+    "prom_cultura": 1,
+    "resumen_bien": "Posibilidad de aprender sobre proyectos de cooperación en Chile, lo que permite adquirir experiencia relevante en el área, y cumplimiento oportuno en el pago de remuneraciones.",
+    "resumen_mal": "Mal clima laboral, con una organización altamente jerárquica que limita la autonomía y la participación. Escasa oferta de formación y pocas oportunidades de crecimiento profesional. Además, existen problemas en los estilos de liderazgo, con jefaturas que tienden a generar ambientes poco respetuosos. \nExiste una subutilización de las capacidades de los/as especialistas contratados, lo que afecta tanto el desempeño como la motivación."
   },
   {
     "id": "kibernum",
@@ -2912,7 +2949,7 @@
         "liderazgo": "Muy malo",
         "cultura": "Muy malo",
         "que_bien": "Beneficios tipo teletrabajo. Algunas áreas son ampliamente superiores a otras, de preferencia irse a la tecnología o áreas más técnicas. Te toca en alguna diferente y es lo peor.",
-        "que_mal": "Honestidad y lealtad, si no haces lo que superiores te ordenan son capaces de perjudicarte. Las conductas de ambiente laboral negativo no son protegidas, dado que la mayoría que trabajan son hombres. Gente aspiracional que trabaja por poco pero se cree lo mejor por trabajar en esta multinacional.",
+        "que_mal": "Honestidad y lealtad, si no haces lo que superiores te ordenan son capaces de perjudicarte. Las conductas de ambiente laboral negativo o incluso sexual no son protegidas, dado que la mayoría que trabajan son hombres. Gente aspiracional que trabaja por poco pero se cree lo mejor por trabajar en esta multinacional.",
         "que_desearias": "Que si no le haces caso a alguien de poder son capaces de esconder la verdad, injusticia. Competencia tóxica, si resaltas o tienes mejor carrera que las personas que estan allí se sienten amenazadas, sobre todo las señoras mayores.",
         "consejo_gerencia": null,
         "recomienda": "Depende del perfil",
@@ -2927,7 +2964,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 1,
     "resumen_bien": "Beneficios tipo teletrabajo. Algunas áreas son ampliamente superiores a otras, de preferencia irse a la tecnología o áreas más técnicas. Te toca en alguna diferente y es lo peor.",
-    "resumen_mal": "Honestidad y lealtad, si no haces lo que superiores te ordenan son capaces de perjudicarte. Las conductas de acoso laboral o incluso sexual no son protegidas, dado que la mayoría que trabajan son hombres. Gente aspiracional que trabaja por poco pero se cree lo mejor por trabajar en esta multinacional."
+    "resumen_mal": "Honestidad y lealtad, si no haces lo que superiores te ordenan son capaces de perjudicarte. Las conductas de ambiente laboral negativo o incluso sexual no son protegidas, dado que la mayoría que trabajan son hombres. Gente aspiracional que trabaja por poco pero se cree lo mejor por trabajar en esta multinacional."
   },
   {
     "id": "seguros-sura-chile",
