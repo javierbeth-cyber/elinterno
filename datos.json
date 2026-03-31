@@ -3041,6 +3041,43 @@
     "resumen_mal": "La Cultura del estamento publica es horrible y el liderazgo incompetente"
   },
   {
+    "id": "sii-group",
+    "nombre": "sii group",
+    "rubro": "Tecnología",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 114,
+        "fecha": "2026-03-31",
+        "area": "Tecnología",
+        "cargo": null,
+        "tiempo": "1 a 3 años",
+        "sigue": "No",
+        "cal_general": 3,
+        "sueldo": "en el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": "Bueno",
+        "liderazgo": "Bueno",
+        "cultura": "Bueno",
+        "que_bien": "el sueldo, yo pude trabajar remoto y simepre envian regalos y detalles de ese tipo",
+        "que_mal": "se dedican a outsourcinbg, me toco en un banco nacional, muy mal ambiente y cero soluciones. Te aguantas hasta que te despidan o renuncias",
+        "que_desearias": "que el ambiente era tan malo en las empresas donde llegas a prestar servicios",
+        "consejo_gerencia": "que deberian poder tener como articular medidas reales, hasta ahora realmente no hacen nada y las empresas se aprovechan de eso, hay rotacion.",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 3,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 3,
+    "prom_liderazgo": 3,
+    "prom_cultura": 3,
+    "resumen_bien": "el sueldo, yo pude trabajar remoto y simepre envian regalos y detalles de ese tipo",
+    "resumen_mal": "se dedican a outsourcinbg, me toco en un banco nacional, muy mal ambiente y cero soluciones. Te aguantas hasta que te despidan o renuncias"
+  },
+  {
     "id": "simpliroute",
     "nombre": "Simpliroute",
     "rubro": "Tecnología",
