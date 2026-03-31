@@ -151,7 +151,7 @@
     "id": "amaris",
     "nombre": "Amaris",
     "rubro": "Consultoría",
-    "logo": null,
+    "logo": "https://amaris.com/wp-content/uploads/2020/08/amaris-logo-blue.svg",
     "resenas": [
       {
         "id": 103,
@@ -410,7 +410,7 @@
     "id": "caja-de-compensacion-los-heroes",
     "nombre": "Caja de Compensación Los Heroes",
     "rubro": "Beneficios sociales",
-    "logo": null,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Logotipo_Caja_Los_H%C3%A9roes.svg",
     "resenas": [
       {
         "id": 106,
@@ -1213,7 +1213,7 @@
     "id": "epiroc",
     "nombre": "Epiroc",
     "rubro": "Minería",
-    "logo": null,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Epiroc_logo.svg",
     "resenas": [
       {
         "id": 95,
@@ -1939,7 +1939,7 @@
     "id": "ibm-chile",
     "nombre": "IBM Chile",
     "rubro": "Tecnología",
-    "logo": null,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg",
     "resenas": [
       {
         "id": 112,
@@ -2050,7 +2050,7 @@
     "id": "komatsu-cummins",
     "nombre": "Komatsu Cummins",
     "rubro": "Minería",
-    "logo": null,
+    "logo": "https://cdn.worldvectorlogo.com/logos/komatsu-1.svg",
     "resenas": [
       {
         "id": 102,
@@ -2087,7 +2087,7 @@
     "id": "l-oreal-chile",
     "nombre": "L'Oréal Chile",
     "rubro": "Cosmética",
-    "logo": null,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/9/9d/L%27Or%C3%A9al_logo.svg",
     "resenas": [
       {
         "id": 97,
@@ -2506,7 +2506,7 @@
     "id": "metlife",
     "nombre": "Metlife",
     "rubro": "Banca y finanzas",
-    "logo": null,
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/c/c6/MetLife_logo.svg",
     "resenas": [
       {
         "id": 107,
@@ -3249,7 +3249,7 @@
     "id": "starbucks",
     "nombre": "Starbucks",
     "rubro": "comida rapida",
-    "logo": null,
+    "logo": "https://upload.wikimedia.org/wikipedia/en/3/35/Starbucks_Coffee_Logo.svg",
     "resenas": [
       {
         "id": 100,

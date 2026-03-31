@@ -107,7 +107,15 @@ var LOGOS = {
   'timix-chile':              'https://www.google.com/s2/favicons?domain=timix.la&sz=128',
   'universidad-alberto-hurtado': 'https://www.google.com/s2/favicons?domain=uahurtado.cl&sz=128',
   'toteat':                   'https://www.google.com/s2/favicons?domain=toteat.com&sz=128',
-  'touch':                    'https://i0.wp.com/touch.cl/wp-content/uploads/2022/05/logo-touch-verde.png?fit=1020%2C310&ssl=1'
+  'touch':                    'https://i0.wp.com/touch.cl/wp-content/uploads/2022/05/logo-touch-verde.png?fit=1020%2C310&ssl=1',
+  'amaris':                   'https://amaris.com/wp-content/uploads/2020/08/amaris-logo-blue.svg',
+  'caja-de-compensacion-los-heroes': 'https://upload.wikimedia.org/wikipedia/commons/d/d0/Logotipo_Caja_Los_H%C3%A9roes.svg',
+  'epiroc':                   'https://upload.wikimedia.org/wikipedia/commons/4/4b/Epiroc_logo.svg',
+  'ibm-chile':                'https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg',
+  'komatsu-cummins':          'https://cdn.worldvectorlogo.com/logos/komatsu-1.svg',
+  'l-oreal-chile':            'https://upload.wikimedia.org/wikipedia/commons/9/9d/L%27Or%C3%A9al_logo.svg',
+  'metlife':                  'https://upload.wikimedia.org/wikipedia/commons/c/c6/MetLife_logo.svg',
+  'starbucks':                'https://upload.wikimedia.org/wikipedia/en/3/35/Starbucks_Coffee_Logo.svg'
 };
 
 var RUBROS = {
