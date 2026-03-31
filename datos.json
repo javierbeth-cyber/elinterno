@@ -3004,6 +3004,43 @@
     "resumen_mal": "Honestidad y lealtad, si no haces lo que superiores te ordenan son capaces de perjudicarte. Las conductas de ambiente laboral negativo o incluso sexual no son protegidas, dado que la mayoría que trabajan son hombres. Gente aspiracional que trabaja por poco pero se cree lo mejor por trabajar en esta multinacional."
   },
   {
+    "id": "santander-chile",
+    "nombre": "santander chile",
+    "rubro": "Banca y finanzas",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 116,
+        "fecha": "2026-03-31",
+        "area": "banca inmobiliaria",
+        "cargo": "analista banca inmobiliaria",
+        "tiempo": "Más de 3 años",
+        "sigue": "Sí",
+        "cal_general": 2,
+        "sueldo": "sobre el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": "Muy malo",
+        "liderazgo": "Muy malo",
+        "cultura": "Bueno",
+        "que_bien": "beneficios mejores que el mercado",
+        "que_mal": "sobrecarga laboral, jefaturas a la\nantigua , patrón de fundo , cero liderazgo",
+        "que_desearias": "te ofrecen sueldo sobre el\nmercado pero vendes el\nalma al diablo. Te llevas pega para la casa, las jefaturas llevan más de 25 años en esa posición , son como patrones de fundo , mucho grito y malas prácticas .",
+        "consejo_gerencia": "que cambie las jefaturas, no saben liderar, motivar, inspirar, que le den la importancia que merece el tema clima laboral",
+        "recomienda": "No",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 2,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 1,
+    "prom_liderazgo": 1,
+    "prom_cultura": 3,
+    "resumen_bien": "beneficios mejores que el mercado",
+    "resumen_mal": "sobrecarga laboral, jefaturas a la\nantigua , patrón de fundo , cero liderazgo"
+  },
+  {
     "id": "seguros-sura-chile",
     "nombre": "Seguros SURA Chile",
     "rubro": "Seguros",
