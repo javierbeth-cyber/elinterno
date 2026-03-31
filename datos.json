@@ -524,6 +524,26 @@
     "logo": "assets/logos/cencosud.svg",
     "resenas": [
       {
+        "id": 117,
+        "fecha": "2026-03-31",
+        "area": "Prefiero no decirlo",
+        "cargo": "Analista de Datos Senior",
+        "tiempo": "1 a 3 años",
+        "sigue": "Sí",
+        "cal_general": 2,
+        "sueldo": "en el mercado",
+        "carrera": "crecimiento moderado",
+        "flexibilidad": "Bueno",
+        "liderazgo": "Malo",
+        "cultura": "Malo",
+        "que_bien": "Treceavo sueldo y Bono (a mi juicio lo arreglan muy notoriamente más allá que te vaya bien con tus metas y siempre te lo bajan).",
+        "que_mal": "Es una empresa muy marcada por el amiguimismo y venir de una [nombre omitido] 1000 o simplemente ser cuico/abc1 para que te vaya bien.\n\nLos liderazgos son débiles, laxos y muchas veces desorientan. Hay un montón de gente haciendo buena pega, pero perdiéndola entre tanta falta de horizonte de las jefaturas, eso da lo mismo porque la empresa es gigante económicamente y asumo lo suple.\n\nEl ambiente no es muy bueno, se pertenece o no, he pasado por varios equipos y hay gente tratando de replicar lógicas abusivas de competencia, de dejar en ridículo al otro y de resaltar por cualquier cosa menos por trabajar.\n\nLa venta de humo gana por sobre cualquier expertisse o proyecto destacado. Es algo sinceramente frustante y poco profesional.\n\nEs lo más parecido a un colegio.",
+        "que_desearias": "Vender humo y ser mala persona parecen ser las únicas armas necesarias",
+        "consejo_gerencia": "Que revisen las jefaturas intermedias y evaluen sus capacidades, hay gente sin el mínimo bagaje y control de lo que están haciendo.",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      },
+      {
         "id": 32,
         "fecha": "2026-03-23",
         "area": null,
@@ -564,15 +584,15 @@
         "votos": 0
       }
     ],
-    "total_resenas": 2,
-    "promedio": 3,
+    "total_resenas": 3,
+    "promedio": 2.7,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": null,
-    "prom_liderazgo": null,
-    "prom_cultura": null,
-    "resumen_bien": "Es una empresa con un ritmo de trabajo alto, lo que la convierte en una excelente escuela acelerada. Permite aprender rápidamente.",
-    "resumen_mal": "En algunos momentos, el alto nivel de exigencia y el interés por destacar pueden generar una competencia interna que no siempre favorece la colaboración. A veces esto se traduce en objetivos poco realistas o en falta de claridad sobre quién es responsable de cada tema."
+    "prom_flexibilidad": 3,
+    "prom_liderazgo": 2,
+    "prom_cultura": 2,
+    "resumen_bien": "Treceavo sueldo y Bono (a mi juicio lo arreglan muy notoriamente más allá que te vaya bien con tus metas y siempre te lo bajan).",
+    "resumen_mal": "Es una empresa muy marcada por el amiguimismo y venir de una [nombre omitido] 1000 o simplemente ser cuico/abc1 para que te vaya bien.\n\nLos liderazgos son débiles, laxos y muchas veces desorientan. Hay un montón de gente haciendo buena pega, pero perdiéndola entre tanta falta de horizonte de las jefaturas, eso da lo mismo porque la empresa es gigante económicamente y asumo lo suple.\n\nEl ambiente no es muy bueno, se pertenece o no, he pasado por varios equipos y hay gente tratando de replicar lógicas abusivas de competencia, de dejar en ridículo al otro y de resaltar por cualquier cosa menos por trabajar.\n\nLa venta de humo gana por sobre cualquier expertisse o proyecto destacado. Es algo sinceramente frustante y poco profesional.\n\nEs lo más parecido a un colegio."
   },
   {
     "id": "chita-factoring",
