@@ -2762,6 +2762,43 @@
     "resumen_mal": "La cultura de trabajo y el micromanagement excesivo, múltiples plataformas para ir anotando lo que estás haciendo."
   },
   {
+    "id": "nutrisco",
+    "nombre": "Nutrisco",
+    "rubro": "Alimentación",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 115,
+        "fecha": "2026-03-31",
+        "area": "RRHH",
+        "cargo": "Encargada de Desarrollo Organizacional",
+        "tiempo": "6 meses a 1 año",
+        "sigue": "No",
+        "cal_general": 5,
+        "sueldo": "sobre el mercado",
+        "carrera": "crecimiento moderado",
+        "flexibilidad": "Malo",
+        "liderazgo": "Muy bueno",
+        "cultura": "Muy bueno",
+        "que_bien": "Salario, beneficios, celebraciones, crecimiento, clima, trato y las oficinas",
+        "que_mal": "Teletrabajo",
+        "que_desearias": null,
+        "consejo_gerencia": null,
+        "recomienda": "Sí",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 5,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 2,
+    "prom_liderazgo": 4,
+    "prom_cultura": 4,
+    "resumen_bien": "Salario, beneficios, celebraciones, crecimiento, clima, trato y las oficinas",
+    "resumen_mal": "Teletrabajo"
+  },
+  {
     "id": "oracle",
     "nombre": "Oracle",
     "rubro": "Tecnología",
