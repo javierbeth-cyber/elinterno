@@ -408,14 +408,14 @@ function buildJson() {
       .replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 
     if (!empresas[id]) {
-      // Prioridad de logo: manifest del repo > LOGOS dict > fallback favicon
+      // Prioridad de logo: manifest del repo > LOGOS dict > null (muestra letra en el frontend)
       var logo;
       if (manifest[id] !== undefined) {
         logo = manifest[id];  // null en manifest = sin logo (muestra placeholder)
       } else if (LOGOS[id] !== undefined) {
         logo = LOGOS[id];
       } else {
-        logo = 'https://www.google.com/s2/favicons?domain=' + id + '.cl&sz=128';
+        logo = null;
       }
 
       empresas[id] = {

@@ -3,7 +3,7 @@
     "id": "3it",
     "nombre": "3IT",
     "rubro": "Consultoría",
-    "logo": "https://www.google.com/s2/favicons?domain=3it.cl&sz=128",
+    "logo": null,
     "resenas": [
       {
         "id": 109,
@@ -151,7 +151,7 @@
     "id": "amaris",
     "nombre": "Amaris",
     "rubro": "Consultoría",
-    "logo": "https://www.google.com/s2/favicons?domain=amaris.cl&sz=128",
+    "logo": null,
     "resenas": [
       {
         "id": 103,
@@ -262,7 +262,7 @@
     "id": "autofact",
     "nombre": "Autofact",
     "rubro": "Tecnología",
-    "logo": "https://www.google.com/s2/favicons?domain=autofact.cl&sz=128",
+    "logo": null,
     "resenas": [
       {
         "id": 104,
@@ -373,7 +373,7 @@
     "id": "brass-chile",
     "nombre": "BRASS Chile",
     "rubro": "Minería",
-    "logo": "https://www.google.com/s2/favicons?domain=brass-chile.cl&sz=128",
+    "logo": null,
     "resenas": [
       {
         "id": 101,
@@ -410,7 +410,7 @@
     "id": "caja-de-compensacion-los-heroes",
     "nombre": "Caja de Compensación Los Heroes",
     "rubro": "Beneficios sociales",
-    "logo": "https://www.google.com/s2/favicons?domain=caja-de-compensacion-los-heroes.cl&sz=128",
+    "logo": null,
     "resenas": [
       {
         "id": 106,
@@ -1213,7 +1213,7 @@
     "id": "epiroc",
     "nombre": "Epiroc",
     "rubro": "Minería",
-    "logo": "https://www.google.com/s2/favicons?domain=epiroc.cl&sz=128",
+    "logo": null,
     "resenas": [
       {
         "id": 95,
@@ -1939,7 +1939,7 @@
     "id": "ibm-chile",
     "nombre": "IBM Chile",
     "rubro": "Tecnología",
-    "logo": "https://www.google.com/s2/favicons?domain=ibm-chile.cl&sz=128",
+    "logo": null,
     "resenas": [
       {
         "id": 112,
@@ -2050,7 +2050,7 @@
     "id": "komatsu-cummins",
     "nombre": "Komatsu Cummins",
     "rubro": "Minería",
-    "logo": "https://www.google.com/s2/favicons?domain=komatsu-cummins.cl&sz=128",
+    "logo": null,
     "resenas": [
       {
         "id": 102,
@@ -2087,7 +2087,7 @@
     "id": "l-oreal-chile",
     "nombre": "L'Oréal Chile",
     "rubro": "Cosmética",
-    "logo": "https://www.google.com/s2/favicons?domain=l-oreal-chile.cl&sz=128",
+    "logo": null,
     "resenas": [
       {
         "id": 97,
@@ -2506,7 +2506,7 @@
     "id": "metlife",
     "nombre": "Metlife",
     "rubro": "Banca y finanzas",
-    "logo": "https://www.google.com/s2/favicons?domain=metlife.cl&sz=128",
+    "logo": null,
     "resenas": [
       {
         "id": 107,
@@ -2580,7 +2580,7 @@
     "id": "minera-centinela",
     "nombre": "Minera Centinela",
     "rubro": "Minería",
-    "logo": "https://www.google.com/s2/favicons?domain=minera-centinela.cl&sz=128",
+    "logo": null,
     "resenas": [
       {
         "id": 96,
@@ -2617,7 +2617,7 @@
     "id": "mining-tag",
     "nombre": "Mining Tag",
     "rubro": "Tecnología",
-    "logo": "https://www.google.com/s2/favicons?domain=mining-tag.cl&sz=128",
+    "logo": null,
     "resenas": [
       {
         "id": 94,
@@ -2785,7 +2785,7 @@
     "id": "policomp",
     "nombre": "Policomp",
     "rubro": "Tecnología",
-    "logo": "https://www.google.com/s2/favicons?domain=policomp.cl&sz=128",
+    "logo": null,
     "resenas": [
       {
         "id": 111,
@@ -3249,7 +3249,7 @@
     "id": "starbucks",
     "nombre": "Starbucks",
     "rubro": "comida rapida",
-    "logo": "https://www.google.com/s2/favicons?domain=starbucks.cl&sz=128",
+    "logo": null,
     "resenas": [
       {
         "id": 100,
@@ -3323,7 +3323,7 @@
     "id": "tanner-servicios-financieros",
     "nombre": "Tanner Servicios Financieros",
     "rubro": "Banca y finanzas",
-    "logo": "https://www.google.com/s2/favicons?domain=tanner-servicios-financieros.cl&sz=128",
+    "logo": null,
     "resenas": [
       {
         "id": 105,
@@ -3750,7 +3750,7 @@
     "id": "veltis-ex-ferrovial",
     "nombre": "Veltis / Ex Ferrovial",
     "rubro": "Minería",
-    "logo": "https://www.google.com/s2/favicons?domain=veltis-ex-ferrovial.cl&sz=128",
+    "logo": null,
     "resenas": [
       {
         "id": 108,
