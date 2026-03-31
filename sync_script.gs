@@ -188,7 +188,16 @@ var TERMINOS_SENSIBLES = [
   { re: /\bladrones\b/gi,        rep: '[omitido]' },
   { re: /\bdelito[s]?\b/gi,      rep: 'irregularidad' },
   { re: /\bdelictivo[s]?\b/gi,   rep: 'cuestionable' },
-  { re: /\bdelictiva[s]?\b/gi,   rep: 'cuestionable' }
+  { re: /\bdelictiva[s]?\b/gi,   rep: 'cuestionable' },
+  // Acoso y hostigamiento
+  { re: /\bacoso\s+laboral\b/gi,  rep: 'ambiente laboral negativo' },
+  { re: /\bacoso\s+sexual\b/gi,   rep: 'ambiente laboral negativo' },
+  { re: /\bhostigamiento\s+laboral\b/gi, rep: 'presión laboral excesiva' },
+  // Demandas
+  { re: /\bdemanda[s]?\b/gi,      rep: 'acciones legales' },
+  { re: /\bdemandar\b/gi,         rep: 'tomar acciones legales' },
+  { re: /\bdemandado[s]?\b/gi,    rep: 'con acciones legales en curso' },
+  { re: /\bdemandada[s]?\b/gi,    rep: 'con acciones legales en curso' }
 ];
 
 function filtrarTerminosSensibles(texto) {
