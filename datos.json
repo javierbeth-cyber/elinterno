@@ -591,8 +591,8 @@
     "prom_flexibilidad": 3,
     "prom_liderazgo": 2,
     "prom_cultura": 2,
-    "resumen_bien": "Treceavo sueldo y Bono (a mi juicio lo arreglan muy notoriamente más allá que te vaya bien con tus metas y siempre te lo bajan).",
-    "resumen_mal": "Es una empresa muy marcada por el amiguimismo y venir de una [nombre omitido] 1000 o simplemente ser cuico/abc1 para que te vaya bien.\n\nLos liderazgos son débiles, laxos y muchas veces desorientan. Hay un montón de gente haciendo buena pega, pero perdiéndola entre tanta falta de horizonte de las jefaturas, eso da lo mismo porque la empresa es gigante económicamente y asumo lo suple.\n\nEl ambiente no es muy bueno, se pertenece o no, he pasado por varios equipos y hay gente tratando de replicar lógicas abusivas de competencia, de dejar en ridículo al otro y de resaltar por cualquier cosa menos por trabajar.\n\nLa venta de humo gana por sobre cualquier expertisse o proyecto destacado. Es algo sinceramente frustante y poco profesional.\n\nEs lo más parecido a un colegio."
+    "resumen_bien": "Treceavo sueldo, bono y un ritmo de trabajo que acelera el aprendizaje.",
+    "resumen_mal": "Fuerte amiguismo y clasismo en los ascensos, liderazgos débiles y metas subidas artificialmente para no pagar bonos."
   },
   {
     "id": "chita-factoring",
@@ -927,8 +927,8 @@
     "prom_flexibilidad": 3,
     "prom_liderazgo": 2.7,
     "prom_cultura": 2.5,
-    "resumen_bien": "Valoro positivamente la flexibilidad que se gestiona a nivel interno. Aunque la política oficial establece tres días de presencialidad, la capacidad de mi jefatura directa para adaptar esto a un esquema de un día semanal ha sido fundamental. Esta autonomía permite un mejor equilibrio vida-trabajo y demuestra confianza en el desempeño orientado a resultados sobre el cumplimiento de horas en oficina",
-    "resumen_mal": "Existe una sobrecarga en la agenda debido al exceso de actividades extraprogramáticas que restan tiempo valioso a las tareas operativas principales. Asimismo, la asignación simultánea de múltiples proyectos genera una sensación constante de estar 'sobrevendidos', lo que compromete la profundidad y calidad del trabajo. Sería ideal optimizar la priorización de proyectos para evitar el agotamiento del equipo."
+    "resumen_bien": "Flexibilidad real según jefatura, posibilidad de trabajo remoto y buen ambiente en el área de consultoría.",
+    "resumen_mal": "El sueldo inicial prácticamente no sube. Sobrecarga de proyectos simultáneos; en auditoría el ambiente es tóxico con jornadas muy largas."
   },
   {
     "id": "dinecom",
@@ -1263,8 +1263,8 @@
     "prom_flexibilidad": 3,
     "prom_liderazgo": 2.7,
     "prom_cultura": 3.7,
-    "resumen_bien": "Muchas oportunidades de aprender de manera autónoma, además los espacios físicos suelen ser de alta calidad. Los beneficios en general son muy buenos y los sueldos sobre la media.",
-    "resumen_mal": "Principalmente 2 cosas mal: liderazgo de subgerentes y gerentes con sarcasmo y toxicidad.\nPor otro lado la carga laboral es enorme, imposible de cumplir por lo que eventualmente debes hacer las cosas a medias solo por salud mental."
+    "resumen_bien": "Cultura inclusiva y activa, sueldos sobre la media, espacios físicos de calidad y desarrollo de carrera estructurado.",
+    "resumen_mal": "Liderazgos tóxicos en niveles medios y carga laboral excesiva que obliga a hacer las cosas a medias. Poca flexibilidad horaria."
   },
   {
     "id": "epiroc",
@@ -1653,8 +1653,8 @@
     "prom_flexibilidad": 4,
     "prom_liderazgo": 1,
     "prom_cultura": 2,
-    "resumen_bien": "Horario",
-    "resumen_mal": "Jefaturas, despidos masivos, cargos mal definidos"
+    "resumen_bien": "Horarios.",
+    "resumen_mal": "Jefaturas deficientes, cargos mal definidos, despidos masivos y cultura organizacional débil."
   },
   {
     "id": "fundacion-docere",
@@ -1804,8 +1804,8 @@
     "prom_flexibilidad": 1,
     "prom_liderazgo": 1,
     "prom_cultura": 2,
-    "resumen_bien": "Los compañeros eran buenos, siempre con sus personajes destacados, pero como en todos los ambientes laborales, pero en general eran buenos compañeros",
-    "resumen_mal": "Un desastre los \" gerentes\" . Como es una empresa tipo \" pyme\" los gerentes son personas que partieron o estuvieron en el proyecto inicial, y lamentablemente no tienen ninguna habilidad de liderazgo,  súper ególatras.. es una empresa que sobrevive a una idea de negocio que fue fortalecida por ciertas leyes. No es una empresa para proyectarse ni tampoco para ganar plata, solo la recomiendo al igual que cualquier otra empresa, si necesitas mucho un trabajo"
+    "resumen_bien": "Los compañeros de trabajo son el mayor activo; buen ambiente entre pares.",
+    "resumen_mal": "Gerentes sin habilidades de liderazgo, alta rotación sin feedback al despido, sueldos bajos y ambiente tóxico generado desde las jefaturas."
   },
   {
     "id": "gft-technologies",
@@ -2379,8 +2379,8 @@
     "prom_flexibilidad": 2.5,
     "prom_liderazgo": 1,
     "prom_cultura": 3,
-    "resumen_bien": "Es por lejos la mejora empresa en la que he trabajado. Buenos beneficios, flexibilidad y renta. Hay cultura centrada en las personas y se les trata con respeto",
-    "resumen_mal": "Los sesgos y brechas de género."
+    "resumen_bien": "Buenos beneficios, flexibilidad y cultura centrada en las personas.",
+    "resumen_mal": "Brechas de género y problemas culturales internos reportados por algunos trabajadores."
   },
   {
     "id": "lider-bci",
@@ -2436,8 +2436,8 @@
     "prom_flexibilidad": 4,
     "prom_liderazgo": 4,
     "prom_cultura": 4,
-    "resumen_bien": "Cultura, flexibilidad y beneficios",
-    "resumen_mal": "La cultura organizacional es muy desorganizada y sueldos para profesionales con más experiencia por debajo del mercado."
+    "resumen_bien": "Cultura, flexibilidad, beneficios y buenos salarios de entrada.",
+    "resumen_mal": "Cultura organizacional desorganizada y sueldos por debajo del mercado para perfiles con experiencia."
   },
   {
     "id": "lirmi",
@@ -2593,8 +2593,8 @@
     "prom_flexibilidad": 1,
     "prom_liderazgo": 1,
     "prom_cultura": 2,
-    "resumen_bien": "Nada",
-    "resumen_mal": "Liderazgo, ambiente, poca claridad en metas y objetivos"
+    "resumen_bien": "Flexibilidad y teletrabajo 100%, buenos beneficios y compañerismo. El producto tiene impacto real en educación.",
+    "resumen_mal": "Liderazgo deficiente y empresa manejada como negocio familiar: metas imposibles, bonos prometidos que no se pagan y despidos masivos mal gestionados."
   },
   {
     "id": "mercado-libre-chile",
@@ -2946,8 +2946,8 @@
     "prom_flexibilidad": 3.5,
     "prom_liderazgo": 2,
     "prom_cultura": 2,
-    "resumen_bien": "Salario",
-    "resumen_mal": "Liderazgo y no hay interes por las personas"
+    "resumen_bien": "Salario competitivo y cierta flexibilidad.",
+    "resumen_mal": "Sin aumentos de sueldo, acceso a mejores cargos muy difícil y cada vez menos beneficios. Liderazgo sin interés real en las personas."
   },
   {
     "id": "policomp",
@@ -3373,8 +3373,8 @@
     "prom_flexibilidad": 3,
     "prom_liderazgo": 2,
     "prom_cultura": 1,
-    "resumen_bien": "El sueldo que tenia  en  ese momento  (780.000)  para un cargo que no exige titulo ni experiencia es muy bueno, los beneficios del teletrabajo, lindas oficinas en un buen barrio.",
-    "resumen_mal": "Jefaturas sin conocimiento, me decían que  tenia que mentir  para perjudicar a las demás áreas, una competitividad estúpida, no puedes decir que te comprometa porque se  agarran de ello y copian por correo hasta a la tía del aseo,  MUCHO pituto, demasiados cargos inventados, todos los directores, jefes, gerentes y subgerentes se conocen hace años, son todos amigos desde hace tiempo atras."
+    "resumen_bien": "Remuneración atractiva, especialmente para cargos de entrada, con beneficios del sindicato y buenas instalaciones.",
+    "resumen_mal": "Jefaturas mediocres con fuerte pituto y nepotismo. RR.HH. ineficientes y cultura que protege el mal rendimiento."
   },
   {
     "id": "sodimac",
@@ -3874,8 +3874,8 @@
     "prom_flexibilidad": 2,
     "prom_liderazgo": 1.5,
     "prom_cultura": 1.5,
-    "resumen_bien": "Nada",
-    "resumen_mal": "Los líderes de esta empresa son patanes que creen que midiendo tu cráneo y sabiendo el mes en que naciste, actuaras de cierta manera. Hablo del CEO de la empresa. No se puede esperar nada del resto de jefaturas."
+    "resumen_bien": "Algunos beneficios.",
+    "resumen_mal": "Liderazgo cuestionable desde la dirección, jefaturas sin rumbo claro y mal ambiente laboral."
   },
   {
     "id": "transbank",
