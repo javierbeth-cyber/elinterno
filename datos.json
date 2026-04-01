@@ -3414,6 +3414,43 @@
     "resumen_mal": "la jornada laboral era mucho mayor que lo establecido, yo estaba en una de apoyo, no en las tiendas. siempre habia que quedarse hasta mas tarde  a veces noche y  los dias que se teletrabajaba te decian que daba lo mismo si total estabas en la casa."
   },
   {
+    "id": "softserve",
+    "nombre": "Softserve",
+    "rubro": "Tecnología",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 120,
+        "fecha": "2026-04-01",
+        "area": "Prefiero no decirlo",
+        "cargo": null,
+        "tiempo": "Menos de 6 meses",
+        "sigue": "No",
+        "cal_general": 2,
+        "sueldo": "en el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": "Bueno",
+        "liderazgo": "Muy malo",
+        "cultura": "Muy malo",
+        "que_bien": "Hay buenos beneficios y además buenas oficinas, pese a que el trabajo es principalmente remoto.",
+        "que_mal": "Realmente cumplir la promesa de formar profesionalmente.",
+        "que_desearias": "Que se privilegian las conversaciones de pasillo y happy hours por sobre reuniones para delimitar responsabilidad, tiempos y entregables. Hay muchas reglas sociales implícita wue siguen los líderes.",
+        "consejo_gerencia": "Que la retención del talento es clave para su modelo de negocio, asi que actúe acorde.",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 2,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 3,
+    "prom_liderazgo": 1,
+    "prom_cultura": 1,
+    "resumen_bien": "Hay buenos beneficios y además buenas oficinas, pese a que el trabajo es principalmente remoto.",
+    "resumen_mal": "Realmente cumplir la promesa de formar profesionalmente."
+  },
+  {
     "id": "solcor",
     "nombre": "Solcor",
     "rubro": "Energía",
