@@ -241,7 +241,7 @@
     "id": "autofact",
     "nombre": "Autofact",
     "rubro": "Tecnología",
-    "logo": "https://www.google.com/s2/favicons?domain=autofact.cl&sz=128",
+    "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/668/Logo_AF_Reducido.png",
     "resenas": [
       {
         "id": 104,
@@ -1958,7 +1958,7 @@
     "id": "jica-chile-agencia-japonesa-de-cooperacion-internacional",
     "nombre": "JICA Chile",
     "rubro": "Organismos internacionales",
-    "logo": "https://www.google.com/s2/favicons?domain=jica-chile-agencia-japonesa-de-cooperacion-internacional.cl&sz=128",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Japan_International_Cooperation_Agency_logo.svg/960px-Japan_International_Cooperation_Agency_logo.svg.png",
     "resenas": [
       {
         "id": 113,
@@ -2536,7 +2536,7 @@
     "id": "mining-tag",
     "nombre": "Mining Tag",
     "rubro": "Tecnología",
-    "logo": "https://www.google.com/s2/favicons?domain=mining-tag.cl&sz=128",
+    "logo": "https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/7219/mining_tag.png",
     "resenas": [
       {
         "id": 94,
@@ -2859,7 +2859,7 @@
     "id": "santander-chile",
     "nombre": "santander chile",
     "rubro": "Banca y finanzas",
-    "logo": "https://www.google.com/s2/favicons?domain=santander-chile.cl&sz=128",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Banco_Santander_Logotipo.svg/960px-Banco_Santander_Logotipo.svg.png",
     "resenas": [
       {
         "id": 116,
@@ -3148,7 +3148,7 @@
     "id": "softserve",
     "nombre": "Softserve",
     "rubro": "Tecnología",
-    "logo": "https://www.google.com/s2/favicons?domain=softserve.cl&sz=128",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/SoftServe_logo_2017.svg/960px-SoftServe_logo_2017.svg.png",
     "resenas": [
       {
         "id": 120,

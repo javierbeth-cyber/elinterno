@@ -108,7 +108,12 @@ var LOGOS = {
   'termas-de-puyehue':        'https://www.google.com/s2/favicons?domain=puyehue.cl&sz=128',
   'timix-chile':              null,
   'toteat':                   'https://www.google.com/s2/favicons?domain=toteat.com&sz=128',
-  'touch':                    'https://i0.wp.com/touch.cl/wp-content/uploads/2022/05/logo-touch-verde.png?fit=1020%2C310&ssl=1'
+  'touch':                    'https://i0.wp.com/touch.cl/wp-content/uploads/2022/05/logo-touch-verde.png?fit=1020%2C310&ssl=1',
+  'autofact':                 'https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/668/Logo_AF_Reducido.png',
+  'mining-tag':               'https://getonbrd-prod.s3.amazonaws.com/uploads/users/logo/7219/mining_tag.png',
+  'santander-chile':          'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Banco_Santander_Logotipo.svg/960px-Banco_Santander_Logotipo.svg.png',
+  'softserve':                'https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/SoftServe_logo_2017.svg/960px-SoftServe_logo_2017.svg.png',
+  'jica-chile-agencia-japonesa-de-cooperacion-internacional': 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Japan_International_Cooperation_Agency_logo.svg/960px-Japan_International_Cooperation_Agency_logo.svg.png'
 };
 
 var RUBROS = {
