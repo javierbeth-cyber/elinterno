@@ -121,6 +121,11 @@ var RUBROS = {
   'hogar-de-cristo':  'ONG'
 };
 
+// Empresas ocultas del listado público (no se incluyen en datos.json)
+var EMPRESAS_OCULTAS = [
+  'lemontech'
+];
+
 var COL = {
   timestamp:    0,
   empresa:      1,
@@ -327,6 +332,8 @@ function buildJson() {
       .replace(/[íìï]/g,'i').replace(/[óòö]/g,'o')
       .replace(/[úùü]/g,'u').replace(/[ñ]/g,'n')
       .replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
+
+    if (EMPRESAS_OCULTAS.indexOf(id) !== -1) continue;
 
     if (!empresas[id]) {
       // Prioridad de logo: manifest del repo > LOGOS dict > fallback favicon
