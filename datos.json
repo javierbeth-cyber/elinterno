@@ -743,6 +743,43 @@
     "resumen_mal": "al ser una organización chica todavía, es poco estructurada en cultura, beneficios, etc. Está en construcción, hay que tener paciencia"
   },
   {
+    "id": "cotener",
+    "nombre": "Cotener",
+    "rubro": "Tecnología",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 119,
+        "fecha": "2026-04-01",
+        "area": "Prefiero no decirlo",
+        "cargo": null,
+        "tiempo": "6 meses a 1 año",
+        "sigue": "No",
+        "cal_general": 1,
+        "sueldo": "bajo el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": "Malo",
+        "liderazgo": "Muy malo",
+        "cultura": "Muy malo",
+        "que_bien": "Hay posibilidad de trabajo remoto, pero no para todos y aunque lo aceptan en términos legales, culturalmente no es bien visto por los jefes, gerentes o dueños, así que finalmente aceptan el trabajo remoto porque es una excusa para no tener mejores condiciones en la oficina.",
+        "que_mal": "Aunque venden tecnología de alta gama para telecomunicaciones, no invierten en mejorar los procesos de la empresa ni en implementar ideas nuevas, ni para el negocio ni para mejorar la experiencia de los clientes. No se sigue ningún criterio profesional a la hora de vender herramientas, hardwares o softwares, no hay consultoría ni conocimiento propio que sea relevante. La empresa vende ser líder en su categoría pero sinceramente solo \"lo es\" (nótese las comilas) porque re-vende tecnología creada por marcas globales. Es simplemente un proveedor/intermediario y con mala gestión por lo demás.",
+        "que_desearias": "Que esperan resultados que requieren mínimo 2 o 3 cargos distintos, en una sola persona, usando sus propios recursos así sea la suscripción a chatgpt o incluso el pc.",
+        "consejo_gerencia": "Evolucionen o van a desaparecer. \nCuiden mejor a sus clientes.",
+        "recomienda": "No",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": 2,
+    "prom_liderazgo": 1,
+    "prom_cultura": 1,
+    "resumen_bien": "Hay posibilidad de trabajo remoto, pero no para todos y aunque lo aceptan en términos legales, culturalmente no es bien visto por los jefes, gerentes o dueños, así que finalmente aceptan el trabajo remoto porque es una excusa para no tener mejores condiciones en la oficina.",
+    "resumen_mal": "Aunque venden tecnología de alta gama para telecomunicaciones, no invierten en mejorar los procesos de la empresa ni en implementar ideas nuevas, ni para el negocio ni para mejorar la experiencia de los clientes. No se sigue ningún criterio profesional a la hora de vender herramientas, hardwares o softwares, no hay consultoría ni conocimiento propio que sea relevante. La empresa vende ser líder en su categoría pero sinceramente solo \"lo es\" (nótese las comilas) porque re-vende tecnología creada por marcas globales. Es simplemente un proveedor/intermediario y con mala gestión por lo demás."
+  },
+  {
     "id": "cristalchile",
     "nombre": "Cristalchile",
     "rubro": "Producción fabril",
