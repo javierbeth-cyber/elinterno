@@ -39,6 +39,8 @@
     });
     var db = firebase.database();
   </script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>emailjs.init('MUnJ77Rvo8jI56z3A');</script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
@@ -433,7 +435,7 @@
     .resena-footer {
       display: flex;
       align-items: center;
-      justify-content: flex-end;
+      justify-content: space-between;
       margin-top: 14px;
       padding-top: 14px;
       border-top: 1px solid var(--border);
@@ -488,6 +490,86 @@
       .empresa-header-inner { flex-direction: column; }
       .subcats-row { gap: 6px; }
     }
+
+    /* MODAL DENUNCIA */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .modal-overlay.active { display: flex; }
+    .modal {
+      background: var(--white);
+      border-radius: 14px;
+      padding: 28px;
+      width: 100%;
+      max-width: 460px;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+    }
+    .modal h3 { font-size: 17px; font-weight: 700; margin-bottom: 4px; }
+    .modal-empresa { font-size: 13px; color: var(--text-muted); margin-bottom: 20px; }
+    .modal label { font-size: 13px; font-weight: 600; display: block; margin-bottom: 6px; }
+    .modal textarea, .modal input[type=email] {
+      width: 100%;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-family: inherit;
+      font-size: 14px;
+      color: var(--text);
+      background: var(--bg);
+      margin-bottom: 16px;
+      resize: none;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    .modal textarea:focus, .modal input[type=email]:focus { border-color: var(--blue); }
+    .modal textarea { height: 100px; }
+    .modal-actions { display: flex; gap: 10px; justify-content: flex-end; }
+    .btn-cancelar {
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 8px 16px;
+      font-size: 14px;
+      font-family: inherit;
+      cursor: pointer;
+      color: var(--text-muted);
+    }
+    .btn-enviar {
+      background: var(--blue);
+      border: none;
+      border-radius: 8px;
+      padding: 8px 18px;
+      font-size: 14px;
+      font-family: inherit;
+      font-weight: 600;
+      cursor: pointer;
+      color: white;
+      transition: background 0.15s;
+    }
+    .btn-enviar:hover { background: #1d4ed8; }
+    .btn-enviar:disabled { opacity: 0.6; cursor: default; }
+    .modal-msg { font-size: 13px; margin-top: 12px; text-align: center; }
+    .modal-msg.ok { color: var(--green-text); }
+    .modal-msg.err { color: var(--red-text); }
+    .btn-denunciar {
+      background: none;
+      border: none;
+      font-size: 12px;
+      color: var(--text-muted);
+      cursor: pointer;
+      font-family: inherit;
+      padding: 0;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .btn-denunciar:hover { color: var(--red-text); }
   </style>
 </head>
 <body>
@@ -515,6 +597,23 @@
 <div id="empresa-header"></div>
 
 <main class="main" id="main"></main>
+
+<!-- Modal denuncia -->
+<div class="modal-overlay" id="modal-denuncia">
+  <div class="modal">
+    <h3>Denunciar reseña</h3>
+    <p class="modal-empresa" id="modal-empresa-nombre"></p>
+    <label for="denuncia-motivo">¿Por qué denuncias esta reseña? <span style="color:var(--red-text)">*</span></label>
+    <textarea id="denuncia-motivo" placeholder="Ej: contiene información falsa, datos personales, lenguaje inapropiado..."></textarea>
+    <label for="denuncia-email">Tu email de contacto <span style="color:var(--red-text)">*</span> <span style="color:var(--text-muted);font-weight:400">(solo para darte seguimiento, nunca lo compartiremos)</span></label>
+    <input type="email" id="denuncia-email" placeholder="tuemail@ejemplo.com">
+    <div class="modal-actions">
+      <button class="btn-cancelar" onclick="cerrarDenuncia()">Cancelar</button>
+      <button class="btn-enviar" id="btn-enviar-denuncia" onclick="enviarDenuncia()">Enviar denuncia</button>
+    </div>
+    <p class="modal-msg" id="modal-msg"></p>
+  </div>
+</div>
 
 <footer>
   <p>ElInterno.com — Reseñas anónimas de empresas chilenas &nbsp;·&nbsp; <a href="legal.html">Aviso legal</a> &nbsp;·&nbsp; <a href="mailto:hola@elinterno.com">hola@elinterno.com</a></p>
@@ -662,6 +761,7 @@
         ${bloque('gerencia', '🎯', 'Consejo para la gerencia', r.consejo_gerencia)}
         ${(queB.masked || queM.masked || queD.masked) ? '<div class="resena-masked-note">* Se ocultó una mención de cargo para proteger el anonimato</div>' : ''}
         <div class="resena-footer">
+          <button class="btn-denunciar" onclick="abrirDenuncia(${r.id})">⚑ Denunciar</button>
           <button class="btn-voto${voted ? ' voted' : ''}" onclick="votar(${r.id}, this)">
             👍 Yo también lo viví &nbsp;<span class="voto-count">${count > 0 ? count : ''}</span>
           </button>
@@ -946,6 +1046,64 @@
         ${resenasOrdenadas.map(renderResena).join('')}`;
       cargarVotosFirebase(resenasOrdenadas);
     });
+
+  var _denunciaResenaId = null;
+  var _denunciaEmpresa  = null;
+
+  function abrirDenuncia(resenaId) {
+    _denunciaResenaId = resenaId;
+    _denunciaEmpresa  = document.querySelector('.empresa-nombre') ? document.querySelector('.empresa-nombre').textContent : empId;
+    document.getElementById('modal-empresa-nombre').textContent = _denunciaEmpresa;
+    document.getElementById('denuncia-motivo').value = '';
+    document.getElementById('denuncia-email').value = '';
+    document.getElementById('modal-msg').textContent = '';
+    document.getElementById('modal-msg').className = 'modal-msg';
+    document.getElementById('btn-enviar-denuncia').disabled = false;
+    document.getElementById('modal-denuncia').classList.add('active');
+  }
+
+  function cerrarDenuncia() {
+    document.getElementById('modal-denuncia').classList.remove('active');
+  }
+
+  function enviarDenuncia() {
+    var motivo = document.getElementById('denuncia-motivo').value.trim();
+    var email  = document.getElementById('denuncia-email').value.trim();
+    if (!motivo) {
+      document.getElementById('modal-msg').textContent = 'Por favor describe el motivo.';
+      document.getElementById('modal-msg').className = 'modal-msg err';
+      return;
+    }
+    if (!email) {
+      document.getElementById('modal-msg').textContent = 'Por favor ingresa tu email de contacto.';
+      document.getElementById('modal-msg').className = 'modal-msg err';
+      return;
+    }
+    var btn = document.getElementById('btn-enviar-denuncia');
+    btn.disabled = true;
+    btn.textContent = 'Enviando...';
+
+    emailjs.send('service_cdst3m8', 'template_jrblvto', {
+      empresa:        _denunciaEmpresa,
+      resena_id:      String(_denunciaResenaId),
+      motivo:         motivo,
+      email_contacto: email
+    }).then(function() {
+      document.getElementById('modal-msg').textContent = 'Denuncia enviada. La revisaremos pronto.';
+      document.getElementById('modal-msg').className = 'modal-msg ok';
+      btn.textContent = 'Enviado ✓';
+      setTimeout(cerrarDenuncia, 2000);
+    }, function() {
+      document.getElementById('modal-msg').textContent = 'Error al enviar. Intenta de nuevo.';
+      document.getElementById('modal-msg').className = 'modal-msg err';
+      btn.disabled = false;
+      btn.textContent = 'Enviar denuncia';
+    });
+  }
+
+  document.getElementById('modal-denuncia').addEventListener('click', function(e) {
+    if (e.target === this) cerrarDenuncia();
+  });
 </script>
 </body>
 </html>
