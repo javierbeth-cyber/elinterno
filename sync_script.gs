@@ -38,6 +38,11 @@ var NOMBRES = {
   'escuela de ingenieria uc': 'Escuela de Ing.UC',
   'ingenieria uc':            'Escuela de Ing.UC',
   'puc ingenieria':           'Escuela de Ing.UC',
+  // JICA Chile
+  'jica chile-agencia japonesa de cooperación internacional': 'JICA Chile',
+  'jica chile-agencia japonesa de cooperacion internacional': 'JICA Chile',
+  'jica chile':               'JICA Chile',
+  'jica':                     'JICA Chile',
   // GeoVictoria
   'geovictoria':              'GeoVictoria',
   'geo victoria':             'GeoVictoria',
@@ -101,21 +106,9 @@ var LOGOS = {
   'sonda-s-a':                'https://www.sonda.com/images/sondanewsitelibraries/sonda_2024/logos/logo-sonda.svg?sfvrsn=47ae5404_3',
   'talana':                   'https://www.google.com/s2/favicons?domain=talana.cl&sz=128',
   'termas-de-puyehue':        'https://www.google.com/s2/favicons?domain=puyehue.cl&sz=128',
-  'achs':                     'https://www.google.com/s2/favicons?domain=achs.cl&sz=128',
-  'banco-consorcio':          'https://www.google.com/s2/favicons?domain=bancoconsorcio.cl&sz=128',
-  'echeverria-izquierdo':     'https://www.google.com/s2/favicons?domain=echeverria-izquierdo.cl&sz=128',
-  'timix-chile':              'https://www.google.com/s2/favicons?domain=timix.la&sz=128',
-  'universidad-alberto-hurtado': 'https://www.google.com/s2/favicons?domain=uahurtado.cl&sz=128',
+  'timix-chile':              null,
   'toteat':                   'https://www.google.com/s2/favicons?domain=toteat.com&sz=128',
-  'touch':                    'https://i0.wp.com/touch.cl/wp-content/uploads/2022/05/logo-touch-verde.png?fit=1020%2C310&ssl=1',
-  'amaris':                   'https://amaris.com/wp-content/uploads/2020/08/amaris-logo-blue.svg',
-  'caja-de-compensacion-los-heroes': 'https://upload.wikimedia.org/wikipedia/commons/d/d0/Logotipo_Caja_Los_H%C3%A9roes.svg',
-  'epiroc':                   'https://upload.wikimedia.org/wikipedia/commons/4/4b/Epiroc_logo.svg',
-  'ibm-chile':                'https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg',
-  'komatsu-cummins':          'https://cdn.worldvectorlogo.com/logos/komatsu-1.svg',
-  'l-oreal-chile':            'https://upload.wikimedia.org/wikipedia/commons/9/9d/L%27Or%C3%A9al_logo.svg',
-  'metlife':                  'https://upload.wikimedia.org/wikipedia/commons/c/c6/MetLife_logo.svg',
-  'starbucks':                'https://upload.wikimedia.org/wikipedia/en/3/35/Starbucks_Coffee_Logo.svg'
+  'touch':                    'https://i0.wp.com/touch.cl/wp-content/uploads/2022/05/logo-touch-verde.png?fit=1020%2C310&ssl=1'
 };
 
 var RUBROS = {
@@ -123,146 +116,23 @@ var RUBROS = {
   'hogar-de-cristo':  'ONG'
 };
 
-// COL se construye dinámicamente desde los headers de la hoja
-function buildColMap(headerRow) {
-  var map = {};
-  // Helper: solo asigna si aún no está mapeado (primer match gana)
-  function set(key, i) { if (map[key] === undefined) map[key] = i; }
-
-  headerRow.forEach(function(h, i) {
-    var s = String(h || '').toLowerCase().trim();
-    if (!s) return;
-
-    // Orden importa: patrones más específicos primero
-    if (s.indexOf('marca') !== -1)                                          { set('timestamp', i);        return; }
-    // empresa: debe contener "trabajas" o "trabajaste" para evitar match en otras preguntas
-    if (s.indexOf('empresa') !== -1 && (s.indexOf('trabajas') !== -1 || s.indexOf('trabajaste') !== -1)) { set('empresa', i); return; }
-    if (s.indexOf('rubro') !== -1)                                          { set('rubro', i);             return; }
-    // área: debe contener "área" o "area" + "trabajas/trabajaste" para evitar false positives
-    if ((s.indexOf('área') !== -1 || s.indexOf('area') !== -1) && (s.indexOf('trabajas') !== -1 || s.indexOf('trabajaste') !== -1)) { set('area', i); return; }
-    if (s === 'cargo')                                                       { set('cargo', i);             return; }
-    if (s.indexOf('tiempo') !== -1 && s.indexOf('marca') === -1)            { set('tiempo', i);            return; }
-    if (s.indexOf('sigues') !== -1 || s.indexOf('sigues trabajando') !== -1){ set('sigue', i);             return; }
-    // calificar ANTES que empresa para que "¿Cómo calificarías esta empresa..." no matchee empresa
-    if (s.indexOf('calificar') !== -1)                                      { set('cal_general', i);       return; }
-    if (s === 'sueldo')                                                      { set('sueldo', i);            return; }
-    if (s.indexOf('desarrollo de carrera') !== -1 || s.indexOf('desarrollo') !== -1) { set('carrera', i); return; }
-    // que_bien ANTES de cultura para evitar que "¿Qué está bien...? Cultura, beneficios..." matchee como cultura
-    if (s.indexOf('está bien') !== -1 || s.indexOf('esta bien') !== -1)     { set('que_bien', i);          return; }
-    // flexibilidad/liderazgo: indexOf en vez de === por si el header tiene texto extra tras cambio de tipo
-    if (s.indexOf('flexibilidad') !== -1 && s.indexOf('está') === -1 && s.indexOf('esta') === -1) { set('flexibilidad', i); return; }
-    if (s.indexOf('liderazgo') !== -1 && s.indexOf('está') === -1 && s.indexOf('esta') === -1)    { set('liderazgo', i);    return; }
-    // cultura: requiere "cultura y" para matchear "Cultura y ambiente" pero no el texto ayuda de que_bien
-    if (s.indexOf('cultura y') !== -1 || s === 'cultura')                   { set('cultura', i);           return; }
-    if (s.indexOf('está mal') !== -1 || s.indexOf('esta mal') !== -1)       { set('que_mal', i);           return; }
-    if (s.indexOf('desear') !== -1)                                          { set('que_desearias', i);     return; }
-    if (s.indexOf('gerencia') !== -1)                                        { set('consejo_gerencia', i);  return; }
-    // recomienda ANTES que empresa genérico
-    if (s.indexOf('recomendar') !== -1)                                      { set('recomienda', i);        return; }
-    if (s.indexOf('confirmo') !== -1)                                        { set('confirmacion', i);      return; }
-  });
-
-  Logger.log('ColMap detectado: ' + JSON.stringify(map));
-  return map;
-}
-
-// Palabras capitalizadas que NO son nombres de personas (falsos positivos conocidos)
-var PALABRAS_OK = {
-  'Santiago': true, 'Chile': true, 'Región': true, 'Metropolitana': true,
-  'Buenos': true, 'Aires': true, 'Latin': true, 'America': true, 'South': true,
-  'North': true, 'Big': true, 'Four': true, 'Mesa': true, 'Negociadora': true,
-  'La': true, 'Las': true, 'Los': true, 'San': true, 'Santa': true,
-  'El': true, 'Del': true, 'De': true, 'En': true, 'Con': true,
-  'Muy': true, 'Poco': true, 'Nada': true, 'Todo': true, 'Todos': true,
-  'Recursos': true, 'Humanos': true, 'Gerencia': true, 'General': true,
-  'Área': true, 'Area': true, 'Cultura': true, 'Empresa': true
+var COL = {
+  timestamp:    0,
+  empresa:      1,
+  rubro:        2,
+  tiempo:       3,
+  sigue:        4,
+  cal_general:  5,
+  que_bien:     6,
+  que_mal:      7,
+  que_desearias:8,
+  recomienda:   9,
+  sueldo:       11,
+  carrera:      12,
+  flexibilidad: 13,
+  liderazgo:    14,
+  cultura:      15
 };
-
-// Términos legalmente sensibles y sus reemplazos
-var TERMINOS_SENSIBLES = [
-  { re: /\bnepotismo\b/gi,       rep: 'favoritismo interno' },
-  { re: /\bnepotista[s]?\b/gi,   rep: 'con favoritismo' },
-  { re: /\bcorrupci[oó]n\b/gi,   rep: 'malas prácticas' },
-  { re: /\bcorrupto[s]?\b/gi,    rep: 'deshonesto' },
-  { re: /\bcorrupta[s]?\b/gi,    rep: 'deshonesta' },
-  { re: /\bfraude[s]?\b/gi,      rep: 'irregularidades' },
-  { re: /\bfraudulento[s]?\b/gi, rep: 'irregular' },
-  { re: /\bfraudulenta[s]?\b/gi, rep: 'irregular' },
-  { re: /\bilegal(es)?\b/gi,     rep: 'fuera de norma' },
-  { re: /\bilegalmente\b/gi,     rep: 'de forma cuestionable' },
-  { re: /\bestafa[s]?\b/gi,      rep: 'incumplimiento' },
-  { re: /\bestafar\b/gi,         rep: 'incumplir' },
-  { re: /\bladr[oó]n\b/gi,       rep: '[omitido]' },
-  { re: /\bladrones\b/gi,        rep: '[omitido]' },
-  { re: /\bdelito[s]?\b/gi,      rep: 'irregularidad' },
-  { re: /\bdelictivo[s]?\b/gi,   rep: 'cuestionable' },
-  { re: /\bdelictiva[s]?\b/gi,   rep: 'cuestionable' },
-  // Acoso y hostigamiento
-  { re: /\bacoso\s+laboral\b/gi,  rep: 'ambiente laboral negativo' },
-  { re: /\bacoso\s+sexual\b/gi,   rep: 'ambiente laboral negativo' },
-  { re: /\bhostigamiento\s+laboral\b/gi, rep: 'presión laboral excesiva' },
-  // Demandas
-  { re: /\bdemanda[s]?\b/gi,      rep: 'acciones legales' },
-  { re: /\bdemandar\b/gi,         rep: 'tomar acciones legales' },
-  { re: /\bdemandado[s]?\b/gi,    rep: 'con acciones legales en curso' },
-  { re: /\bdemandada[s]?\b/gi,    rep: 'con acciones legales en curso' }
-];
-
-function filtrarTerminosSensibles(texto) {
-  if (!texto) return texto;
-  TERMINOS_SENSIBLES.forEach(function(t) {
-    texto = texto.replace(t.re, t.rep);
-  });
-  return texto;
-}
-
-// Detecta y reemplaza secuencias de 2+ palabras capitalizadas que parezcan nombre de persona
-function filtrarNombres(texto) {
-  if (!texto) return texto;
-  // Patrón: 2 o más palabras que empiezan con mayúscula seguidas
-  return texto.replace(/\b([A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)(\s+[A-ZÁÉÍÓÚÑ][a-záéíóúñ]+)+\b/g, function(match) {
-    var palabras = match.split(/\s+/);
-    // Si todas las palabras están en la lista de permitidas, no es nombre
-    var todasOk = palabras.every(function(p) { return PALABRAS_OK[p]; });
-    if (todasOk) return match;
-    // Si tiene 2+ palabras y alguna NO está en la lista, probable nombre de persona
-    return '[nombre omitido]';
-  });
-}
-
-// Normaliza valores de escala: texto nuevo o número viejo → texto etiqueta
-function normalizarEscala(val) {
-  if (val === null || val === undefined || val === '') return null;
-  var v = String(val).trim().toLowerCase();
-  if (v === 'muy malo')  return 'Muy malo';
-  if (v === 'malo')      return 'Malo';
-  if (v === 'bueno')     return 'Bueno';
-  if (v === 'muy bueno') return 'Muy bueno';
-  var n = parseInt(v);
-  if (isNaN(n)) return null;
-  if (n === 1) return 'Muy malo';
-  if (n === 2) return 'Malo';
-  if (n === 3) return null;   // Opción A: sin equivalente, excluir
-  if (n === 4) return 'Bueno';
-  if (n === 5) return 'Muy bueno';
-  return null;
-}
-
-function escalaANum(texto) {
-  if (texto === 'Muy malo')  return 1;
-  if (texto === 'Malo')      return 2;
-  if (texto === 'Bueno')     return 3;
-  if (texto === 'Muy bueno') return 4;
-  return null;
-}
-
-function avgEscala(resenas, campo) {
-  var vals = resenas
-    .map(function(r) { return escalaANum(r[campo]); })
-    .filter(function(v) { return v !== null; });
-  if (!vals.length) return null;
-  return Math.round(vals.reduce(function(a, b) { return a + b; }, 0) / vals.length * 10) / 10;
-}
 
 // =============================================
 // HELPERS GITHUB
@@ -271,10 +141,7 @@ function avgEscala(resenas, campo) {
 function ghGet(path) {
   var res = UrlFetchApp.fetch(
     'https://api.github.com/repos/' + GITHUB_REPO + '/contents/' + path,
-    {
-      headers: { Authorization: 'token ' + GITHUB_TOKEN },
-      muteHttpExceptions: true
-    }
+    { headers: { Authorization: 'token ' + GITHUB_TOKEN }, muteHttpExceptions: true }
   );
   if (res.getResponseCode() !== 200) return null;
   var data = JSON.parse(res.getContentText());
@@ -320,11 +187,7 @@ function ghPutBlob(path, blob, message) {
     payload: JSON.stringify(payload),
     muteHttpExceptions: true
   });
-  var code = res.getResponseCode();
-  if (code !== 200 && code !== 201) {
-    Logger.log('ghPutBlob error (' + code + '): ' + res.getContentText());
-  }
-  return code === 200 || code === 201;
+  return res.getResponseCode() === 200 || res.getResponseCode() === 201;
 }
 
 // =============================================
@@ -348,41 +211,74 @@ function getExtension(blob) {
 }
 
 // =============================================
-// GEMINI — RESUMEN DE RESEÑAS
+// GEMINI — RESÚMENES IA
 // =============================================
 
-function generarResumen(textos, tipo) {
-  if (!textos || !textos.length) return null;
-  if (textos.length === 1) return textos[0]; // con 1 reseña no hace falta resumir
-
+function callGemini(prompt) {
   var key = PropertiesService.getScriptProperties().getProperty('GEMINI_KEY');
-  if (!key) return textos[0];
+  if (!key) { Logger.log('Sin GEMINI_KEY en Script Properties'); return null; }
 
-  var prompt = tipo === 'bien'
-    ? 'Eres un asistente que resume reseñas laborales. A continuación hay ' + textos.length + ' respuestas de trabajadores a la pregunta "¿Qué está bien en esta empresa?". Escribe un resumen en español de 1 a 2 oraciones que capture los puntos en común. Sin bullet points, sin títulos, solo el resumen. Si no hay puntos en común claros, elige el punto más representativo.\n\nReseñas:\n' + textos.map(function(t,i){ return (i+1)+'. '+t; }).join('\n')
-    : 'Eres un asistente que resume reseñas laborales. A continuación hay ' + textos.length + ' respuestas de trabajadores a la pregunta "¿Qué está mal en esta empresa?". Escribe un resumen en español de 1 a 2 oraciones que capture las quejas en común. Sin bullet points, sin títulos, solo el resumen. Si no hay quejas en común claras, elige la más representativa.\n\nReseñas:\n' + textos.map(function(t,i){ return (i+1)+'. '+t; }).join('\n');
+  var url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + key;
+  var payload = {
+    contents: [{ parts: [{ text: prompt }] }],
+    generationConfig: { temperature: 0.3, maxOutputTokens: 300 }
+  };
 
-  try {
-    var response = UrlFetchApp.fetch(
-      'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + key,
-      {
-        method: 'post',
-        contentType: 'application/json',
-        payload: JSON.stringify({
-          contents: [{ parts: [{ text: prompt }] }],
-          generationConfig: { maxOutputTokens: 150, temperature: 0.3 }
-        }),
-        muteHttpExceptions: true
-      }
-    );
-    var json = JSON.parse(response.getContentText());
-    var texto = json.candidates && json.candidates[0] &&
-                json.candidates[0].content && json.candidates[0].content.parts &&
-                json.candidates[0].content.parts[0].text;
-    return texto ? texto.trim() : textos[0];
-  } catch(e) {
-    return textos[0]; // fallback silencioso
+  var res = UrlFetchApp.fetch(url, {
+    method: 'post',
+    headers: { 'Content-Type': 'application/json' },
+    payload: JSON.stringify(payload),
+    muteHttpExceptions: true
+  });
+
+  if (res.getResponseCode() !== 200) {
+    Logger.log('Gemini error ' + res.getResponseCode() + ': ' + res.getContentText());
+    return null;
   }
+
+  var json = JSON.parse(res.getContentText());
+  return json.candidates[0].content.parts[0].text;
+}
+
+function generarResumen(resenas) {
+  var textos = resenas.map(function(r) {
+    var parts = [];
+    if (r.que_bien) parts.push('Positivo: ' + r.que_bien);
+    if (r.que_mal)  parts.push('Negativo: ' + r.que_mal);
+    return parts.join('\n');
+  }).filter(Boolean).join('\n\n');
+
+  var prompt =
+    'Eres un asistente que sintetiza reseñas laborales anónimas de empleados chilenos.\n' +
+    'Tengo estas reseñas:\n\n' + textos + '\n\n' +
+    'Genera un resumen en español (1-2 oraciones cada uno):\n' +
+    '- resumen_bien: sintetiza los aspectos positivos más mencionados. Si no hay nada positivo relevante, escribe null.\n' +
+    '- resumen_mal: sintetiza los aspectos negativos más mencionados. Si no hay nada negativo relevante, escribe null.\n\n' +
+    'Responde SOLO con JSON válido, sin markdown: {"resumen_bien": "...", "resumen_mal": "..."}';
+
+  var text = callGemini(prompt);
+  if (!text) return null;
+
+  text = text.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim();
+  try {
+    return JSON.parse(text);
+  } catch(e) {
+    Logger.log('Error parseando respuesta Gemini: ' + text);
+    return null;
+  }
+}
+
+// Ejecutar manualmente desde el editor para probar Gemini con Lirmi
+function testGeminiConEmpresa() {
+  var datosData = ghGet(GITHUB_FILE);
+  if (!datosData) { Logger.log('No se pudo leer datos.json'); return; }
+
+  var empresa = datosData.content.find(function(e) { return e.nombre === 'Lirmi'; });
+  if (!empresa) { Logger.log('No encontré Lirmi'); return; }
+
+  Logger.log('Probando con: ' + empresa.nombre + ' (' + empresa.total_resenas + ' reseñas)');
+  var resultado = generarResumen(empresa.resenas);
+  Logger.log('Resultado Gemini: ' + JSON.stringify(resultado, null, 2));
 }
 
 // =============================================
@@ -390,13 +286,25 @@ function generarResumen(textos, tipo) {
 // =============================================
 
 function buildJson() {
-  // Cargar manifest de logos desde el repo (una sola llamada)
+  // Cargar manifest de logos y datos existentes desde GitHub (una sola llamada cada uno)
   var manifestData = ghGet(LOGO_MANIFEST);
   var manifest = manifestData ? manifestData.content : {};
 
+  // Leer datos.json actual para preservar resúmenes existentes
+  var datosActuales = ghGet(GITHUB_FILE);
+  var resumenesExistentes = {};
+  if (datosActuales) {
+    datosActuales.content.forEach(function(emp) {
+      resumenesExistentes[emp.id] = {
+        resumen_bien:   emp.resumen_bien   || null,
+        resumen_mal:    emp.resumen_mal    || null,
+        total_resenas:  emp.total_resenas  || 0
+      };
+    });
+  }
+
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getSheetByName('Respuestas de formulario 1');
   var data  = sheet.getDataRange().getValues();
-  var COL   = buildColMap(data[0]);
   var empresas = {};
   var orden = [];
   var resenaId = 0;
@@ -416,14 +324,14 @@ function buildJson() {
       .replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');
 
     if (!empresas[id]) {
-      // Prioridad de logo: manifest del repo > LOGOS dict > null (muestra letra en el frontend)
+      // Prioridad de logo: manifest del repo > LOGOS dict > fallback favicon
       var logo;
-      if (manifest[id] !== undefined) {
-        logo = manifest[id];  // null en manifest = sin logo (muestra placeholder)
+      if (manifest[id]) {
+        logo = manifest[id];
       } else if (LOGOS[id] !== undefined) {
         logo = LOGOS[id];
       } else {
-        logo = null;
+        logo = 'https://www.google.com/s2/favicons?domain=' + id + '.cl&sz=128';
       }
 
       empresas[id] = {
@@ -447,24 +355,21 @@ function buildJson() {
 
     resenaId++;
     empresas[id].resenas.push({
-      id:               resenaId,
-      fecha:            fecha,
-      area:             COL.area             !== undefined ? (String(row[COL.area]             || '').trim() || null) : null,
-      cargo:            COL.cargo            !== undefined ? (String(row[COL.cargo]            || '').trim() || null) : null,
-      tiempo:           COL.tiempo           !== undefined ? (row[COL.tiempo]                  || null) : null,
-      sigue:            COL.sigue            !== undefined ? (row[COL.sigue]                   || null) : null,
-      cal_general:      COL.cal_general      !== undefined ? (row[COL.cal_general] ? parseInt(row[COL.cal_general]) : null) : null,
-      sueldo:           COL.sueldo           !== undefined ? (row[COL.sueldo]                  || null) : null,
-      carrera:          COL.carrera          !== undefined ? (row[COL.carrera]                 || null) : null,
-      flexibilidad:     COL.flexibilidad     !== undefined ? normalizarEscala(row[COL.flexibilidad]) : null,
-      liderazgo:        COL.liderazgo        !== undefined ? normalizarEscala(row[COL.liderazgo])    : null,
-      cultura:          COL.cultura          !== undefined ? normalizarEscala(row[COL.cultura])      : null,
-      que_bien:         COL.que_bien         !== undefined ? (filtrarTerminosSensibles(filtrarNombres(String(row[COL.que_bien]         || '').trim())) || null) : null,
-      que_mal:          COL.que_mal          !== undefined ? (filtrarTerminosSensibles(filtrarNombres(String(row[COL.que_mal]          || '').trim())) || null) : null,
-      que_desearias:    COL.que_desearias    !== undefined ? (filtrarTerminosSensibles(filtrarNombres(String(row[COL.que_desearias]    || '').trim())) || null) : null,
-      consejo_gerencia: COL.consejo_gerencia !== undefined ? (filtrarTerminosSensibles(filtrarNombres(String(row[COL.consejo_gerencia] || '').trim())) || null) : null,
-      recomienda:       COL.recomienda       !== undefined ? (row[COL.recomienda]              || null) : null,
-      votos:            0
+      id:            resenaId,
+      fecha:         fecha,
+      tiempo:        row[COL.tiempo]       || null,
+      sigue:         row[COL.sigue]        || null,
+      cal_general:   row[COL.cal_general]  ? parseInt(row[COL.cal_general])  : null,
+      sueldo:        row[COL.sueldo]        || null,
+      carrera:       row[COL.carrera]       || null,
+      flexibilidad:  row[COL.flexibilidad] ? parseInt(row[COL.flexibilidad]) : null,
+      liderazgo:     row[COL.liderazgo]    ? parseInt(row[COL.liderazgo])    : null,
+      cultura:       row[COL.cultura]      ? parseInt(row[COL.cultura])      : null,
+      que_bien:      String(row[COL.que_bien]      || '').trim() || null,
+      que_mal:       String(row[COL.que_mal]       || '').trim() || null,
+      que_desearias: String(row[COL.que_desearias] || '').trim() || null,
+      recomienda:    row[COL.recomienda]   || null,
+      votos:         0
     });
   }
 
@@ -479,14 +384,35 @@ function buildJson() {
     emp.promedio          = avg(emp.resenas.map(function(r){ return r.cal_general; }));
     emp.prom_sueldo       = null;
     emp.prom_carrera      = null;
-    emp.prom_flexibilidad = avgEscala(emp.resenas, 'flexibilidad');
-    emp.prom_liderazgo    = avgEscala(emp.resenas, 'liderazgo');
-    emp.prom_cultura      = avgEscala(emp.resenas, 'cultura');
+    emp.prom_flexibilidad = avg(emp.resenas.map(function(r){ return r.flexibilidad; }));
+    emp.prom_liderazgo    = avg(emp.resenas.map(function(r){ return r.liderazgo; }));
+    emp.prom_cultura      = avg(emp.resenas.map(function(r){ return r.cultura; }));
 
-    var textosBien = emp.resenas.map(function(r){ return r.que_bien; }).filter(Boolean);
-    var textosMal  = emp.resenas.map(function(r){ return r.que_mal;  }).filter(Boolean);
-    emp.resumen_bien = generarResumen(textosBien, 'bien');
-    emp.resumen_mal  = generarResumen(textosMal,  'mal');
+    var prev = resumenesExistentes[id] || {};
+
+    if (emp.total_resenas === 1) {
+      // Con una sola reseña: mostrar el comentario directo
+      emp.resumen_bien = emp.resenas[0].que_bien || null;
+      emp.resumen_mal  = emp.resenas[0].que_mal  || null;
+    } else if (prev.resumen_bien || prev.resumen_mal) {
+      if (prev.total_resenas === emp.total_resenas) {
+        // Sin reseñas nuevas: conservar resumen existente
+        emp.resumen_bien = prev.resumen_bien;
+        emp.resumen_mal  = prev.resumen_mal;
+      } else {
+        // Llegó una reseña nueva: regenerar con Gemini
+        Logger.log('Regenerando resumen (nueva reseña): ' + emp.nombre);
+        var nuevo = generarResumen(emp.resenas);
+        emp.resumen_bien = nuevo ? nuevo.resumen_bien : prev.resumen_bien;
+        emp.resumen_mal  = nuevo ? nuevo.resumen_mal  : prev.resumen_mal;
+      }
+    } else {
+      // Primera vez con +1 reseña: generar con Gemini
+      Logger.log('Generando resumen (primera vez): ' + emp.nombre);
+      var generado = generarResumen(emp.resenas);
+      emp.resumen_bien = generado ? generado.resumen_bien : null;
+      emp.resumen_mal  = generado ? generado.resumen_mal  : null;
+    }
 
     return emp;
   });
@@ -501,9 +427,15 @@ function buildJson() {
 
 function pushToGitHub(content) {
   var apiUrl = 'https://api.github.com/repos/' + GITHUB_REPO + '/contents/' + GITHUB_FILE;
-  // Usar ghGet (sin auth) para obtener el SHA — funciona en repos públicos
-  var current = ghGet(GITHUB_FILE);
-  var sha = current ? current.sha : null;
+  var getSha = UrlFetchApp.fetch(apiUrl, {
+    method: 'get',
+    headers: { Authorization: 'token ' + GITHUB_TOKEN },
+    muteHttpExceptions: true
+  });
+  var sha = null;
+  if (getSha.getResponseCode() === 200) {
+    sha = JSON.parse(getSha.getContentText()).sha;
+  }
 
   var payload = {
     message: 'Auto-sync desde Google Forms',
@@ -531,40 +463,12 @@ function pushToGitHub(content) {
 }
 
 // =============================================
-// SITEMAP
-// =============================================
-
-function buildSitemap(empresas) {
-  var hoy = Utilities.formatDate(new Date(), 'America/Santiago', 'yyyy-MM-dd');
-  var urls = [
-    '  <url>\n    <loc>https://elinterno.com/</loc>\n    <lastmod>' + hoy + '</lastmod>\n    <changefreq>daily</changefreq>\n    <priority>1.0</priority>\n  </url>',
-    '  <url>\n    <loc>https://elinterno.com/legal.html</loc>\n    <lastmod>' + hoy + '</lastmod>\n    <changefreq>monthly</changefreq>\n    <priority>0.3</priority>\n  </url>'
-  ];
-  empresas.forEach(function(emp) {
-    urls.push('  <url>\n    <loc>https://elinterno.com/empresa.html?id=' + emp.id + '</loc>\n    <lastmod>' + hoy + '</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>');
-  });
-  return '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + urls.join('\n') + '\n</urlset>';
-}
-
-function pushSitemap(xml) {
-  var apiUrl = 'https://api.github.com/repos/' + GITHUB_REPO + '/contents/sitemap.xml';
-  var getSha = UrlFetchApp.fetch(apiUrl, { headers: { Authorization: 'token ' + GITHUB_TOKEN }, muteHttpExceptions: true });
-  var sha = getSha.getResponseCode() === 200 ? JSON.parse(getSha.getContentText()).sha : null;
-  var payload = { message: 'seo: sitemap auto-actualizado', content: Utilities.base64Encode(xml, Utilities.Charset.UTF_8), branch: GITHUB_BRANCH };
-  if (sha) payload.sha = sha;
-  var res = UrlFetchApp.fetch(apiUrl, { method: 'put', headers: { Authorization: 'token ' + GITHUB_TOKEN, 'Content-Type': 'application/json' }, payload: JSON.stringify(payload), muteHttpExceptions: true });
-  var code = res.getResponseCode();
-  Logger.log(code === 200 || code === 201 ? 'OK: sitemap.xml actualizado' : 'Error sitemap: ' + res.getContentText());
-}
-
-// =============================================
 // TRIGGERS PRINCIPALES
 // =============================================
 
 function onFormSubmit() {
   var json = buildJson();
   pushToGitHub(json);
-  pushSitemap(buildSitemap(JSON.parse(json)));
 }
 
 function syncManual() {
@@ -575,7 +479,6 @@ function syncManual() {
 // BÚSQUEDA AUTOMÁTICA DE LOGOS (JOB NOCTURNO)
 // =============================================
 
-// Retorna la URL del logo (no descarga la imagen)
 function tryFindLogo(id) {
   var base = id.replace(/-/g, '');
   var domains = [id + '.cl', id + '.com', base + '.cl', base + '.com'];
@@ -590,7 +493,7 @@ function tryFindLogo(id) {
         var ct = (cb.getHeaders()['Content-Type'] || '').toLowerCase();
         if (ct.indexOf('image') !== -1 && ct.indexOf('gif') === -1) {
           Logger.log('  Clearbit OK: ' + domain);
-          return 'https://logo.clearbit.com/' + domain;
+          return cb.getBlob();
         }
       }
     } catch(e) {}
@@ -603,8 +506,11 @@ function tryFindLogo(id) {
         var match = html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i)
                  || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i);
         if (match && match[1] && match[1].indexOf('http') === 0) {
-          Logger.log('  og:image OK: ' + domain);
-          return match[1];
+          var imgRes = UrlFetchApp.fetch(match[1], { muteHttpExceptions: true });
+          if (imgRes.getResponseCode() === 200) {
+            Logger.log('  og:image OK: ' + domain);
+            return imgRes.getBlob();
+          }
         }
       }
     } catch(e) {}
@@ -631,12 +537,20 @@ function buscarLogos() {
     if (manifest[id] || (LOGOS[id] !== undefined && LOGOS[id] !== null)) return;
 
     Logger.log('Buscando logo: ' + emp.nombre + ' (id: ' + id + ')');
-    var url = tryFindLogo(id);
+    var blob = tryFindLogo(id);
 
-    if (url) {
-      manifest[id] = url;
-      encontrados++;
-      Logger.log('✓ Logo encontrado: ' + emp.nombre + ' → ' + url);
+    if (blob) {
+      var ext      = getExtension(blob);
+      var repoPath = 'logos/' + id + ext;
+      var ok = ghPutBlob(repoPath, blob, 'Logo auto: ' + emp.nombre);
+      if (ok) {
+        manifest[id] = 'https://raw.githubusercontent.com/' + GITHUB_REPO + '/main/' + repoPath;
+        encontrados++;
+        Logger.log('✓ Logo guardado: ' + emp.nombre);
+      } else {
+        Logger.log('✗ Error al subir: ' + emp.nombre);
+        sinLogo.push(emp.nombre);
+      }
     } else {
       sinLogo.push(emp.nombre);
       Logger.log('✗ Sin logo: ' + emp.nombre);
