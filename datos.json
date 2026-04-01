@@ -2159,57 +2159,6 @@
     "resumen_mal": "La dirección de aeropuertos (administrativa) completa hay directores que piden sacar jefes, toda la plana de gerentes se conocen y carretean entre ellos hace años, se apitutean entre ellos y si no eres \"de su perfil\" no te dan bola para ningun proyecto esperando que te vayas o puedan traer a alguien para reemplazarte"
   },
   {
-    "id": "lemontech",
-    "nombre": "Lemontech",
-    "rubro": "Tecnología",
-    "logo": "assets/logos/lemontech.png",
-    "resenas": [
-      {
-        "id": 35,
-        "fecha": "2026-03-24",
-        "tiempo": "Más de 3 años",
-        "sigue": "No",
-        "cal_general": 5,
-        "sueldo": 5,
-        "carrera": 4,
-        "flexibilidad": 5,
-        "liderazgo": 3,
-        "cultura": 5,
-        "que_bien": "Es por lejos la mejora empresa en la que he trabajado. Buenos beneficios, flexibilidad y renta. Hay cultura centrada en las personas y se les trata con respeto",
-        "que_mal": "Los sesgos y brechas de género.",
-        "que_desearias": "Las diferencias evidentes que existen en lo que refiere a equidad de género, y en cómo estas brechas acentúan comportamientos misoginos en las mesas de liderazgo. Como la falta de liderazgo en los equipos de desarrollo impacta en otros equipos y en sus resultados",
-        "recomienda": "Sí",
-        "votos": 0
-      },
-      {
-        "id": 33,
-        "fecha": "2026-03-23",
-        "tiempo": "1 a 3 años",
-        "sigue": "No",
-        "cal_general": 1,
-        "sueldo": 2,
-        "carrera": 1,
-        "flexibilidad": 1,
-        "liderazgo": 1,
-        "cultura": 2,
-        "que_bien": "Solo su imagén",
-        "que_mal": "Cultura, personas",
-        "que_desearias": "Que fueran claro en sus mediciones tech",
-        "recomienda": "No",
-        "votos": 0
-      }
-    ],
-    "total_resenas": 2,
-    "promedio": 3,
-    "prom_sueldo": null,
-    "prom_carrera": null,
-    "prom_flexibilidad": 3,
-    "prom_liderazgo": 2,
-    "prom_cultura": 3.5,
-    "resumen_bien": "Buenos beneficios, flexibilidad y cultura centrada en las personas.",
-    "resumen_mal": "Brechas de género y problemas culturales internos reportados por algunos trabajadores."
-  },
-  {
     "id": "lider-bci",
     "nombre": "Líder BCI",
     "rubro": "Banca y finanzas",
