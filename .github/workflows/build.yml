@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'datos.json'
+  workflow_dispatch:
 
 jobs:
   build:
