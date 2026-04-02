@@ -244,8 +244,7 @@ function callGemini(prompt) {
   var url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=' + key;
   var payload = {
     contents: [{ parts: [{ text: prompt }] }],
-    generationConfig: { temperature: 0.3, maxOutputTokens: 512 },
-    thinkingConfig: { thinkingBudget: 0 }
+    generationConfig: { temperature: 0.3, maxOutputTokens: 256 }
   };
 
   var res = UrlFetchApp.fetch(url, {
@@ -273,12 +272,11 @@ function generarResumen(resenas) {
   }).filter(Boolean).join('\n\n');
 
   var prompt =
-    'Eres un asistente que sintetiza reseñas laborales anónimas de empleados chilenos.\n' +
-    'Tengo estas reseñas:\n\n' + textos + '\n\n' +
-    'Genera un resumen en español (1-2 oraciones cada uno):\n' +
-    '- resumen_bien: sintetiza los aspectos positivos más mencionados. Si no hay nada positivo relevante, escribe null.\n' +
-    '- resumen_mal: sintetiza los aspectos negativos más mencionados. Si no hay nada negativo relevante, escribe null.\n\n' +
-    'Responde SOLO con JSON válido, sin markdown: {"resumen_bien": "...", "resumen_mal": "..."}';
+    'Sintetiza estas reseñas laborales en máximo 20 palabras por campo.\n\n' +
+    textos + '\n\n' +
+    'Responde SOLO con este JSON (sin markdown, sin texto extra):\n' +
+    '{"resumen_bien":"...","resumen_mal":"..."}\n' +
+    'Si no hay positivos escribe null en resumen_bien. Si no hay negativos escribe null en resumen_mal.';
 
   var text = callGemini(prompt);
   if (!text) return null;
