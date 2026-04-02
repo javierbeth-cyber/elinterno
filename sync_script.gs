@@ -136,21 +136,25 @@ var EMPRESAS_OCULTAS = [
 ];
 
 var COL = {
-  timestamp:    0,
-  empresa:      1,
-  rubro:        2,
-  tiempo:       3,
-  sigue:        4,
-  cal_general:  5,
-  que_bien:     6,
-  que_mal:      7,
-  que_desearias:8,
-  recomienda:   9,
-  sueldo:       11,
-  carrera:      12,
-  flexibilidad: 13,
-  liderazgo:    14,
-  cultura:      15
+  timestamp:        0,
+  empresa:          1,
+  rubro:            2,
+  tiempo:           3,
+  sigue:            4,
+  cal_general:      5,
+  que_bien:         6,
+  que_mal:          7,
+  que_desearias:    8,
+  recomienda:       9,
+  // col 10 = confirmación términos (ignorada)
+  sueldo:           11,
+  carrera:          12,
+  flexibilidad:     13,
+  liderazgo:        14,
+  cultura:          15,
+  cargo:            16,
+  area:             17,
+  consejo_gerencia: 18
 };
 
 // =============================================
@@ -301,6 +305,51 @@ function testGeminiConEmpresa() {
 }
 
 // =============================================
+// FILTROS DE CONTENIDO
+// =============================================
+
+var TERMINOS_SENSIBLES = [
+  'nepotismo','corrupción','fraude','ilegal','estafa',
+  'ladrón','delito','acoso laboral','acoso sexual',
+  'hostigamiento laboral','demandar','demanda'
+];
+
+var CARGO_PALABRAS_FILTER = [
+  'gerente','gerenta','subgerente','director','directora',
+  'jefe','jefa','coordinador','coordinadora','supervisor','supervisora',
+  'encargado','encargada','líder','lider','analista','desarrollador','desarrolladora',
+  'programador','programadora','ingeniero','ingeniera','diseñador','diseñadora',
+  'consultor','consultora','especialista','ejecutivo','ejecutiva',
+  'ceo','cto','cfo','coo','cmo','ciso','vp'
+];
+
+function filtrarNombres(texto) {
+  if (!texto) return texto;
+  var re = new RegExp(
+    '\\b(' + CARGO_PALABRAS_FILTER.join('|') + ')e?s?\\b\\)?(?:\\s+(?:de|del|en|y|sr\\.?|jr\\.?|senior|junior|área|area))*(?:\\s+[A-ZÁÉÍÓÚÑa-záéíóúñ]+){0,3}',
+    'gi'
+  );
+  return texto.replace(re, '[cargo omitido]');
+}
+
+function filtrarTerminosSensibles(texto) {
+  if (!texto) return texto;
+  var lower = texto.toLowerCase();
+  for (var i = 0; i < TERMINOS_SENSIBLES.length; i++) {
+    if (lower.indexOf(TERMINOS_SENSIBLES[i]) !== -1) {
+      var re = new RegExp(TERMINOS_SENSIBLES[i], 'gi');
+      texto = texto.replace(re, '[contenido omitido]');
+    }
+  }
+  return texto;
+}
+
+function filtrarTexto(texto) {
+  if (!texto) return texto;
+  return filtrarNombres(filtrarTerminosSensibles(texto));
+}
+
+// =============================================
 // BUILD JSON
 // =============================================
 
@@ -345,14 +394,17 @@ function buildJson() {
     if (EMPRESAS_OCULTAS.indexOf(id) !== -1) continue;
 
     if (!empresas[id]) {
-      // Prioridad de logo: manifest del repo > LOGOS dict > fallback favicon
+      // Prioridad de logo: manifest del repo > LOGOS dict > datos.json existente > fallback DuckDuckGo
       var logo;
+      var empExistente = datosActuales ? datosActuales.content.find(function(e) { return e.id === id; }) : null;
       if (manifest[id]) {
         logo = manifest[id];
       } else if (LOGOS[id] !== undefined) {
         logo = LOGOS[id];
+      } else if (empExistente && empExistente.logo) {
+        logo = empExistente.logo;
       } else {
-        logo = 'https://www.google.com/s2/favicons?domain=' + id + '.cl&sz=128';
+        logo = 'https://icons.duckduckgo.com/ip3/' + id + '.cl.ico';
       }
 
       empresas[id] = {
@@ -374,23 +426,30 @@ function buildJson() {
       fecha = d.getFullYear() + '-' + mm + '-' + dd;
     }
 
+    var queBien      = filtrarTexto(String(row[COL.que_bien]      || '').trim()) || null;
+    var queMal       = filtrarTexto(String(row[COL.que_mal]       || '').trim()) || null;
+    var queDesearias = filtrarTexto(String(row[COL.que_desearias] || '').trim()) || null;
+    var consejo      = filtrarTexto(String(row[COL.consejo_gerencia] || '').trim()) || null;
+
     resenaId++;
     empresas[id].resenas.push({
-      id:            resenaId,
-      fecha:         fecha,
-      tiempo:        row[COL.tiempo]       || null,
-      sigue:         row[COL.sigue]        || null,
-      cal_general:   row[COL.cal_general]  ? parseInt(row[COL.cal_general])  : null,
-      sueldo:        row[COL.sueldo]        || null,
-      carrera:       row[COL.carrera]       || null,
-      flexibilidad:  row[COL.flexibilidad] ? parseInt(row[COL.flexibilidad]) : null,
-      liderazgo:     row[COL.liderazgo]    ? parseInt(row[COL.liderazgo])    : null,
-      cultura:       row[COL.cultura]      ? parseInt(row[COL.cultura])      : null,
-      que_bien:      String(row[COL.que_bien]      || '').trim() || null,
-      que_mal:       String(row[COL.que_mal]       || '').trim() || null,
-      que_desearias: String(row[COL.que_desearias] || '').trim() || null,
-      recomienda:    row[COL.recomienda]   || null,
-      votos:         0
+      id:               resenaId,
+      fecha:            fecha,
+      tiempo:           row[COL.tiempo]      || null,
+      sigue:            row[COL.sigue]       || null,
+      cal_general:      row[COL.cal_general] ? parseInt(row[COL.cal_general]) : null,
+      sueldo:           row[COL.sueldo]      || null,
+      carrera:          row[COL.carrera]     || null,
+      flexibilidad:     row[COL.flexibilidad]|| null,
+      liderazgo:        row[COL.liderazgo]   || null,
+      cultura:          row[COL.cultura]     || null,
+      que_bien:         queBien,
+      que_mal:          queMal,
+      que_desearias:    queDesearias,
+      recomienda:       row[COL.recomienda]  || null,
+      area:             String(row[COL.area]  || '').trim() || null,
+      consejo_gerencia: consejo,
+      votos:            0
     });
   }
 
