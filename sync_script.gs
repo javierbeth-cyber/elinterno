@@ -6,6 +6,12 @@ var LOGO_MANIFEST = 'logos/manifest.json';
 
 // Normalización de nombres: variación (lowercase) → nombre oficial
 var NOMBRES = {
+  // Lemontech (todas las variaciones → normalizar para que EMPRESAS_OCULTAS las filtre)
+  'lemontech':                'Lemontech',
+  'lemontech chile':          'Lemontech',
+  'lemon tech':               'Lemontech',
+  'lemon-tech':               'Lemontech',
+  'lt':                       'Lemontech',
   // Lirmi
   'lirmi':                    'Lirmi',
   'lirmi ':                   'Lirmi',
@@ -123,7 +129,10 @@ var RUBROS = {
 
 // Empresas ocultas del listado público (no se incluyen en datos.json)
 var EMPRESAS_OCULTAS = [
-  'lemontech'
+  'lemontech',
+  'lemontech-chile',
+  'lemon-tech',
+  'lt'
 ];
 
 var COL = {
