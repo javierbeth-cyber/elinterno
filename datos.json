@@ -1856,7 +1856,7 @@
     "id": "ibm-chile",
     "nombre": "IBM Chile",
     "rubro": "Tecnología",
-    "logo": "https://icons.duckduckgo.com/ip3/ibm.com.ico",
+    "logo": "assets/logos/ibm-chile.png",
     "resenas": [
       {
         "id": 112,
