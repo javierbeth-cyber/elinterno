@@ -56,7 +56,7 @@ var NOMBRES = {
   // Líder BCI
   'lider bci':                'Líder BCI',
   'líder bci':                'Líder BCI',
-  'bci':                      'Líder BCI',
+  'bci':                      'BCI',
   // Femsa
   'femsa':                    'Femsa',
   // Evertec

@@ -73,6 +73,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://elinterno.com/empresa/bci/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://elinterno.com/empresa/brass-chile/</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -331,7 +337,19 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://elinterno.com/empresa/itau/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://elinterno.com/empresa/jica-chile-agencia-japonesa-de-cooperacion-internacional/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://elinterno.com/empresa/kabeli/</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -602,6 +620,12 @@
   </url>
   <url>
     <loc>https://elinterno.com/empresa/veltis-ex-ferrovial/</loc>
+    <lastmod>2026-04-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://elinterno.com/empresa/vina-san-pedro-tarapaca/</loc>
     <lastmod>2026-04-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

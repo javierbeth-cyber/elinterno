@@ -340,6 +340,40 @@
     "resumen_mal": "El nivel de burocracia para muchas cosas, se mantienen muy poco actualizados con respecto a tecnología."
   },
   {
+    "id": "bci",
+    "nombre": "BCI",
+    "rubro": "Banca y finanzas",
+    "logo": "https://icons.duckduckgo.com/ip3/bci.cl.ico",
+    "resenas": [
+      {
+        "id": 50,
+        "fecha": "2026-03-24",
+        "tiempo": "Más de 3 años",
+        "sigue": "No",
+        "cal_general": 5,
+        "sueldo": 4,
+        "carrera": 4,
+        "flexibilidad": 5,
+        "liderazgo": 5,
+        "cultura": 5,
+        "que_bien": "Cultura, flexibilidad y beneficios",
+        "que_mal": null,
+        "que_desearias": "Bandas de sueldo, si entras muy abajo después acortarlo es difícil",
+        "recomienda": "Sí",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 5,
+    "prom_sueldo": 4,
+    "prom_carrera": 4,
+    "prom_flexibilidad": 5,
+    "prom_liderazgo": 5,
+    "prom_cultura": 5,
+    "resumen_bien": "Cultura, flexibilidad y beneficios",
+    "resumen_mal": null
+  },
+  {
     "id": "brass-chile",
     "nombre": "BRASS Chile",
     "rubro": "Minería",
@@ -1955,6 +1989,42 @@
     "resumen_mal": "Poca empatia con los trabajadores, además hay ciertos procesos internos de la empresa que obligan, directa o indirectamente al trabajador a desempeñarse fuera del horario laboral."
   },
   {
+    "id": "itau",
+    "nombre": "Itaú",
+    "rubro": "Banca y finanzas",
+    "logo": "https://icons.duckduckgo.com/ip3/itau.cl.ico",
+    "resenas": [
+      {
+        "id": 123,
+        "fecha": "2026-04-02",
+        "tiempo": "Más de 3 años",
+        "sigue": "No",
+        "cal_general": 4,
+        "sueldo": "bajo el mercado",
+        "carrera": "crecimiento moderado",
+        "flexibilidad": "Bueno",
+        "liderazgo": "Bueno",
+        "cultura": "Bueno",
+        "que_bien": "Cultura",
+        "que_mal": "Renta",
+        "que_desearias": "Que la renta está bajo el mercado.",
+        "recomienda": "Depende del perfil",
+        "area": "Producto",
+        "consejo_gerencia": "Oferta de mercado en remuneraciones.",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 4,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null,
+    "resumen_bien": "Cultura",
+    "resumen_mal": "Renta"
+  },
+  {
     "id": "jica-chile-agencia-japonesa-de-cooperacion-internacional",
     "nombre": "JICA Chile",
     "rubro": "Organismos internacionales",
@@ -1987,6 +2057,42 @@
     "prom_cultura": null,
     "resumen_bien": "Posibilidad de aprender sobre proyectos de cooperación en Chile, lo que permite adquirir experiencia relevante en el área, y cumplimiento oportuno en el pago de remuneraciones.",
     "resumen_mal": "Mal clima laboral, con una organización altamente jerárquica que limita la autonomía y la participación. Escasa oferta de formación y pocas oportunidades de crecimiento profesional. Además, existen problemas en los estilos de liderazgo, con jefaturas que tienden a generar ambientes poco respetuosos. \nExiste una subutilización de las capacidades de los/as especialistas contratados, lo que afecta tanto el desempeño como la motivación."
+  },
+  {
+    "id": "kabeli",
+    "nombre": "Kabeli",
+    "rubro": "Consultoría",
+    "logo": "https://icons.duckduckgo.com/ip3/kabeli.com.ico",
+    "resenas": [
+      {
+        "id": 124,
+        "fecha": "2026-04-02",
+        "tiempo": "1 a 3 años",
+        "sigue": "No",
+        "cal_general": 1,
+        "sueldo": "bajo el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": "Muy malo",
+        "liderazgo": "Muy malo",
+        "cultura": "Bueno",
+        "que_bien": "Recursos humanos se mueve rápido y gestiona bien.",
+        "que_mal": "Jefes incompetentes (no saben absolutamente nada) y asignación irresponsable de tareas.",
+        "que_desearias": "Que me iban a explotar de 8am a 8pm.",
+        "recomienda": "No",
+        "area": "Tecnología",
+        "consejo_gerencia": "Consigan líderes con mayor manejo técnico, no solo que sepan chamullar.",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null,
+    "resumen_bien": "Recursos humanos se mueve rápido y gestiona bien.",
+    "resumen_mal": "Jefes incompetentes y asignación irresponsable de tareas."
   },
   {
     "id": "kibernum",
@@ -2165,23 +2271,6 @@
     "logo": "assets/logos/lider-bci.svg",
     "resenas": [
       {
-        "id": 50,
-        "fecha": "2026-03-24",
-        "tiempo": "Más de 3 años",
-        "sigue": "No",
-        "cal_general": 5,
-        "sueldo": 4,
-        "carrera": 4,
-        "flexibilidad": 5,
-        "liderazgo": 5,
-        "cultura": 5,
-        "que_bien": "Cultura, flexibilidad y beneficios",
-        "que_mal": null,
-        "que_desearias": "Bandas de sueldo, si entras muy abajo después acortar eso es dificil",
-        "recomienda": "Sí",
-        "votos": 0
-      },
-      {
         "id": 29,
         "fecha": "2026-03-23",
         "tiempo": "Menos de 6 meses",
@@ -2199,15 +2288,15 @@
         "votos": 0
       }
     ],
-    "total_resenas": 2,
-    "promedio": 4,
+    "total_resenas": 1,
+    "promedio": 3,
     "prom_sueldo": null,
     "prom_carrera": null,
-    "prom_flexibilidad": 5,
-    "prom_liderazgo": 5,
-    "prom_cultura": 5,
-    "resumen_bien": "Cultura, flexibilidad, beneficios y buenos salarios de entrada.",
-    "resumen_mal": "Cultura organizacional desorganizada y sueldos por debajo del mercado para perfiles con experiencia."
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null,
+    "resumen_bien": "Los salarios iniciales, beneficios y flexibilidad.",
+    "resumen_mal": "La cultura organizacional es muy desorganizada y sueldos para profesionales con más experiencia por debajo del mercado."
   },
   {
     "id": "lirmi",
@@ -3687,6 +3776,42 @@
     "prom_cultura": null,
     "resumen_bien": "Opción como primera pega",
     "resumen_mal": "Cultura explotadora, te paquean a cada rato, cultura de acusar al otro y malos sueldos"
+  },
+  {
+    "id": "vina-san-pedro-tarapaca",
+    "nombre": "Viña San Pedro Tarapacá",
+    "rubro": "Alimentos",
+    "logo": "https://icons.duckduckgo.com/ip3/sanpedro.cl.ico",
+    "resenas": [
+      {
+        "id": 122,
+        "fecha": "2026-04-02",
+        "tiempo": "1 a 3 años",
+        "sigue": "No",
+        "cal_general": 3,
+        "sueldo": "bajo el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": "Bueno",
+        "liderazgo": "Bueno",
+        "cultura": "Malo",
+        "que_bien": "La flexibilidad en momentos complejos destaca, aunque se mira mal a quienes necesitan tiempo libre si no son jefatura.",
+        "que_mal": "Para tener oportunidades de crecimiento se debe ser parte de grupos con influencia interna.",
+        "que_desearias": "Que la cultura corporativa solo funciona bien si eres parte de algún grupo con influencias.",
+        "recomienda": "Depende del perfil",
+        "area": "Marketing",
+        "consejo_gerencia": "Revisar los méritos de quienes trabajan día a día para promover crecimiento interno por desempeño y no por contactos.",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 3,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null,
+    "resumen_bien": "La flexibilidad en momentos complejos destaca, aunque se mira mal a quienes necesitan tiempo libre si no son jefatura.",
+    "resumen_mal": "Para tener oportunidades de crecimiento se debe ser parte de grupos con influencia interna."
   },
   {
     "id": "zerviz",
