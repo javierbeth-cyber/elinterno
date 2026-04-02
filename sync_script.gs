@@ -292,7 +292,7 @@ function generarResumen(resenas) {
 }
 
 // Ejecutar manualmente desde el editor para probar Gemini con Lirmi
-function testGeminiConEmpresa() {
+function testGemini() {
   var datosData = ghGet(GITHUB_FILE);
   if (!datosData) { Logger.log('No se pudo leer datos.json'); return; }
 
