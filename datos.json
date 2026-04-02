@@ -343,7 +343,7 @@
     "id": "brass-chile",
     "nombre": "BRASS Chile",
     "rubro": "Minería",
-    "logo": "https://icons.duckduckgo.com/ip3/brasschile.cl.ico",
+    "logo": "assets/logos/brass-chile.png",
     "resenas": [
       {
         "id": 101,
@@ -377,7 +377,7 @@
     "id": "caja-de-compensacion-los-heroes",
     "nombre": "Caja de Compensación Los Heroes",
     "rubro": "Beneficios sociales",
-    "logo": "https://icons.duckduckgo.com/ip3/losheroes.cl.ico",
+    "logo": "assets/logos/caja-los-heroes.png",
     "resenas": [
       {
         "id": 106,
