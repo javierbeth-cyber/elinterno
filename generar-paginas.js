@@ -223,7 +223,7 @@ function generatePage(emp) {
   const prom     = emp.promedio ? `Calificación ${emp.promedio}/5. ` : '';
   const metaDesc = `${prom}${totalRes} reseña${totalRes !== 1 ? 's' : ''} anónima${totalRes !== 1 ? 's' : ''} de empleados de ${emp.nombre}. Sueldo, liderazgo, cultura y ambiente laboral. Lo que no aparece en el aviso de trabajo.`;
   const pageUrl  = `https://elinterno.com/empresa/${emp.id}/`;
-  const title    = `${emp.nombre} — Cómo es trabajar ahí | El Interno`;
+  const title    = `${emp.nombre} Chile — Cómo es trabajar ahí | El Interno`;
 
   // Logos: rutas relativas → absolutas desde raíz
   const logoSrc = emp.logo
@@ -301,6 +301,7 @@ function generatePage(emp) {
   <title>${title}</title>
   <meta name="description" content="${metaDesc}">
   <link rel="canonical" href="${pageUrl}">
+  <meta name="robots" content="index, follow">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="El Interno">
   <meta property="og:title" content="${title}">
