@@ -241,7 +241,7 @@ function callGemini(prompt) {
   var key = PropertiesService.getScriptProperties().getProperty('GEMINI_KEY');
   if (!key) { Logger.log('Sin GEMINI_KEY en Script Properties'); return null; }
 
-  var url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=' + key;
+  var url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=' + key;
   var payload = {
     contents: [{ parts: [{ text: prompt }] }],
     generationConfig: { temperature: 0.3, maxOutputTokens: 300 }
