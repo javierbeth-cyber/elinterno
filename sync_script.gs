@@ -244,7 +244,8 @@ function callGemini(prompt) {
   var url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=' + key;
   var payload = {
     contents: [{ parts: [{ text: prompt }] }],
-    generationConfig: { temperature: 0.3, maxOutputTokens: 1024 }
+    generationConfig: { temperature: 0.3, maxOutputTokens: 512 },
+    thinkingConfig: { thinkingBudget: 0 }
   };
 
   var res = UrlFetchApp.fetch(url, {
