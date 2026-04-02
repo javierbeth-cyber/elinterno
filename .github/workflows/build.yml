@@ -1,0 +1,29 @@
+name: Generar páginas estáticas
+
+on:
+  push:
+    paths:
+      - 'datos.json'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generar páginas
+        run: node generar-paginas.js
+
+      - name: Commit y push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add empresa/ sitemap.xml
+          git diff --staged --quiet || git commit -m "build: regenerar páginas estáticas"
+          git push
