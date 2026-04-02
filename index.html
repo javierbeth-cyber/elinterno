@@ -648,7 +648,7 @@
 
   function renderCard(emp) {
     return `
-      <a class="card" href="empresa.html?id=${emp.id}">
+      <a class="card" href="/empresa/${emp.id}/">
         <div class="card-header">
           <div class="card-logo${isDarkLogo(emp.id) ? ' logo-dark' : ''}">${logoHtml(emp)}</div>
           <div class="card-info">
