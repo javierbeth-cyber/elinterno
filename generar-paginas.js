@@ -514,6 +514,90 @@ datos.forEach(function(emp) {
 console.log(`✓ ${generadas} páginas generadas en empresa/{id}/index.html`);
 
 // ============================================================
+// Genera /directorio/ — página estática con todos los links
+// (ayuda a Googlebot a descubrir empresas sin depender de JS)
+// ============================================================
+
+(function generateDirectorio() {
+  const empresasHtml = datos.map(function(emp) {
+    const stars = emp.promedio ? `${emp.promedio}★` : '';
+    const resenas = emp.total_resenas ? `${emp.total_resenas} reseña${emp.total_resenas !== 1 ? 's' : ''}` : 'Sin reseñas';
+    return `    <li><a href="/empresa/${emp.id}/">${emp.nombre}</a> <span class="dir-meta">${[emp.rubro, stars, resenas].filter(Boolean).join(' · ')}</span></li>`;
+  }).join('\n');
+
+  const html = `<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FWBT3DHWVL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-FWBT3DHWVL');
+  </script>
+  <title>Directorio de empresas chilenas | El Interno</title>
+  <meta name="description" content="Directorio completo de ${datos.length} empresas chilenas con reseñas anónimas de empleados. Consulta sueldos, cultura y ambiente laboral.">
+  <link rel="canonical" href="https://elinterno.com/directorio/">
+  <meta name="robots" content="index, follow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Inter', sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; }
+    header { background: #1e293b; border-bottom: 1px solid #334155; padding: 0 1.5rem; }
+    .header-inner { max-width: 900px; margin: 0 auto; height: 56px; display: flex; align-items: center; justify-content: space-between; }
+    .logo { display: flex; align-items: center; gap: 8px; color: #fff; text-decoration: none; font-weight: 700; font-size: 1.05rem; }
+    .logo svg { width: 24px; height: 24px; }
+    .btn-resena { background: #3b82f6; color: #fff; border-radius: 8px; padding: 7px 16px; font-size: 0.85rem; font-weight: 600; text-decoration: none; }
+    .breadcrumb { max-width: 900px; margin: 1.5rem auto 0; padding: 0 1.5rem; font-size: 0.85rem; }
+    .breadcrumb a { color: #94a3b8; text-decoration: none; }
+    .container { max-width: 900px; margin: 1.5rem auto 3rem; padding: 0 1.5rem; }
+    h1 { font-size: 1.5rem; font-weight: 700; margin-bottom: 0.4rem; }
+    .subtitle { color: #94a3b8; font-size: 0.9rem; margin-bottom: 2rem; }
+    ul { list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 0.5rem; }
+    li a { color: #e2e8f0; text-decoration: none; font-weight: 500; }
+    li a:hover { color: #3b82f6; }
+    li { background: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 0.75rem 1rem; }
+    .dir-meta { display: block; color: #64748b; font-size: 0.78rem; margin-top: 2px; }
+  </style>
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <a href="/" class="logo">
+      <svg viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2 14C2 14 7 6 14 6C21 6 26 14 26 14C26 14 21 22 14 22C7 22 2 14 2 14Z" stroke="white" stroke-width="1.8" fill="none"/>
+        <circle cx="14" cy="14" r="4" stroke="white" stroke-width="1.8" fill="none"/>
+        <circle cx="14" cy="14" r="1.5" fill="white"/>
+      </svg>
+      El Interno
+    </a>
+    <a href="https://docs.google.com/forms/d/1PE9o66InYWImPOK86dJK9kzq2BmRucWub5KOmPAEz04/viewform" target="_blank" class="btn-resena">
+      Deja tu reseña
+    </a>
+  </div>
+</header>
+<div class="breadcrumb"><a href="/">← Todas las empresas</a></div>
+<div class="container">
+  <h1>Directorio de empresas</h1>
+  <p class="subtitle">${datos.length} empresas chilenas con reseñas de empleados</p>
+  <ul>
+${empresasHtml}
+  </ul>
+</div>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "92ebedcba9704991a813698660420866"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>`;
+
+  fs.mkdirSync('./directorio', { recursive: true });
+  fs.writeFileSync('./directorio/index.html', html, 'utf8');
+  console.log(`✓ directorio/index.html generado (${datos.length} empresas)`);
+})();
+
+// ============================================================
 // Actualiza sitemap.xml con las nuevas URLs
 // ============================================================
 
@@ -523,6 +607,12 @@ const urls = [
     <lastmod>${hoy}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
+  </url>`,
+  `  <url>
+    <loc>https://elinterno.com/directorio/</loc>
+    <lastmod>${hoy}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>`,
   `  <url>
     <loc>https://elinterno.com/legal.html</loc>
