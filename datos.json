@@ -653,7 +653,7 @@
     "id": "clickie",
     "nombre": "Clickie",
     "rubro": "Consultoría",
-    "logo": "https://icons.duckduckgo.com/ip3/clickie.io.ico",
+    "logo": "assets/logos/clickie.png",
     "resenas": [
       {
         "id": 83,
@@ -797,7 +797,7 @@
     "id": "cotener",
     "nombre": "Cotener",
     "rubro": "Tecnología",
-    "logo": "https://icons.duckduckgo.com/ip3/cotener.com.ico",
+    "logo": "assets/logos/cotener.png",
     "resenas": [
       {
         "id": 117,
@@ -1051,7 +1051,7 @@
     "id": "e-contact",
     "nombre": "E-contact",
     "rubro": "Telecomunicaciones",
-    "logo": "https://icons.duckduckgo.com/ip3/e-contact.cl.ico",
+    "logo": "assets/logos/e-contact.png",
     "resenas": [
       {
         "id": 76,
@@ -1087,7 +1087,7 @@
     "id": "echeverria-izquierdo",
     "nombre": "Echeverria izquierdo",
     "rubro": "Construcción",
-    "logo": "https://icons.duckduckgo.com/ip3/ei.cl.ico",
+    "logo": "assets/logos/echeverria-izquierdo.png",
     "resenas": [
       {
         "id": 55,
@@ -3710,7 +3710,7 @@
     "id": "timix-chile",
     "nombre": "Timix Chile",
     "rubro": "Tecnología",
-    "logo": null,
+    "logo": "assets/logos/timix-chile.png",
     "resenas": [
       {
         "id": 28,
