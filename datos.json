@@ -2262,7 +2262,7 @@
     "id": "komatsu-cummins",
     "nombre": "Komatsu Cummins",
     "rubro": "Minería",
-    "logo": "https://icons.duckduckgo.com/ip3/kc-la.com.ico",
+    "logo": "assets/logos/komatsu-cummins.webp",
     "resenas": [
       {
         "id": 100,
@@ -2298,7 +2298,7 @@
     "id": "l-oreal-chile",
     "nombre": "L'Oréal Chile",
     "rubro": "Cosmética",
-    "logo": "https://icons.duckduckgo.com/ip3/loreal.cl.ico",
+    "logo": "assets/logos/l-oreal-chile.jpg",
     "resenas": [
       {
         "id": 95,
@@ -2700,7 +2700,7 @@
     "id": "minera-centinela",
     "nombre": "Minera Centinela",
     "rubro": "Minería",
-    "logo": "https://icons.duckduckgo.com/ip3/centinela.cl.ico",
+    "logo": "assets/logos/minera-centinela.jpg",
     "resenas": [
       {
         "id": 94,
@@ -3187,7 +3187,7 @@
     "id": "sii-group",
     "nombre": "sii group",
     "rubro": "Tecnología",
-    "logo": "https://icons.duckduckgo.com/ip3/sii-group.cl.ico",
+    "logo": "assets/logos/sii-group.jpg",
     "resenas": [
       {
         "id": 112,
@@ -3566,7 +3566,7 @@
     "id": "tanner-servicios-financieros",
     "nombre": "Tanner Servicios Financieros",
     "rubro": "Banca y finanzas",
-    "logo": "https://icons.duckduckgo.com/ip3/tanner.cl.ico",
+    "logo": "assets/logos/tanner-servicios-financieros.jpg",
     "resenas": [
       {
         "id": 103,
@@ -3981,7 +3981,7 @@
     "id": "veltis-ex-ferrovial",
     "nombre": "Veltis / Ex Ferrovial",
     "rubro": "Minería",
-    "logo": "https://icons.duckduckgo.com/ip3/veltis.cl.ico",
+    "logo": "assets/logos/veltis-ex-ferrovial.jpg",
     "resenas": [
       {
         "id": 106,
