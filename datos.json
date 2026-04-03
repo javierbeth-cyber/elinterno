@@ -2805,6 +2805,42 @@
     "resumen_mal": "Empresa arcaica, pocos procesos definidos, sin RRHH, cultura politizada"
   },
   {
+    "id": "n-a",
+    "nombre": "N/A",
+    "rubro": "Tecnología",
+    "logo": "https://icons.duckduckgo.com/ip3/n-a.cl.ico",
+    "resenas": [
+      {
+        "id": 123,
+        "fecha": "2026-04-03",
+        "tiempo": "Menos de 6 meses",
+        "sigue": "Sí",
+        "cal_general": 1,
+        "sueldo": "bajo el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": "Muy malo",
+        "liderazgo": "Muy malo",
+        "cultura": "Muy malo",
+        "que_bien": "N/A",
+        "que_mal": "N/A",
+        "que_desearias": "N/A",
+        "recomienda": "Sí",
+        "area": "Tecnología",
+        "consejo_gerencia": "N/A\n\nAh y por cierto, si todavía buscas participantes, surveyswap.io me ayudó mucho cuando hice mi propia encuesta el año pasado. Rellenas encuestas de otros y obtienes participantes gratis a cambio. Quizás también te sea de ayuda. De todas formas, buena suerte con el estudio!",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null,
+    "resumen_bien": "N/A",
+    "resumen_mal": "N/A"
+  },
+  {
     "id": "ntt-data",
     "nombre": "NTT Data",
     "rubro": "Consultoría",
