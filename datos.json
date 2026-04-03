@@ -17,7 +17,7 @@
         "liderazgo": "Muy malo",
         "cultura": "Muy malo",
         "que_bien": "Si te asignan a un proyecto de banco, puedes llegar a ser internalizado",
-        "que_mal": "El area de software factory esta mal organizado y los [cargo omitido]",
+        "que_mal": "El area de software factory esta mal organizado y los jefes son malisimos",
         "que_desearias": "Si te sacan del banco, es mejor irse de la empresa que trabajar en proyectos de software factory",
         "recomienda": "No",
         "area": "Tecnología",
@@ -33,7 +33,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Si te asignan a un proyecto de banco, puedes llegar a ser internalizado",
-    "resumen_mal": "El area de software factory esta mal organizado y los [cargo omitido]"
+    "resumen_mal": "El area de software factory esta mal organizado y los jefes son malisimos"
   },
   {
     "id": "accenture",
@@ -88,8 +88,8 @@
         "flexibilidad": 1,
         "liderazgo": 3,
         "cultura": 4,
-        "que_bien": "Buenos compañeros, y que como es una mutualidad , en algunos perfiles puede ser una buena opción para trabajar, como para el rubro de [cargo omitido], que pueden encontrar mayor espacio de desarrollo",
-        "que_mal": "Es una empresa que al inicio parece idílica, personas educadas, compañerismo, posibilidad de crecimiento, y pronto esa burbuja explota a ambiente competitivo, jefaturas superficiales (parecen cercanas, pero en realidad no le importas nada), algunos [cargo omitido]( y que parecen peluches frente a otros) pero nunca con [cargo omitido].. y muchas personas que rotan sin entender porqué, poco transparente... crean una imagen de perfección, y la suciedad sale por la alfombra. Es una empresa que vende bien humo, pero por dentro es otra realidad.",
+        "que_bien": "Buenos compañeros, y que como es una mutualidad , en algunos perfiles puede ser una buena opción para trabajar, como para el rubro de ingenieros en prevención, que pueden encontrar mayor espacio de desarrollo",
+        "que_mal": "Es una empresa que al inicio parece idílica, personas educadas, compañerismo, posibilidad de crecimiento, y pronto esa burbuja explota a ambiente competitivo, jefaturas superficiales (parecen cercanas, pero en realidad no le importas nada), algunos subgerentes muy déspotas( y que parecen peluches frente a otros) pero nunca con gerentes ni pares.. y muchas personas que rotan sin entender porqué, poco transparente... crean una imagen de perfección, y la suciedad sale por la alfombra. Es una empresa que vende bien humo, pero por dentro es otra realidad.",
         "que_desearias": "Que es una empresa que valora mucho el aparentar. Si no tienes problemas con aparentar constantemente, puedes encajar.",
         "recomienda": "Depende del perfil",
         "area": null,
@@ -104,8 +104,8 @@
     "prom_flexibilidad": 1,
     "prom_liderazgo": 3,
     "prom_cultura": 4,
-    "resumen_bien": "Buenos compañeros, y que como es una mutualidad , en algunos perfiles puede ser una buena opción para trabajar, como para el rubro de [cargo omitido], que pueden encontrar mayor espacio de desarrollo",
-    "resumen_mal": "Es una empresa que al inicio parece idílica, personas educadas, compañerismo, posibilidad de crecimiento, y pronto esa burbuja explota a ambiente competitivo, jefaturas superficiales (parecen cercanas, pero en realidad no le importas nada), algunos [cargo omitido]( y que parecen peluches frente a otros) pero nunca con [cargo omitido].. y muchas personas que rotan sin entender porqué, poco transparente... crean una imagen de perfección, y la suciedad sale por la alfombra. Es una empresa que vende bien humo, pero por dentro es otra realidad."
+    "resumen_bien": "Buenos compañeros, y que como es una mutualidad , en algunos perfiles puede ser una buena opción para trabajar, como para el rubro de ingenieros en prevención, que pueden encontrar mayor espacio de desarrollo",
+    "resumen_mal": "Es una empresa que al inicio parece idílica, personas educadas, compañerismo, posibilidad de crecimiento, y pronto esa burbuja explota a ambiente competitivo, jefaturas superficiales (parecen cercanas, pero en realidad no le importas nada), algunos subgerentes muy déspotas( y que parecen peluches frente a otros) pero nunca con gerentes ni pares.. y muchas personas que rotan sin entender porqué, poco transparente... crean una imagen de perfección, y la suciedad sale por la alfombra. Es una empresa que vende bien humo, pero por dentro es otra realidad."
   },
   {
     "id": "afp-cuprum",
@@ -449,7 +449,7 @@
         "liderazgo": 2,
         "cultura": 2,
         "que_bien": "Beneficios y flexibilidad si tienes hijos",
-        "que_mal": "Claridad de roles, falta de competencias en [cargo omitido], burocracia excesiva",
+        "que_mal": "Claridad de roles, falta de competencias en lideres, burocracia excesiva",
         "que_desearias": "Oportunidad de ascender, falta de liderazgo, claridad en roles",
         "recomienda": "Depende del perfil",
         "area": null,
@@ -465,7 +465,7 @@
     "prom_liderazgo": 2,
     "prom_cultura": 2,
     "resumen_bien": "Beneficios y flexibilidad si tienes hijos",
-    "resumen_mal": "Claridad de roles, falta de competencias en [cargo omitido], burocracia excesiva"
+    "resumen_mal": "Claridad de roles, falta de competencias en lideres, burocracia excesiva"
   },
   {
     "id": "callbusiness",
@@ -521,7 +521,7 @@
         "liderazgo": 2,
         "cultura": 5,
         "que_bien": "El ambiente es muy de amigos, gente jóven, hay harto carrete, muy buena onda y los sueldos pueden llegar a ser bastante buenos",
-        "que_mal": "Hay mucha incertidumbre, muchísima rotación, falta capacitación para [cargo omitido] buenos liderazgos y puede ser muy dificil ascender dependiendo de en qué momento entraste",
+        "que_mal": "Hay mucha incertidumbre, muchísima rotación, falta capacitación para líderes porque no hay buenos liderazgos y puede ser muy dificil ascender dependiendo de en qué momento entraste",
         "que_desearias": "Que valoran mucho la capacidad comercial vs el contenido o capacidad de analisis y que hay muchísima rotación, el promedio de años del área comercial debe ser 1 año",
         "recomienda": "Depende del perfil",
         "area": null,
@@ -537,7 +537,7 @@
     "prom_liderazgo": 2,
     "prom_cultura": 5,
     "resumen_bien": "El ambiente es muy de amigos, gente jóven, hay harto carrete, muy buena onda y los sueldos pueden llegar a ser bastante buenos",
-    "resumen_mal": "Hay mucha incertidumbre, muchísima rotación, falta capacitación para [cargo omitido] buenos liderazgos y puede ser muy dificil ascender dependiendo de en qué momento entraste"
+    "resumen_mal": "Hay mucha incertidumbre, muchísima rotación, falta capacitación para líderes porque no hay buenos liderazgos y puede ser muy dificil ascender dependiendo de en qué momento entraste"
   },
   {
     "id": "cencosud",
@@ -738,7 +738,7 @@
         "flexibilidad": 4,
         "liderazgo": 4,
         "cultura": 4,
-        "que_bien": "Beneficios, algunos [cargo omitido]",
+        "que_bien": "Beneficios, algunos líderes y la movilidad",
         "que_mal": null,
         "que_desearias": null,
         "recomienda": "Sí",
@@ -754,7 +754,7 @@
     "prom_flexibilidad": 4,
     "prom_liderazgo": 4,
     "prom_cultura": 4,
-    "resumen_bien": "Beneficios, algunos [cargo omitido]",
+    "resumen_bien": "Beneficios, algunos líderes y la movilidad",
     "resumen_mal": null
   },
   {
@@ -810,7 +810,7 @@
         "flexibilidad": "Malo",
         "liderazgo": "Muy malo",
         "cultura": "Muy malo",
-        "que_bien": "Hay posibilidad de trabajo remoto, pero no para todos y aunque lo aceptan en términos legales, culturalmente no es bien visto por los [cargo omitido], [cargo omitido], así que finalmente aceptan el trabajo remoto porque es una excusa para no tener mejores condiciones en la oficina.",
+        "que_bien": "Hay posibilidad de trabajo remoto, pero no para todos y aunque lo aceptan en términos legales, culturalmente no es bien visto por los jefes, gerentes o dueños, así que finalmente aceptan el trabajo remoto porque es una excusa para no tener mejores condiciones en la oficina.",
         "que_mal": "Aunque venden tecnología de alta gama para telecomunicaciones, no invierten en mejorar los procesos de la empresa ni en implementar ideas nuevas, ni para el negocio ni para mejorar la experiencia de los clientes. No se sigue ningún criterio profesional a la hora de vender herramientas, hardwares o softwares, no hay [cargo omitido]ía ni conocimiento propio que sea relevante. La empresa vende ser [cargo omitido] sinceramente solo \"lo es\" (nótese las comilas) porque re-vende tecnología creada por marcas globales. Es simplemente un proveedor/intermediario y con mala gestión por lo demás.",
         "que_desearias": "Que esperan resultados que requieren mínimo 2 o 3 cargos distintos, en una sola persona, usando sus propios recursos así sea la suscripción a chatgpt o incluso el pc.",
         "recomienda": "No",
@@ -826,7 +826,7 @@
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
     "prom_cultura": null,
-    "resumen_bien": "Hay posibilidad de trabajo remoto, pero no para todos y aunque lo aceptan en términos legales, culturalmente no es bien visto por los [cargo omitido], [cargo omitido], así que finalmente aceptan el trabajo remoto porque es una excusa para no tener mejores condiciones en la oficina.",
+    "resumen_bien": "Hay posibilidad de trabajo remoto, pero no para todos y aunque lo aceptan en términos legales, culturalmente no es bien visto por los jefes, gerentes o dueños, así que finalmente aceptan el trabajo remoto porque es una excusa para no tener mejores condiciones en la oficina.",
     "resumen_mal": "Aunque venden tecnología de alta gama para telecomunicaciones, no invierten en mejorar los procesos de la empresa ni en implementar ideas nuevas, ni para el negocio ni para mejorar la experiencia de los clientes. No se sigue ningún criterio profesional a la hora de vender herramientas, hardwares o softwares, no hay [cargo omitido]ía ni conocimiento propio que sea relevante. La empresa vende ser [cargo omitido] sinceramente solo \"lo es\" (nótese las comilas) porque re-vende tecnología creada por marcas globales. Es simplemente un proveedor/intermediario y con mala gestión por lo demás."
   },
   {
@@ -883,7 +883,7 @@
         "liderazgo": null,
         "cultura": null,
         "que_bien": "La cultura de los trabajadores, mas no la de la empresa. El grupo humano que se forma adentro es lo más rescatable. Estaba bien la flexibilidad pero ya no existe.",
-        "que_mal": "El como se contrata (Te engañan con las condiciones, sobre todo a los que son su primer trabajo)\nEl como despiden personal (Rotación muy alta, nunca los dejan despedirse de sus compañeros, es todo muy impersonal)\nLa rotación interna (Lo plantean cómo algo que existe pero es solo para aquellos que se llevan bien con los [cargo omitido], no los mas capaces)\nEl nivel de pituto (Trabaja el sobrino del [cargo omitido], entran a trabajar sobrinas, primas, tias, etc de personas del directorio, todo se basa en a quien conoces, como te llevas con x, etc)",
+        "que_mal": "El como se contrata (Te engañan con las condiciones, sobre todo a los que son su primer trabajo)\nEl como despiden personal (Rotación muy alta, nunca los dejan despedirse de sus compañeros, es todo muy impersonal)\nLa rotación interna (Lo plantean cómo algo que existe pero es solo para aquellos que se llevan bien con los jefes, no los mas capaces)\nEl nivel de pituto (Trabaja el sobrino del [cargo omitido], entran a trabajar sobrinas, primas, tias, etc de personas del directorio, todo se basa en a quien conoces, como te llevas con x, etc)",
         "que_desearias": "Me hubiera encantado saber que me mentirían tanto, que seria tan inestable, que poco importaría como realice mi trabajo sino que será mas importante como me llevo con cada quien, o a cuantas reuniones sociales asisto, que cambiaria tanto en tan poco tiempo (condiciones, presencialidad, dresscode, etc).",
         "recomienda": "No",
         "area": null,
@@ -899,7 +899,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "La cultura de los trabajadores, mas no la de la empresa. El grupo humano que se forma adentro es lo más rescatable. Estaba bien la flexibilidad pero ya no existe.",
-    "resumen_mal": "El como se contrata (Te engañan con las condiciones, sobre todo a los que son su primer trabajo)\nEl como despiden personal (Rotación muy alta, nunca los dejan despedirse de sus compañeros, es todo muy impersonal)\nLa rotación interna (Lo plantean cómo algo que existe pero es solo para aquellos que se llevan bien con los [cargo omitido], no los mas capaces)\nEl nivel de pituto (Trabaja el sobrino del [cargo omitido], entran a trabajar sobrinas, primas, tias, etc de personas del directorio, todo se basa en a quien conoces, como te llevas con x, etc)"
+    "resumen_mal": "El como se contrata (Te engañan con las condiciones, sobre todo a los que son su primer trabajo)\nEl como despiden personal (Rotación muy alta, nunca los dejan despedirse de sus compañeros, es todo muy impersonal)\nLa rotación interna (Lo plantean cómo algo que existe pero es solo para aquellos que se llevan bien con los jefes, no los mas capaces)\nEl nivel de pituto (Trabaja el sobrino del [cargo omitido], entran a trabajar sobrinas, primas, tias, etc de personas del directorio, todo se basa en a quien conoces, como te llevas con x, etc)"
   },
   {
     "id": "deloitte",
@@ -958,7 +958,7 @@
         "cultura": 3,
         "que_bien": "una cosa es consultoria y otra es auditoría. [cargo omitido]ía tiene un buen ambiente de trabajo",
         "que_mal": "la carga laboral es grande y en auditoría es mucho peor. Además, el ambiente de auditoría es muy tóxico con largas jornadas",
-        "que_desearias": "el modo de trabajo en general está complicado. Constantemente tienen reestructuraciones y siempre cambian los equipos y [cargo omitido]",
+        "que_desearias": "el modo de trabajo en general está complicado. Constantemente tienen reestructuraciones y siempre cambian los equipos y jefes",
         "recomienda": "Depende del perfil",
         "area": null,
         "consejo_gerencia": null,
@@ -1065,8 +1065,8 @@
         "liderazgo": 2,
         "cultura": 3,
         "que_bien": "Cultura, flexibilidad, si insistes te pagan cursos y/o certificaciones.",
-        "que_mal": "Sueldos en la media para abajo, mucho amiguismo, los [cargo omitido] estudiar después de estar como 10 años en la empresa. El ambiente estresante que se ha generado en los últimos años, no necesariamente por carga laboral, sino por la incertidumbre de estabilidad laboral y hacia donde apunta la empresa. La ilusión en la que vive la gerencia donde creen que es la mejor empresa, pero se quedaron estancados en el éxito y crecimiento explosivo que hubo. La desvinculación de gente competente por sobre profesionales sobrevalorados, consecuencias del “amiguismo”.\nLa falta de empatia de “la alta gerencia“ y educación de los [cargo omitido].",
-        "que_desearias": "Que no existe una estabilidad profesional, muchas veces terminas haciendo el trabajo de otros.\nUna gerencia, hasta cierto punto, sesgada. Que las oportunidades de crecimiento profesional ya no son bastas como antes.\nPésima comunicación entre áreas, se hablaba más en pandemia que presencial, será quizás por la naturaleza de cierto tipo de gente.\nY en áreas, existen [cargo omitido] tienen la razón, y quieren que se mueva todo a su ritmo.",
+        "que_mal": "Sueldos en la media para abajo, mucho amiguismo, los jefes de area algunos terminaron de estudiar después de estar como 10 años en la empresa. El ambiente estresante que se ha generado en los últimos años, no necesariamente por carga laboral, sino por la incertidumbre de estabilidad laboral y hacia donde apunta la empresa. La ilusión en la que vive la gerencia donde creen que es la mejor empresa, pero se quedaron estancados en el éxito y crecimiento explosivo que hubo. La desvinculación de gente competente por sobre profesionales sobrevalorados, consecuencias del “amiguismo”.\nLa falta de empatia de “la alta gerencia“ y educación de los gerentes.",
+        "que_desearias": "Que no existe una estabilidad profesional, muchas veces terminas haciendo el trabajo de otros.\nUna gerencia, hasta cierto punto, sesgada. Que las oportunidades de crecimiento profesional ya no son bastas como antes.\nPésima comunicación entre áreas, se hablaba más en pandemia que presencial, será quizás por la naturaleza de cierto tipo de gente.\nY en áreas, existen jefes narcisistas que siempre tienen la razón, y quieren que se mueva todo a su ritmo.",
         "recomienda": "Depende del perfil",
         "area": null,
         "consejo_gerencia": null,
@@ -1081,7 +1081,7 @@
     "prom_liderazgo": 2,
     "prom_cultura": 3,
     "resumen_bien": "Cultura, flexibilidad, si insistes te pagan cursos y/o certificaciones.",
-    "resumen_mal": "Sueldos en la media para abajo, mucho amiguismo, los [cargo omitido] estudiar después de estar como 10 años en la empresa. El ambiente estresante que se ha generado en los últimos años, no necesariamente por carga laboral, sino por la incertidumbre de estabilidad laboral y hacia donde apunta la empresa. La ilusión en la que vive la gerencia donde creen que es la mejor empresa, pero se quedaron estancados en el éxito y crecimiento explosivo que hubo. La desvinculación de gente competente por sobre profesionales sobrevalorados, consecuencias del “amiguismo”.\nLa falta de empatia de “la alta gerencia“ y educación de los [cargo omitido]."
+    "resumen_mal": "Sueldos en la media para abajo, mucho amiguismo, los jefes de area algunos terminaron de estudiar después de estar como 10 años en la empresa. El ambiente estresante que se ha generado en los últimos años, no necesariamente por carga laboral, sino por la incertidumbre de estabilidad laboral y hacia donde apunta la empresa. La ilusión en la que vive la gerencia donde creen que es la mejor empresa, pero se quedaron estancados en el éxito y crecimiento explosivo que hubo. La desvinculación de gente competente por sobre profesionales sobrevalorados, consecuencias del “amiguismo”.\nLa falta de empatia de “la alta gerencia“ y educación de los gerentes."
   },
   {
     "id": "echeverria-izquierdo",
@@ -1101,7 +1101,7 @@
         "liderazgo": 1,
         "cultura": 1,
         "que_bien": "Hay muchas oportunidades de ayudar a otros compañeros de trabajo por lo que se hacen buenas amistades",
-        "que_mal": "Las decisiones se toman por las emociones puntuales de las jefaturas o [cargo omitido], por lo que te puede ir muy bien o muy mal dependiendo de su estado de ánimo",
+        "que_mal": "Las decisiones se toman por las emociones puntuales de las jefaturas o gerentes, por lo que te puede ir muy bien o muy mal dependiendo de su estado de ánimo",
         "que_desearias": "La falta de dirección al momento de tomar decisiones ya que estas cambian constantemente",
         "recomienda": "No",
         "area": null,
@@ -1117,7 +1117,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 1,
     "resumen_bien": "Hay muchas oportunidades de ayudar a otros compañeros de trabajo por lo que se hacen buenas amistades",
-    "resumen_mal": "Las decisiones se toman por las emociones puntuales de las jefaturas o [cargo omitido], por lo que te puede ir muy bien o muy mal dependiendo de su estado de ánimo"
+    "resumen_mal": "Las decisiones se toman por las emociones puntuales de las jefaturas o gerentes, por lo que te puede ir muy bien o muy mal dependiendo de su estado de ánimo"
   },
   {
     "id": "edarkstore",
@@ -1245,7 +1245,7 @@
         "liderazgo": 1,
         "cultura": 4,
         "que_bien": "Muchas oportunidades de aprender de manera autónoma, además los espacios físicos suelen ser de alta calidad. Los beneficios en general son muy buenos y los sueldos sobre la media.",
-        "que_mal": "Principalmente 2 cosas mal: liderazgo de [cargo omitido] y toxicidad.\nPor otro lado la carga laboral es enorme, imposible de cumplir por lo que eventualmente debes hacer las cosas a medias solo por salud mental.",
+        "que_mal": "Principalmente 2 cosas mal: liderazgo de subgerentes y gerentes con sarcasmo y toxicidad.\nPor otro lado la carga laboral es enorme, imposible de cumplir por lo que eventualmente debes hacer las cosas a medias solo por salud mental.",
         "que_desearias": "El modelo híbrido te hace ir 2 veces a la semana a la oficina. Considerando la ubicación, es imposible evitar los horarios colapsados de Santiago tanto al entrar como al salir. Ideal vivir cerca de la oficina.",
         "recomienda": "Sí",
         "area": null,
@@ -1534,7 +1534,7 @@
         "flexibilidad": 5,
         "liderazgo": 4,
         "cultura": 5,
-        "que_bien": "Mucha flexibilidad, muchos beneficios y mucha amabilidad de los [cargo omitido], han mejorado mucho en esa area sobretodo.",
+        "que_bien": "Mucha flexibilidad, muchos beneficios y mucha amabilidad de los lideres, han mejorado mucho en esa area sobretodo.",
         "que_mal": "A veces la burocracia en nombre de la seguridad de datos puede ser un poco frustrante, se entienden las razones pero a veces eso previene el avance en tecnología.",
         "que_desearias": "Nada, la verdad desde que entre ahi las cosas han mejorado en absolutamente todo.",
         "recomienda": "Sí",
@@ -1550,7 +1550,7 @@
     "prom_flexibilidad": 5,
     "prom_liderazgo": 4,
     "prom_cultura": 5,
-    "resumen_bien": "Mucha flexibilidad, muchos beneficios y mucha amabilidad de los [cargo omitido], han mejorado mucho en esa area sobretodo.",
+    "resumen_bien": "Mucha flexibilidad, muchos beneficios y mucha amabilidad de los lideres, han mejorado mucho en esa area sobretodo.",
     "resumen_mal": "A veces la burocracia en nombre de la seguridad de datos puede ser un poco frustrante, se entienden las razones pero a veces eso previene el avance en tecnología."
   },
   {
@@ -1571,7 +1571,7 @@
         "liderazgo": 1,
         "cultura": 4,
         "que_bien": "Cultura y poder viajar",
-        "que_mal": "Promoción a los amigos de los [cargo omitido]",
+        "que_mal": "Promoción a los amigos de los jefes vs merito",
         "que_desearias": "Es para comenzar, pero no para hacer carrera",
         "recomienda": "Depende del perfil",
         "area": null,
@@ -1587,7 +1587,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 4,
     "resumen_bien": "Cultura y poder viajar",
-    "resumen_mal": "Promoción a los amigos de los [cargo omitido]"
+    "resumen_mal": "Promoción a los amigos de los jefes vs merito"
   },
   {
     "id": "falabella-com",
@@ -1770,8 +1770,8 @@
         "liderazgo": 1,
         "cultura": 4,
         "que_bien": "Los compañeros eran buenos, siempre con sus personajes destacados, pero como en todos los ambientes laborales, pero en general eran buenos compañeros",
-        "que_mal": "Un desastre los \" [cargo omitido]\" . Como es una empresa tipo \" pyme\" los [cargo omitido] partieron o estuvieron en el proyecto inicial, y lamentablemente no tienen ninguna habilidad de liderazgo,  súper ególatras.. es una empresa que sobrevive a una idea de negocio que fue fortalecida por ciertas leyes. No es una empresa para proyectarse ni tampoco para ganar plata, solo la recomiendo al igual que cualquier otra empresa, si necesitas mucho un trabajo",
-        "que_desearias": "La capacidad de los [cargo omitido]",
+        "que_mal": "Un desastre los \" gerentes\" . Como es una empresa tipo \" pyme\" los gerentes son personas que partieron o estuvieron en el proyecto inicial, y lamentablemente no tienen ninguna habilidad de liderazgo,  súper ególatras.. es una empresa que sobrevive a una idea de negocio que fue fortalecida por ciertas leyes. No es una empresa para proyectarse ni tampoco para ganar plata, solo la recomiendo al igual que cualquier otra empresa, si necesitas mucho un trabajo",
+        "que_desearias": "La capacidad de los gerentes",
         "recomienda": "No",
         "area": null,
         "consejo_gerencia": null,
@@ -1880,7 +1880,7 @@
         "liderazgo": 2,
         "cultura": 3,
         "que_bien": "Las oportunidades de crecimiento o exposición se van dando a medida que uno mismo se visibiliza o expone.",
-        "que_mal": "Poca o nula flexibilidad en términos de home office. Si uno no cumple con una modalidad de 4x1, no puede obtener aumentos de sueldo, cambios de roles, etc (incluso cumpliendo con los objetivos del rol). Alta rotación y sin feedback real por parte de los [cargo omitido]. Contratan gente con plazo fijo a los 3 meses, porque saben que existe una alta probabilidad de desvinculación o no renovación de contrato.",
+        "que_mal": "Poca o nula flexibilidad en términos de home office. Si uno no cumple con una modalidad de 4x1, no puede obtener aumentos de sueldo, cambios de roles, etc (incluso cumpliendo con los objetivos del rol). Alta rotación y sin feedback real por parte de los líderes. Contratan gente con plazo fijo a los 3 meses, porque saben que existe una alta probabilidad de desvinculación o no renovación de contrato.",
         "que_desearias": "Que lo más importante es cómo te lleves con los founders. De eso depende tu continuidad en la empresa. Si ellos no ven tu trabajo, no sirve de nada.",
         "recomienda": "No",
         "area": null,
@@ -1896,7 +1896,7 @@
     "prom_liderazgo": 2,
     "prom_cultura": 3,
     "resumen_bien": "Las oportunidades de crecimiento o exposición se van dando a medida que uno mismo se visibiliza o expone.",
-    "resumen_mal": "Poca o nula flexibilidad en términos de home office. Si uno no cumple con una modalidad de 4x1, no puede obtener aumentos de sueldo, cambios de roles, etc (incluso cumpliendo con los objetivos del rol). Alta rotación y sin feedback real por parte de los [cargo omitido]. Contratan gente con plazo fijo a los 3 meses, porque saben que existe una alta probabilidad de desvinculación o no renovación de contrato."
+    "resumen_mal": "Poca o nula flexibilidad en términos de home office. Si uno no cumple con una modalidad de 4x1, no puede obtener aumentos de sueldo, cambios de roles, etc (incluso cumpliendo con los objetivos del rol). Alta rotación y sin feedback real por parte de los líderes. Contratan gente con plazo fijo a los 3 meses, porque saben que existe una alta probabilidad de desvinculación o no renovación de contrato."
   },
   {
     "id": "gtd",
@@ -2168,7 +2168,7 @@
         "liderazgo": "Muy malo",
         "cultura": "Muy malo",
         "que_bien": "Posibilidad de aprender sobre proyectos de cooperación en Chile, lo que permite adquirir experiencia relevante en el área, y cumplimiento oportuno en el pago de remuneraciones.",
-        "que_mal": "Mal clima laboral, con una organización altamente jerárquica que limita la autonomía y la participación. Escasa oferta de formación y pocas oportunidades de crecimiento profesional. Además, existen problemas en los estilos de liderazgo, con jefaturas que tienden a generar ambientes poco respetuosos. \nExiste una subutilización de las capacidades de los/as [cargo omitido], lo que afecta tanto el desempeño como la motivación.",
+        "que_mal": "Mal clima laboral, con una organización altamente jerárquica que limita la autonomía y la participación. Escasa oferta de formación y pocas oportunidades de crecimiento profesional. Además, existen problemas en los estilos de liderazgo, con jefaturas que tienden a generar ambientes poco respetuosos. \nExiste una subutilización de las capacidades de los/as especialistas contratados, lo que afecta tanto el desempeño como la motivación.",
         "que_desearias": "Que las oportunidades de crecimiento y formación son más limitadas de lo que se plantea inicialmente, y que algunas expectativas en ese ámbito no son reales. También, que existe poca flexibilidad para el trabajo remoto y un estilo de gestión más bien centrado en el control, lo que puede traducirse en un ambiente poco flexible y, en ocasiones, tenso.\nExiste una dinámica jerárquica marcada en la que los funcionarios locales son tratados principalmente como apoyo operativo de los funcionarios japoneses, independientemente de su cargo, formación o experiencia profesional.",
         "recomienda": "No",
         "area": "Coordinación de programas",
@@ -2184,7 +2184,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Posibilidad de aprender sobre proyectos de cooperación en Chile, lo que permite adquirir experiencia relevante en el área, y cumplimiento oportuno en el pago de remuneraciones.",
-    "resumen_mal": "Mal clima laboral, con una organización altamente jerárquica que limita la autonomía y la participación. Escasa oferta de formación y pocas oportunidades de crecimiento profesional. Además, existen problemas en los estilos de liderazgo, con jefaturas que tienden a generar ambientes poco respetuosos. \nExiste una subutilización de las capacidades de los/as [cargo omitido], lo que afecta tanto el desempeño como la motivación."
+    "resumen_mal": "Mal clima laboral, con una organización altamente jerárquica que limita la autonomía y la participación. Escasa oferta de formación y pocas oportunidades de crecimiento profesional. Además, existen problemas en los estilos de liderazgo, con jefaturas que tienden a generar ambientes poco respetuosos. \nExiste una subutilización de las capacidades de los/as especialistas contratados, lo que afecta tanto el desempeño como la motivación."
   },
   {
     "id": "kabeli",
@@ -2204,11 +2204,11 @@
         "liderazgo": "Muy malo",
         "cultura": "Bueno",
         "que_bien": "Recursos humanos se mueve rápido y gestionan bien.",
-        "que_mal": "Todo, desde la incompetencia de los [cargo omitido] (no saben absolutamente nada) hasta la asignación irresponsable de las tareas.",
+        "que_mal": "Todo, desde la incompetencia de los jefes (no saben absolutamente nada) hasta la asignación irresponsable de las tareas.",
         "que_desearias": "Que me iban a explotar de 8 am a 8pm.",
         "recomienda": "No",
         "area": "Tecnología",
-        "consejo_gerencia": "Consigan [cargo omitido] técnico, no que sepan chamullar solamente.",
+        "consejo_gerencia": "Consigan lideres con mayor manejo técnico, no que sepan chamullar solamente.",
         "votos": 0
       }
     ],
@@ -2220,7 +2220,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Recursos humanos se mueve rápido y gestionan bien.",
-    "resumen_mal": "Todo, desde la incompetencia de los [cargo omitido] (no saben absolutamente nada) hasta la asignación irresponsable de las tareas."
+    "resumen_mal": "Todo, desde la incompetencia de los jefes (no saben absolutamente nada) hasta la asignación irresponsable de las tareas."
   },
   {
     "id": "kibernum",
@@ -2276,7 +2276,7 @@
         "liderazgo": 3,
         "cultura": 3,
         "que_bien": "Buen ambiente, buenas oportunidades.",
-        "que_mal": "Hay personas que no debiesen de estar como [cargo omitido], demasiados puestos gerenciales. Desorden organizativo.",
+        "que_mal": "Hay personas que no debiesen de estar como líderes, demasiados puestos gerenciales. Desorden organizativo.",
         "que_desearias": null,
         "recomienda": "Sí",
         "area": null,
@@ -2292,7 +2292,7 @@
     "prom_liderazgo": 3,
     "prom_cultura": 3,
     "resumen_bien": "Buen ambiente, buenas oportunidades.",
-    "resumen_mal": "Hay personas que no debiesen de estar como [cargo omitido], demasiados puestos gerenciales. Desorden organizativo."
+    "resumen_mal": "Hay personas que no debiesen de estar como líderes, demasiados puestos gerenciales. Desorden organizativo."
   },
   {
     "id": "l-oreal-chile",
@@ -2384,7 +2384,7 @@
         "liderazgo": null,
         "cultura": null,
         "que_bien": "Es lindo decir que estás en latam, y trabajar en una industria muy dinamica",
-        "que_mal": "La dirección de aeropuertos (administrativa) completa hay [cargo omitido] [cargo omitido], toda la plana de [cargo omitido] carretean entre ellos hace años, se apitutean entre ellos y si no eres \"de su perfil\" no te dan bola para ningun proyecto esperando que te vayas o puedan traer a alguien para reemplazarte",
+        "que_mal": "La dirección de aeropuertos (administrativa) completa hay directores que piden sacar jefes, toda la plana de gerentes se conocen y carretean entre ellos hace años, se apitutean entre ellos y si no eres \"de su perfil\" no te dan bola para ningun proyecto esperando que te vayas o puedan traer a alguien para reemplazarte",
         "que_desearias": "Lo tóxico que es el ambiente político/enpresarial",
         "recomienda": "Depende del perfil",
         "area": null,
@@ -2400,7 +2400,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Es lindo decir que estás en latam, y trabajar en una industria muy dinamica",
-    "resumen_mal": "La dirección de aeropuertos (administrativa) completa hay [cargo omitido] [cargo omitido], toda la plana de [cargo omitido] carretean entre ellos hace años, se apitutean entre ellos y si no eres \"de su perfil\" no te dan bola para ningun proyecto esperando que te vayas o puedan traer a alguien para reemplazarte"
+    "resumen_mal": "La dirección de aeropuertos (administrativa) completa hay directores que piden sacar jefes, toda la plana de gerentes se conocen y carretean entre ellos hace años, se apitutean entre ellos y si no eres \"de su perfil\" no te dan bola para ningun proyecto esperando que te vayas o puedan traer a alguien para reemplazarte"
   },
   {
     "id": "lider-bci",
@@ -2985,7 +2985,7 @@
         "liderazgo": 2,
         "cultura": 2,
         "que_bien": "Los compañeros de trabajo generaban un buen ambiente.",
-        "que_mal": "[cargo omitido], alta rotación, sueldos muy bajos, horas extras impagas.",
+        "que_mal": "Lideres vende humo, alta rotación, sueldos muy bajos, horas extras impagas.",
         "que_desearias": "Que no valoran tu esfuerzo ni tus habilidades técnicas, solo buscan que seas un buen charlatán para poder crecer en la empresa.",
         "recomienda": "No",
         "area": null,
@@ -3001,7 +3001,7 @@
     "prom_liderazgo": 2,
     "prom_cultura": 2,
     "resumen_bien": "Los compañeros de trabajo generaban un buen ambiente.",
-    "resumen_mal": "[cargo omitido], alta rotación, sueldos muy bajos, horas extras impagas."
+    "resumen_mal": "Lideres vende humo, alta rotación, sueldos muy bajos, horas extras impagas."
   },
   {
     "id": "r-y-c-consultores",
@@ -3309,7 +3309,7 @@
         "liderazgo": 2,
         "cultura": 1,
         "que_bien": "El sueldo que tenia  en  ese momento  (780.000)  para un cargo que no exige titulo ni experiencia es muy bueno, los beneficios del teletrabajo, lindas oficinas en un buen barrio.",
-        "que_mal": "Jefaturas sin conocimiento, me decían que  tenia que mentir  para perjudicar a las demás áreas, una competitividad estúpida, no puedes decir que te comprometa porque se  agarran de ello y copian por correo hasta a la tía del aseo,  MUCHO pituto, demasiados cargos inventados, todos los [cargo omitido], [cargo omitido], [cargo omitido] hace años, son todos amigos desde hace tiempo atras.",
+        "que_mal": "Jefaturas sin conocimiento, me decían que  tenia que mentir  para perjudicar a las demás áreas, una competitividad estúpida, no puedes decir que te comprometa porque se  agarran de ello y copian por correo hasta a la tía del aseo,  MUCHO pituto, demasiados cargos inventados, todos los directores, jefes, gerentes y subgerentes se conocen hace años, son todos amigos desde hace tiempo atras.",
         "que_desearias": "Que era una pega esclavizadora, la cantidad de pega era absurda para una sola persona. al menos en mi área, se notaba mucho la diferencia entre un trabajador '[cargo omitido]' vs la de un [cargo omitido], esos llegaban mucho más tarde, no tenian problemas con nada, etc.",
         "recomienda": "Depende del perfil",
         "area": null,
@@ -3363,7 +3363,7 @@
         "flexibilidad": 3,
         "liderazgo": 4,
         "cultura": 4,
-        "que_bien": "tenia buenos beneficios, buen sueldo, muy buen ambiente, buenos [cargo omitido], tambien eran flexibles si uno tenia que ir al medico o algo asi. jornada hibrida y relajados igual con los horarios de entrada cuando habia que ir a la oficina.",
+        "que_bien": "tenia buenos beneficios, buen sueldo, muy buen ambiente, buenos lideres y se aprende harto, tambien eran flexibles si uno tenia que ir al medico o algo asi. jornada hibrida y relajados igual con los horarios de entrada cuando habia que ir a la oficina.",
         "que_mal": "la jornada laboral era mucho mayor que lo establecido, yo estaba en una de apoyo, no en las tiendas. siempre habia que quedarse hasta mas tarde  a veces noche y  los dias que se teletrabajaba te decian que daba lo mismo si total estabas en la casa.",
         "que_desearias": "se trabajan horas extras no remuneradas.",
         "recomienda": "Depende del perfil",
@@ -3379,7 +3379,7 @@
     "prom_flexibilidad": 3,
     "prom_liderazgo": 4,
     "prom_cultura": 4,
-    "resumen_bien": "tenia buenos beneficios, buen sueldo, muy buen ambiente, buenos [cargo omitido], tambien eran flexibles si uno tenia que ir al medico o algo asi. jornada hibrida y relajados igual con los horarios de entrada cuando habia que ir a la oficina.",
+    "resumen_bien": "tenia buenos beneficios, buen sueldo, muy buen ambiente, buenos lideres y se aprende harto, tambien eran flexibles si uno tenia que ir al medico o algo asi. jornada hibrida y relajados igual con los horarios de entrada cuando habia que ir a la oficina.",
     "resumen_mal": "la jornada laboral era mucho mayor que lo establecido, yo estaba en una de apoyo, no en las tiendas. siempre habia que quedarse hasta mas tarde  a veces noche y  los dias que se teletrabajaba te decian que daba lo mismo si total estabas en la casa."
   },
   {
@@ -3401,7 +3401,7 @@
         "cultura": "Muy malo",
         "que_bien": "Hay buenos beneficios y además buenas oficinas, pese a que el trabajo es principalmente remoto.",
         "que_mal": "Realmente cumplir la promesa de formar profesionalmente.",
-        "que_desearias": "Que se privilegian las conversaciones de pasillo y happy hours por sobre reuniones para delimitar responsabilidad, tiempos y entregables. Hay muchas reglas sociales implícita wue siguen los [cargo omitido].",
+        "que_desearias": "Que se privilegian las conversaciones de pasillo y happy hours por sobre reuniones para delimitar responsabilidad, tiempos y entregables. Hay muchas reglas sociales implícita wue siguen los líderes.",
         "recomienda": "Depende del perfil",
         "area": "Prefiero no decirlo",
         "consejo_gerencia": "Que la retención del talento es clave para su modelo de negocio, asi que actúe acorde.",
@@ -3508,7 +3508,7 @@
         "liderazgo": 1,
         "cultura": 1,
         "que_bien": "la flexibilidad es buena, perfecta si estas estudiando, los beneficios dentro de la tienda igual salvan algo",
-        "que_mal": "la cultura de la empresa promueve la competencia toxica para ascender, te van a cambiar de tienda cada vez que puedan si es que quieres ascender, los [cargo omitido] empresa que te harán la vida imposible.",
+        "que_mal": "la cultura de la empresa promueve la competencia toxica para ascender, te van a cambiar de tienda cada vez que puedan si es que quieres ascender, los gerentes son todos pro empresa que te harán la vida imposible.",
         "que_desearias": "si entran, no esperen ascender si la pega es para poder tener un trabajo mientras estudias o temporal es bueno, pero para intentar hacer carrera en, es casi imposible",
         "recomienda": "No",
         "area": null,
@@ -3524,7 +3524,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 1,
     "resumen_bien": "la flexibilidad es buena, perfecta si estas estudiando, los beneficios dentro de la tienda igual salvan algo",
-    "resumen_mal": "la cultura de la empresa promueve la competencia toxica para ascender, te van a cambiar de tienda cada vez que puedan si es que quieres ascender, los [cargo omitido] empresa que te harán la vida imposible."
+    "resumen_mal": "la cultura de la empresa promueve la competencia toxica para ascender, te van a cambiar de tienda cada vez que puedan si es que quieres ascender, los gerentes son todos pro empresa que te harán la vida imposible."
   },
   {
     "id": "talana",
@@ -3653,7 +3653,7 @@
         "cultura": null,
         "que_bien": "Flexibilidad",
         "que_mal": "Cultura se servicio pésima, atención al cliente, bpm",
-        "que_desearias": "Los [cargo omitido] pituto o por aserruchar el piso",
+        "que_desearias": "Los supervisores llegaron ahí por pituto o por aserruchar el piso",
         "recomienda": "No",
         "area": null,
         "consejo_gerencia": null,
@@ -3796,7 +3796,7 @@
         "liderazgo": 1,
         "cultura": 1,
         "que_bien": "Nada",
-        "que_mal": "Los [cargo omitido] patanes que creen que midiendo tu cráneo y sabiendo el mes en que naciste, actuaras de cierta manera. Hablo del [cargo omitido]. No se puede esperar nada del resto de jefaturas.",
+        "que_mal": "Los líderes de esta empresa son patanes que creen que midiendo tu cráneo y sabiendo el mes en que naciste, actuaras de cierta manera. Hablo del [cargo omitido]. No se puede esperar nada del resto de jefaturas.",
         "que_desearias": "No recomiendo a nadie trabajar ahí. Alejate de ahí a menos que quieras pasarlo mal.",
         "recomienda": "No",
         "area": null,
@@ -3815,7 +3815,7 @@
         "liderazgo": 2,
         "cultura": 2,
         "que_bien": "Algunos beneficios",
-        "que_mal": "El ambiente, los [cargo omitido], no tenian un rumbo claro de la empresa",
+        "que_mal": "El ambiente, los jefes no sabian liderar, no tenian un rumbo claro de la empresa",
         "que_desearias": null,
         "recomienda": "No",
         "area": null,
@@ -3852,7 +3852,7 @@
         "cultura": 2,
         "que_bien": "Algunos beneficios y un sindicato fuerte que en los últimos 6 o 7 años ha hecho más que una negociación pactada una imposición de términos para conseguir que la empresa no quite beneficios.",
         "que_mal": "Los liderazgos son mediocres en todos los niveles. Demasiados procesos manuales y sistemas legados que hacen que administrar las transacciones financieras de todo Chile sea impreciso y un dolor para los equipos de procesos. La empresa cambió cuando el [cargo omitido] “histórico” ([cargo omitido], entró en un proceso de deterioro de su cultura sabiendo que la empresa además perdía su posición monopólica dominante debido a la apertura del mercado con la transición al modelo de procesamiento de 4 partes.",
-        "que_desearias": "Haber conocido la visión corta y estrecha de los [cargo omitido], tácticos y estratégicos. No son tipos especializados en lo que hacen, son reaccionarios y se dicen “de la vieja escuela” lo que se nota cuando uno conoce los tipos de liderazgo modernos orientados a las personas y al desarrollo de carrera.",
+        "que_desearias": "Haber conocido la visión corta y estrecha de los líderes operativos, tácticos y estratégicos. No son tipos especializados en lo que hacen, son reaccionarios y se dicen “de la vieja escuela” lo que se nota cuando uno conoce los tipos de liderazgo modernos orientados a las personas y al desarrollo de carrera.",
         "recomienda": "Depende del perfil",
         "area": null,
         "consejo_gerencia": null,
