@@ -132,7 +132,12 @@ var EMPRESAS_OCULTAS = [
   'lemontech',
   'lemontech-chile',
   'lemon-tech',
-  'lt'
+  'lt',
+  'n-a',
+  'na',
+  'n-a-',
+  'ninguna',
+  'no-aplica'
 ];
 
 var COL = {
