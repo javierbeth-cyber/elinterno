@@ -330,7 +330,7 @@ var CARGO_PALABRAS_FILTER = [
 function filtrarNombres(texto) {
   if (!texto) return texto;
   var re = new RegExp(
-    '\\b(' + CARGO_PALABRAS_FILTER.join('|') + ')\\b\\)?(?:\\s+(?:de|del|en|y|sr\\.?|jr\\.?|senior|junior|área|area))*(?:\\s+[A-ZÁÉÍÓÚÑa-záéíóúñ]+){0,3}',
+    '\\b(' + CARGO_PALABRAS_FILTER.join('|') + ')(?![a-zA-ZáéíóúñÁÉÍÓÚÑüÜ])\\)?(?:\\s+(?:de|del|en|y|sr\\.?|jr\\.?|senior|junior|área|area))*(?:\\s+[A-ZÁÉÍÓÚÑa-záéíóúñ]+){0,3}',
     'gi'
   );
   return texto.replace(re, '[cargo omitido]');
