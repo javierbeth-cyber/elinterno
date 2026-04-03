@@ -16,8 +16,8 @@ const CSS = cssMatch ? cssMatch[1] : '';
 const MESES = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
 const SUELDO_MAP = { 1: 'bajo el mercado', 2: 'bajo el mercado', 3: 'en el mercado', 4: 'sobre el mercado', 5: 'sobre el mercado' };
 const SUELDO_OPTIONS = ['bajo el mercado', 'en el mercado', 'sobre el mercado'];
-const CARRERA_MAP = { 1: 'pocas oportunidades', 2: 'pocas oportunidades', 3: 'crecimiento moderado', 4: 'muchas oportunidades', 5: 'muchas oportunidades' };
-const CARRERA_OPTIONS = ['pocas oportunidades', 'crecimiento moderado', 'muchas oportunidades'];
+const CARRERA_MAP = { 1: 'pocas oportunidades', 2: 'pocas oportunidades', 3: 'moderado', 4: 'muchas oportunidades', 5: 'muchas oportunidades' };
+const CARRERA_OPTIONS = ['pocas oportunidades', 'moderado', 'muchas oportunidades'];
 const ESCALA_OPTIONS = ['Muy malo', 'Malo', 'Bueno', 'Muy bueno'];
 const LOGOS_DARK = ['corporacion-3xi'];
 
@@ -125,7 +125,8 @@ function renderResumen(emp) {
   function cualHtml(label, dato, distId, options) {
     if (!dato.winner) return '';
     var subtext = dato.total > 1 ? dato.counts[dato.winner] + ' de ' + dato.total + ' opinan esto' : '';
-    return '<div class="resumen-item"><span class="resumen-label">' + label + '</span><span class="badge-cualitativo">' + dato.winner + '</span>' +
+    var winnerDisplay = dato.winner.charAt(0).toUpperCase() + dato.winner.slice(1);
+    return '<div class="resumen-item"><span class="resumen-label">' + label + '</span><span class="badge-cualitativo">' + winnerDisplay + '</span>' +
       (subtext ? '<span class="badge-cualitativo-sub" onclick="toggleDist(\'' + distId + '\')">' + subtext + ' ▾</span>' : '') +
       renderDistribucion(distId, options, dato.counts, dato.total) + '</div>';
   }
@@ -199,7 +200,7 @@ function renderResena(r) {
         ${r.recomienda ? badgeRecomienda(r.recomienda) : ''}
       </div>
       ${r.fecha ? `<div class="resena-publicado">Publicado en ${formatFecha(r.fecha)}</div>` : ''}
-      ${resSubcats.length ? `<div class="resena-subcats">${resSubcats.map(function(c) { return `<div class="resena-subcat">${c.label} <span style="color:${subcatColor(c.label, c.val)};font-weight:700">${c.val}</span></div>`; }).join('')}</div>` : ''}
+      ${resSubcats.length ? `<div class="resena-subcats">${resSubcats.map(function(c) { var vd = c.val ? String(c.val).charAt(0).toUpperCase() + String(c.val).slice(1) : c.val; return `<div class="resena-subcat">${c.label} <span style="color:${subcatColor(c.label, c.val)};font-weight:700">${vd}</span></div>`; }).join('')}</div>` : ''}
       ${bloque('bien',      '✅', 'Qué está bien',                queB.text)}
       ${bloque('mal',       '❌', 'Qué está mal',                 queM.text)}
       ${bloque('desearias', '💡', 'Qué desearías haber sabido',   queD.text)}
