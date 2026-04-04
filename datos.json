@@ -74,7 +74,7 @@
   {
     "id": "achs",
     "nombre": "Achs",
-    "rubro": "Mutualidad",
+    "rubro": "Salud",
     "logo": "assets/logos/achs.svg",
     "resenas": [
       {
@@ -182,7 +182,7 @@
   {
     "id": "amipass",
     "nombre": "Amipass",
-    "rubro": "Alimentación",
+    "rubro": "Alimentos y bebidas",
     "logo": "assets/logos/amipass.png",
     "resenas": [
       {
@@ -434,7 +434,7 @@
   {
     "id": "caja-de-compensacion-los-heroes",
     "nombre": "Caja de Compensación Los Heroes",
-    "rubro": "Beneficios sociales",
+    "rubro": "Servicios",
     "logo": "assets/logos/caja-los-heroes.png",
     "resenas": [
       {
@@ -470,7 +470,7 @@
   {
     "id": "callbusiness",
     "nombre": "CallBusiness",
-    "rubro": "Banca y finanzas",
+    "rubro": "Telecomunicaciones",
     "logo": "assets/logos/callbusiness.jpg",
     "resenas": [
       {
@@ -688,7 +688,7 @@
   {
     "id": "coca-cola-andina",
     "nombre": "Coca cola andina",
-    "rubro": "Alimentos",
+    "rubro": "Alimentos y bebidas",
     "logo": "assets/logos/coca-cola-andina.png",
     "resenas": [
       {
@@ -832,7 +832,7 @@
   {
     "id": "cristalchile",
     "nombre": "Cristalchile",
-    "rubro": "Producción fabril",
+    "rubro": "Manufactura",
     "logo": "assets/logos/cristalchile.svg",
     "resenas": [
       {
@@ -1340,7 +1340,7 @@
   {
     "id": "equans-chile",
     "nombre": "Equans Chile",
-    "rubro": "Multiservicios",
+    "rubro": "Servicios",
     "logo": "assets/logos/equans-chile.jpg",
     "resenas": [
       {
@@ -1556,7 +1556,7 @@
   {
     "id": "explora",
     "nombre": "Explora",
-    "rubro": "Hoteleria",
+    "rubro": "Hotelería",
     "logo": "assets/logos/explora.png",
     "resenas": [
       {
@@ -1628,7 +1628,7 @@
   {
     "id": "femsa",
     "nombre": "Femsa",
-    "rubro": "Banca y finanzas",
+    "rubro": "Alimentos y bebidas",
     "logo": "assets/logos/femsa.svg",
     "resenas": [
       {
@@ -1719,7 +1719,7 @@
   {
     "id": "fundacion-puerto-de-ideas",
     "nombre": "Fundación Puerto de Ideas",
-    "rubro": "Fundación Cultural",
+    "rubro": "ONG",
     "logo": "assets/logos/fundacion-puerto-de-ideas.svg",
     "resenas": [
       {
@@ -1973,7 +1973,7 @@
   {
     "id": "i-municipalidad-de-coquimbo",
     "nombre": "I. Municipalidad de Coquimbo",
-    "rubro": "Departamento Social",
+    "rubro": "Gobierno",
     "logo": "assets/logos/i-municipalidad-de-coquimbo.png",
     "resenas": [
       {
@@ -2153,7 +2153,7 @@
   {
     "id": "jica-chile",
     "nombre": "JICA Chile",
-    "rubro": "Organismos internacionales",
+    "rubro": "ONG",
     "logo": "assets/logos/jica-chile.png",
     "resenas": [
       {
@@ -2297,7 +2297,7 @@
   {
     "id": "l-oreal-chile",
     "nombre": "L'Oréal Chile",
-    "rubro": "Cosmética",
+    "rubro": "Retail",
     "logo": "assets/logos/l-oreal-chile.jpg",
     "resenas": [
       {
@@ -2405,7 +2405,7 @@
   {
     "id": "lider-bci",
     "nombre": "Líder BCI",
-    "rubro": "Banca y finanzas",
+    "rubro": "Retail",
     "logo": "assets/logos/lider-bci.svg",
     "resenas": [
       {
@@ -2627,7 +2627,7 @@
   {
     "id": "metlife",
     "nombre": "Metlife",
-    "rubro": "Banca y finanzas",
+    "rubro": "Seguros",
     "logo": "assets/logos/metlife.png",
     "resenas": [
       {
@@ -2843,7 +2843,7 @@
   {
     "id": "nutrisco",
     "nombre": "Nutrisco",
-    "rubro": "Alimentación",
+    "rubro": "Alimentos y bebidas",
     "logo": "assets/logos/nutrisco.jpg",
     "resenas": [
       {
@@ -3294,7 +3294,7 @@
   {
     "id": "sodexo",
     "nombre": "Sodexo",
-    "rubro": "Seguridad",
+    "rubro": "Servicios",
     "logo": "assets/logos/sodexo.png",
     "resenas": [
       {
@@ -3493,7 +3493,7 @@
   {
     "id": "starbucks",
     "nombre": "Starbucks",
-    "rubro": "comida rapida",
+    "rubro": "Alimentos y bebidas",
     "logo": "assets/logos/starbucks.jpg",
     "resenas": [
       {
@@ -3637,7 +3637,7 @@
   {
     "id": "termas-de-puyehue",
     "nombre": "Termas de Puyehue",
-    "rubro": "Hoteleria",
+    "rubro": "Hotelería",
     "logo": "assets/logos/termas-de-puyehue.png",
     "resenas": [
       {
@@ -3673,7 +3673,7 @@
   {
     "id": "the-home",
     "nombre": "The Home",
-    "rubro": "Diseño consultoría y construcción",
+    "rubro": "Construcción",
     "logo": "assets/logos/the-home.png",
     "resenas": [
       {
@@ -3781,7 +3781,7 @@
   {
     "id": "touch",
     "nombre": "Touch",
-    "rubro": "Contratación de personal",
+    "rubro": "Consultoría",
     "logo": "assets/logos/touch.png",
     "resenas": [
       {
@@ -4016,7 +4016,7 @@
   {
     "id": "vina-san-pedro-tarapaca",
     "nombre": "Viña San Pedro Tarapacá",
-    "rubro": "Alimentos",
+    "rubro": "Alimentos y bebidas",
     "logo": "assets/logos/vina-san-pedro-tarapaca.png",
     "resenas": [
       {
