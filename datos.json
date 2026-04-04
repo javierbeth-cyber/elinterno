@@ -3,7 +3,7 @@
     "id": "3it",
     "nombre": "3IT",
     "rubro": "Consultoría",
-    "logo": "assets/logos/3it.ico",
+    "logo": "assets/logos/3it.png",
     "resenas": [
       {
         "id": 107,
@@ -1305,7 +1305,7 @@
     "id": "epiroc",
     "nombre": "Epiroc",
     "rubro": "Minería",
-    "logo": "assets/logos/epiroc.ico",
+    "logo": "assets/logos/epiroc.png",
     "resenas": [
       {
         "id": 93,
@@ -2118,7 +2118,7 @@
     "id": "itau",
     "nombre": "Itaú",
     "rubro": "Banca y finanzas",
-    "logo": "assets/logos/itau.ico",
+    "logo": "assets/logos/itau.svg",
     "resenas": [
       {
         "id": 121,
@@ -2190,7 +2190,7 @@
     "id": "kabeli",
     "nombre": "Kabeli",
     "rubro": "Consultoría",
-    "logo": "assets/logos/kabeli.ico",
+    "logo": "assets/logos/kabeli.png",
     "resenas": [
       {
         "id": 122,
