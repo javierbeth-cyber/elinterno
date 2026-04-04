@@ -811,7 +811,7 @@
         "liderazgo": "Muy malo",
         "cultura": "Muy malo",
         "que_bien": "Hay posibilidad de trabajo remoto, pero no para todos y aunque lo aceptan en términos legales, culturalmente no es bien visto por los jefes, gerentes o dueños, así que finalmente aceptan el trabajo remoto porque es una excusa para no tener mejores condiciones en la oficina.",
-        "que_mal": "Aunque venden tecnología de alta gama para telecomunicaciones, no invierten en mejorar los procesos de la empresa ni en implementar ideas nuevas, ni para el negocio ni para mejorar la experiencia de los clientes. No se sigue ningún criterio profesional a la hora de vender herramientas, hardwares o softwares, no hay consultoría ni conocimiento propio que sea relevante. La empresa vende ser líder sinceramente solo \"lo es\" (nótese las comilas) porque re-vende tecnología creada por marcas globales. Es simplemente un proveedor/intermediario y con mala gestión por lo demás.",
+        "que_mal": "Aunque venden tecnología de alta gama para telecomunicaciones, no invierten en mejorar los procesos de la empresa ni en implementar ideas nuevas, ni para el negocio ni para mejorar la experiencia de los clientes. No se sigue ningún criterio profesional a la hora de vender herramientas, hardwares o softwares, no hay consultoría ni conocimiento propio que sea relevante. La empresa vende ser [cargo omitido] sinceramente solo \"lo es\" (nótese las comilas) porque re-vende tecnología creada por marcas globales. Es simplemente un proveedor/intermediario y con mala gestión por lo demás.",
         "que_desearias": "Que esperan resultados que requieren mínimo 2 o 3 cargos distintos, en una sola persona, usando sus propios recursos así sea la suscripción a chatgpt o incluso el pc.",
         "recomienda": "No",
         "area": "Prefiero no decirlo",
@@ -827,7 +827,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Hay posibilidad de trabajo remoto, pero no para todos y aunque lo aceptan en términos legales, culturalmente no es bien visto por los jefes, gerentes o dueños, así que finalmente aceptan el trabajo remoto porque es una excusa para no tener mejores condiciones en la oficina.",
-    "resumen_mal": "Aunque venden tecnología de alta gama para telecomunicaciones, no invierten en mejorar los procesos de la empresa ni en implementar ideas nuevas, ni para el negocio ni para mejorar la experiencia de los clientes. No se sigue ningún criterio profesional a la hora de vender herramientas, hardwares o softwares, no hay [cargo omitido]ía ni conocimiento propio que sea relevante. La empresa vende ser [cargo omitido] sinceramente solo \"lo es\" (nótese las comilas) porque re-vende tecnología creada por marcas globales. Es simplemente un proveedor/intermediario y con mala gestión por lo demás."
+    "resumen_mal": "Aunque venden tecnología de alta gama para telecomunicaciones, no invierten en mejorar los procesos de la empresa ni en implementar ideas nuevas, ni para el negocio ni para mejorar la experiencia de los clientes. No se sigue ningún criterio profesional a la hora de vender herramientas, hardwares o softwares, no hay consultoría ni conocimiento propio que sea relevante. La empresa vende ser [cargo omitido] sinceramente solo \"lo es\" (nótese las comilas) porque re-vende tecnología creada por marcas globales. Es simplemente un proveedor/intermediario y con mala gestión por lo demás."
   },
   {
     "id": "cristalchile",
@@ -3617,7 +3617,7 @@
         "cultura": 2,
         "que_bien": "Sueldo un poco sobre el mercado, puede que haya sido mi experiencia solamente.",
         "que_mal": "En 2 años el sueldo no se movió nada, a pesar de entrar bastante alto para el mercado, ahí se quedó.",
-        "que_desearias": "Mucho curso corporativo, muchos procesos internos y reuniones de la consultora para trabajar en el cliente.",
+        "que_desearias": "Mucho curso corporativo, muchos procesos internos y reuniones de la [cargo omitido] para trabajar en el cliente.",
         "recomienda": "Depende del perfil",
         "area": null,
         "consejo_gerencia": null,
@@ -3710,7 +3710,7 @@
     "id": "timix-chile",
     "nombre": "Timix Chile",
     "rubro": "Tecnología",
-    "logo": "assets/logos/timix-chile.png",
+    "logo": null,
     "resenas": [
       {
         "id": 28,
@@ -4082,7 +4082,7 @@
     "prom_flexibilidad": 4,
     "prom_liderazgo": 5,
     "prom_cultura": 4,
-    "resumen_bien": "Por el lado de [cargo omitido]ía tienen buenos clientes. El ambiente en general es muy ameno.",
+    "resumen_bien": "Por el lado de consultoría tienen buenos clientes. El ambiente en general es muy ameno.",
     "resumen_mal": "Mi experiencia directa con la empresa fue bastante positiva."
   }
 ]
