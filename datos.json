@@ -2154,7 +2154,7 @@
     "id": "jica-chile",
     "nombre": "JICA Chile",
     "rubro": "Organismos internacionales",
-    "logo": "assets/logos/jica-chile.png",
+    "logo": null,
     "resenas": [
       {
         "id": 111,
@@ -3710,7 +3710,7 @@
     "id": "timix-chile",
     "nombre": "Timix Chile",
     "rubro": "Tecnología",
-    "logo": null,
+    "logo": "assets/logos/timix-chile.png",
     "resenas": [
       {
         "id": 28,
