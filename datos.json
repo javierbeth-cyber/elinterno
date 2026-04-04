@@ -3,7 +3,7 @@
     "id": "3it",
     "nombre": "3IT",
     "rubro": "Consultoría",
-    "logo": "https://icons.duckduckgo.com/ip3/3it.cl.ico",
+    "logo": "assets/logos/3it.ico",
     "resenas": [
       {
         "id": 107,
@@ -363,7 +363,7 @@
     "id": "bci",
     "nombre": "BCI",
     "rubro": "Banca y finanzas",
-    "logo": "https://icons.duckduckgo.com/ip3/bci.cl.ico",
+    "logo": "assets/logos/bci.svg",
     "resenas": [
       {
         "id": 48,
@@ -1305,7 +1305,7 @@
     "id": "epiroc",
     "nombre": "Epiroc",
     "rubro": "Minería",
-    "logo": "https://icons.duckduckgo.com/ip3/epiroc.com.ico",
+    "logo": "assets/logos/epiroc.ico",
     "resenas": [
       {
         "id": 93,
@@ -2118,7 +2118,7 @@
     "id": "itau",
     "nombre": "Itaú",
     "rubro": "Banca y finanzas",
-    "logo": "https://icons.duckduckgo.com/ip3/itau.cl.ico",
+    "logo": "assets/logos/itau.ico",
     "resenas": [
       {
         "id": 121,
@@ -2154,7 +2154,7 @@
     "id": "jica-chile",
     "nombre": "JICA Chile",
     "rubro": "Organismos internacionales",
-    "logo": "https://icons.duckduckgo.com/ip3/jica-chile.cl.ico",
+    "logo": "assets/logos/jica-chile.png",
     "resenas": [
       {
         "id": 111,
@@ -2190,7 +2190,7 @@
     "id": "kabeli",
     "nombre": "Kabeli",
     "rubro": "Consultoría",
-    "logo": "https://icons.duckduckgo.com/ip3/kabeli.com.ico",
+    "logo": "assets/logos/kabeli.ico",
     "resenas": [
       {
         "id": 122,
@@ -2628,7 +2628,7 @@
     "id": "metlife",
     "nombre": "Metlife",
     "rubro": "Banca y finanzas",
-    "logo": "https://icons.duckduckgo.com/ip3/metlife.cl.ico",
+    "logo": "assets/logos/metlife.ico",
     "resenas": [
       {
         "id": 105,
@@ -3494,7 +3494,7 @@
     "id": "starbucks",
     "nombre": "Starbucks",
     "rubro": "comida rapida",
-    "logo": "https://icons.duckduckgo.com/ip3/starbucks.com.ico",
+    "logo": "assets/logos/starbucks.ico",
     "resenas": [
       {
         "id": 98,
@@ -4017,7 +4017,7 @@
     "id": "vina-san-pedro-tarapaca",
     "nombre": "Viña San Pedro Tarapacá",
     "rubro": "Alimentos",
-    "logo": "https://icons.duckduckgo.com/ip3/sanpedro.cl.ico",
+    "logo": "assets/logos/vina-san-pedro-tarapaca.ico",
     "resenas": [
       {
         "id": 120,
