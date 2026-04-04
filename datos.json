@@ -2628,7 +2628,7 @@
     "id": "metlife",
     "nombre": "Metlife",
     "rubro": "Banca y finanzas",
-    "logo": "assets/logos/metlife.ico",
+    "logo": "assets/logos/metlife.png",
     "resenas": [
       {
         "id": 105,
@@ -3494,7 +3494,7 @@
     "id": "starbucks",
     "nombre": "Starbucks",
     "rubro": "comida rapida",
-    "logo": "assets/logos/starbucks.ico",
+    "logo": "assets/logos/starbucks.jpg",
     "resenas": [
       {
         "id": 98,
