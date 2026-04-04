@@ -299,6 +299,14 @@ function generatePage(emp) {
     gtag('js', new Date());
     gtag('config', 'G-FWBT3DHWVL');
   </script>
+  <!-- Microsoft Clarity -->
+  <script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "w6i64j43io");
+  </script>
   <title>${title}</title>
   <meta name="description" content="${metaDesc}">
   <link rel="canonical" href="${pageUrl}">
