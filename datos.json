@@ -74,7 +74,7 @@
   {
     "id": "achs",
     "nombre": "Achs",
-    "rubro": "Salud",
+    "rubro": "Mutualidad",
     "logo": "assets/logos/achs.svg",
     "resenas": [
       {
@@ -182,7 +182,7 @@
   {
     "id": "amipass",
     "nombre": "Amipass",
-    "rubro": "Alimentos y bebidas",
+    "rubro": "Alimentación",
     "logo": "assets/logos/amipass.png",
     "resenas": [
       {
@@ -434,7 +434,7 @@
   {
     "id": "caja-de-compensacion-los-heroes",
     "nombre": "Caja de Compensación Los Heroes",
-    "rubro": "Servicios",
+    "rubro": "Beneficios sociales",
     "logo": "assets/logos/caja-los-heroes.png",
     "resenas": [
       {
@@ -470,7 +470,7 @@
   {
     "id": "callbusiness",
     "nombre": "CallBusiness",
-    "rubro": "Telecomunicaciones",
+    "rubro": "Banca y finanzas",
     "logo": "assets/logos/callbusiness.jpg",
     "resenas": [
       {
@@ -688,7 +688,7 @@
   {
     "id": "coca-cola-andina",
     "nombre": "Coca cola andina",
-    "rubro": "Alimentos y bebidas",
+    "rubro": "Alimentos",
     "logo": "assets/logos/coca-cola-andina.png",
     "resenas": [
       {
@@ -832,7 +832,7 @@
   {
     "id": "cristalchile",
     "nombre": "Cristalchile",
-    "rubro": "Manufactura",
+    "rubro": "Producción fabril",
     "logo": "assets/logos/cristalchile.svg",
     "resenas": [
       {
@@ -1340,7 +1340,7 @@
   {
     "id": "equans-chile",
     "nombre": "Equans Chile",
-    "rubro": "Servicios",
+    "rubro": "Multiservicios",
     "logo": "assets/logos/equans-chile.jpg",
     "resenas": [
       {
@@ -1556,7 +1556,7 @@
   {
     "id": "explora",
     "nombre": "Explora",
-    "rubro": "Hotelería",
+    "rubro": "Hoteleria",
     "logo": "assets/logos/explora.png",
     "resenas": [
       {
@@ -1628,7 +1628,7 @@
   {
     "id": "femsa",
     "nombre": "Femsa",
-    "rubro": "Alimentos y bebidas",
+    "rubro": "Banca y finanzas",
     "logo": "assets/logos/femsa.svg",
     "resenas": [
       {
@@ -1719,7 +1719,7 @@
   {
     "id": "fundacion-puerto-de-ideas",
     "nombre": "Fundación Puerto de Ideas",
-    "rubro": "ONG",
+    "rubro": "Fundación Cultural",
     "logo": "assets/logos/fundacion-puerto-de-ideas.svg",
     "resenas": [
       {
@@ -1973,7 +1973,7 @@
   {
     "id": "i-municipalidad-de-coquimbo",
     "nombre": "I. Municipalidad de Coquimbo",
-    "rubro": "Gobierno",
+    "rubro": "Departamento Social",
     "logo": "assets/logos/i-municipalidad-de-coquimbo.png",
     "resenas": [
       {
@@ -2153,7 +2153,7 @@
   {
     "id": "jica-chile",
     "nombre": "JICA Chile",
-    "rubro": "ONG",
+    "rubro": "Organismos internacionales",
     "logo": "assets/logos/jica-chile.png",
     "resenas": [
       {
@@ -2297,7 +2297,7 @@
   {
     "id": "l-oreal-chile",
     "nombre": "L'Oréal Chile",
-    "rubro": "Retail",
+    "rubro": "Cosmética",
     "logo": "assets/logos/l-oreal-chile.jpg",
     "resenas": [
       {
@@ -2405,7 +2405,7 @@
   {
     "id": "lider-bci",
     "nombre": "Líder BCI",
-    "rubro": "Retail",
+    "rubro": "Banca y finanzas",
     "logo": "assets/logos/lider-bci.svg",
     "resenas": [
       {
@@ -2627,7 +2627,7 @@
   {
     "id": "metlife",
     "nombre": "Metlife",
-    "rubro": "Seguros",
+    "rubro": "Banca y finanzas",
     "logo": "assets/logos/metlife.png",
     "resenas": [
       {
@@ -2843,7 +2843,7 @@
   {
     "id": "nutrisco",
     "nombre": "Nutrisco",
-    "rubro": "Alimentos y bebidas",
+    "rubro": "Alimentación",
     "logo": "assets/logos/nutrisco.jpg",
     "resenas": [
       {
@@ -3294,7 +3294,7 @@
   {
     "id": "sodexo",
     "nombre": "Sodexo",
-    "rubro": "Servicios",
+    "rubro": "Seguridad",
     "logo": "assets/logos/sodexo.png",
     "resenas": [
       {
@@ -3493,7 +3493,7 @@
   {
     "id": "starbucks",
     "nombre": "Starbucks",
-    "rubro": "Alimentos y bebidas",
+    "rubro": "comida rapida",
     "logo": "assets/logos/starbucks.jpg",
     "resenas": [
       {
@@ -3637,7 +3637,7 @@
   {
     "id": "termas-de-puyehue",
     "nombre": "Termas de Puyehue",
-    "rubro": "Hotelería",
+    "rubro": "Hoteleria",
     "logo": "assets/logos/termas-de-puyehue.png",
     "resenas": [
       {
@@ -3673,7 +3673,7 @@
   {
     "id": "the-home",
     "nombre": "The Home",
-    "rubro": "Construcción",
+    "rubro": "Diseño consultoría y construcción",
     "logo": "assets/logos/the-home.png",
     "resenas": [
       {
@@ -3710,7 +3710,7 @@
     "id": "timix-chile",
     "nombre": "Timix Chile",
     "rubro": "Tecnología",
-    "logo": "assets/logos/timix-chile.png",
+    "logo": null,
     "resenas": [
       {
         "id": 28,
@@ -3781,7 +3781,7 @@
   {
     "id": "touch",
     "nombre": "Touch",
-    "rubro": "Consultoría",
+    "rubro": "Contratación de personal",
     "logo": "assets/logos/touch.png",
     "resenas": [
       {
@@ -3942,6 +3942,42 @@
     "resumen_mal": "[cargo omitido]"
   },
   {
+    "id": "underpizza",
+    "nombre": "underpizza",
+    "rubro": "Retail",
+    "logo": "https://icons.duckduckgo.com/ip3/underpizza.cl.ico",
+    "resenas": [
+      {
+        "id": 123,
+        "fecha": "2026-04-05",
+        "tiempo": "6 meses a 1 año",
+        "sigue": "No",
+        "cal_general": 2,
+        "sueldo": "bajo el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": "Muy malo",
+        "liderazgo": "Bueno",
+        "cultura": "Bueno",
+        "que_bien": "pago y detalle automatico",
+        "que_mal": "condiciones ambientales laborales\ncarga laboral",
+        "que_desearias": "la explotacion laboral descarada del sector",
+        "recomienda": "No",
+        "area": "asdf",
+        "consejo_gerencia": "dejen de wear con sus mermas culias mal contabilizadas no tengo responsabilidad de que no cuenten las pizzas que se botan porque se enfrian\narreglen la cagada de ventilacion que no es capaz de sacar el calor de 3 hornos",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 2,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null,
+    "resumen_bien": "pago y detalle automatico",
+    "resumen_mal": "condiciones ambientales laborales\ncarga laboral"
+  },
+  {
     "id": "universidad-alberto-hurtado",
     "nombre": "Universidad Alberto Hurtado",
     "rubro": "Educación",
@@ -4016,7 +4052,7 @@
   {
     "id": "vina-san-pedro-tarapaca",
     "nombre": "Viña San Pedro Tarapacá",
-    "rubro": "Alimentos y bebidas",
+    "rubro": "Alimentos",
     "logo": "assets/logos/vina-san-pedro-tarapaca.png",
     "resenas": [
       {
