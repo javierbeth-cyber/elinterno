@@ -231,7 +231,7 @@ function generatePage(emp) {
     ? (emp.logo.startsWith('assets/') ? '/' + emp.logo : emp.logo)
     : null;
   const logoHtml = logoSrc
-    ? `<img src="${logoSrc}" alt="${emp.nombre}" onerror="this.parentElement.innerHTML='<span class=empresa-logo-placeholder>${emp.nombre[0]}</span>'">`
+    ? `<img src="${logoSrc}" alt="${emp.nombre}" fetchpriority="high" onerror="this.parentElement.innerHTML='<span class=empresa-logo-placeholder>${emp.nombre[0]}</span>'">`
     : `<span class="empresa-logo-placeholder">${emp.nombre[0]}</span>`;
 
   const isDark = LOGOS_DARK.includes(emp.id);
