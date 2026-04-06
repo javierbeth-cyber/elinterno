@@ -359,7 +359,7 @@ function generatePage(emp) {
       </svg>
       El Interno
     </a>
-    <a href="https://docs.google.com/forms/d/1PE9o66InYWImPOK86dJK9kzq2BmRucWub5KOmPAEz04/viewform" target="_blank" class="btn-resena">
+    <a href="${formUrl}" target="_blank" class="btn-resena">
       Deja tu reseña
     </a>
   </div>
@@ -587,7 +587,7 @@ console.log(`✓ ${generadas} páginas generadas en empresa/{id}/index.html`);
       </svg>
       El Interno
     </a>
-    <a href="https://docs.google.com/forms/d/1PE9o66InYWImPOK86dJK9kzq2BmRucWub5KOmPAEz04/viewform" target="_blank" class="btn-resena">
+    <a href="${formUrl}" target="_blank" class="btn-resena">
       Deja tu reseña
     </a>
   </div>
