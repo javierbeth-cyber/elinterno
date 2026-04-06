@@ -366,6 +366,25 @@
     "logo": "assets/logos/bci.svg",
     "resenas": [
       {
+        "id": 125,
+        "fecha": "2026-04-05",
+        "tiempo": "1 a 3 años",
+        "sigue": "No",
+        "cal_general": 3,
+        "sueldo": "en el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": "Muy bueno",
+        "liderazgo": "Muy malo",
+        "cultura": "Bueno",
+        "que_bien": "Beneficios",
+        "que_mal": "Liderazgo de jefatura directa",
+        "que_desearias": "Actitudes de quien ne lideraba",
+        "recomienda": "No",
+        "area": "Producto",
+        "consejo_gerencia": "Mi CPO tenía cero liderazgo",
+        "votos": 0
+      },
+      {
         "id": 48,
         "fecha": "2026-03-24",
         "tiempo": "Más de 3 años",
@@ -385,15 +404,15 @@
         "votos": 0
       }
     ],
-    "total_resenas": 1,
-    "promedio": 5,
+    "total_resenas": 2,
+    "promedio": 4,
     "prom_sueldo": null,
     "prom_carrera": null,
     "prom_flexibilidad": 5,
     "prom_liderazgo": 5,
     "prom_cultura": 5,
-    "resumen_bien": "Cultura, flexibilidad y beneficios",
-    "resumen_mal": null
+    "resumen_bien": "Beneficios, cultura y flexibilidad.",
+    "resumen_mal": "Liderazgo de jefatura directa."
   },
   {
     "id": "brass-chile",
