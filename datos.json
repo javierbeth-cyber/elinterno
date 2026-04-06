@@ -2445,6 +2445,25 @@
     "logo": "assets/logos/lirmi.png",
     "resenas": [
       {
+        "id": 124,
+        "fecha": "2026-04-05",
+        "tiempo": "Más de 3 años",
+        "sigue": "No",
+        "cal_general": 1,
+        "sueldo": "en el mercado",
+        "carrera": "crecimiento moderado",
+        "flexibilidad": "Bueno",
+        "liderazgo": "Muy malo",
+        "cultura": "Muy malo",
+        "que_bien": "Era remoto, se podia trabajar extranjero",
+        "que_mal": "Líderes muy egocêntricos, no te escuchan, hacen lo que quieren, autoritários y te hechan como si no fueras nada, echan los empleados no chilenos sin derecho a literalmente nada, ni las vacaciones no usadas se paga, por mas que trabajaste mas de 4 años nadie por lo menos hace un meet contigo para sacarte, ni correo, nada es un total ghosting.",
+        "que_desearias": "Saber que la gente a ellos lo valen nada, solo se importan con sus familiares que están dentro.",
+        "recomienda": "No",
+        "area": "Comercial",
+        "consejo_gerencia": "De que vale muchas veces haber tenido un tiempo dentro de la companhia si después la desvinculación es extremadamente desumana.",
+        "votos": 0
+      },
+      {
         "id": 20,
         "fecha": "2026-03-23",
         "tiempo": "Más de 3 años",
@@ -2578,15 +2597,15 @@
         "votos": 0
       }
     ],
-    "total_resenas": 7,
+    "total_resenas": 8,
     "promedio": 1.3,
     "prom_sueldo": null,
     "prom_carrera": null,
     "prom_flexibilidad": 1,
     "prom_liderazgo": 1,
     "prom_cultura": 2,
-    "resumen_bien": "Flexibilidad y teletrabajo 100%, buenos beneficios y compañerismo. El producto tiene impacto real en educación.",
-    "resumen_mal": "Liderazgo deficiente y empresa manejada como negocio familiar: metas imposibles, bonos prometidos que no se pagan y despidos masivos mal gestionados."
+    "resumen_bien": "Trabajo remoto/flexible, impacto educativo, producto excelente, compañeros unidos, beneficios.",
+    "resumen_mal": "Liderazgo egocéntrico/autoritario, despidos inhumanos/discriminatorios, falta de claridad/transparencia, cultura tóxica, gestión familiar."
   },
   {
     "id": "mercado-libre-chile",
