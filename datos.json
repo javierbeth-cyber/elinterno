@@ -3981,9 +3981,9 @@
   },
   {
     "id": "underpizza",
-    "nombre": "underpizza",
+    "nombre": "Underpizza",
     "rubro": "Retail",
-    "logo": "https://icons.duckduckgo.com/ip3/underpizza.cl.ico",
+    "logo": "assets/logos/underpizza.png",
     "resenas": [
       {
         "id": 123,
@@ -4000,8 +4000,8 @@
         "que_mal": "condiciones ambientales laborales\ncarga laboral",
         "que_desearias": "la explotacion laboral descarada del sector",
         "recomienda": "No",
-        "area": "asdf",
-        "consejo_gerencia": "dejen de wear con sus mermas culias mal contabilizadas no tengo responsabilidad de que no cuenten las pizzas que se botan porque se enfrian\narreglen la cagada de ventilacion que no es capaz de sacar el calor de 3 hornos",
+        "area": null,
+        "consejo_gerencia": null,
         "votos": 0
       }
     ],
