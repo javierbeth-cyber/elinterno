@@ -207,6 +207,19 @@
       gap: 10px;
       flex-wrap: wrap;
     }
+    .btn-dejar-resena {
+      display: inline-block;
+      margin-top: 12px;
+      background: #3b82f6;
+      color: #fff;
+      border-radius: 8px;
+      padding: 8px 16px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .btn-dejar-resena:hover { background: #2563eb; }
     .stars { display: flex; gap: 2px; }
     .star { font-size: 20px; }
     .rating-big { font-size: 28px; font-weight: 700; }
@@ -606,7 +619,7 @@
 
 <div id="empresa-header"><div class="empresa-header">
       <div class="empresa-header-inner">
-        <div class="empresa-logo"><img src="/assets/logos/touch.png" alt="Touch" onerror="this.parentElement.innerHTML='<span class=empresa-logo-placeholder>T</span>'"></div>
+        <div class="empresa-logo"><img src="/assets/logos/touch.png" alt="Touch" fetchpriority="high" onerror="this.parentElement.innerHTML='<span class=empresa-logo-placeholder>T</span>'"></div>
         <div class="empresa-info">
           <h1 class="empresa-nombre">Touch</h1>
           <span class="empresa-rubro">Contratación de personal</span>
@@ -615,11 +628,12 @@
             <span class="rating-big">1.5</span>
             <span class="rating-label">2 reseñas</span>
           </div>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeBUPzA-QeBHGHRKhhywXf_VWuYpK25JVVRRefKfz-FzgjPyw/viewform?usp=pp_url&entry.972487256=Touch" target="_blank" rel="noopener" class="btn-dejar-resena">¿Trabajaste aquí? Deja tu reseña</a>
         </div>
       </div>
     </div></div>
 
-<main class="main" id="main"><div class="resumen"><div class="resumen-title">Resumen</div><div class="resumen-grid"><div class="resumen-item"><span class="resumen-label">Sueldo</span><span class="badge-cualitativo">Bajo el mercado</span><span class="badge-cualitativo-sub" onclick="toggleDist('sueldo')">1 de 2 opinan esto ▾</span><div class="dist-wrap" id="dist-sueldo"><div class="dist-row"><span class="dist-row-label">bajo el mercado</span><div class="dist-bar-bg"><div class="dist-bar-fill" style="width:50%"></div></div><span class="dist-count">1</span></div><div class="dist-row"><span class="dist-row-label">en el mercado</span><div class="dist-bar-bg"><div class="dist-bar-fill" style="width:50%"></div></div><span class="dist-count">1</span></div><div class="dist-row"><span class="dist-row-label">sobre el mercado</span><div class="dist-bar-bg"><div class="dist-bar-fill" style="width:0%"></div></div><span class="dist-count">0</span></div></div></div><div class="resumen-item"><span class="resumen-label">Crecimiento</span><span class="badge-cualitativo">Pocas oportunidades</span><span class="badge-cualitativo-sub" onclick="toggleDist('carrera')">1 de 2 opinan esto ▾</span><div class="dist-wrap" id="dist-carrera"><div class="dist-row"><span class="dist-row-label">pocas oportunidades</span><div class="dist-bar-bg"><div class="dist-bar-fill" style="width:50%"></div></div><span class="dist-count">1</span></div><div class="dist-row"><span class="dist-row-label">moderado</span><div class="dist-bar-bg"><div class="dist-bar-fill" style="width:50%"></div></div><span class="dist-count">1</span></div><div class="dist-row"><span class="dist-row-label">muchas oportunidades</span><div class="dist-bar-bg"><div class="dist-bar-fill" style="width:0%"></div></div><span class="dist-count">0</span></div></div></div></div><div class="resumen-stats"><div class="resumen-stat-item"><strong>2 de 2</strong> no lo recomiendan para trabajar ahí</div><div class="resumen-stat-item"><strong>0%</strong> sigue trabajando ahí</div></div><div class="highlights"><div class="highlight-card highlight-card-bien"><div class="highlight-label">✅ Lo que más valoran*</div><div class="highlight-text">Algunos beneficios.</div></div><div class="highlight-card highlight-card-mal"><div class="highlight-label">❌ Principal queja*</div><div class="highlight-text">Liderazgo cuestionable desde la dirección, jefaturas sin rumbo claro y mal ambiente laboral.</div></div></div><div class="resumen-ia-note">* Resumen generado con IA a partir de 2 reseñas</div></div><div class="section-title">2 reseñas</div><div class="resena" id="resena-47">
+<main class="main" id="main"><div class="resumen"><div class="resumen-title">Resumen</div><div class="resumen-grid"><div class="resumen-item"><span class="resumen-label">Sueldo</span><span class="badge-cualitativo">Bajo el mercado</span><span class="badge-cualitativo-sub" onclick="toggleDist('sueldo')">1 de 2 opinan esto ▾</span><div class="dist-wrap" id="dist-sueldo"><div class="dist-row"><span class="dist-row-label">bajo el mercado</span><div class="dist-bar-bg"><div class="dist-bar-fill" style="width:50%"></div></div><span class="dist-count">1</span></div><div class="dist-row"><span class="dist-row-label">en el mercado</span><div class="dist-bar-bg"><div class="dist-bar-fill" style="width:50%"></div></div><span class="dist-count">1</span></div><div class="dist-row"><span class="dist-row-label">sobre el mercado</span><div class="dist-bar-bg"><div class="dist-bar-fill" style="width:0%"></div></div><span class="dist-count">0</span></div></div></div><div class="resumen-item"><span class="resumen-label">Crecimiento</span><span class="badge-cualitativo">Pocas oportunidades</span><span class="badge-cualitativo-sub" onclick="toggleDist('carrera')">1 de 2 opinan esto ▾</span><div class="dist-wrap" id="dist-carrera"><div class="dist-row"><span class="dist-row-label">pocas oportunidades</span><div class="dist-bar-bg"><div class="dist-bar-fill" style="width:50%"></div></div><span class="dist-count">1</span></div><div class="dist-row"><span class="dist-row-label">moderado</span><div class="dist-bar-bg"><div class="dist-bar-fill" style="width:50%"></div></div><span class="dist-count">1</span></div><div class="dist-row"><span class="dist-row-label">muchas oportunidades</span><div class="dist-bar-bg"><div class="dist-bar-fill" style="width:0%"></div></div><span class="dist-count">0</span></div></div></div></div><div class="resumen-stats"><div class="resumen-stat-item"><strong>2 de 2</strong> no lo recomiendan para trabajar ahí</div><div class="resumen-stat-item"><strong>0%</strong> sigue trabajando ahí</div></div><div class="highlights"><div class="highlight-card highlight-card-bien"><div class="highlight-label">✅ Lo que más valoran*</div><div class="highlight-text">Nada</div></div><div class="highlight-card highlight-card-mal"><div class="highlight-label">❌ Principal queja*</div><div class="highlight-text">Liderazgo cuestionable desde la dirección, sin rumbo claro y mal ambiente laboral generalizado.</div></div></div><div class="resumen-ia-note">* Resumen generado con IA a partir de 2 reseñas</div></div><div class="section-title">2 reseñas</div><div class="resena" id="resena-47">
       <div class="resena-header">
         <div class="stars"><span class="star" style="font-size:16px">⭐</span><span class="star" style="font-size:16px">☆</span><span class="star" style="font-size:16px">☆</span><span class="star" style="font-size:16px">☆</span><span class="star" style="font-size:16px">☆</span></div>
         <span class="resena-rating">1/5</span>

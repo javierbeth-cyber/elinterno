@@ -207,6 +207,19 @@
       gap: 10px;
       flex-wrap: wrap;
     }
+    .btn-dejar-resena {
+      display: inline-block;
+      margin-top: 12px;
+      background: #3b82f6;
+      color: #fff;
+      border-radius: 8px;
+      padding: 8px 16px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .btn-dejar-resena:hover { background: #2563eb; }
     .stars { display: flex; gap: 2px; }
     .star { font-size: 20px; }
     .rating-big { font-size: 28px; font-weight: 700; }
@@ -606,7 +619,7 @@
 
 <div id="empresa-header"><div class="empresa-header">
       <div class="empresa-header-inner">
-        <div class="empresa-logo"><img src="/assets/logos/transbank.svg" alt="Transbank" onerror="this.parentElement.innerHTML='<span class=empresa-logo-placeholder>T</span>'"></div>
+        <div class="empresa-logo"><img src="/assets/logos/transbank.svg" alt="Transbank" fetchpriority="high" onerror="this.parentElement.innerHTML='<span class=empresa-logo-placeholder>T</span>'"></div>
         <div class="empresa-info">
           <h1 class="empresa-nombre">Transbank</h1>
           <span class="empresa-rubro">Banca y finanzas</span>
@@ -615,6 +628,7 @@
             <span class="rating-big">2</span>
             <span class="rating-label">1 reseña</span>
           </div>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeBUPzA-QeBHGHRKhhywXf_VWuYpK25JVVRRefKfz-FzgjPyw/viewform?usp=pp_url&entry.972487256=Transbank" target="_blank" rel="noopener" class="btn-dejar-resena">¿Trabajaste aquí? Deja tu reseña</a>
         </div>
       </div>
     </div></div>
