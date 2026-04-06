@@ -236,6 +236,9 @@ function generatePage(emp) {
 
   const isDark = LOGOS_DARK.includes(emp.id);
 
+  // URL pre-llenada del formulario con el nombre de la empresa
+  const formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSeBUPzA-QeBHGHRKhhywXf_VWuYpK25JVVRRefKfz-FzgjPyw/viewform?usp=pp_url&entry.972487256=' + encodeURIComponent(emp.nombre);
+
   // Empresa header pre-renderizado
   const empresaHeaderHtml = `<div class="empresa-header">
       <div class="empresa-header-inner">
@@ -248,6 +251,7 @@ function generatePage(emp) {
             ${emp.promedio ? `<span class="rating-big">${emp.promedio}</span>` : ''}
             <span class="rating-label">${totalRes} reseña${totalRes !== 1 ? 's' : ''}</span>
           </div>
+          <a href="${formUrl}" target="_blank" rel="noopener" class="btn-dejar-resena">¿Trabajaste aquí? Deja tu reseña</a>
         </div>
       </div>
     </div>`;

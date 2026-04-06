@@ -205,6 +205,19 @@
       gap: 10px;
       flex-wrap: wrap;
     }
+    .btn-dejar-resena {
+      display: inline-block;
+      margin-top: 12px;
+      background: #3b82f6;
+      color: #fff;
+      border-radius: 8px;
+      padding: 8px 16px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .btn-dejar-resena:hover { background: #2563eb; }
     .stars { display: flex; gap: 2px; }
     .star { font-size: 20px; }
     .rating-big { font-size: 28px; font-weight: 700; }
@@ -1034,6 +1047,7 @@
                 <span class="rating-label">${emp.total_resenas} reseña${emp.total_resenas !== 1 ? 's' : ''}</span>
               </div>
               ${subcatsHtml ? `<div class="subcats-row">${subcatsHtml}</div>` : ''}
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeBUPzA-QeBHGHRKhhywXf_VWuYpK25JVVRRefKfz-FzgjPyw/viewform?usp=pp_url&entry.972487256=${encodeURIComponent(emp.nombre)}" target="_blank" rel="noopener" class="btn-dejar-resena">¿Trabajaste aquí? Deja tu reseña</a>
             </div>
           </div>
         </div>`;
