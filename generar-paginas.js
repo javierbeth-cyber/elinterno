@@ -587,7 +587,7 @@ console.log(`✓ ${generadas} páginas generadas en empresa/{id}/index.html`);
       </svg>
       El Interno
     </a>
-    <a href="${formUrl}" target="_blank" class="btn-resena">
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeBUPzA-QeBHGHRKhhywXf_VWuYpK25JVVRRefKfz-FzgjPyw/viewform" target="_blank" class="btn-resena">
       Deja tu reseña
     </a>
   </div>
