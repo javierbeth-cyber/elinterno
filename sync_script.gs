@@ -271,17 +271,27 @@ function callGemini(prompt) {
 function generarResumen(resenas) {
   var textos = resenas.map(function(r) {
     var parts = [];
-    if (r.que_bien) parts.push('Positivo: ' + r.que_bien);
-    if (r.que_mal)  parts.push('Negativo: ' + r.que_mal);
+    if (r.que_bien)      parts.push('Positivo: ' + r.que_bien);
+    if (r.que_mal)       parts.push('Negativo: ' + r.que_mal);
+    if (r.que_desearias) parts.push('Desearía haber sabido: ' + r.que_desearias);
     return parts.join('\n');
   }).filter(Boolean).join('\n\n');
 
   var prompt =
-    'Sintetiza estas reseñas laborales en máximo 20 palabras por campo.\n\n' +
+    'Eres un asistente que sintetiza reseñas laborales anónimas de una empresa chilena.\n\n' +
+    'A partir de las siguientes reseñas genera dos campos:\n' +
+    '- resumen_bien: los aspectos positivos más recurrentes. Máximo 25 palabras.\n' +
+    '- resumen_mal: los aspectos negativos o problemas más recurrentes. Máximo 25 palabras.\n\n' +
+    'Reglas:\n' +
+    '- Identifica temas comunes entre reseñas, no copies frases textuales.\n' +
+    '- Incluye solo información que aparece explícitamente en las reseñas.\n' +
+    '- Tono neutro e informativo, útil para alguien que evalúa postular a esta empresa.\n' +
+    '- Si el contenido positivo es escaso o inexistente, escribe null en resumen_bien.\n' +
+    '- Si el contenido negativo es escaso o inexistente, escribe null en resumen_mal.\n\n' +
+    'Reseñas:\n' +
     textos + '\n\n' +
     'Responde SOLO con este JSON (sin markdown, sin texto extra):\n' +
-    '{"resumen_bien":"...","resumen_mal":"..."}\n' +
-    'Si no hay positivos escribe null en resumen_bien. Si no hay negativos escribe null en resumen_mal.';
+    '{"resumen_bien":"...","resumen_mal":"..."}';
 
   var text = callGemini(prompt);
   if (!text) return null;
