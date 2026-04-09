@@ -251,7 +251,7 @@ function generatePage(emp) {
             ${emp.promedio ? `<span class="rating-big">${emp.promedio}</span>` : ''}
             <span class="rating-label">${totalRes} reseña${totalRes !== 1 ? 's' : ''}</span>
           </div>
-          <a href="${formUrl}" target="_blank" rel="noopener" class="btn-dejar-resena">¿Trabajaste aquí? Deja tu reseña</a>
+          <a href="${formUrl}" target="_blank" rel="noopener" class="btn-dejar-resena" onclick="gtag('event','form_cta_click',{empresa:${JSON.stringify(emp.nombre)},ubicacion:'header'})">¿Trabajaste aquí? Deja tu reseña</a>
         </div>
       </div>
     </div>`;
@@ -359,7 +359,7 @@ function generatePage(emp) {
       </svg>
       El Interno
     </a>
-    <a href="${formUrl}" target="_blank" class="btn-resena">
+    <a href="${formUrl}" target="_blank" class="btn-resena" onclick="gtag('event','form_cta_click',{empresa:${JSON.stringify(emp.nombre)},ubicacion:'nav'})">
       Deja tu reseña
     </a>
   </div>
