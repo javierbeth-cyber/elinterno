@@ -216,6 +216,42 @@
     "resumen_mal": "Podría poner gente más capacitada a nivel técnico el personaje que era TL dejaba mucho que desear con desiciones poco escalables , e invertir en crecimiento profesional mediante academias online"
   },
   {
+    "id": "aone-games",
+    "nombre": "AOne Games",
+    "rubro": "Desarrollo de videojuegos",
+    "logo": "https://icons.duckduckgo.com/ip3/aone-games.cl.ico",
+    "resenas": [
+      {
+        "id": 126,
+        "fecha": "2026-04-08",
+        "tiempo": "Más de 3 años",
+        "sigue": "No",
+        "cal_general": 3,
+        "sueldo": "bajo el mercado",
+        "carrera": "crecimiento moderado",
+        "flexibilidad": "Bueno",
+        "liderazgo": "Malo",
+        "cultura": "Bueno",
+        "que_bien": "Tiene buen ambiente ya que los compañeros de trabajo buenos",
+        "que_mal": "La actitud del [cargo omitido] de liderazgo vs mal manejo de la plata de la empresa.",
+        "que_desearias": "Que no hay flujo normal de caja, a veces te pagan el sueldo a veces no. Uno casi termina trabajando gratis por el desfaz de pago.",
+        "recomienda": "No",
+        "area": "Producto",
+        "consejo_gerencia": "Que sepa organizar bien las platas, que sea austero.",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 3,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null,
+    "resumen_bien": "Tiene buen ambiente ya que los compañeros de trabajo buenos",
+    "resumen_mal": "La actitud del [cargo omitido] de liderazgo vs mal manejo de la plata de la empresa."
+  },
+  {
     "id": "atcom-outsourcing",
     "nombre": "Atcom Outsourcing",
     "rubro": "Tecnología",
@@ -3981,7 +4017,7 @@
   },
   {
     "id": "underpizza",
-    "nombre": "Underpizza",
+    "nombre": "underpizza",
     "rubro": "Retail",
     "logo": "assets/logos/underpizza.png",
     "resenas": [
@@ -4000,8 +4036,8 @@
         "que_mal": "condiciones ambientales laborales\ncarga laboral",
         "que_desearias": "la explotacion laboral descarada del sector",
         "recomienda": "No",
-        "area": null,
-        "consejo_gerencia": null,
+        "area": "asdf",
+        "consejo_gerencia": "dejen de wear con sus mermas culias mal contabilizadas no tengo responsabilidad de que no cuenten las pizzas que se botan porque se enfrian\narreglen la cagada de ventilacion que no es capaz de sacar el calor de 3 hornos",
         "votos": 0
       }
     ],
