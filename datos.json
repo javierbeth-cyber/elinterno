@@ -252,6 +252,42 @@
     "resumen_mal": "La actitud del [cargo omitido] de liderazgo vs mal manejo de la plata de la empresa."
   },
   {
+    "id": "arcor-chile",
+    "nombre": "Arcor Chile",
+    "rubro": "Retail",
+    "logo": "https://icons.duckduckgo.com/ip3/arcor-chile.cl.ico",
+    "resenas": [
+      {
+        "id": 127,
+        "fecha": "2026-04-09",
+        "tiempo": "Más de 3 años",
+        "sigue": "No",
+        "cal_general": 4,
+        "sueldo": "sobre el mercado",
+        "carrera": "muchas oportunidades",
+        "flexibilidad": "Bueno",
+        "liderazgo": "Bueno",
+        "cultura": "Muy bueno",
+        "que_bien": "Beneficios y desarrollo profesional.",
+        "que_mal": "Problemas de liderazgo",
+        "que_desearias": "Arcor es una empresa que te entrega todas las herramientas para desarrollarte y si bien no tiene un buen proceso \"On boarding\", los mismos profesionales de cada área hacen posible la integración de las personas nuevas porque tiene un ambiente laboral muy positivo entre compañeros y áreas relacionadas.",
+        "recomienda": "Sí",
+        "area": "Comercial",
+        "consejo_gerencia": "Coaching de liderazgo para los gerentes con objetivos y plazos bien definidos, mediante evaluación y toma de decisiones finalizado el período.",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 4,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null,
+    "resumen_bien": "Beneficios y desarrollo profesional.",
+    "resumen_mal": "Problemas de liderazgo"
+  },
+  {
     "id": "atcom-outsourcing",
     "nombre": "Atcom Outsourcing",
     "rubro": "Tecnología",
