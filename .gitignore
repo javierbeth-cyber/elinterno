@@ -1,0 +1,4 @@
+
+# Scripts internos — no exponer lógica del pipeline
+sync_script.gs
+sync_script.js
