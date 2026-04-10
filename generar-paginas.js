@@ -21,6 +21,16 @@ const CARRERA_OPTIONS = ['pocas oportunidades', 'moderado', 'muchas oportunidade
 const ESCALA_OPTIONS = ['Muy malo', 'Malo', 'Bueno', 'Muy bueno'];
 const LOGOS_DARK = ['corporacion-3xi','clickie','e-contact','echeverria-izquierdo','isamax','timix-chile'];
 
+function escapeHtml(str) {
+  if (!str) return str;
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
 const CARGO_PALABRAS = ['gerente','gerenta','subgerente','director','directora',
   'jefe','jefa','coordinador','coordinadora','supervisor','supervisora',
   'encargado','encargada','líder','lider','analista','desarrollador','desarrolladora',
@@ -79,7 +89,7 @@ function formatFecha(fecha) {
 
 function bloque(tipo, icono, label, texto) {
   if (!texto) return '';
-  return `<div class="bloque bloque-${tipo}"><div class="bloque-label">${icono} ${label}</div><div class="bloque-text">${texto}</div></div>`;
+  return `<div class="bloque bloque-${tipo}"><div class="bloque-label">${icono} ${label}</div><div class="bloque-text">${escapeHtml(texto)}</div></div>`;
 }
 
 function badgeRecomienda(val) {
@@ -165,8 +175,8 @@ function renderResumen(emp) {
     var labelBien = usaIA ? '✅ Lo que más valoran*' : '✅ Lo que más valoran';
     var labelMal  = usaIA ? '❌ Principal queja*'    : '❌ Principal queja';
     highlightsHtml = '<div class="highlights">';
-    if (highlightBien) highlightsHtml += '<div class="highlight-card highlight-card-bien"><div class="highlight-label">' + labelBien + '</div><div class="highlight-text">' + highlightBien + '</div></div>';
-    if (highlightMal)  highlightsHtml += '<div class="highlight-card highlight-card-mal"><div class="highlight-label">'  + labelMal  + '</div><div class="highlight-text">' + highlightMal  + '</div></div>';
+    if (highlightBien) highlightsHtml += '<div class="highlight-card highlight-card-bien"><div class="highlight-label">' + labelBien + '</div><div class="highlight-text">' + escapeHtml(highlightBien) + '</div></div>';
+    if (highlightMal)  highlightsHtml += '<div class="highlight-card highlight-card-mal"><div class="highlight-label">'  + labelMal  + '</div><div class="highlight-text">' + escapeHtml(highlightMal)  + '</div></div>';
     highlightsHtml += '</div>';
     if (usaIA) highlightsHtml += '<div class="resumen-ia-note">* Resumen generado con IA a partir de ' + resenas.length + ' reseñas</div>';
   }
@@ -192,8 +202,8 @@ function renderResena(r) {
       <div class="resena-header">
         ${stars(r.cal_general, 16)}
         ${r.cal_general ? `<span class="resena-rating">${r.cal_general}/5</span>` : ''}
-        ${r.tiempo ? `<span class="resena-tiempo">${r.tiempo}</span>` : ''}
-        ${r.area && r.area !== 'Prefiero no decirlo' ? `<span class="resena-tiempo">${r.area}</span>` : ''}
+        ${r.tiempo ? `<span class="resena-tiempo">${escapeHtml(r.tiempo)}</span>` : ''}
+        ${r.area && r.area !== 'Prefiero no decirlo' ? `<span class="resena-tiempo">${escapeHtml(r.area)}</span>` : ''}
         ${r.sigue ? (String(r.sigue).toLowerCase().startsWith('s')
           ? `<span class="badge-sigue badge-sigue-si">Sigue trabajando ahí</span>`
           : `<span class="badge-sigue badge-sigue-no">Ya no trabaja ahí</span>`) : ''}
