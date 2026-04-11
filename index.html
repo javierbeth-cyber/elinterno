@@ -537,6 +537,16 @@
 <script>
   let empresas = [];
 
+  function escapeHtml(str) {
+    if (!str) return str;
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
   function stars(rating, max = 5) {
     if (!rating) return '<span style="color:var(--text-muted);font-size:13px">Sin calificación</span>';
     let html = '<div class="stars">';
@@ -660,8 +670,8 @@
         <div class="card-header">
           <div class="card-logo${isDarkLogo(emp.id) ? ' logo-dark' : ''}">${logoHtml(emp)}</div>
           <div class="card-info">
-            <div class="card-nombre">${emp.nombre}</div>
-            <span class="card-rubro">${emp.rubro || 'Sin rubro'}</span>
+            <div class="card-nombre">${escapeHtml(emp.nombre)}</div>
+            <span class="card-rubro">${escapeHtml(emp.rubro || 'Sin rubro')}</span>
           </div>
         </div>
         <div class="card-rating">
