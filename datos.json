@@ -487,6 +487,42 @@
     "resumen_mal": "Liderazgo débil en jefaturas directas. Sueldos de entrada difíciles de mejorar con el tiempo."
   },
   {
+    "id": "bermann-gps",
+    "nombre": "Bermann GPS",
+    "rubro": "Tecnología",
+    "logo": "https://icons.duckduckgo.com/ip3/bermann-gps.cl.ico",
+    "resenas": [
+      {
+        "id": 129,
+        "fecha": "2026-04-14",
+        "tiempo": "1 a 3 años",
+        "sigue": "Sí",
+        "cal_general": 1,
+        "sueldo": "bajo el mercado",
+        "carrera": "crecimiento moderado",
+        "flexibilidad": "Muy malo",
+        "liderazgo": "Malo",
+        "cultura": "Bueno",
+        "que_bien": null,
+        "que_mal": "Poca o nula comunicación entre áreas, mucha gente toxica.",
+        "que_desearias": "El mal ambiente laboral que genera la envidia de otras personas dentro de esta empresa.",
+        "recomienda": "No",
+        "area": "Comercial",
+        "consejo_gerencia": "Que haga una limpieza porque no todos quieren que la empreza crezca, hay algunos que sólo quieren que se vayan los clientes porque son \"muy exigentes\"",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null,
+    "resumen_bien": null,
+    "resumen_mal": "Poca o nula comunicación entre áreas, mucha gente toxica."
+  },
+  {
     "id": "brass-chile",
     "nombre": "BRASS Chile",
     "rubro": "Minería",
@@ -637,6 +673,25 @@
     "logo": "assets/logos/cencosud.svg",
     "resenas": [
       {
+        "id": 128,
+        "fecha": "2026-04-13",
+        "tiempo": "Más de 3 años",
+        "sigue": "Sí",
+        "cal_general": 2,
+        "sueldo": "bajo el mercado",
+        "carrera": "crecimiento moderado",
+        "flexibilidad": "Bueno",
+        "liderazgo": "Muy malo",
+        "cultura": "Malo",
+        "que_bien": "Creo que en los últimos años cambio bastante, antes era peor, hoy se puede conversar con las jefatura de manera mas directa y te escuchan, otra cosa es que realmente tomen la opinión de uno.",
+        "que_mal": "Falta de un claro liderazgo, hay que estar haciendo lo que dice el [cargo omitido]. Si bien uno puede opinar, buscan gente que sea una herramienta y hagan lo que pide la persona de arriba.",
+        "que_desearias": "Para poder crecer en la organización deber venir de un colegio reconocido (The Grange School) y que no te van a subir el sueldo, a menos que vengas con una carta de oferta.",
+        "recomienda": "No",
+        "area": "Comercial",
+        "consejo_gerencia": "Trabajar mejor el liderazgo, se nota que muchas veces improvisan y cuando no resultan, a uno le echan la culpa.",
+        "votos": 0
+      },
+      {
         "id": 115,
         "fecha": "2026-03-31",
         "tiempo": "1 a 3 años",
@@ -694,15 +749,15 @@
         "votos": 0
       }
     ],
-    "total_resenas": 3,
-    "promedio": 2.7,
+    "total_resenas": 4,
+    "promedio": 2.5,
     "prom_sueldo": null,
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
     "prom_cultura": null,
-    "resumen_bien": "Treceavo sueldo, bono anual y ritmo de trabajo acelerado que convierte la empresa en una buena escuela.",
-    "resumen_mal": "Fuerte amiguismo y clasismo en ascensos. Liderazgos débiles, metas infladas para no pagar bonos y cultura donde vender humo prima sobre resultados."
+    "resumen_bien": "Mejora en la comunicación con jefaturas, ofrece un treceavo sueldo y bono, y es una excelente escuela para aprender rápido.",
+    "resumen_mal": "Liderazgo débil y desorientador, amiguismo y elitismo, ambiente competitivo y tóxico, y valoración del \"vender humo\" sobre resultados."
   },
   {
     "id": "chita-factoring",
