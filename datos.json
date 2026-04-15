@@ -3169,6 +3169,42 @@
     "resumen_mal": "Lideres vende humo, alta rotación, sueldos muy bajos, horas extras impagas."
   },
   {
+    "id": "quillayes-surlat",
+    "nombre": "Quillayes Surlat",
+    "rubro": "Consumo Masivo",
+    "logo": "https://icons.duckduckgo.com/ip3/quillayes-surlat.cl.ico",
+    "resenas": [
+      {
+        "id": 130,
+        "fecha": "2026-04-15",
+        "tiempo": "1 a 3 años",
+        "sigue": "No",
+        "cal_general": 1,
+        "sueldo": "en el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": "Muy malo",
+        "liderazgo": "Muy malo",
+        "cultura": "Malo",
+        "que_bien": "Beneficios como 3 días extra de vacaciones y caja mensual",
+        "que_mal": "Incentivos perversos como que el puntaje del clima del área afecte tu bono. Si haces una denuncia te despiden. Bono imposible de lograr.",
+        "que_desearias": "Empresa con cultura de patrón de fundo 1000%, todos con miedo de opinar, humillados en reuniones masivas de gerentes hacia abajo, a todos le puede tocar.",
+        "recomienda": "No",
+        "area": "Prefiero no decirlo",
+        "consejo_gerencia": "Eliminar incentivos perversos, metas realistas, cambio de cultura urgente",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null,
+    "resumen_bien": "Beneficios como 3 días extra de vacaciones y caja mensual",
+    "resumen_mal": "Incentivos perversos como que el puntaje del clima del área afecte tu bono. Si haces una denuncia te despiden. Bono imposible de lograr."
+  },
+  {
     "id": "r-y-c-consultores",
     "nombre": "R y C Consultores",
     "rubro": "Consultoría",
