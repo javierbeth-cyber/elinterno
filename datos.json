@@ -2405,6 +2405,42 @@
     "resumen_mal": "Cuando en una vacante ponen que suben sueldo anual, no es la realidad, solo sube por IPC pero no por el desempeño (tengo excelente desempeño recomendado por cliente y la [cargo omitido], sin embargo al estar en el sindicato hay bonos decentes."
   },
   {
+    "id": "kiosclub",
+    "nombre": "Kiosclub",
+    "rubro": "Retail",
+    "logo": "https://icons.duckduckgo.com/ip3/kiosclub.cl.ico",
+    "resenas": [
+      {
+        "id": 132,
+        "fecha": "2026-04-15",
+        "tiempo": "6 meses a 1 año",
+        "sigue": "No",
+        "cal_general": 1,
+        "sueldo": "bajo el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": "Malo",
+        "liderazgo": "Malo",
+        "cultura": "Malo",
+        "que_bien": "Ubicación",
+        "que_mal": "Sacar a los amigos y familiares de cargos de la empresa, poner gente técnica, llegarían mucho más lejos con gente con conocimiento y experiencia",
+        "que_desearias": "Que nadie dura en marketing mas de 6 meses, miren el historial de búsqueda de vacantes, esto se debe a 1 sola persona que ni siquiera está en la jerarquía de la empresa sino que es familia, pero sin experiencia en el rol como se requiere hoy.",
+        "recomienda": "No",
+        "area": "Marketing",
+        "consejo_gerencia": "Saquen a la familia y amigos sin conocimiento suficiente en los roles, por culpa de ellos rota tanta gente en la empresa",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null,
+    "resumen_bien": "Ubicación",
+    "resumen_mal": "Sacar a los amigos y familiares de cargos de la empresa, poner gente técnica, llegarían mucho más lejos con gente con conocimiento y experiencia"
+  },
+  {
     "id": "komatsu-cummins",
     "nombre": "Komatsu Cummins",
     "rubro": "Minería",
