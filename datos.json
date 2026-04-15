@@ -3463,6 +3463,25 @@
     "logo": "assets/logos/smu-s-a.svg",
     "resenas": [
       {
+        "id": 131,
+        "fecha": "2026-04-15",
+        "tiempo": "1 a 3 años",
+        "sigue": "No",
+        "cal_general": 1,
+        "sueldo": "bajo el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": "Muy malo",
+        "liderazgo": "Muy malo",
+        "cultura": "Muy malo",
+        "que_bien": "Campaña Teletón y ubicación",
+        "que_mal": "Muy jerárquico, gerentes en el Olimpo, diferencias en trato según rol",
+        "que_desearias": "Cultura tan jerárquica y vertical",
+        "recomienda": "No",
+        "area": "Comercial",
+        "consejo_gerencia": "Que alguna vez mantengan la estrategia, cada año distinta, no saben hacia dónde ir",
+        "votos": 0
+      },
+      {
         "id": 26,
         "fecha": "2026-03-23",
         "tiempo": "Más de 3 años",
@@ -3482,15 +3501,15 @@
         "votos": 0
       }
     ],
-    "total_resenas": 1,
-    "promedio": 2,
+    "total_resenas": 2,
+    "promedio": 1.5,
     "prom_sueldo": null,
     "prom_carrera": null,
     "prom_flexibilidad": null,
     "prom_liderazgo": null,
     "prom_cultura": null,
-    "resumen_bien": "beneficios",
-    "resumen_mal": "cultura, flexibilidad, liderazgo, trato"
+    "resumen_bien": "Beneficios y participación en campañas sociales como la Teletón, además de una buena ubicación.",
+    "resumen_mal": "Cultura muy jerárquica, vertical y con liderazgo anticuado, generando maltrato y diferencias de trato."
   },
   {
     "id": "sodexo",
