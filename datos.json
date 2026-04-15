@@ -2477,6 +2477,42 @@
     "resumen_mal": "Sacar a los amigos y familiares de cargos de la empresa, poner gente técnica, llegarían mucho más lejos con gente con conocimiento y experiencia"
   },
   {
+    "id": "kitchen-center",
+    "nombre": "Kitchen Center",
+    "rubro": "Retail",
+    "logo": "https://icons.duckduckgo.com/ip3/kitchen-center.cl.ico",
+    "resenas": [
+      {
+        "id": 134,
+        "fecha": "2026-04-15",
+        "tiempo": "6 meses a 1 año",
+        "sigue": "No",
+        "cal_general": 1,
+        "sueldo": "bajo el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": "Malo",
+        "liderazgo": "Malo",
+        "cultura": "Bueno",
+        "que_bien": "Rubro entretenido",
+        "que_mal": "Malos tratos agravados en Finanzas, gritos, insultos, sarcasmo, muy grave",
+        "que_desearias": "Los malos tratos en Finanzas, clima horroroso",
+        "recomienda": "No",
+        "area": "Finanzas",
+        "consejo_gerencia": "Monitorear y hacer encuestas de clima, tomarlas en serio",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null,
+    "resumen_bien": "Rubro entretenido",
+    "resumen_mal": "Malos tratos agravados en Finanzas, gritos, insultos, sarcasmo, muy grave"
+  },
+  {
     "id": "komatsu-cummins",
     "nombre": "Komatsu Cummins",
     "rubro": "Minería",
