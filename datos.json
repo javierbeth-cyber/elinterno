@@ -1899,6 +1899,42 @@
     "resumen_mal": "La presidenta del directorio y dueña"
   },
   {
+    "id": "gama-italy",
+    "nombre": "Gama Italy",
+    "rubro": "Belleza",
+    "logo": "https://icons.duckduckgo.com/ip3/gama-italy.cl.ico",
+    "resenas": [
+      {
+        "id": 133,
+        "fecha": "2026-04-15",
+        "tiempo": "6 meses a 1 año",
+        "sigue": "No",
+        "cal_general": 1,
+        "sueldo": "bajo el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": "Bueno",
+        "liderazgo": "Muy malo",
+        "cultura": "Malo",
+        "que_bien": "Que ahora hay más presupuesto y se hacen cosas más entretenidas",
+        "que_mal": "Cultura patrón de fundo, rotación extrema jamás vista en otro lado",
+        "que_desearias": "La rotación extrema, los malos tratos, cultura patrón de fundo, errores reiterados de RRHH",
+        "recomienda": "No",
+        "area": "Marketing",
+        "consejo_gerencia": "Si sacan a una persona, esta empresa va a ir a las nubes, no se puede llegar lejos con tanta rotación",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null,
+    "resumen_bien": "Que ahora hay más presupuesto y se hacen cosas más entretenidas",
+    "resumen_mal": "Cultura patrón de fundo, rotación extrema jamás vista en otro lado"
+  },
+  {
     "id": "geovictoria",
     "nombre": "GeoVictoria",
     "rubro": "Tecnología",
