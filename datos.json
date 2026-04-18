@@ -219,7 +219,7 @@
     "id": "aone-games",
     "nombre": "AOne Games",
     "rubro": "Desarrollo de videojuegos",
-    "logo": "https://icons.duckduckgo.com/ip3/aone-games.cl.ico",
+    "logo": "assets/logos/aone-games.png",
     "resenas": [
       {
         "id": 126,
@@ -255,7 +255,7 @@
     "id": "arcor-chile",
     "nombre": "Arcor Chile",
     "rubro": "Retail",
-    "logo": "https://icons.duckduckgo.com/ip3/arcor-chile.cl.ico",
+    "logo": "assets/logos/arcor-chile.png",
     "resenas": [
       {
         "id": 127,
