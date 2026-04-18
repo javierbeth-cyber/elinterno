@@ -71,9 +71,9 @@
   "r-y-c-consultores": "assets/logos/r-y-c-consultores.png",
   "samsung-electronics": "assets/logos/samsung-electronics.jpg",
   "zerviz": "assets/logos/zerviz.png",
-  "callbusiness": null,
-  "clickie": null,
-  "e-contact": null,
-  "echeverria-izquierdo": null,
-  "timix-chile": null
+  "callbusiness": "assets/logos/callbusiness.jpg",
+  "clickie": "assets/logos/clickie.png",
+  "e-contact": "assets/logos/e-contact.png",
+  "echeverria-izquierdo": "assets/logos/echeverria-izquierdo.png",
+  "timix-chile": "assets/logos/timix-chile.png"
 }
