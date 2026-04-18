@@ -36,7 +36,7 @@ const SUELDO_OPTIONS = ['bajo el mercado', 'en el mercado', 'sobre el mercado'];
 const CARRERA_MAP = { 1: 'pocas oportunidades', 2: 'pocas oportunidades', 3: 'moderado', 4: 'muchas oportunidades', 5: 'muchas oportunidades' };
 const CARRERA_OPTIONS = ['pocas oportunidades', 'moderado', 'muchas oportunidades'];
 const ESCALA_OPTIONS = ['Muy malo', 'Malo', 'Bueno', 'Muy bueno'];
-const LOGOS_DARK = ['corporacion-3xi','clickie','e-contact','echeverria-izquierdo','isamax','timix-chile'];
+const LOGOS_DARK = ['corporacion-3xi','clickie','e-contact','echeverria-izquierdo','isamax','timix-chile','kiosclub'];
 
 function escapeHtml(str) {
   if (!str) return str;
