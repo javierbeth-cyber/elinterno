@@ -1,6 +1,23 @@
 const fs = require('fs');
 const path = require('path');
 
+// Auto-sincronizar assets/logos/ → manifest.json
+const manifestPath = './logos/manifest.json';
+const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
+const logoFiles = fs.readdirSync('./assets/logos');
+let manifestChanged = false;
+logoFiles.forEach(function(file) {
+  const id = file.replace(/\.[^.]+$/, '');
+  if (!manifest[id] || manifest[id] === null) {
+    manifest[id] = 'assets/logos/' + file;
+    manifestChanged = true;
+  }
+});
+if (manifestChanged) {
+  fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2), 'utf8');
+  console.log('✓ manifest.json actualizado desde assets/logos/');
+}
+
 const datos = JSON.parse(fs.readFileSync('./datos.json', 'utf8'));
 const empresaHtml = fs.readFileSync('./empresa.html', 'utf8');
 const hoy = new Date().toISOString().split('T')[0];
