@@ -490,7 +490,7 @@
     "id": "bermann-gps",
     "nombre": "Bermann GPS",
     "rubro": "Tecnología",
-    "logo": "https://icons.duckduckgo.com/ip3/bermann-gps.cl.ico",
+    "logo": "assets/logos/bermann-gps.png",
     "resenas": [
       {
         "id": 129,
@@ -2444,7 +2444,7 @@
     "id": "kiosclub",
     "nombre": "Kiosclub",
     "rubro": "Retail",
-    "logo": "https://icons.duckduckgo.com/ip3/kiosclub.cl.ico",
+    "logo": "assets/logos/kiosclub.png",
     "resenas": [
       {
         "id": 132,
@@ -2480,7 +2480,7 @@
     "id": "kitchen-center",
     "nombre": "Kitchen Center",
     "rubro": "Retail",
-    "logo": "https://icons.duckduckgo.com/ip3/kitchen-center.cl.ico",
+    "logo": "assets/logos/kitchen-center.png",
     "resenas": [
       {
         "id": 134,
@@ -3280,7 +3280,7 @@
     "id": "quillayes-surlat",
     "nombre": "Quillayes Surlat",
     "rubro": "Consumo Masivo",
-    "logo": "https://icons.duckduckgo.com/ip3/quillayes-surlat.cl.ico",
+    "logo": "assets/logos/quillayes-surlat.svg",
     "resenas": [
       {
         "id": 130,

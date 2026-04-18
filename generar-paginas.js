@@ -192,8 +192,16 @@ function renderResumen(emp) {
     var labelBien = usaIA ? '✅ Lo que más valoran*' : '✅ Lo que más valoran';
     var labelMal  = usaIA ? '❌ Principal queja*'    : '❌ Principal queja';
     highlightsHtml = '<div class="highlights">';
-    if (highlightBien) highlightsHtml += '<div class="highlight-card highlight-card-bien"><div class="highlight-label">' + labelBien + '</div><div class="highlight-text">' + escapeHtml(highlightBien) + '</div></div>';
-    if (highlightMal)  highlightsHtml += '<div class="highlight-card highlight-card-mal"><div class="highlight-label">'  + labelMal  + '</div><div class="highlight-text">' + escapeHtml(highlightMal)  + '</div></div>';
+    if (highlightBien) {
+      highlightsHtml += '<div class="highlight-card highlight-card-bien"><div class="highlight-label">' + labelBien + '</div><div class="highlight-text">' + escapeHtml(highlightBien) + '</div></div>';
+    } else if (usaIA) {
+      highlightsHtml += '<div class="highlight-card highlight-card-bien"><div class="highlight-label">' + labelBien + '</div><div class="highlight-text" style="color:var(--text-muted);font-style:italic">Sin aspectos positivos destacados en las reseñas.</div></div>';
+    }
+    if (highlightMal) {
+      highlightsHtml += '<div class="highlight-card highlight-card-mal"><div class="highlight-label">'  + labelMal  + '</div><div class="highlight-text">' + escapeHtml(highlightMal)  + '</div></div>';
+    } else if (usaIA) {
+      highlightsHtml += '<div class="highlight-card highlight-card-mal"><div class="highlight-label">'  + labelMal  + '</div><div class="highlight-text" style="color:var(--text-muted);font-style:italic">Sin quejas destacadas en las reseñas.</div></div>';
+    }
     highlightsHtml += '</div>';
     if (usaIA) highlightsHtml += '<div class="resumen-ia-note">* Resumen generado con IA a partir de ' + resenas.length + ' reseñas</div>';
   }
