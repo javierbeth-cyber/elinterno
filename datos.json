@@ -74,7 +74,7 @@
   {
     "id": "achs",
     "nombre": "Achs",
-    "rubro": "Mutualidad",
+    "rubro": "Seguros y Beneficios",
     "logo": "assets/logos/achs.svg",
     "resenas": [
       {
@@ -182,7 +182,7 @@
   {
     "id": "amipass",
     "nombre": "Amipass",
-    "rubro": "Alimentación",
+    "rubro": "Alimentos y Bebidas",
     "logo": "assets/logos/amipass.png",
     "resenas": [
       {
@@ -218,7 +218,7 @@
   {
     "id": "aone-games",
     "nombre": "AOne Games",
-    "rubro": "Desarrollo de videojuegos",
+    "rubro": "Tecnología",
     "logo": "assets/logos/aone-games.png",
     "resenas": [
       {
@@ -561,7 +561,7 @@
   {
     "id": "caja-de-compensacion-los-heroes",
     "nombre": "Caja de Compensación Los Heroes",
-    "rubro": "Beneficios sociales",
+    "rubro": "Seguros y Beneficios",
     "logo": "assets/logos/caja-los-heroes.png",
     "resenas": [
       {
@@ -834,7 +834,7 @@
   {
     "id": "coca-cola-andina",
     "nombre": "Coca cola andina",
-    "rubro": "Alimentos",
+    "rubro": "Alimentos y Bebidas",
     "logo": "assets/logos/coca-cola-andina.png",
     "resenas": [
       {
@@ -906,7 +906,7 @@
   {
     "id": "corporacion-3xi",
     "nombre": "Corporación 3xi",
-    "rubro": "ONG",
+    "rubro": "ONG / Sociedad Civil",
     "logo": "assets/logos/corporacion-3xi.svg",
     "resenas": [
       {
@@ -978,7 +978,7 @@
   {
     "id": "cristalchile",
     "nombre": "Cristalchile",
-    "rubro": "Producción fabril",
+    "rubro": "Manufactura e Industria",
     "logo": "assets/logos/cristalchile.svg",
     "resenas": [
       {
@@ -1232,7 +1232,7 @@
   {
     "id": "echeverria-izquierdo",
     "nombre": "Echeverria izquierdo",
-    "rubro": "Construcción",
+    "rubro": "Construcción e Ingeniería",
     "logo": "assets/logos/echeverria-izquierdo.png",
     "resenas": [
       {
@@ -1486,7 +1486,7 @@
   {
     "id": "equans-chile",
     "nombre": "Equans Chile",
-    "rubro": "Multiservicios",
+    "rubro": "Construcción e Ingeniería",
     "logo": "assets/logos/equans-chile.jpg",
     "resenas": [
       {
@@ -1702,7 +1702,7 @@
   {
     "id": "explora",
     "nombre": "Explora",
-    "rubro": "Hoteleria",
+    "rubro": "Hotelería",
     "logo": "assets/logos/explora.png",
     "resenas": [
       {
@@ -1865,7 +1865,7 @@
   {
     "id": "fundacion-puerto-de-ideas",
     "nombre": "Fundación Puerto de Ideas",
-    "rubro": "Fundación Cultural",
+    "rubro": "ONG / Sociedad Civil",
     "logo": "assets/logos/fundacion-puerto-de-ideas.svg",
     "resenas": [
       {
@@ -1901,7 +1901,7 @@
   {
     "id": "gama-italy",
     "nombre": "Gama Italy",
-    "rubro": "Belleza",
+    "rubro": "Cosmética y Belleza",
     "logo": "assets/logos/gama-italy.jpg",
     "resenas": [
       {
@@ -2119,7 +2119,7 @@
   {
     "id": "hogar-de-cristo",
     "nombre": "Hogar de Cristo",
-    "rubro": "ONG",
+    "rubro": "ONG / Sociedad Civil",
     "logo": "assets/logos/hogar-de-cristo.png",
     "resenas": [
       {
@@ -2155,7 +2155,7 @@
   {
     "id": "i-municipalidad-de-coquimbo",
     "nombre": "I. Municipalidad de Coquimbo",
-    "rubro": "Departamento Social",
+    "rubro": "Gobierno",
     "logo": "assets/logos/i-municipalidad-de-coquimbo.png",
     "resenas": [
       {
@@ -2551,7 +2551,7 @@
   {
     "id": "l-oreal-chile",
     "nombre": "L'Oréal Chile",
-    "rubro": "Cosmética",
+    "rubro": "Cosmética y Belleza",
     "logo": "assets/logos/l-oreal-chile.jpg",
     "resenas": [
       {
@@ -3044,7 +3044,7 @@
   {
     "id": "mosaico",
     "nombre": "Mosaico",
-    "rubro": "Construcción",
+    "rubro": "Construcción e Ingeniería",
     "logo": "assets/logos/mosaico.png",
     "resenas": [
       {
@@ -3116,7 +3116,7 @@
   {
     "id": "nutrisco",
     "nombre": "Nutrisco",
-    "rubro": "Alimentación",
+    "rubro": "Alimentos y Bebidas",
     "logo": "assets/logos/nutrisco.jpg",
     "resenas": [
       {
@@ -3442,7 +3442,7 @@
   {
     "id": "seguros-sura-chile",
     "nombre": "Seguros SURA Chile",
-    "rubro": "Seguros",
+    "rubro": "Seguros y Beneficios",
     "logo": "assets/logos/seguros-sura-chile.png",
     "resenas": [
       {
@@ -3840,7 +3840,7 @@
   {
     "id": "starbucks",
     "nombre": "Starbucks",
-    "rubro": "comida rapida",
+    "rubro": "Alimentos y Bebidas",
     "logo": "assets/logos/starbucks.jpg",
     "resenas": [
       {
@@ -3984,7 +3984,7 @@
   {
     "id": "termas-de-puyehue",
     "nombre": "Termas de Puyehue",
-    "rubro": "Hoteleria",
+    "rubro": "Hotelería",
     "logo": "assets/logos/termas-de-puyehue.png",
     "resenas": [
       {
@@ -4020,7 +4020,7 @@
   {
     "id": "the-home",
     "nombre": "The Home",
-    "rubro": "Diseño consultoría y construcción",
+    "rubro": "Construcción e Ingeniería",
     "logo": "assets/logos/the-home.png",
     "resenas": [
       {
@@ -4128,7 +4128,7 @@
   {
     "id": "touch",
     "nombre": "Touch",
-    "rubro": "Contratación de personal",
+    "rubro": "Recursos Humanos",
     "logo": "assets/logos/touch.png",
     "resenas": [
       {
@@ -4399,7 +4399,7 @@
   {
     "id": "vina-san-pedro-tarapaca",
     "nombre": "Viña San Pedro Tarapacá",
-    "rubro": "Alimentos",
+    "rubro": "Alimentos y Bebidas",
     "logo": "assets/logos/vina-san-pedro-tarapaca.png",
     "resenas": [
       {
