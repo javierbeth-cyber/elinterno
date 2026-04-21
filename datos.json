@@ -2873,6 +2873,40 @@
     "resumen_mal": "Empresa arcaica, pocos procesos definidos, sin RRHH, cultura politizada"
   },
   {
+    "id": "n-a",
+    "nombre": "N/A",
+    "rubro": "Tecnología",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 125,
+        "fecha": "2026-04-03",
+        "tiempo": "Menos de 6 meses",
+        "sigue": "Sí",
+        "cal_general": 1,
+        "sueldo": "bajo el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "N/A",
+        "que_mal": "N/A",
+        "que_desearias": "N/A",
+        "recomienda": "Sí",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null,
+    "resumen_bien": "N/A",
+    "resumen_mal": "N/A"
+  },
+  {
     "id": "ntt-data",
     "nombre": "NTT Data",
     "rubro": "Consultoría",
