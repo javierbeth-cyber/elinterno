@@ -688,6 +688,17 @@
   var paginaActual = 1;
   var resultadosFiltrados = [];
 
+  var BUSQUEDAS_URL = 'https://script.google.com/macros/s/AKfycbw1izUH6Dm4l4-iuT-ppvjfYhYpGVHkoCYO9IqYC91Zk2FzS93LMa-Zd1AD3aAmKI8n3w/exec';
+  var _searchTimer = null;
+  var _lastLoggedQuery = '';
+
+  function logBusqueda(q, numResultados) {
+    if (q.length < 3 || q === _lastLoggedQuery) return;
+    _lastLoggedQuery = q;
+    var url = BUSQUEDAS_URL + '?q=' + encodeURIComponent(q) + '&r=' + numResultados + '&t=' + encodeURIComponent(new Date().toISOString());
+    fetch(url, { mode: 'no-cors' }).catch(function() {});
+  }
+
   function hayFiltrosActivos() {
     var q = document.getElementById('buscar') ? document.getElementById('buscar').value.trim() : '';
     var rubro = document.getElementById('filtro-rubro') ? document.getElementById('filtro-rubro').value : '';
@@ -766,6 +777,10 @@ var matchRec = true;
     else if (orden === 'peor')    result.sort(function(a,b){ return (a.promedio||0)-(b.promedio||0); });
     else if (orden === 'reciente') result.sort(function(a,b){ return maxFecha(b).localeCompare(maxFecha(a)); });
     else result.sort(function(a,b){ return a.nombre.localeCompare(b.nombre, 'es'); }); // A-Z default
+
+    clearTimeout(_searchTimer);
+    var _q = q; var _r = result.length;
+    _searchTimer = setTimeout(function() { logBusqueda(_q, _r); }, 800);
 
     render(result);
   }
