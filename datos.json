@@ -2012,6 +2012,23 @@
     "logo": "assets/logos/ibm-chile.png",
     "resenas": [
       {
+        "id": 141,
+        "fecha": "2026-04-22",
+        "tiempo": "1 a 3 años",
+        "sigue": "No",
+        "cal_general": 5,
+        "sueldo": "en el mercado",
+        "carrera": "crecimiento moderado",
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Todo, el mejor lugar en el que he trabajado",
+        "que_mal": null,
+        "que_desearias": "Saber cuanto iba a usar el inglés.",
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      },
+      {
         "id": 112,
         "fecha": "2026-03-30",
         "tiempo": "1 a 3 años",
@@ -2029,8 +2046,8 @@
         "votos": 0
       }
     ],
-    "total_resenas": 1,
-    "promedio": 2,
+    "total_resenas": 2,
+    "promedio": 3.5,
     "prom_sueldo": null,
     "prom_carrera": null,
     "prom_flexibilidad": null,
