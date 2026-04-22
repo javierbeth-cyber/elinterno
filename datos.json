@@ -3179,6 +3179,40 @@
     "resumen_mal": "Los proyectos que llevan de manera interna para clientes son un absoluto caos, tiran gente recién egresada o titulada a los leones sin mayor apoyo. Te \"enseñan\" a través de un coaching bastante malo cómo responder las entrevistas cuando te quieren enviar a algún cliente."
   },
   {
+    "id": "rio-futuro",
+    "nombre": "Rio Futuro",
+    "rubro": "Agroindustrial",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 140,
+        "fecha": "2026-04-22",
+        "tiempo": "Menos de 6 meses",
+        "sigue": "No",
+        "cal_general": 3,
+        "sueldo": "en el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": null,
+        "que_mal": null,
+        "que_desearias": null,
+        "recomienda": "Depende del perfil",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 3,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null,
+    "resumen_bien": null,
+    "resumen_mal": null
+  },
+  {
     "id": "samsung-electronics",
     "nombre": "Samsung Electronics",
     "rubro": "Tecnología",
