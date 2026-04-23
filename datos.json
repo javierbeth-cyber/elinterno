@@ -2539,6 +2539,23 @@
     "logo": "assets/logos/lirmi.png",
     "resenas": [
       {
+        "id": 142,
+        "fecha": "2026-04-22",
+        "tiempo": "1 a 3 años",
+        "sigue": "No",
+        "cal_general": 1,
+        "sueldo": "en el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "El producto que impacta a los colegios",
+        "que_mal": "El estilo de liderazgo: despiden a las personas por correo electrónico sin ningún espacio a explicar los motivos.\nEmpresa familiar: fuerte vínculo entre fundadores y otros cargos, se generan vicios de relaciones y decisiones.\nCero feedback: no hay espacio 1-1, finalmente las personas saben poco y nada en que pueden mejorar.\nMicromanagment: piden grabar todas las reuniones para encontrar culpas sin entregar feedback directo a los involucrados.",
+        "que_desearias": "El estilo de liderar (si es que se puede llamar liderar). Si te acomoda el trabajo 100% remoto te puede servir, pero debes acostumbrarte a tratos poco empaticos y de culparte por todo lo que realices, no esperar autocríticas ni espacios de mejora.",
+        "recomienda": "No",
+        "votos": 0
+      },
+      {
         "id": 128,
         "fecha": "2026-04-05",
         "tiempo": "Más de 3 años",
@@ -2675,8 +2692,8 @@
         "votos": 0
       }
     ],
-    "total_resenas": 8,
-    "promedio": 1.3,
+    "total_resenas": 9,
+    "promedio": 1.2,
     "prom_sueldo": null,
     "prom_carrera": null,
     "prom_flexibilidad": 1,
