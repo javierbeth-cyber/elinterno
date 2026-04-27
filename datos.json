@@ -142,7 +142,7 @@
     "logo": null,
     "resenas": [
       {
-        "id": 143,
+        "id": 142,
         "fecha": "2026-04-26",
         "tiempo": "Menos de 6 meses",
         "sigue": "Sí",
@@ -244,7 +244,7 @@
     "logo": "assets/logos/aone-games.png",
     "resenas": [
       {
-        "id": 130,
+        "id": 129,
         "fecha": "2026-04-08",
         "tiempo": "Más de 3 años",
         "sigue": "No",
@@ -278,7 +278,7 @@
     "logo": "assets/logos/arcor-chile.png",
     "resenas": [
       {
-        "id": 131,
+        "id": 130,
         "fecha": "2026-04-09",
         "tiempo": "Más de 3 años",
         "sigue": "No",
@@ -448,7 +448,7 @@
     "logo": "assets/logos/bermann-gps.png",
     "resenas": [
       {
-        "id": 133,
+        "id": 132,
         "fecha": "2026-04-14",
         "tiempo": "1 a 3 años",
         "sigue": "Sí",
@@ -618,7 +618,7 @@
     "logo": "assets/logos/cencosud.svg",
     "resenas": [
       {
-        "id": 132,
+        "id": 131,
         "fecha": "2026-04-13",
         "tiempo": "Más de 3 años",
         "sigue": "Sí",
@@ -1774,7 +1774,7 @@
     "logo": "assets/logos/gama-italy.jpg",
     "resenas": [
       {
-        "id": 137,
+        "id": 136,
         "fecha": "2026-04-15",
         "tiempo": "6 meses a 1 año",
         "sigue": "No",
@@ -2046,7 +2046,7 @@
     "logo": "assets/logos/ibm-chile.png",
     "resenas": [
       {
-        "id": 141,
+        "id": 140,
         "fecha": "2026-04-22",
         "tiempo": "1 a 3 años",
         "sigue": "No",
@@ -2301,7 +2301,7 @@
     "logo": "assets/logos/kiosclub.png",
     "resenas": [
       {
-        "id": 136,
+        "id": 135,
         "fecha": "2026-04-15",
         "tiempo": "6 meses a 1 año",
         "sigue": "No",
@@ -2335,7 +2335,7 @@
     "logo": "assets/logos/kitchen-center.png",
     "resenas": [
       {
-        "id": 138,
+        "id": 137,
         "fecha": "2026-04-15",
         "tiempo": "6 meses a 1 año",
         "sigue": "No",
@@ -2505,7 +2505,7 @@
     "logo": "assets/logos/lider-bci.svg",
     "resenas": [
       {
-        "id": 129,
+        "id": 128,
         "fecha": "2026-04-05",
         "tiempo": "1 a 3 años",
         "sigue": "No",
@@ -2573,7 +2573,7 @@
     "logo": "assets/logos/lirmi.png",
     "resenas": [
       {
-        "id": 142,
+        "id": 141,
         "fecha": "2026-04-22",
         "tiempo": "1 a 3 años",
         "sigue": "No",
@@ -2590,7 +2590,7 @@
         "votos": 0
       },
       {
-        "id": 128,
+        "id": 127,
         "fecha": "2026-04-05",
         "tiempo": "Más de 3 años",
         "sigue": "No",
@@ -2941,40 +2941,6 @@
     "resumen_mal": "Empresa arcaica, pocos procesos definidos, sin RRHH, cultura politizada"
   },
   {
-    "id": "n-a",
-    "nombre": "N/A",
-    "rubro": "Tecnología",
-    "logo": null,
-    "resenas": [
-      {
-        "id": 125,
-        "fecha": "2026-04-03",
-        "tiempo": "Menos de 6 meses",
-        "sigue": "Sí",
-        "cal_general": 1,
-        "sueldo": "bajo el mercado",
-        "carrera": "pocas oportunidades",
-        "flexibilidad": null,
-        "liderazgo": null,
-        "cultura": null,
-        "que_bien": "N/A",
-        "que_mal": "N/A",
-        "que_desearias": "N/A",
-        "recomienda": "Sí",
-        "votos": 0
-      }
-    ],
-    "total_resenas": 1,
-    "promedio": 1,
-    "prom_sueldo": null,
-    "prom_carrera": null,
-    "prom_flexibilidad": null,
-    "prom_liderazgo": null,
-    "prom_cultura": null,
-    "resumen_bien": "N/A",
-    "resumen_mal": "N/A"
-  },
-  {
     "id": "ntt-data",
     "nombre": "NTT Data",
     "rubro": "Consultoría",
@@ -3100,7 +3066,7 @@
     "logo": "assets/logos/policomp.jpg",
     "resenas": [
       {
-        "id": 139,
+        "id": 138,
         "fecha": "2026-04-18",
         "tiempo": "Menos de 6 meses",
         "sigue": "No",
@@ -3185,7 +3151,7 @@
     "logo": "assets/logos/quillayes-surlat.svg",
     "resenas": [
       {
-        "id": 134,
+        "id": 133,
         "fecha": "2026-04-15",
         "tiempo": "1 a 3 años",
         "sigue": "No",
@@ -3253,7 +3219,7 @@
     "logo": null,
     "resenas": [
       {
-        "id": 140,
+        "id": 139,
         "fecha": "2026-04-22",
         "tiempo": "Menos de 6 meses",
         "sigue": "No",
@@ -3491,7 +3457,7 @@
     "logo": "assets/logos/smu-s-a.svg",
     "resenas": [
       {
-        "id": 135,
+        "id": 134,
         "fecha": "2026-04-15",
         "tiempo": "1 a 3 años",
         "sigue": "No",
@@ -4154,7 +4120,7 @@
     "logo": "assets/logos/underpizza.png",
     "resenas": [
       {
-        "id": 127,
+        "id": 126,
         "fecha": "2026-04-05",
         "tiempo": "6 meses a 1 año",
         "sigue": "No",
