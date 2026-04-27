@@ -257,7 +257,8 @@ function renderResena(r) {
 function generatePage(emp) {
   const totalRes = emp.total_resenas || 0;
   const prom     = emp.promedio ? `Calificación ${emp.promedio}/5. ` : '';
-  const metaDesc = `${prom}${totalRes} reseña${totalRes !== 1 ? 's' : ''} anónima${totalRes !== 1 ? 's' : ''} de empleados de ${emp.nombre}. Sueldo, liderazgo, cultura y ambiente laboral. Lo que no aparece en el aviso de trabajo.`;
+  const rubro    = emp.rubro || '';
+  const metaDesc = `¿Cómo es trabajar en ${emp.nombre}? ${totalRes} reseña${totalRes !== 1 ? 's' : ''} anónima${totalRes !== 1 ? 's' : ''} de empleados en Chile.${rubro ? ' Empresa del sector ' + rubro + '.' : ''} ${prom}Sueldos, liderazgo, cultura laboral y lo que no aparece en el aviso.`;
   const pageUrl  = `https://elinterno.com/empresa/${emp.id}/`;
   const title    = `${emp.nombre} Chile — Cómo es trabajar ahí | El Interno`;
 
@@ -405,6 +406,10 @@ function generatePage(emp) {
 </div>
 
 <div id="empresa-header">${empresaHeaderHtml}</div>
+
+<div class="sobre-empresa">
+  <p>${emp.nombre} es una empresa${rubro ? ' del sector <strong>' + rubro + '</strong>' : ''} con presencia en Chile. En El Interno encontrarás ${totalRes} reseña${totalRes !== 1 ? 's' : ''} anónima${totalRes !== 1 ? 's' : ''} de empleados${emp.promedio ? ', con una calificación promedio de <strong>' + emp.promedio + '/5</strong>' : ''}. Si trabajaste en ${emp.nombre}, puedes dejar tu experiencia de forma anónima y ayudar a otros a tomar mejores decisiones laborales.</p>
+</div>
 
 <main class="main" id="main">${mainHtml}</main>
 
@@ -601,6 +606,9 @@ console.log(`✓ ${generadas} páginas generadas en empresa/{id}/index.html`);
     .btn-resena { background: #3b82f6; color: #fff; border-radius: 8px; padding: 7px 16px; font-size: 0.85rem; font-weight: 600; text-decoration: none; }
     .breadcrumb { max-width: 900px; margin: 1.5rem auto 0; padding: 0 1.5rem; font-size: 0.85rem; }
     .breadcrumb a { color: #94a3b8; text-decoration: none; }
+    .sobre-empresa { max-width: 900px; margin: 1rem auto 0; padding: 0 1.5rem; }
+    .sobre-empresa p { font-size: 0.95rem; color: var(--text-muted); line-height: 1.6; }
+    .sobre-empresa strong { color: var(--text); font-weight: 600; }
     .container { max-width: 900px; margin: 1.5rem auto 3rem; padding: 0 1.5rem; }
     h1 { font-size: 1.5rem; font-weight: 700; margin-bottom: 0.4rem; }
     .subtitle { color: #94a3b8; font-size: 0.9rem; margin-bottom: 2rem; }
