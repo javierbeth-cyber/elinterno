@@ -659,7 +659,18 @@
           👍 Yo también lo viví &nbsp;<span class="voto-count"></span>
         </button>
       </div>
-    </div></main>
+    </div><div class="cta-compartir">
+  <div class="cta-compartir-inner">
+    <div class="cta-compartir-texto">
+      <strong>¿Conoces a alguien que trabajó en Coca cola andina?</strong>
+      <span>Comparte esta página para que también pueda dejar su reseña anónima.</span>
+    </div>
+    <div class="cta-compartir-botones">
+      <a href="https://wa.me/?text=%C2%BFTrabajaste%20en%20Coca%20cola%20andina%3F%20Deja%20tu%20rese%C3%B1a%20an%C3%B3nima%20en%20El%20Interno%3A%20https%3A%2F%2Felinterno.com%2Fempresa%2Fcoca-cola-andina%2F" target="_blank" rel="noopener" class="btn-compartir btn-whatsapp" onclick="gtag('event','compartir_click',{empresa:"Coca cola andina",canal:'whatsapp'})">WhatsApp</a>
+      <button class="btn-compartir btn-copiar" onclick="copiarLink('https://elinterno.com/empresa/coca-cola-andina/', this)">Copiar link</button>
+    </div>
+  </div>
+</div></main>
 
 <!-- Modal denuncia -->
 <div class="modal-overlay" id="modal-denuncia">
@@ -725,6 +736,14 @@
   function toggleDist(id) {
     var el = document.getElementById('dist-' + id);
     if (el) el.classList.toggle('open');
+  }
+
+  function copiarLink(url, btn) {
+    navigator.clipboard.writeText(url).then(function() {
+      var orig = btn.textContent;
+      btn.textContent = '¡Copiado!';
+      setTimeout(function() { btn.textContent = orig; }, 2000);
+    });
   }
 
   // Modal denuncia
