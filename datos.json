@@ -136,6 +136,40 @@
     "resumen_mal": "Acelerar un poco procesos para ascender si el trabajador lo amerita."
   },
   {
+    "id": "aleman-experto-los-trapenses",
+    "nombre": "Aleman Experto, los trapenses",
+    "rubro": "Restaurante",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 143,
+        "fecha": "2026-04-26",
+        "tiempo": "Menos de 6 meses",
+        "sigue": "Sí",
+        "cal_general": 1,
+        "sueldo": "en el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Pagan a tiempo",
+        "que_mal": "El trato de un supervisor hacia los trabajadores es abusiva, tienen un jefe de salón muy acostumbrado a presionar y hostigar a los trabajadores, cuando algo no le parece no entrega feedback, prefiere acusar con supervisor en vez de solucionar. Es bueno pasando a llevar a los trabajadores y esconde su mal trato diciendo que debe velar por el buen funcionamiento del restaurante, cuando en realidad solo se siente bien abusando de su poder. \nEn resumen, mala organización, mal trato hacia los trabajadores y explotación laboral. \nEn la entrevista te dicen que el ritmo del Aleman Experto es fuerte, y está bien. Pero es más que eso, es derechamente explotación, falta personal y los roles no se respetan. Imaginen que hasta el cajero lleva pedidos a las mesas 🫠 y si no les sigues su ritmo explotador, eres extraño.",
+        "que_desearias": "Que el rol para el que fui contratada implicaba que cumpliera con labores de las que no se me informó y que las propinas son muy bajas teniendo en cuenta la carga laboral.",
+        "recomienda": "No",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 1,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null,
+    "resumen_bien": "Pagan a tiempo",
+    "resumen_mal": "El trato de un supervisor hacia los trabajadores es abusiva, tienen un jefe de salón muy acostumbrado a presionar y hostigar a los trabajadores, cuando algo no le parece no entrega feedback, prefiere acusar con supervisor en vez de solucionar. Es bueno pasando a llevar a los trabajadores y esconde su mal trato diciendo que debe velar por el buen funcionamiento del restaurante, cuando en realidad solo se siente bien abusando de su poder. \nEn resumen, mala organización, mal trato hacia los trabajadores y explotación laboral. \nEn la entrevista te dicen que el ritmo del Aleman Experto es fuerte, y está bien. Pero es más que eso, es derechamente explotación, falta personal y los roles no se respetan. Imaginen que hasta el cajero lleva pedidos a las mesas 🫠 y si no les sigues su ritmo explotador, eres extraño."
+  },
+  {
     "id": "amaris",
     "nombre": "Amaris",
     "rubro": "Consultoría",
