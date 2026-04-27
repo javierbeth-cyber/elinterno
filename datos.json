@@ -104,7 +104,7 @@
   {
     "id": "afp-cuprum",
     "nombre": "AFP Cuprum",
-    "rubro": "Banca y finanzas",
+    "rubro": "Banca y Finanzas",
     "logo": "assets/logos/afp-cuprum.svg",
     "resenas": [
       {
@@ -138,8 +138,8 @@
   {
     "id": "aleman-experto-los-trapenses",
     "nombre": "Aleman Experto, los trapenses",
-    "rubro": "Restaurante",
-    "logo": null,
+    "rubro": "Alimentos y Bebidas",
+    "logo": "assets/logos/aleman-experto-los-trapenses.jpg",
     "resenas": [
       {
         "id": 142,
@@ -206,7 +206,7 @@
   {
     "id": "amipass",
     "nombre": "Amipass",
-    "rubro": "Alimentos y Bebidas",
+    "rubro": "Seguros y Beneficios",
     "logo": "assets/logos/amipass.png",
     "resenas": [
       {
@@ -376,7 +376,7 @@
   {
     "id": "banco-consorcio",
     "nombre": "Banco Consorcio",
-    "rubro": "Banca y finanzas",
+    "rubro": "Banca y Finanzas",
     "logo": "assets/logos/banco-consorcio.png",
     "resenas": [
       {
@@ -410,7 +410,7 @@
   {
     "id": "bancoestado",
     "nombre": "BancoEstado",
-    "rubro": "Banca y finanzas",
+    "rubro": "Banca y Finanzas",
     "logo": "assets/logos/bancoestado.svg",
     "resenas": [
       {
@@ -513,7 +513,7 @@
     "id": "caja-de-compensacion-los-heroes",
     "nombre": "Caja de Compensación Los Heroes",
     "rubro": "Seguros y Beneficios",
-    "logo": null,
+    "logo": "assets/logos/caja-de-compensacion-los-heroes.svg",
     "resenas": [
       {
         "id": 106,
@@ -546,7 +546,7 @@
   {
     "id": "callbusiness",
     "nombre": "CallBusiness",
-    "rubro": "Banca y finanzas",
+    "rubro": "Banca y Finanzas",
     "logo": "assets/logos/callbusiness.jpg",
     "resenas": [
       {
@@ -580,7 +580,7 @@
   {
     "id": "capitaria",
     "nombre": "Capitaria",
-    "rubro": "Banca y finanzas",
+    "rubro": "Banca y Finanzas",
     "logo": "assets/logos/capitaria.png",
     "resenas": [
       {
@@ -699,7 +699,7 @@
   {
     "id": "chita-factoring",
     "nombre": "Chita factoring",
-    "rubro": "Banca y finanzas",
+    "rubro": "Banca y Finanzas",
     "logo": "assets/logos/chita-factoring.png",
     "resenas": [
       {
@@ -937,7 +937,7 @@
   {
     "id": "cumplo-chile",
     "nombre": "Cumplo Chile",
-    "rubro": "Banca y finanzas",
+    "rubro": "Banca y Finanzas",
     "logo": "assets/logos/cumplo-chile.png",
     "resenas": [
       {
@@ -1651,7 +1651,7 @@
   {
     "id": "femsa",
     "nombre": "Femsa",
-    "rubro": "Banca y finanzas",
+    "rubro": "Banca y Finanzas",
     "logo": "assets/logos/femsa.svg",
     "resenas": [
       {
@@ -1906,7 +1906,7 @@
   {
     "id": "global66",
     "nombre": "Global66",
-    "rubro": "Banca y finanzas",
+    "rubro": "Banca y Finanzas",
     "logo": "assets/logos/global66.png",
     "resenas": [
       {
@@ -2161,7 +2161,7 @@
   {
     "id": "itau",
     "nombre": "Itaú",
-    "rubro": "Banca y finanzas",
+    "rubro": "Banca y Finanzas",
     "logo": "assets/logos/itau.svg",
     "resenas": [
       {
@@ -2501,7 +2501,7 @@
   {
     "id": "lider-bci",
     "nombre": "Líder BCI",
-    "rubro": "Banca y finanzas",
+    "rubro": "Banca y Finanzas",
     "logo": "assets/logos/lider-bci.svg",
     "resenas": [
       {
@@ -2773,7 +2773,7 @@
   {
     "id": "metlife",
     "nombre": "Metlife",
-    "rubro": "Banca y finanzas",
+    "rubro": "Banca y Finanzas",
     "logo": "assets/logos/metlife.png",
     "resenas": [
       {
@@ -2807,7 +2807,7 @@
   {
     "id": "microglobal",
     "nombre": "Microglobal",
-    "rubro": "Minería",
+    "rubro": "Tecnología",
     "logo": "assets/logos/microglobal.png",
     "resenas": [
       {
@@ -3215,8 +3215,8 @@
   {
     "id": "rio-futuro",
     "nombre": "Rio Futuro",
-    "rubro": "Agroindustrial",
-    "logo": null,
+    "rubro": "Alimentos y Bebidas",
+    "logo": "assets/logos/rio-futuro.png",
     "resenas": [
       {
         "id": 139,
@@ -3283,7 +3283,7 @@
   {
     "id": "santander-chile",
     "nombre": "santander chile",
-    "rubro": "Banca y finanzas",
+    "rubro": "Banca y Finanzas",
     "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Banco_Santander_Logotipo.svg/960px-Banco_Santander_Logotipo.svg.png",
     "resenas": [
       {
@@ -3504,7 +3504,7 @@
   {
     "id": "sodexo",
     "nombre": "Sodexo",
-    "rubro": "Seguridad",
+    "rubro": "Seguros y Beneficios",
     "logo": "assets/logos/sodexo.png",
     "resenas": [
       {
@@ -3759,7 +3759,7 @@
   {
     "id": "tanner-servicios-financieros",
     "nombre": "Tanner Servicios Financieros",
-    "rubro": "Banca y finanzas",
+    "rubro": "Banca y Finanzas",
     "logo": "assets/logos/tanner-servicios-financieros.jpg",
     "resenas": [
       {
@@ -4014,7 +4014,7 @@
   {
     "id": "transbank",
     "nombre": "Transbank",
-    "rubro": "Banca y finanzas",
+    "rubro": "Banca y Finanzas",
     "logo": "assets/logos/transbank.svg",
     "resenas": [
       {
