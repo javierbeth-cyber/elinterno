@@ -138,6 +138,22 @@
     .breadcrumb a { color: var(--blue); text-decoration: none; }
     .breadcrumb a:hover { text-decoration: underline; }
 
+    .sobre-empresa { max-width: 900px; margin: 0 auto; padding: 16px 24px 0; }
+    .sobre-empresa p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.65; }
+    .sobre-empresa strong { color: var(--text); font-weight: 600; }
+
+    .cta-compartir { border: 1.5px solid var(--border); border-radius: 12px; background: var(--bg); margin-top: 2.5rem; }
+    .cta-compartir-inner { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; padding: 1.25rem 1.5rem; flex-wrap: wrap; }
+    .cta-compartir-texto { display: flex; flex-direction: column; gap: 4px; }
+    .cta-compartir-texto strong { font-size: 0.95rem; color: var(--text); }
+    .cta-compartir-texto span { font-size: 0.85rem; color: var(--text-muted); }
+    .cta-compartir-botones { display: flex; gap: 8px; flex-shrink: 0; }
+    .btn-compartir { padding: 8px 16px; border-radius: 8px; font-size: 0.85rem; font-weight: 600; cursor: pointer; border: none; text-decoration: none; display: inline-flex; align-items: center; transition: opacity 0.15s; }
+    .btn-compartir:hover { opacity: 0.85; }
+    .btn-whatsapp { background: #25d366; color: #fff; }
+    .btn-copiar { background: var(--navy); color: #fff; }
+    @media (max-width: 600px) { .cta-compartir-inner { flex-direction: column; align-items: flex-start; } }
+
     /* EMPRESA HEADER */
     .empresa-header {
       background: var(--white);
