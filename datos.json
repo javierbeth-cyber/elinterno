@@ -476,6 +476,40 @@
     "resumen_mal": "El nivel de burocracia para muchas cosas, se mantienen muy poco actualizados con respecto a tecnología."
   },
   {
+    "id": "bbdo",
+    "nombre": "Bbdo",
+    "rubro": "Medios y publicidad",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 145,
+        "fecha": "2026-04-28",
+        "tiempo": "1 a 3 años",
+        "sigue": "Sí",
+        "cal_general": 2,
+        "sueldo": "bajo el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Si eres dirctor de arte o redactor es buena, cualquier otro cargo mejor buscar en otro lado",
+        "que_mal": "Los jefes por lo general no gestionan, lo hace el último eslabon en algunas ocasiones, no existe plan de mejora de carrera o aprendizaje por lo general uno mismo se paga los cursos, dificilmente si llevas 3 o 5 años te daran aumento de sueldo, la mayoria se va antesa otro lugar para optar por sueldos mejores",
+        "que_desearias": "Que no pagan horas extras y puedes estar muchas noches haciendo sobre hora, ni pizza dan.",
+        "recomienda": "No",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 2,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null,
+    "resumen_bien": "Si eres dirctor de arte o redactor es buena, cualquier otro cargo mejor buscar en otro lado",
+    "resumen_mal": "Los jefes por lo general no gestionan, lo hace el último eslabon en algunas ocasiones, no existe plan de mejora de carrera o aprendizaje por lo general uno mismo se paga los cursos, dificilmente si llevas 3 o 5 años te daran aumento de sueldo, la mayoria se va antesa otro lugar para optar por sueldos mejores"
+  },
+  {
     "id": "bermann-gps",
     "nombre": "Bermann GPS",
     "rubro": "Tecnología",
