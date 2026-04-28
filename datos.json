@@ -31,8 +31,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Si te asignan a un proyecto de banco, puedes llegar a ser internalizado",
-    "resumen_mal": "El area de software factory esta mal organizado y los jefes son malisimos",
-    "descripcion": "Consultora tecnológica chilena fundada en 2009, especializada en desarrollo de software, outsourcing de TI y transformación digital. Tiene presencia en Chile y otros países de Latinoamérica."
+    "resumen_mal": "El area de software factory esta mal organizado y los jefes son malisimos"
   },
   {
     "id": "accenture",
@@ -66,8 +65,7 @@
     "prom_liderazgo": 4,
     "prom_cultura": 4,
     "resumen_bien": "Beneficios de salud, compañerismo, gente amable para trabajar. Opción de teletrabajo a distancia. Se adapta a todo.",
-    "resumen_mal": "Podría mejorar los ascensos, es coave mostrarse para que todos te conozcan.",
-    "descripcion": "Multinacional de consultoría y tecnología con presencia en más de 120 países y más de 700.000 empleados a nivel global. En Chile opera desde hace más de 20 años con servicios de estrategia, consultoría, tecnología y operaciones."
+    "resumen_mal": "Podría mejorar los ascensos, es coave mostrarse para que todos te conozcan."
   },
   {
     "id": "achs",
@@ -101,8 +99,7 @@
     "prom_liderazgo": 3,
     "prom_cultura": 4,
     "resumen_bien": "Buenos compañeros, y que como es una mutualidad , en algunos perfiles puede ser una buena opción para trabajar, como para el rubro de ingenieros en prevención, que pueden encontrar mayor espacio de desarrollo",
-    "resumen_mal": "Es una empresa que al inicio parece idílica, personas educadas, compañerismo, posibilidad de crecimiento, y pronto esa burbuja explota a ambiente competitivo, jefaturas superficiales (parecen cercanas, pero en realidad no le importas nada), algunos subgerentes muy déspotas( y que parecen peluches frente a otros) pero nunca con gerentes ni pares.. y muchas personas que rotan sin entender porqué, poco transparente... crean una imagen de perfección, y la suciedad sale por la alfombra. Es una empresa que vende bien humo, pero por dentro es otra realidad.",
-    "descripcion": "Asociación Chilena de Seguridad (ACHS), fundada en 1958. Es la mutualidad de empleadores más grande de Chile, especializada en prevención de riesgos laborales, atención de accidentes del trabajo y enfermedades profesionales."
+    "resumen_mal": "Es una empresa que al inicio parece idílica, personas educadas, compañerismo, posibilidad de crecimiento, y pronto esa burbuja explota a ambiente competitivo, jefaturas superficiales (parecen cercanas, pero en realidad no le importas nada), algunos subgerentes muy déspotas( y que parecen peluches frente a otros) pero nunca con gerentes ni pares.. y muchas personas que rotan sin entender porqué, poco transparente... crean una imagen de perfección, y la suciedad sale por la alfombra. Es una empresa que vende bien humo, pero por dentro es otra realidad."
   },
   {
     "id": "afp-cuprum",
@@ -136,8 +133,7 @@
     "prom_liderazgo": 5,
     "prom_cultura": 5,
     "resumen_bien": "Muy buen ambiente de trabajo, la cultura también es muy dinámica. Posibilidades claras de desarrollo de carrera. Se realizan hackatones internas.",
-    "resumen_mal": "Acelerar un poco procesos para ascender si el trabajador lo amerita.",
-    "descripcion": "Administradora de Fondos de Pensiones fundada en 1981, una de las AFP más grandes de Chile por activos bajo administración. Desde 2013 es propiedad del grupo estadounidense Principal Financial Group."
+    "resumen_mal": "Acelerar un poco procesos para ascender si el trabajador lo amerita."
   },
   {
     "id": "aleman-experto-los-trapenses",
@@ -171,8 +167,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Pagan a tiempo",
-    "resumen_mal": "El trato de un supervisor hacia los trabajadores es abusiva, tienen un jefe de salón muy acostumbrado a presionar y hostigar a los trabajadores, cuando algo no le parece no entrega feedback, prefiere acusar con supervisor en vez de solucionar. Es bueno pasando a llevar a los trabajadores y esconde su mal trato diciendo que debe velar por el buen funcionamiento del restaurante, cuando en realidad solo se siente bien abusando de su poder. \nEn resumen, mala organización, mal trato hacia los trabajadores y explotación laboral. \nEn la entrevista te dicen que el ritmo del Aleman Experto es fuerte, y está bien. Pero es más que eso, es derechamente explotación, falta personal y los roles no se respetan. Imaginen que hasta el cajero lleva pedidos a las mesas 🫠 y si no les sigues su ritmo explotador, eres extraño.",
-    "descripcion": "Restaurante chileno conocido por sus sándwiches, hamburguesas y ambiente familiar. Con varios locales en Santiago, es especialmente popular en el sector oriente de la ciudad."
+    "resumen_mal": "El trato de un supervisor hacia los trabajadores es abusiva, tienen un jefe de salón muy acostumbrado a presionar y hostigar a los trabajadores, cuando algo no le parece no entrega feedback, prefiere acusar con supervisor en vez de solucionar. Es bueno pasando a llevar a los trabajadores y esconde su mal trato diciendo que debe velar por el buen funcionamiento del restaurante, cuando en realidad solo se siente bien abusando de su poder. \nEn resumen, mala organización, mal trato hacia los trabajadores y explotación laboral. \nEn la entrevista te dicen que el ritmo del Aleman Experto es fuerte, y está bien. Pero es más que eso, es derechamente explotación, falta personal y los roles no se respetan. Imaginen que hasta el cajero lleva pedidos a las mesas 🫠 y si no les sigues su ritmo explotador, eres extraño."
   },
   {
     "id": "amaris",
@@ -206,8 +201,7 @@
     "prom_liderazgo": 2,
     "prom_cultura": 3,
     "resumen_bien": "Existen beneficios como cursos de ingles y acceso a plataformas de cursls",
-    "resumen_mal": "Las horas de trabajo, si el cliente pide 12 horas diarias, las jefaturas se lavaran las manos, no hay compensación ni en tiempo ni en remuneración",
-    "descripcion": "Consultora tecnológica internacional con sede en Francia y presencia en más de 60 países. En Chile opera como parte de su expansión en Latinoamérica, ofreciendo servicios de desarrollo de software y consultoría IT."
+    "resumen_mal": "Las horas de trabajo, si el cliente pide 12 horas diarias, las jefaturas se lavaran las manos, no hay compensación ni en tiempo ni en remuneración"
   },
   {
     "id": "amipass",
@@ -241,8 +235,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Ofrece muy pocas opciones de ascender ya que la parte de tecnología donde estaba yo era muy chica, muy poco personal. Los bonos son 50 Lucas en Amipass en septiembre y Navidad después de cumplidos un año y eso no encanta a nadie. Trabajo remoto 100% eso lo veía positivo, nula capacitación con apoyo en tecnologías , no existe udemy ni ningún convenio con empresas de educación para seguir aprendiendo",
-    "resumen_mal": "Podría poner gente más capacitada a nivel técnico el personaje que era TL dejaba mucho que desear con desiciones poco escalables , e invertir en crecimiento profesional mediante academias online",
-    "descripcion": "Empresa chilena de beneficios laborales y tarjetas de alimentación para trabajadores, vinculada al grupo CMPC. Ofrece soluciones de bienestar para empresas y sus colaboradores."
+    "resumen_mal": "Podría poner gente más capacitada a nivel técnico el personaje que era TL dejaba mucho que desear con desiciones poco escalables , e invertir en crecimiento profesional mediante academias online"
   },
   {
     "id": "aone-games",
@@ -276,8 +269,41 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Tiene buen ambiente ya que los compañeros de trabajo buenos",
-    "resumen_mal": "La actitud del CEO y el mal manejo de liderazgo vs mal manejo de la plata de la empresa.",
-    "descripcion": "Estudio chileno de desarrollo de videojuegos con proyectos para plataformas móviles y PC. Es parte del ecosistema de startups creativas de la industria digital chilena."
+    "resumen_mal": "La actitud del CEO y el mal manejo de liderazgo vs mal manejo de la plata de la empresa."
+  },
+  {
+    "id": "arauco",
+    "nombre": "Arauco",
+    "rubro": "forestal",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 143,
+        "fecha": "2026-04-27",
+        "tiempo": "Más de 3 años",
+        "sigue": "Sí",
+        "cal_general": 4,
+        "sueldo": "bajo el mercado",
+        "carrera": "crecimiento moderado",
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "flexibilidad y liderazgo",
+        "que_mal": "renta y crecimiento",
+        "que_desearias": "que iba a ser tan difícil crecer laboralmente",
+        "recomienda": "Sí",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 4,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null,
+    "resumen_bien": "flexibilidad y liderazgo",
+    "resumen_mal": "renta y crecimiento"
   },
   {
     "id": "arcor-chile",
@@ -311,8 +337,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Beneficios y desarrollo profesional.",
-    "resumen_mal": "Problemas de liderazgo",
-    "descripcion": "Filial chilena de Arcor, multinacional argentina de alimentos, golosinas y galletas fundada en 1951. Es una de las mayores productoras de caramelos del mundo y tiene distribución en más de 100 países."
+    "resumen_mal": "Problemas de liderazgo"
   },
   {
     "id": "atcom-outsourcing",
@@ -346,8 +371,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 1,
     "resumen_bien": "Nada esta bien, nefasto todo",
-    "resumen_mal": "No hay comunicación con tu empleador, te pasan con el cliente, el cual no se hace cargo de ti, no tienes donde reclamar.",
-    "descripcion": "Empresa chilena de outsourcing de servicios tecnológicos y soporte de TI para empresas. Ofrece soluciones de infraestructura, helpdesk y gestión de sistemas."
+    "resumen_mal": "No hay comunicación con tu empleador, te pasan con el cliente, el cual no se hace cargo de ti, no tienes donde reclamar."
   },
   {
     "id": "autofact",
@@ -381,8 +405,7 @@
     "prom_liderazgo": 4,
     "prom_cultura": 3,
     "resumen_bien": "Horarios flexibles, trabajo constante",
-    "resumen_mal": "Oportunidades de escalar",
-    "descripcion": "Plataforma chilena de compraventa de vehículos usados fundada en 2001. Es uno de los portales de autos con mayor tráfico en Chile, con servicios de tasación, historial del vehículo y financiamiento."
+    "resumen_mal": "Oportunidades de escalar"
   },
   {
     "id": "banco-consorcio",
@@ -416,8 +439,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 1,
     "resumen_bien": "Tiene una buena ubicación, cerca del metro el golf o tobalaba",
-    "resumen_mal": "Una cultura violenta, donde la humillación y el mal trato es una constante, jefaturas sin preparación, mucha envidia. Jefaturas medias que abusan de su poder, y para poder escalar debes tener \" algo\" con ellos, y personas que acceden a esto para lograrlo, por lo que se perpetua el ciclo de las jefaturas mal preparadas. Como las jefaturas están muy mal preparadas, es muy difícil escalar, porque soy inseguras, y ocupan medios para bajarte. El horario extendido es una constante, y es visto como el desde, porque es un caos total, no existe la planificación, todo es un constante apagar incendios (jefaturas sin capacidad estratégica ni planificación). Por último áreas que deberían apoyar a mejorar la cultura, como RRHH, son parte de la misma, y antiéticos.",
-    "descripcion": "Banco chileno perteneciente al Grupo Consorcio, uno de los principales grupos financieros del país. Ofrece productos de banca personal, ahorro e inversión."
+    "resumen_mal": "Una cultura violenta, donde la humillación y el mal trato es una constante, jefaturas sin preparación, mucha envidia. Jefaturas medias que abusan de su poder, y para poder escalar debes tener \" algo\" con ellos, y personas que acceden a esto para lograrlo, por lo que se perpetua el ciclo de las jefaturas mal preparadas. Como las jefaturas están muy mal preparadas, es muy difícil escalar, porque soy inseguras, y ocupan medios para bajarte. El horario extendido es una constante, y es visto como el desde, porque es un caos total, no existe la planificación, todo es un constante apagar incendios (jefaturas sin capacidad estratégica ni planificación). Por último áreas que deberían apoyar a mejorar la cultura, como RRHH, son parte de la misma, y antiéticos."
   },
   {
     "id": "bancoestado",
@@ -451,8 +473,7 @@
     "prom_liderazgo": 2,
     "prom_cultura": 2,
     "resumen_bien": "Muchos beneficios, si entras puedes no salir más si lo deseas.",
-    "resumen_mal": "El nivel de burocracia para muchas cosas, se mantienen muy poco actualizados con respecto a tecnología.",
-    "descripcion": "Banco del Estado de Chile, fundado en 1953. Es el único banco público del país y tiene la red de sucursales y corresponsales más extensa de Chile, con presencia en todas las comunas del territorio."
+    "resumen_mal": "El nivel de burocracia para muchas cosas, se mantienen muy poco actualizados con respecto a tecnología."
   },
   {
     "id": "bermann-gps",
@@ -486,8 +507,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": null,
-    "resumen_mal": "Poca o nula comunicación entre áreas, mucha gente toxica.",
-    "descripcion": "Empresa chilena de tecnología de geolocalización y telemetría vehicular. Provee soluciones de rastreo GPS y gestión de flotas para empresas de transporte y logística."
+    "resumen_mal": "Poca o nula comunicación entre áreas, mucha gente toxica."
   },
   {
     "id": "brass-chile",
@@ -521,8 +541,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 3,
     "resumen_bien": null,
-    "resumen_mal": "Falta de liderazgo e ideas innovadoras en el área de la tecnología",
-    "descripcion": "Empresa especializada en servicios de perforación y tronaduras para la industria minera chilena. Provee soluciones de fragmentación de roca para operaciones a rajo abierto y subterráneas."
+    "resumen_mal": "Falta de liderazgo e ideas innovadoras en el área de la tecnología"
   },
   {
     "id": "caja-de-compensacion-los-heroes",
@@ -556,8 +575,7 @@
     "prom_liderazgo": 2,
     "prom_cultura": 2,
     "resumen_bien": "Beneficios y flexibilidad si tienes hijos",
-    "resumen_mal": "Claridad de roles, falta de competencias en lideres, burocracia excesiva",
-    "descripcion": "Caja de compensación de asignación familiar fundada en 1961, orientada principalmente a pequeñas y medianas empresas. Administra beneficios sociales, créditos y prestaciones para trabajadores afiliados en todo Chile."
+    "resumen_mal": "Claridad de roles, falta de competencias en lideres, burocracia excesiva"
   },
   {
     "id": "callbusiness",
@@ -591,8 +609,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 2,
     "resumen_bien": "Eventualidad para teletrabajo",
-    "resumen_mal": "Nepotismo extremo, si estas fuera de los dos grupos predominantes, no durarás mucho. Casos de acoso laboral por parte del cliente Banchile Corredores de Seguros.",
-    "descripcion": "Empresa chilena de servicios de contact center y atención al cliente. Provee soluciones de outsourcing de procesos para el sector financiero y de telecomunicaciones."
+    "resumen_mal": "Nepotismo extremo, si estas fuera de los dos grupos predominantes, no durarás mucho. Casos de acoso laboral por parte del cliente Banchile Corredores de Seguros."
   },
   {
     "id": "capitaria",
@@ -626,8 +643,7 @@
     "prom_liderazgo": 2,
     "prom_cultura": 5,
     "resumen_bien": "El ambiente es muy de amigos, gente jóven, hay harto carrete, muy buena onda y los sueldos pueden llegar a ser bastante buenos",
-    "resumen_mal": "Hay mucha incertidumbre, muchísima rotación, falta capacitación para líderes porque no hay buenos liderazgos y puede ser muy dificil ascender dependiendo de en qué momento entraste",
-    "descripcion": "Broker chileno de trading de divisas, acciones y criptomonedas fundado en 2013. Está regulado por la CMF y ofrece plataformas de inversión para traders minoristas e institucionales."
+    "resumen_mal": "Hay mucha incertidumbre, muchísima rotación, falta capacitación para líderes porque no hay buenos liderazgos y puede ser muy dificil ascender dependiendo de en qué momento entraste"
   },
   {
     "id": "cencosud",
@@ -712,8 +728,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Mejora en la comunicación con jefaturas, ofrece un treceavo sueldo y bono, y es una excelente escuela para aprender rápido.",
-    "resumen_mal": "Liderazgo débil y desorientador, amiguismo y elitismo, ambiente competitivo y tóxico, y valoración del \"vender humo\" sobre resultados.",
-    "descripcion": "Conglomerado retail chileno fundado por Horst Paulmann en 1963. Opera supermercados (Jumbo, Santa Isabel), tiendas por departamento (Paris) y centros comerciales en Chile, Argentina, Brasil, Perú y Colombia."
+    "resumen_mal": "Liderazgo débil y desorientador, amiguismo y elitismo, ambiente competitivo y tóxico, y valoración del \"vender humo\" sobre resultados."
   },
   {
     "id": "chita-factoring",
@@ -747,8 +762,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Liderazgo, compañerismo, transparencia, modalidad 1 dia presencial a la semana",
-    "resumen_mal": "Hay que aprender sobre la marcha, te tiran a los leones de inmediato",
-    "descripcion": "Fintech chilena especializada en factoring y financiamiento para pymes. Permite a las empresas anticipar el cobro de sus facturas de forma rápida y digital."
+    "resumen_mal": "Hay que aprender sobre la marcha, te tiran a los leones de inmediato"
   },
   {
     "id": "clickie",
@@ -782,8 +796,7 @@
     "prom_liderazgo": 2,
     "prom_cultura": 4,
     "resumen_bien": "Flexibilidad",
-    "resumen_mal": null,
-    "descripcion": "Agencia chilena de marketing digital, publicidad y comunicación. Ofrece servicios de estrategia digital, redes sociales, pauta online y producción de contenido."
+    "resumen_mal": null
   },
   {
     "id": "coca-cola-andina",
@@ -817,8 +830,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Sueldo acorde al mercado",
-    "resumen_mal": "Proponen una cultura de trabajo colaborativo, sin embargo en la práctica no se da y genera un ambiente de extrema presión y descontrol en el proceso.",
-    "descripcion": "Embotelladora de Coca-Cola más grande de Sudamérica, con sede en Santiago de Chile. Opera en Chile, Argentina, Brasil y Paraguay, con más de 10.000 empleados."
+    "resumen_mal": "Proponen una cultura de trabajo colaborativo, sin embargo en la práctica no se da y genera un ambiente de extrema presión y descontrol en el proceso."
   },
   {
     "id": "copec",
@@ -852,8 +864,7 @@
     "prom_liderazgo": 4,
     "prom_cultura": 4,
     "resumen_bien": "Beneficios, algunos líderes y la movilidad",
-    "resumen_mal": null,
-    "descripcion": "Compañía de Petróleos de Chile, parte del grupo Empresas Copec. Opera más de 600 estaciones de servicio en todo el país y es uno de los principales distribuidores de combustibles y lubricantes de Chile."
+    "resumen_mal": null
   },
   {
     "id": "corporacion-3xi",
@@ -887,8 +898,7 @@
     "prom_liderazgo": 5,
     "prom_cultura": 4,
     "resumen_bien": "Trabajar con propósito. Ser un punto donde tienes mucha visibilidad hacia afuera y el liderazgo que se puede ejercer.",
-    "resumen_mal": "al ser una organización chica todavía, es poco estructurada en cultura, beneficios, etc. Está en construcción, hay que tener paciencia",
-    "descripcion": "Organización chilena sin fines de lucro enfocada en el desarrollo de comunidades a través de la educación, el deporte y la cultura. Trabaja con jóvenes en situación de vulnerabilidad social."
+    "resumen_mal": "al ser una organización chica todavía, es poco estructurada en cultura, beneficios, etc. Está en construcción, hay que tener paciencia"
   },
   {
     "id": "cotener",
@@ -922,8 +932,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Hay posibilidad de trabajo remoto, pero no para todos y aunque lo aceptan en términos legales, culturalmente no es bien visto por los jefes, gerentes o dueños, así que finalmente aceptan el trabajo remoto porque es una excusa para no tener mejores condiciones en la oficina.",
-    "resumen_mal": "Aunque venden tecnología de alta gama para telecomunicaciones, no invierten en mejorar los procesos de la empresa ni en implementar ideas nuevas, ni para el negocio ni para mejorar la experiencia de los clientes. No se sigue ningún criterio profesional a la hora de vender herramientas, hardwares o softwares, no hay consultoría ni conocimiento propio que sea relevante. La empresa vende ser líder en su categoría pero sinceramente solo \"lo es\" (nótese las comilas) porque re-vende tecnología creada por marcas globales. Es simplemente un proveedor/intermediario y con mala gestión por lo demás.",
-    "descripcion": "Empresa chilena de ingeniería eléctrica y soluciones energéticas para la industria. Provee servicios de diseño, instalación y mantención de sistemas eléctricos industriales."
+    "resumen_mal": "Aunque venden tecnología de alta gama para telecomunicaciones, no invierten en mejorar los procesos de la empresa ni en implementar ideas nuevas, ni para el negocio ni para mejorar la experiencia de los clientes. No se sigue ningún criterio profesional a la hora de vender herramientas, hardwares o softwares, no hay consultoría ni conocimiento propio que sea relevante. La empresa vende ser líder en su categoría pero sinceramente solo \"lo es\" (nótese las comilas) porque re-vende tecnología creada por marcas globales. Es simplemente un proveedor/intermediario y con mala gestión por lo demás."
   },
   {
     "id": "cristalchile",
@@ -957,8 +966,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Muy buen lugar para mostrar conocimientos y habilidades",
-    "resumen_mal": "Malos liderazgos, beneficios desalineados con los intereses de los trabajadores",
-    "descripcion": "Empresa chilena de fabricación de envases de vidrio, parte de Cristalerías de Chile. Produce botellas y frascos para la industria alimentaria, vitivinícola y farmacéutica."
+    "resumen_mal": "Malos liderazgos, beneficios desalineados con los intereses de los trabajadores"
   },
   {
     "id": "cumplo-chile",
@@ -992,8 +1000,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "La cultura de los trabajadores, mas no la de la empresa. El grupo humano que se forma adentro es lo más rescatable. Estaba bien la flexibilidad pero ya no existe.",
-    "resumen_mal": "El como se contrata (Te engañan con las condiciones, sobre todo a los que son su primer trabajo)\nEl como despiden personal (Rotación muy alta, nunca los dejan despedirse de sus compañeros, es todo muy impersonal)\nLa rotación interna (Lo plantean cómo algo que existe pero es solo para aquellos que se llevan bien con los jefes, no los mas capaces)\nEl nivel de pituto (Trabaja el sobrino del gerente, entran a trabajar sobrinas, primas, tias, etc de personas del directorio, todo se basa en a quien conoces, como te llevas con x, etc)",
-    "descripcion": "Plataforma chilena de financiamiento colectivo empresarial (crowdlending) fundada en 2012. Conecta a pymes que necesitan financiamiento con inversionistas que buscan rentabilidad, operando de forma 100% digital."
+    "resumen_mal": "El como se contrata (Te engañan con las condiciones, sobre todo a los que son su primer trabajo)\nEl como despiden personal (Rotación muy alta, nunca los dejan despedirse de sus compañeros, es todo muy impersonal)\nLa rotación interna (Lo plantean cómo algo que existe pero es solo para aquellos que se llevan bien con los jefes, no los mas capaces)\nEl nivel de pituto (Trabaja el sobrino del gerente, entran a trabajar sobrinas, primas, tias, etc de personas del directorio, todo se basa en a quien conoces, como te llevas con x, etc)"
   },
   {
     "id": "deloitte",
@@ -1061,8 +1068,7 @@
     "prom_liderazgo": 3,
     "prom_cultura": 3.5,
     "resumen_bien": "Flexibilidad real dependiendo de la jefatura, con posibilidad de trabajo remoto total. Consultoría tiene buen ambiente.",
-    "resumen_mal": "Sueldo inicial prácticamente sin aumento. Sobrecarga de proyectos simultáneos. Auditoría con ambiente tóxico y jornadas extendidas.",
-    "descripcion": "Una de las cuatro grandes firmas de auditoría y consultoría a nivel mundial, con presencia en más de 150 países. En Chile ofrece servicios de auditoría, consultoría de gestión, asesoría legal y tributaria."
+    "resumen_mal": "Sueldo inicial prácticamente sin aumento. Sobrecarga de proyectos simultáneos. Auditoría con ambiente tóxico y jornadas extendidas."
   },
   {
     "id": "dinecom",
@@ -1096,8 +1102,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Poco se salva. Es un barco quemándose mientras se dirige hacia una catarata",
-    "resumen_mal": "Es una PYME familiar donde el orden, la estructura, la protocolización y la planificación están totalmente fuera.",
-    "descripcion": "Empresa chilena de telecomunicaciones e internet de banda ancha. Provee conectividad para empresas y hogares en distintas regiones del país."
+    "resumen_mal": "Es una PYME familiar donde el orden, la estructura, la protocolización y la planificación están totalmente fuera."
   },
   {
     "id": "dispolab",
@@ -1131,8 +1136,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 1,
     "resumen_bien": null,
-    "resumen_mal": "Empresa arcaica, con poco respeto por los trabajadores, cero foco estratégico, malos tratos, alta rotación.",
-    "descripcion": "Empresa chilena de distribución de insumos médicos, de laboratorio y hospitalarios. Atiende a clínicas, hospitales y laboratorios en todo Chile."
+    "resumen_mal": "Empresa arcaica, con poco respeto por los trabajadores, cero foco estratégico, malos tratos, alta rotación."
   },
   {
     "id": "e-contact",
@@ -1166,8 +1170,7 @@
     "prom_liderazgo": 2,
     "prom_cultura": 3,
     "resumen_bien": "Cultura, flexibilidad, si insistes te pagan cursos y/o certificaciones.",
-    "resumen_mal": "Sueldos en la media para abajo, mucho amiguismo, los jefes de area algunos terminaron de estudiar después de estar como 10 años en la empresa. El ambiente estresante que se ha generado en los últimos años, no necesariamente por carga laboral, sino por la incertidumbre de estabilidad laboral y hacia donde apunta la empresa. La ilusión en la que vive la gerencia donde creen que es la mejor empresa, pero se quedaron estancados en el éxito y crecimiento explosivo que hubo. La desvinculación de gente competente por sobre profesionales sobrevalorados, consecuencias del “amiguismo”.\nLa falta de empatia de “la alta gerencia“ y educación de los gerentes.",
-    "descripcion": "Empresa chilena de contact center y outsourcing de procesos de negocio (BPO). Provee servicios de atención al cliente, televentas y soporte técnico para empresas del sector telecomunicaciones y retail."
+    "resumen_mal": "Sueldos en la media para abajo, mucho amiguismo, los jefes de area algunos terminaron de estudiar después de estar como 10 años en la empresa. El ambiente estresante que se ha generado en los últimos años, no necesariamente por carga laboral, sino por la incertidumbre de estabilidad laboral y hacia donde apunta la empresa. La ilusión en la que vive la gerencia donde creen que es la mejor empresa, pero se quedaron estancados en el éxito y crecimiento explosivo que hubo. La desvinculación de gente competente por sobre profesionales sobrevalorados, consecuencias del “amiguismo”.\nLa falta de empatia de “la alta gerencia“ y educación de los gerentes."
   },
   {
     "id": "echeverria-izquierdo",
@@ -1201,8 +1204,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 1,
     "resumen_bien": "Hay muchas oportunidades de ayudar a otros compañeros de trabajo por lo que se hacen buenas amistades",
-    "resumen_mal": "Las decisiones se toman por las emociones puntuales de las jefaturas o gerentes, por lo que te puede ir muy bien o muy mal dependiendo de su estado de ánimo",
-    "descripcion": "Empresa chilena de ingeniería y construcción fundada en 1980. Especializada en proyectos industriales, mineros y de infraestructura, con una de las carteras de contratos más importantes del país."
+    "resumen_mal": "Las decisiones se toman por las emociones puntuales de las jefaturas o gerentes, por lo que te puede ir muy bien o muy mal dependiendo de su estado de ánimo"
   },
   {
     "id": "edarkstore",
@@ -1236,8 +1238,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 1,
     "resumen_bien": "No se controlan los horarios.",
-    "resumen_mal": "Al principio era intentar copiar a la competencia ahora es modo supervivencia. Se gastaron toda la plata que levantamos.",
-    "descripcion": "Empresa chilena de dark stores y logística de última milla para e-commerce. Opera bodegas urbanas que permiten entregas exprés para plataformas de delivery y comercio electrónico."
+    "resumen_mal": "Al principio era intentar copiar a la competencia ahora es modo supervivencia. Se gastaron toda la plata que levantamos."
   },
   {
     "id": "edipro",
@@ -1271,8 +1272,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 1,
     "resumen_bien": "Como esconden que cada mes estan a punto de irse a quiebra",
-    "resumen_mal": "No hay habilidades blandas en las jefaturas y gerencias, se denosta mucho a los trabajadores y clientes",
-    "descripcion": "Empresa chilena de soluciones de software para gestión empresarial y facturación electrónica. Provee sistemas ERP y herramientas de administración para pymes y grandes empresas."
+    "resumen_mal": "No hay habilidades blandas en las jefaturas y gerencias, se denosta mucho a los trabajadores y clientes"
   },
   {
     "id": "enaex",
@@ -1306,8 +1306,7 @@
     "prom_liderazgo": 4,
     "prom_cultura": 5,
     "resumen_bien": "Muy buenos beneficios, su cultura llega a todas las líneas y escalones de la compañía y el ambiente laboral es bueno.",
-    "resumen_mal": "Los cargos de entrada tienen buenos sueldos pero el reajuste queda al debe. Hay que cambiarse de área o subir de cargo para percibir un aumento un poco más atractivo. Al ser tantas personas está todo súper estandarizado.",
-    "descripcion": "Empresa chilena fabricante de explosivos y proveedora de servicios de fragmentación para la minería, parte del grupo Sigdo Koppers. Es uno de los mayores productores de nitrato de amonio en América Latina."
+    "resumen_mal": "Los cargos de entrada tienen buenos sueldos pero el reajuste queda al debe. Hay que cambiarse de área o subir de cargo para percibir un aumento un poco más atractivo. Al ser tantas personas está todo súper estandarizado."
   },
   {
     "id": "entel",
@@ -1375,8 +1374,7 @@
     "prom_liderazgo": 3.3,
     "prom_cultura": 4.7,
     "resumen_bien": "Sueldos sobre la media, cultura inclusiva y activa, espacios de calidad y desarrollo de carrera estructurado.",
-    "resumen_mal": "Liderazgo tóxico en niveles medios. Carga laboral excesiva que impacta el balance personal. Poca flexibilidad horaria real.",
-    "descripcion": "Empresa chilena de telecomunicaciones fundada en 1964. Es uno de los principales operadores de telefonía móvil, internet y servicios digitales en Chile y Perú, con millones de clientes."
+    "resumen_mal": "Liderazgo tóxico en niveles medios. Carga laboral excesiva que impacta el balance personal. Poca flexibilidad horaria real."
   },
   {
     "id": "epiroc",
@@ -1410,8 +1408,7 @@
     "prom_liderazgo": 5,
     "prom_cultura": 5,
     "resumen_bien": "Beneficios, cultura organizacional, flexibilidad",
-    "resumen_mal": null,
-    "descripcion": "Multinacional sueca fabricante de equipos y herramientas para minería, construcción y excavación. Separada de Atlas Copco en 2018, tiene presencia en más de 150 países y opera en Chile a través de sucursales regionales."
+    "resumen_mal": null
   },
   {
     "id": "equans-chile",
@@ -1445,8 +1442,7 @@
     "prom_liderazgo": 5,
     "prom_cultura": 5,
     "resumen_bien": "Empresa grande, buenos beneficios, buenos salarios, Inglés excluyente, oportunidades para viajar al extranjero.",
-    "resumen_mal": "oficina central en cerrillos, un poco dificil el acceso.",
-    "descripcion": "Filial chilena de Equans, empresa multinacional francesa líder en servicios técnicos, ingeniería mecánica y eléctrica. Anteriormente conocida como Ineo, ofrece soluciones de instalación y mantenimiento industrial."
+    "resumen_mal": "oficina central en cerrillos, un poco dificil el acceso."
   },
   {
     "id": "escuela-de-ing-uc",
@@ -1480,8 +1476,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Solo destaco que entrega posibilidades de desarrollo en estudios y capacitaciones.",
-    "resumen_mal": "Casi todo: cultura, liderazgo, visión de futuro, planificación, ambiente laboral, beneficios, entre otros.",
-    "descripcion": "La Escuela de Ingeniería de la Pontificia Universidad Católica de Chile, una de las facultades de ingeniería más prestigiosas del país. Fundada en 1895, es consistentemente reconocida entre las mejores de Latinoamérica."
+    "resumen_mal": "Casi todo: cultura, liderazgo, visión de futuro, planificación, ambiente laboral, beneficios, entre otros."
   },
   {
     "id": "evalueserve",
@@ -1515,8 +1510,7 @@
     "prom_liderazgo": 3,
     "prom_cultura": 4,
     "resumen_bien": "La gente, la estructua, plan de carrera claro",
-    "resumen_mal": "Claridad en la expectativa de los cargos,",
-    "descripcion": "Empresa global de servicios de investigación, análisis e inteligencia de negocios con sede en Suiza. Tiene centros de entrega en varios países, incluyendo Chile, donde brinda servicios de análisis financiero y legal."
+    "resumen_mal": "Claridad en la expectativa de los cargos,"
   },
   {
     "id": "evertec",
@@ -1550,8 +1544,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Nada, empresa asquerosa y funada, te hacen trabajar turnos (como analista) con horas extras y sin pagos correspondientes",
-    "resumen_mal": "Todo, la mentalidad de los equipos es muy pobre",
-    "descripcion": "Empresa tecnológica especializada en procesamiento de pagos electrónicos y soluciones financieras para Latinoamérica. Procesa millones de transacciones diarias para bancos, retailers y gobiernos de la región."
+    "resumen_mal": "Todo, la mentalidad de los equipos es muy pobre"
   },
   {
     "id": "examedi",
@@ -1585,8 +1578,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Flexibilidad en el horario, oportunidad de aprendizaje",
-    "resumen_mal": "Falta de planificación organizacional, faltan muchos puestos, equilibrio vida-trabajo haciendo 60 horas a la semana por 1.000.000",
-    "descripcion": "Startup chilena de salud digital fundada en 2020 que ofrece toma de exámenes médicos a domicilio. Ha crecido rápidamente y cuenta con respaldo de fondos de capital de riesgo internacionales."
+    "resumen_mal": "Falta de planificación organizacional, faltan muchos puestos, equilibrio vida-trabajo haciendo 60 horas a la semana por 1.000.000"
   },
   {
     "id": "experian",
@@ -1620,8 +1612,7 @@
     "prom_liderazgo": 4,
     "prom_cultura": 5,
     "resumen_bien": "Mucha flexibilidad, muchos beneficios y mucha amabilidad de los lideres, han mejorado mucho en esa area sobretodo.",
-    "resumen_mal": "A veces la burocracia en nombre de la seguridad de datos puede ser un poco frustrante, se entienden las razones pero a veces eso previene el avance en tecnología.",
-    "descripcion": "Multinacional irlandesa de información crediticia, análisis de datos y servicios de marketing. En Chile provee soluciones de scoring crediticio y prevención de fraude para el sector financiero."
+    "resumen_mal": "A veces la burocracia en nombre de la seguridad de datos puede ser un poco frustrante, se entienden las razones pero a veces eso previene el avance en tecnología."
   },
   {
     "id": "explora",
@@ -1655,8 +1646,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 4,
     "resumen_bien": "Cultura y poder viajar",
-    "resumen_mal": "Promoción a los amigos de los jefes vs merito",
-    "descripcion": "Cadena chilena de lodges ecoturísticos de alta gama en destinos naturales únicos de Chile: Torres del Paine, Desierto de Atacama, Rapa Nui y otros. Reconocida internacionalmente por su propuesta de turismo de naturaleza."
+    "resumen_mal": "Promoción a los amigos de los jefes vs merito"
   },
   {
     "id": "falabella-com",
@@ -1690,8 +1680,7 @@
     "prom_liderazgo": 2,
     "prom_cultura": 2,
     "resumen_bien": "Lo mejor son los beneficios, bonos, giftcard, seguro, descuentos, etc",
-    "resumen_mal": "Mejorar liderazgo, enfoque de equipos, disminución de personal asi que toca hacer la pega de varios",
-    "descripcion": "División de comercio electrónico de Falabella, uno de los retailers más grandes de Latinoamérica. Opera en Chile, Perú, Colombia y Argentina, integrando marketplace, logística y medios de pago propios."
+    "resumen_mal": "Mejorar liderazgo, enfoque de equipos, disminución de personal asi que toca hacer la pega de varios"
   },
   {
     "id": "femsa",
@@ -1742,8 +1731,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 2,
     "resumen_bien": "Horarios favorables como principal ventaja destacada.",
-    "resumen_mal": "Jefaturas deficientes, despidos masivos, cargos mal definidos y cultura organizacional débil.",
-    "descripcion": "Multinacional mexicana fundada en 1890, con operaciones en bebidas (Coca-Cola FEMSA), retail (OXXO) y salud. En Chile tiene presencia con sus operaciones de distribución y puntos de venta."
+    "resumen_mal": "Jefaturas deficientes, despidos masivos, cargos mal definidos y cultura organizacional débil."
   },
   {
     "id": "fundacion-docere",
@@ -1777,8 +1765,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 2,
     "resumen_bien": "Los dias de descansi",
-    "resumen_mal": "Jefatura, que horrible por dios. Miradores en  menos, acosadores con las mujeres.",
-    "descripcion": "Organización chilena sin fines de lucro dedicada a mejorar la calidad de la educación. Trabaja con establecimientos educacionales en programas de apoyo a estudiantes y formación docente."
+    "resumen_mal": "Jefatura, que horrible por dios. Miradores en  menos, acosadores con las mujeres."
   },
   {
     "id": "fundacion-puerto-de-ideas",
@@ -1812,8 +1799,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "El equipo de planta",
-    "resumen_mal": "La presidenta del directorio y dueña",
-    "descripcion": "Festival y fundación cultural chilena que promueve la divulgación del conocimiento y el pensamiento crítico. Realiza el festival Puerto de Ideas, uno de los eventos culturales más relevantes de Chile, principalmente en Valparaíso."
+    "resumen_mal": "La presidenta del directorio y dueña"
   },
   {
     "id": "gama-italy",
@@ -1847,8 +1833,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Que ahora hay más presupuesto y se hacen cosas más entretenidas",
-    "resumen_mal": "Cultura patrón de fundo, rotación extrema jamás vista en otro lado",
-    "descripcion": "Empresa italiana de electrodomésticos para el cuidado del cabello (secadores, planchas, rizadores). Con presencia en Chile a través de distribución y retail especializado."
+    "resumen_mal": "Cultura patrón de fundo, rotación extrema jamás vista en otro lado"
   },
   {
     "id": "geovictoria",
@@ -1916,8 +1901,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 2.5,
     "resumen_bien": "Los compañeros de trabajo son el principal activo; buen ambiente entre pares.",
-    "resumen_mal": "Gerentes sin habilidades de liderazgo. Alta rotación sin feedback al despido, sueldos bajos y escaso crecimiento interno.",
-    "descripcion": "Empresa chilena de software de gestión de asistencia, turnos y recursos humanos fundada en 2008. Tiene presencia en más de 15 países de Latinoamérica y atiende a miles de empresas."
+    "resumen_mal": "Gerentes sin habilidades de liderazgo. Alta rotación sin feedback al despido, sueldos bajos y escaso crecimiento interno."
   },
   {
     "id": "gft-technologies",
@@ -1951,8 +1935,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 2,
     "resumen_bien": "Flexibilidad, trabajo remoto",
-    "resumen_mal": "Mala organización, sueldos bajos",
-    "descripcion": "Empresa alemana de consultoría y desarrollo tecnológico especializada en el sector financiero. Opera en más de 15 países y tiene presencia en Chile como parte de su expansión latinoamericana."
+    "resumen_mal": "Mala organización, sueldos bajos"
   },
   {
     "id": "global66",
@@ -1986,8 +1969,7 @@
     "prom_liderazgo": 2,
     "prom_cultura": 3,
     "resumen_bien": "Las oportunidades de crecimiento o exposición se van dando a medida que uno mismo se visibiliza o expone.",
-    "resumen_mal": "Poca o nula flexibilidad en términos de home office. Si uno no cumple con una modalidad de 4x1, no puede obtener aumentos de sueldo, cambios de roles, etc (incluso cumpliendo con los objetivos del rol). Alta rotación y sin feedback real por parte de los líderes. Contratan gente con plazo fijo a los 3 meses, porque saben que existe una alta probabilidad de desvinculación o no renovación de contrato.",
-    "descripcion": "Fintech chilena de transferencias internacionales de dinero fundada en 2018. Permite enviar y recibir dinero entre distintos países de Latinoamérica con bajas comisiones y de forma digital."
+    "resumen_mal": "Poca o nula flexibilidad en términos de home office. Si uno no cumple con una modalidad de 4x1, no puede obtener aumentos de sueldo, cambios de roles, etc (incluso cumpliendo con los objetivos del rol). Alta rotación y sin feedback real por parte de los líderes. Contratan gente con plazo fijo a los 3 meses, porque saben que existe una alta probabilidad de desvinculación o no renovación de contrato."
   },
   {
     "id": "gtd",
@@ -2021,8 +2003,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Cultura: empresa de la familia Casanueva, aún con muchos rasgos muy formales y poco actualizado a culturas empresariales más modernas. La mano del dueño fundador aun está muy presente (para bien y para mal).\n\nBeneficios: seguro complementario de salud, convenios, amipass, bono navidad, bono fiestas patrias, etc ... lo normal (nada del otro mundo) para una empresa de aprox. 3000 trabajadores.\n\nFlexibilidad: no abiertamente, pero esto siempre dependerá mucho de tu área, jefatura y responsabilidades.",
-    "resumen_mal": "Los sueldos no son los mejores del mercado y no siempre se asciende al que lo merece sino que al que tiene contactos, es amigo o familiar de alguien.",
-    "descripcion": "Empresa chilena de telecomunicaciones y conectividad para empresas fundada en 1989. Provee servicios de internet, data center, nube y comunicaciones corporativas en Chile, Perú y Colombia."
+    "resumen_mal": "Los sueldos no son los mejores del mercado y no siempre se asciende al que lo merece sino que al que tiene contactos, es amigo o familiar de alguien."
   },
   {
     "id": "hogar-de-cristo",
@@ -2056,8 +2037,7 @@
     "prom_liderazgo": 2,
     "prom_cultura": 4,
     "resumen_bien": "El ambiente es muy rico en el sentido de que todos viven el propósito de la fundación. Además en mi área estábamos casi full teletrabajo, íbamos media jornada 1 vez a la semana.",
-    "resumen_mal": "No tienen buenas jefaturas. Hay mucha gente antigua, crecer dentro de la organización es casi imposible. La cultura es muy difícil de trabajar, los colaboradores (al ser tan antiguos) no quieren implementar cambios y muchas veces boicotean los proyectos de mejora. No hay espacio (ni recursos) para la innovación. No hay cultura de trabajo, las personas andan marcando el paso. La conexión del internet es muy mala, al igual que los equipos que te entregan. Las oficinas son demasiado básicas y no tienen todo lo suficiente para poder trabajar bien. Los sueldos son demasiado bajos y pedir aumento es un trámite enorme y te ofrecen 20-30 lucas, un chiste.",
-    "descripcion": "Fundación chilena sin fines de lucro fundada por el Padre Alberto Hurtado en 1944. Es la organización de caridad más grande de Chile, con programas para personas en situación de calle, adultos mayores y niños vulnerables en todo el país."
+    "resumen_mal": "No tienen buenas jefaturas. Hay mucha gente antigua, crecer dentro de la organización es casi imposible. La cultura es muy difícil de trabajar, los colaboradores (al ser tan antiguos) no quieren implementar cambios y muchas veces boicotean los proyectos de mejora. No hay espacio (ni recursos) para la innovación. No hay cultura de trabajo, las personas andan marcando el paso. La conexión del internet es muy mala, al igual que los equipos que te entregan. Las oficinas son demasiado básicas y no tienen todo lo suficiente para poder trabajar bien. Los sueldos son demasiado bajos y pedir aumento es un trámite enorme y te ofrecen 20-30 lucas, un chiste."
   },
   {
     "id": "i-municipalidad-de-coquimbo",
@@ -2091,8 +2071,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 1,
     "resumen_bien": "Las colegas que entramos en conjunto y trabajar en conjunto es muy grato",
-    "resumen_mal": "La jefatura de social, existe un pésimo liderazgo, no tiene empatía por los trabajadores y existe un hostigamiento laboral que hace dos años (cuando estaba la ex jefa) no teníamos ese problema. Además el nivel de desconfianza con los profesionales llegando al límite de que estén llamando por teléfono para verificar si estamos realizando nuestro trabajo. Además estamos a honorarios y nos tienen marcando, realizan descuento si marcamos atrasados y el ambiente laboral está pésimo.",
-    "descripcion": "Institución pública encargada de la administración local de la ciudad de Coquimbo, en la Región de Coquimbo. Provee servicios municipales a sus más de 230.000 habitantes."
+    "resumen_mal": "La jefatura de social, existe un pésimo liderazgo, no tiene empatía por los trabajadores y existe un hostigamiento laboral que hace dos años (cuando estaba la ex jefa) no teníamos ese problema. Además el nivel de desconfianza con los profesionales llegando al límite de que estén llamando por teléfono para verificar si estamos realizando nuestro trabajo. Además estamos a honorarios y nos tienen marcando, realizan descuento si marcamos atrasados y el ambiente laboral está pésimo."
   },
   {
     "id": "ibm-chile",
@@ -2143,8 +2122,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": null,
-    "resumen_mal": null,
-    "descripcion": "Filial chilena de IBM (International Business Machines), multinacional estadounidense de tecnología fundada en 1911. Ofrece consultoría, infraestructura tecnológica, inteligencia artificial y soluciones cloud para grandes empresas."
+    "resumen_mal": null
   },
   {
     "id": "isamax",
@@ -2178,8 +2156,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "El trabajo es remoto y por \"tareas\" por lo que no te molestan si haces lo tuyo.",
-    "resumen_mal": "Literalmente todo. Es un negrero emergente que captura personas sin experiencia para darles trabajo de semi senior y hacerlos sentir mal por no saber algo que te toma años de experiencia aprender (no lo digo por mi). Sueldo bajo y mala comunicacion, 0 documentacion y poca esperanza de crecer debido a que el dueño se maneja mal con la gestion de la empresa.",
-    "descripcion": "Empresa chilena de tecnología y servicios informáticos. Provee soluciones de desarrollo de software, soporte técnico y gestión de sistemas para empresas y organizaciones."
+    "resumen_mal": "Literalmente todo. Es un negrero emergente que captura personas sin experiencia para darles trabajo de semi senior y hacerlos sentir mal por no saber algo que te toma años de experiencia aprender (no lo digo por mi). Sueldo bajo y mala comunicacion, 0 documentacion y poca esperanza de crecer debido a que el dueño se maneja mal con la gestion de la empresa."
   },
   {
     "id": "isapre-consalud",
@@ -2213,8 +2190,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Son ordenados con la informacion que recopilan de las personas.",
-    "resumen_mal": "Poca empatia con los trabajadores, además hay ciertos procesos internos de la empresa que obligan, directa o indirectamente al trabajador a desempeñarse fuera del horario laboral.",
-    "descripcion": "Una de las isapres más grandes de Chile, con más de 500.000 beneficiarios. Ofrece planes de salud complementarios al sistema público (Fonasa), con amplia red de prestadores en todo el país."
+    "resumen_mal": "Poca empatia con los trabajadores, además hay ciertos procesos internos de la empresa que obligan, directa o indirectamente al trabajador a desempeñarse fuera del horario laboral."
   },
   {
     "id": "itau",
@@ -2248,8 +2224,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Cultura",
-    "resumen_mal": "Renta",
-    "descripcion": "Banco de origen brasileño con fuerte presencia en Chile tras la fusión con CorpBanca en 2016. Es uno de los bancos más grandes de Latinoamérica, con operaciones en más de 18 países."
+    "resumen_mal": "Renta"
   },
   {
     "id": "jica-chile",
@@ -2283,8 +2258,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Posibilidad de aprender sobre proyectos de cooperación en Chile, lo que permite adquirir experiencia relevante en el área, y cumplimiento oportuno en el pago de remuneraciones.",
-    "resumen_mal": "Mal clima laboral, con una organización altamente jerárquica que limita la autonomía y la participación. Escasa oferta de formación y pocas oportunidades de crecimiento profesional. Además, existen problemas en los estilos de liderazgo, con jefaturas que tienden a generar ambientes poco respetuosos. \nExiste una subutilización de las capacidades de los/as especialistas contratados, lo que afecta tanto el desempeño como la motivación.",
-    "descripcion": "Agencia de Cooperación Internacional de Japón (JICA), organismo gubernamental japonés que promueve el desarrollo sostenible en países en desarrollo. En Chile ejecuta proyectos de cooperación técnica en áreas como desastres naturales y desarrollo social."
+    "resumen_mal": "Mal clima laboral, con una organización altamente jerárquica que limita la autonomía y la participación. Escasa oferta de formación y pocas oportunidades de crecimiento profesional. Además, existen problemas en los estilos de liderazgo, con jefaturas que tienden a generar ambientes poco respetuosos. \nExiste una subutilización de las capacidades de los/as especialistas contratados, lo que afecta tanto el desempeño como la motivación."
   },
   {
     "id": "kabeli",
@@ -2318,8 +2292,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Recursos humanos se mueve rápido y gestionan bien.",
-    "resumen_mal": "Todo, desde la incompetencia de los jefes (no saben absolutamente nada) hasta la asignación irresponsable de las tareas.",
-    "descripcion": "Consultora chilena de servicios profesionales y asesoría empresarial. Ofrece soluciones de gestión, estrategia y recursos humanos para organizaciones de distintos sectores."
+    "resumen_mal": "Todo, desde la incompetencia de los jefes (no saben absolutamente nada) hasta la asignación irresponsable de las tareas."
   },
   {
     "id": "kibernum",
@@ -2353,8 +2326,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Flexibilidad, al principio todo era remoto,  pero ahora los clientes quieren híbrido o presencial. Tienen buenos beneficios si te inscribes en el\nSindicato",
-    "resumen_mal": "Cuando en una vacante ponen que suben sueldo anual, no es la realidad, solo sube por IPC pero no por el desempeño (tengo excelente desempeño recomendado por cliente y la consultora), sin embargo al estar en el sindicato hay bonos decentes.",
-    "descripcion": "Empresa chilena de servicios tecnológicos y outsourcing de TI fundada en 1994. Provee soluciones de staffing tecnológico, desarrollo de software y gestión de infraestructura, con operaciones en Chile y Colombia."
+    "resumen_mal": "Cuando en una vacante ponen que suben sueldo anual, no es la realidad, solo sube por IPC pero no por el desempeño (tengo excelente desempeño recomendado por cliente y la consultora), sin embargo al estar en el sindicato hay bonos decentes."
   },
   {
     "id": "kiosclub",
@@ -2388,8 +2360,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Ubicación",
-    "resumen_mal": "Sacar a los amigos y familiares de cargos de la empresa, poner gente técnica, llegarían mucho más lejos con gente con conocimiento y experiencia",
-    "descripcion": "Empresa chilena operadora de quioscos y puntos de venta de prensa, revistas y artículos de conveniencia. Tiene presencia en centros comerciales y espacios públicos de las principales ciudades del país."
+    "resumen_mal": "Sacar a los amigos y familiares de cargos de la empresa, poner gente técnica, llegarían mucho más lejos con gente con conocimiento y experiencia"
   },
   {
     "id": "kitchen-center",
@@ -2423,8 +2394,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Rubro entretenido",
-    "resumen_mal": "Malos tratos agravados en Finanzas, gritos, insultos, sarcasmo, muy grave",
-    "descripcion": "Cadena chilena de tiendas especializadas en electrodomésticos, menaje de cocina y artículos para el hogar. Con locales en Santiago y regiones, se enfoca en productos de cocina profesional y doméstica."
+    "resumen_mal": "Malos tratos agravados en Finanzas, gritos, insultos, sarcasmo, muy grave"
   },
   {
     "id": "komatsu-cummins",
@@ -2458,8 +2428,7 @@
     "prom_liderazgo": 3,
     "prom_cultura": 3,
     "resumen_bien": "Buen ambiente, buenas oportunidades.",
-    "resumen_mal": "Hay personas que no debiesen de estar como líderes, demasiados puestos gerenciales. Desorden organizativo.",
-    "descripcion": "Joint venture entre Komatsu (fabricante japonés de maquinaria pesada) y Cummins (motores diésel) para la venta y servicio técnico de equipos para minería y construcción en Chile."
+    "resumen_mal": "Hay personas que no debiesen de estar como líderes, demasiados puestos gerenciales. Desorden organizativo."
   },
   {
     "id": "l-oreal-chile",
@@ -2493,8 +2462,7 @@
     "prom_liderazgo": 4,
     "prom_cultura": 2,
     "resumen_bien": "Tiene buenos beneficios, hay posibilidad de crecer, ofrecen capacitaciones constantes",
-    "resumen_mal": "Me tocó un director de operaciones muy desagradable, sentía que la posibilidad de crecer dependía más de la popularidad que de la productividad. Se sentía un ambiente de competencia entre divisiones",
-    "descripcion": "Filial chilena de L'Oréal, el mayor grupo de cosméticos y cuidado personal del mundo, fundado en Francia en 1909. Comercializa marcas como Maybelline, Garnier, Kérastase y Lancôme."
+    "resumen_mal": "Me tocó un director de operaciones muy desagradable, sentía que la posibilidad de crecer dependía más de la popularidad que de la productividad. Se sentía un ambiente de competencia entre divisiones"
   },
   {
     "id": "laboratorios-saval",
@@ -2528,8 +2496,7 @@
     "prom_liderazgo": 5,
     "prom_cultura": 4,
     "resumen_bien": "Empresa seria, con procesos establecidos, en constante crecimiento.",
-    "resumen_mal": "Falta de plan de carrera y crecimiento.",
-    "descripcion": "Laboratorio farmacéutico chileno fundado en 1949, parte del grupo Empresas Saval. Es uno de los principales fabricantes de medicamentos genéricos e innovadores en Chile, con exportaciones a varios países."
+    "resumen_mal": "Falta de plan de carrera y crecimiento."
   },
   {
     "id": "latam-airlines",
@@ -2563,8 +2530,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Es lindo decir que estás en latam, y trabajar en una industria muy dinamica",
-    "resumen_mal": "La dirección de aeropuertos (administrativa) completa hay directores que piden sacar jefes, toda la plana de gerentes se conocen y carretean entre ellos hace años, se apitutean entre ellos y si no eres \"de su perfil\" no te dan bola para ningun proyecto esperando que te vayas o puedan traer a alguien para reemplazarte",
-    "descripcion": "Aerolínea formada en 2012 por la fusión de LAN (Chile) y TAM (Brasil). Es la mayor aerolínea de Latinoamérica, con una red que conecta más de 140 destinos en 26 países de América y Europa."
+    "resumen_mal": "La dirección de aeropuertos (administrativa) completa hay directores que piden sacar jefes, toda la plana de gerentes se conocen y carretean entre ellos hace años, se apitutean entre ellos y si no eres \"de su perfil\" no te dan bola para ningun proyecto esperando que te vayas o puedan traer a alguien para reemplazarte"
   },
   {
     "id": "lider-bci",
@@ -2632,8 +2598,7 @@
     "prom_liderazgo": 5,
     "prom_cultura": 5,
     "resumen_bien": "Los salarios iniciales, beneficios y flexibilidad.",
-    "resumen_mal": "La cultura organizacional es muy desorganizada y sueldos para profesionales con más experiencia por debajo del mercado.",
-    "descripcion": "Banco de Crédito e Inversiones (BCI), uno de los principales bancos privados de Chile fundado en 1937. Ofrece servicios de banca personal, empresarial e inversiones, con presencia en Chile, Estados Unidos y otros países."
+    "resumen_mal": "La cultura organizacional es muy desorganizada y sueldos para profesionales con más experiencia por debajo del mercado."
   },
   {
     "id": "lirmi",
@@ -2803,8 +2768,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 2,
     "resumen_bien": "Trabajo remoto flexible, producto valorado, impacto educativo real y compañerismo como contrapeso a las jefaturas.",
-    "resumen_mal": "Liderazgo egocéntrico y autoritario. Despidos inhumanos sin aviso. Gestión familiar en CLevel, metas imposibles y bonos que no se pagan.",
-    "descripcion": "Empresa chilena de software educativo para la gestión de colegios y sostenedores fundada en 2012. Su plataforma es utilizada por miles de establecimientos educacionales en Chile para la gestión pedagógica y administrativa."
+    "resumen_mal": "Liderazgo egocéntrico y autoritario. Despidos inhumanos sin aviso. Gestión familiar en CLevel, metas imposibles y bonos que no se pagan."
   },
   {
     "id": "mercado-libre-chile",
@@ -2838,8 +2802,7 @@
     "prom_liderazgo": 2,
     "prom_cultura": 3,
     "resumen_bien": "Beneficios, sueldo, desafios",
-    "resumen_mal": "La gerencia, la burocracia, el sistema cerrado",
-    "descripcion": "Filial chilena de Mercado Libre, el mayor ecosistema de comercio electrónico de Latinoamérica fundado en Argentina en 1999. Opera el marketplace, Mercado Pago (pagos digitales) y Mercado Envíos (logística)."
+    "resumen_mal": "La gerencia, la burocracia, el sistema cerrado"
   },
   {
     "id": "metlife",
@@ -2873,8 +2836,7 @@
     "prom_liderazgo": 3,
     "prom_cultura": 5,
     "resumen_bien": "Buenos beneficios y ambiente laboral",
-    "resumen_mal": "Lo malo: Mucho amiguismo, no vi meritocracia.\nQue podría mejorar:  falta capacidad de innovación",
-    "descripcion": "Aseguradora estadounidense con más de 155 años de historia, una de las mayores del mundo. En Chile ofrece seguros de vida, salud colectiva y planes de ahorro para empresas y personas."
+    "resumen_mal": "Lo malo: Mucho amiguismo, no vi meritocracia.\nQue podría mejorar:  falta capacidad de innovación"
   },
   {
     "id": "microglobal",
@@ -2908,8 +2870,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 1,
     "resumen_bien": null,
-    "resumen_mal": "Machistas, no saben liderar, no hay comunicación en tomas de decisiones de gerencias que afectan a los trabajadores, toman acciones injustificadas, no pagan los feriados, se saltan protocolos de seguridad",
-    "descripcion": "Empresa chilena de servicios de tecnología y soporte informático con especialización en el sector minero. Provee soluciones de conectividad, infraestructura y soporte técnico para faenas mineras."
+    "resumen_mal": "Machistas, no saben liderar, no hay comunicación en tomas de decisiones de gerencias que afectan a los trabajadores, toman acciones injustificadas, no pagan los feriados, se saltan protocolos de seguridad"
   },
   {
     "id": "minera-centinela",
@@ -2943,8 +2904,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 2,
     "resumen_bien": "Buenos bonos y sueldo gracias a los sindicatos",
-    "resumen_mal": "Malos liderazgos, poca flexibilidad, sabotaje entre compañeros y áreas, exceso de política interna, malos tratos, prepotencia",
-    "descripcion": "Compañía minera productora de cobre ubicada en la Región de Antofagasta, resultado de la integración de las minas El Tesoro y Esperanza. Es propiedad de Antofagasta Minerals y tiene capacidad de producción de más de 200.000 toneladas de cobre anuales."
+    "resumen_mal": "Malos liderazgos, poca flexibilidad, sabotaje entre compañeros y áreas, exceso de política interna, malos tratos, prepotencia"
   },
   {
     "id": "mining-tag",
@@ -2978,8 +2938,7 @@
     "prom_liderazgo": 3,
     "prom_cultura": 4,
     "resumen_bien": "Cultura quizas, buen compañerismo",
-    "resumen_mal": "Oportunidad de crecimiento, planes de carrera, sueldos y ascensos acordes al tiempo de la persona",
-    "descripcion": "Startup chilena de tecnología para la minería fundada en 2013, especializada en geolocalización de personal y activos en faenas subterráneas. Ha sido reconocida internacionalmente y tiene presencia en varios países mineros."
+    "resumen_mal": "Oportunidad de crecimiento, planes de carrera, sueldos y ascensos acordes al tiempo de la persona"
   },
   {
     "id": "mosaico",
@@ -3013,8 +2972,7 @@
     "prom_liderazgo": 2,
     "prom_cultura": 3,
     "resumen_bien": "Oportunidades de crecimiento personal",
-    "resumen_mal": "Empresa arcaica, pocos procesos definidos, sin RRHH, cultura politizada",
-    "descripcion": "Empresa chilena de servicios de instalación, mantención y construcción para la industria y el retail. Provee soluciones de remodelación, vitrinería y habilitación de espacios comerciales."
+    "resumen_mal": "Empresa arcaica, pocos procesos definidos, sin RRHH, cultura politizada"
   },
   {
     "id": "ntt-data",
@@ -3048,8 +3006,7 @@
     "prom_liderazgo": 2,
     "prom_cultura": 1,
     "resumen_bien": "Oportunidad de trabajar con clientes importantes y aprender cuando se está empezando.",
-    "resumen_mal": "La cultura de trabajo y el micromanagement excesivo, múltiples plataformas para ir anotando lo que estás haciendo.",
-    "descripcion": "División de servicios de TI de NTT Corporation, uno de los mayores conglomerados de telecomunicaciones y tecnología del mundo. En Chile ofrece consultoría tecnológica, desarrollo de software y servicios de outsourcing."
+    "resumen_mal": "La cultura de trabajo y el micromanagement excesivo, múltiples plataformas para ir anotando lo que estás haciendo."
   },
   {
     "id": "nutrisco",
@@ -3083,8 +3040,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Salario, beneficios, celebraciones, crecimiento, clima, trato y las oficinas",
-    "resumen_mal": "Teletrabajo",
-    "descripcion": "Empresa chilena de distribución y comercialización de productos alimentarios para el canal institucional y empresas. Provee soluciones de alimentación colectiva para casinos y comedores."
+    "resumen_mal": "Teletrabajo"
   },
   {
     "id": "oracle",
@@ -3135,8 +3091,7 @@
     "prom_liderazgo": 2.5,
     "prom_cultura": 2.5,
     "resumen_bien": "Salario competitivo y cierta flexibilidad laboral.",
-    "resumen_mal": "Sin aumentos de sueldo, cargos superiores difíciles de alcanzar y beneficios en declive. Compañeros percibidos como competencia.",
-    "descripcion": "Multinacional estadounidense de tecnología fundada en 1977, especializada en bases de datos, software empresarial (ERP, CRM) y servicios cloud. En Chile es proveedor de soluciones tecnológicas para grandes empresas y el sector público."
+    "resumen_mal": "Sin aumentos de sueldo, cargos superiores difíciles de alcanzar y beneficios en declive. Compañeros percibidos como competencia."
   },
   {
     "id": "policomp",
@@ -3187,8 +3142,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Ofrece teletrabajo/híbrido y beneficios. Intentos de cultura positiva en oficina.",
-    "resumen_mal": "Falta apoyo a supervisores, manejo humano deficiente de altos mandos y capacitaciones inadecuadas a riesgos reales.",
-    "descripcion": "Empresa chilena de soluciones tecnológicas y servicios de integración de sistemas. Provee infraestructura de TI, redes y soporte técnico para empresas e instituciones."
+    "resumen_mal": "Falta apoyo a supervisores, manejo humano deficiente de altos mandos y capacitaciones inadecuadas a riesgos reales."
   },
   {
     "id": "pwc-chile",
@@ -3222,8 +3176,7 @@
     "prom_liderazgo": 2,
     "prom_cultura": 2,
     "resumen_bien": "Los compañeros de trabajo generaban un buen ambiente.",
-    "resumen_mal": "Lideres vende humo, alta rotación, sueldos muy bajos, horas extras impagas.",
-    "descripcion": "Filial chilena de PricewaterhouseCoopers (PwC), una de las cuatro grandes firmas de auditoría y consultoría a nivel mundial. Ofrece servicios de auditoría, asesoría tributaria, legal y consultoría de negocios."
+    "resumen_mal": "Lideres vende humo, alta rotación, sueldos muy bajos, horas extras impagas."
   },
   {
     "id": "quillayes-surlat",
@@ -3257,8 +3210,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Beneficios como 3 días extra de vacaciones y caja mensual",
-    "resumen_mal": "Incentivos perversos como que el puntaje del clima del área afecte tu bono. Si haces una denuncia te despiden. Bono imposible de lograr.",
-    "descripcion": "Empresa chilena de productos lácteos y alimentos, parte del grupo SurLat. Produce y comercializa quesos, mantequilla y otros derivados lácteos bajo distintas marcas."
+    "resumen_mal": "Incentivos perversos como que el puntaje del clima del área afecte tu bono. Si haces una denuncia te despiden. Bono imposible de lograr."
   },
   {
     "id": "r-y-c-consultores",
@@ -3292,8 +3244,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 1,
     "resumen_bien": "Pagan al día.",
-    "resumen_mal": "Los proyectos que llevan de manera interna para clientes son un absoluto caos, tiran gente recién egresada o titulada a los leones sin mayor apoyo. Te \"enseñan\" a través de un coaching bastante malo cómo responder las entrevistas cuando te quieren enviar a algún cliente.",
-    "descripcion": "Consultora chilena especializada en recursos humanos, reclutamiento y selección de personal. Asesora a empresas en la búsqueda de profesionales y ejecutivos para distintos sectores."
+    "resumen_mal": "Los proyectos que llevan de manera interna para clientes son un absoluto caos, tiran gente recién egresada o titulada a los leones sin mayor apoyo. Te \"enseñan\" a través de un coaching bastante malo cómo responder las entrevistas cuando te quieren enviar a algún cliente."
   },
   {
     "id": "rio-futuro",
@@ -3327,8 +3278,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": null,
-    "resumen_mal": null,
-    "descripcion": "Empresa agroindustrial chilena ubicada en la Región de Los Ríos, dedicada a la producción y exportación de berries congelados de alta calidad. Es pionera en el cultivo de berries en el sur de Chile."
+    "resumen_mal": null
   },
   {
     "id": "samsung-electronics",
@@ -3362,8 +3312,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 1,
     "resumen_bien": "Beneficios tipo teletrabajo. Algunas áreas son ampliamente superiores a otras, de preferencia irse a la tecnología o áreas más técnicas. Te toca en alguna diferente y es lo peor.",
-    "resumen_mal": "Honestidad y lealtad, si no haces lo que superiores te ordenan son capaces de perjudicarte. Las conductas de acoso laboral o incluso sexual no son protegidas, dado que la mayoría que trabajan son hombres. Gente aspiracional que trabaja por poco pero se cree lo mejor por trabajar en esta multinacional.",
-    "descripcion": "Filial chilena de Samsung Electronics, la mayor empresa del conglomerado surcoreano Samsung. Comercializa smartphones, televisores, electrodomésticos y soluciones tecnológicas B2B en el país."
+    "resumen_mal": "Honestidad y lealtad, si no haces lo que superiores te ordenan son capaces de perjudicarte. Las conductas de acoso laboral o incluso sexual no son protegidas, dado que la mayoría que trabajan son hombres. Gente aspiracional que trabaja por poco pero se cree lo mejor por trabajar en esta multinacional."
   },
   {
     "id": "santander-chile",
@@ -3397,8 +3346,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "beneficios mejores que el mercado",
-    "resumen_mal": "sobrecarga laboral, jefaturas a la\nantigua , patrón de fundo , cero liderazgo",
-    "descripcion": "Banco Santander Chile, filial del grupo Santander, uno de los mayores bancos del mundo con sede en España. En Chile es uno de los bancos privados más grandes, con más de 3 millones de clientes."
+    "resumen_mal": "sobrecarga laboral, jefaturas a la\nantigua , patrón de fundo , cero liderazgo"
   },
   {
     "id": "seguros-sura-chile",
@@ -3432,8 +3380,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Buenos beneficios (ganados por la Mesa Negociadora, no por la benevolencia de la empresa)",
-    "resumen_mal": "Cultura del chisme muy normalizada, jefaturas y liderazgos que ascendieron solo por obedecer órdenes de superiores sin cuestionar nada (aunque fueran incluso cosas que perjudicaron el negocio), \"liderazgo\" basado infundir miedo y ego desproporcionado de las personas que ganan mayor sueldo",
-    "descripcion": "Filial chilena del Grupo SURA, conglomerado financiero latinoamericano con sede en Colombia. Ofrece seguros de vida, salud, generales y pensiones para personas y empresas."
+    "resumen_mal": "Cultura del chisme muy normalizada, jefaturas y liderazgos que ascendieron solo por obedecer órdenes de superiores sin cuestionar nada (aunque fueran incluso cosas que perjudicaron el negocio), \"liderazgo\" basado infundir miedo y ego desproporcionado de las personas que ganan mayor sueldo"
   },
   {
     "id": "serv-impuestos-internos",
@@ -3467,8 +3414,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Beneficios y flexibilidad horaria. El ambiente laboral es muy bueno",
-    "resumen_mal": "La Cultura del estamento publica es horrible y el liderazgo incompetente",
-    "descripcion": "Servicio de Impuestos Internos (SII), organismo gubernamental chileno dependiente del Ministerio de Hacienda. Es responsable de la aplicación y fiscalización del sistema tributario interno del país."
+    "resumen_mal": "La Cultura del estamento publica es horrible y el liderazgo incompetente"
   },
   {
     "id": "sii-group",
@@ -3502,8 +3448,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "el sueldo, yo pude trabajar remoto y simepre envian regalos y detalles de ese tipo",
-    "resumen_mal": "se dedican a outsourcinbg, me toco en un banco nacional, muy mal ambiente y cero soluciones. Te aguantas hasta que te despidan o renuncias",
-    "descripcion": "Empresa multinacional francesa de servicios de ingeniería, tecnología e industria. En Chile provee servicios de consultoría técnica, desarrollo de software y soporte de ingeniería para distintos sectores."
+    "resumen_mal": "se dedican a outsourcinbg, me toco en un banco nacional, muy mal ambiente y cero soluciones. Te aguantas hasta que te despidan o renuncias"
   },
   {
     "id": "simpliroute",
@@ -3537,8 +3482,7 @@
     "prom_liderazgo": 4,
     "prom_cultura": 5,
     "resumen_bien": "Flexibilidad, se puede trabajar 100% remoto. Las personas de los equipos generan un buen ambiente.",
-    "resumen_mal": "Decisiones estratégicas, se tomaba una dirección al poco tiempo se cambiaba, poca constancia en las decisiones estratégicas.",
-    "descripcion": "Startup chilena de software de optimización de rutas y logística de última milla fundada en 2015. Su plataforma reduce costos de distribución para empresas en Chile y Latinoamérica."
+    "resumen_mal": "Decisiones estratégicas, se tomaba una dirección al poco tiempo se cambiaba, poca constancia en las decisiones estratégicas."
   },
   {
     "id": "smu-s-a",
@@ -3589,8 +3533,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Beneficios y participación en campañas sociales como la Teletón, además de una buena ubicación.",
-    "resumen_mal": "Cultura muy jerárquica, vertical y con liderazgo anticuado, generando maltrato y diferencias de trato.",
-    "descripcion": "Cadena chilena de supermercados que opera bajo las marcas Unimarc, Alvi y Super10. Es uno de los tres principales operadores de supermercados en Chile, con más de 170 locales a lo largo del país."
+    "resumen_mal": "Cultura muy jerárquica, vertical y con liderazgo anticuado, generando maltrato y diferencias de trato."
   },
   {
     "id": "sodexo",
@@ -3641,8 +3584,7 @@
     "prom_liderazgo": 2,
     "prom_cultura": 1,
     "resumen_bien": "Remuneración atractiva para cargos de entrada y beneficios adicionales por sindicato.",
-    "resumen_mal": "Jefaturas mediocres con fuerte pituto y nepotismo. RRHH ineficientes que protegen el mal rendimiento. Carga laboral excesiva.",
-    "descripcion": "Multinacional francesa de servicios de calidad de vida fundada en 1966. En Chile provee servicios de alimentación colectiva para casinos corporativos, beneficios para trabajadores y soluciones de bienestar organizacional."
+    "resumen_mal": "Jefaturas mediocres con fuerte pituto y nepotismo. RRHH ineficientes que protegen el mal rendimiento. Carga laboral excesiva."
   },
   {
     "id": "sodimac",
@@ -3676,8 +3618,7 @@
     "prom_liderazgo": 4,
     "prom_cultura": 4,
     "resumen_bien": "tenia buenos beneficios, buen sueldo, muy buen ambiente, buenos lideres y se aprende harto, tambien eran flexibles si uno tenia que ir al medico o algo asi. jornada hibrida y relajados igual con los horarios de entrada cuando habia que ir a la oficina.",
-    "resumen_mal": "la jornada laboral era mucho mayor que lo establecido, yo estaba en una de apoyo, no en las tiendas. siempre habia que quedarse hasta mas tarde  a veces noche y  los dias que se teletrabajaba te decian que daba lo mismo si total estabas en la casa.",
-    "descripcion": "Cadena de tiendas de mejoramiento del hogar, ferretería y construcción parte del grupo Falabella. Con más de 80 locales en Chile y presencia en Colombia, Perú y Argentina, es el retailer de construcción más grande del país."
+    "resumen_mal": "la jornada laboral era mucho mayor que lo establecido, yo estaba en una de apoyo, no en las tiendas. siempre habia que quedarse hasta mas tarde  a veces noche y  los dias que se teletrabajaba te decian que daba lo mismo si total estabas en la casa."
   },
   {
     "id": "softserve",
@@ -3711,8 +3652,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Hay buenos beneficios y además buenas oficinas, pese a que el trabajo es principalmente remoto.",
-    "resumen_mal": "Realmente cumplir la promesa de formar profesionalmente.",
-    "descripcion": "Empresa tecnológica global de origen ucraniano especializada en consultoría de IT y desarrollo de software a medida. Con más de 15.000 empleados en el mundo, tiene operaciones en Chile."
+    "resumen_mal": "Realmente cumplir la promesa de formar profesionalmente."
   },
   {
     "id": "solcor",
@@ -3746,8 +3686,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Lo mejor del mundo Solcor. Flexibilidad y posibilidades de crecimiento. Muy buenos profesionales de quienes aprendí mucho",
-    "resumen_mal": "Horario de trabajo",
-    "descripcion": "Empresa chilena de energía solar y soluciones fotovoltaicas para el sector residencial, comercial e industrial. Diseña, instala y mantiene sistemas de generación solar en distintas regiones del país."
+    "resumen_mal": "Horario de trabajo"
   },
   {
     "id": "sonda-s-a",
@@ -3781,8 +3720,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Lo unico rescatable es que es una escuela, aprendes un monton de lo bueno y de lo malo",
-    "resumen_mal": "Precisamente su mayor debilidad es su incapacidad para retener talento sin importar cuanto inviertan en formarte, los aumentos de renta no se negocian, se ruegan, los beneficios son ridiculos (tienes que pagar para recibirlos) las estructuras cambian, la gente se va y no la reemplazan, no hay puestos imprescindibles, y en recursos humanos simplemente no conocen el negocio, asi que puedes terminar con compañeros de trabajo que no solo no tienen dedos para el piano, sino que simplemente no saben que un piano es un instrumento músical...",
-    "descripcion": "Empresa chilena de tecnología y servicios de IT fundada en 1974. Es una de las empresas de tecnología más grandes de Latinoamérica, con presencia en 10 países y más de 20.000 profesionales."
+    "resumen_mal": "Precisamente su mayor debilidad es su incapacidad para retener talento sin importar cuanto inviertan en formarte, los aumentos de renta no se negocian, se ruegan, los beneficios son ridiculos (tienes que pagar para recibirlos) las estructuras cambian, la gente se va y no la reemplazan, no hay puestos imprescindibles, y en recursos humanos simplemente no conocen el negocio, asi que puedes terminar con compañeros de trabajo que no solo no tienen dedos para el piano, sino que simplemente no saben que un piano es un instrumento músical..."
   },
   {
     "id": "starbucks",
@@ -3816,8 +3754,7 @@
     "prom_liderazgo": 1,
     "prom_cultura": 1,
     "resumen_bien": "la flexibilidad es buena, perfecta si estas estudiando, los beneficios dentro de la tienda igual salvan algo",
-    "resumen_mal": "la cultura de la empresa promueve la competencia toxica para ascender, te van a cambiar de tienda cada vez que puedan si es que quieres ascender, los gerentes son todos pro empresa que te harán la vida imposible.",
-    "descripcion": "Cadena global de cafeterías fundada en Seattle en 1971. En Chile opera desde 1998 con más de 100 locales en todo el país, bajo licencia del grupo Alsea."
+    "resumen_mal": "la cultura de la empresa promueve la competencia toxica para ascender, te van a cambiar de tienda cada vez que puedan si es que quieres ascender, los gerentes son todos pro empresa que te harán la vida imposible."
   },
   {
     "id": "talana",
@@ -3851,8 +3788,7 @@
     "prom_liderazgo": 3,
     "prom_cultura": 5,
     "resumen_bien": "Como es startup cuidan mucho el ambiente",
-    "resumen_mal": "Que operaciones es un incendio constante y no hay mucha voluntad de inyectar recursos en esa gerencia ya que no es rentable",
-    "descripcion": "Startup chilena de software de gestión de personas, nómina y recursos humanos fundada en 2016. Su plataforma es utilizada por miles de empresas en Chile y Latinoamérica para digitalizar procesos de RRHH."
+    "resumen_mal": "Que operaciones es un incendio constante y no hay mucha voluntad de inyectar recursos en esa gerencia ya que no es rentable"
   },
   {
     "id": "tanner-servicios-financieros",
@@ -3886,8 +3822,7 @@
     "prom_liderazgo": 3,
     "prom_cultura": 3,
     "resumen_bien": "no es buena, pero tampoco mala.",
-    "resumen_mal": "Procesos, en el Area TI son casi inexistentes, se sacan requerimientos del culo.",
-    "descripcion": "Empresa chilena de servicios financieros especializada en factoring, leasing, crédito automotriz y finanzas corporativas. Es una de las financieras no bancarias más importantes del país."
+    "resumen_mal": "Procesos, en el Area TI son casi inexistentes, se sacan requerimientos del culo."
   },
   {
     "id": "tata-consultancy-services",
@@ -3921,8 +3856,7 @@
     "prom_liderazgo": 3,
     "prom_cultura": 2,
     "resumen_bien": "Sueldo un poco sobre el mercado, puede que haya sido mi experiencia solamente.",
-    "resumen_mal": "En 2 años el sueldo no se movió nada, a pesar de entrar bastante alto para el mercado, ahí se quedó.",
-    "descripcion": "TCS (Tata Consultancy Services), empresa india de servicios de IT y consultoría parte del conglomerado Tata Group. Es una de las mayores empresas de tecnología del mundo, con más de 600.000 empleados globales y presencia en Chile."
+    "resumen_mal": "En 2 años el sueldo no se movió nada, a pesar de entrar bastante alto para el mercado, ahí se quedó."
   },
   {
     "id": "termas-de-puyehue",
@@ -3956,8 +3890,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Flexibilidad",
-    "resumen_mal": "Cultura se servicio pésima, atención al cliente, bpm",
-    "descripcion": "Resort termal de lujo ubicado a orillas del lago Puyehue, en la Región de Los Lagos. Opera desde 1934 y ofrece aguas termales naturales, gastronomía gourmet y acceso al Parque Nacional Puyehue."
+    "resumen_mal": "Cultura se servicio pésima, atención al cliente, bpm"
   },
   {
     "id": "the-home",
@@ -3991,8 +3924,7 @@
     "prom_liderazgo": 2,
     "prom_cultura": 4,
     "resumen_bien": "Cultura laboral compañeros, buen ambiente",
-    "resumen_mal": "Sueldo, organización de presupuestos, exigencias jefatura, apoyo transporte y herramientas laborales",
-    "descripcion": "Empresa chilena de construcción y habilitación de proyectos inmobiliarios y viviendas. Provee servicios de diseño, construcción y terminaciones para el sector residencial y comercial."
+    "resumen_mal": "Sueldo, organización de presupuestos, exigencias jefatura, apoyo transporte y herramientas laborales"
   },
   {
     "id": "timix-chile",
@@ -4026,8 +3958,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Experiencia requerida para cargos iniciales",
-    "resumen_mal": "Ambiente laboral y salario, te paga con boletas de honorarios cargos iniciales; con horarios de 44 horas pero sueldo muy por debajo del mínimo, garantizándote subir a un poco más del mínimo después de tres meses, pero un mes antes te sacan por reestructuración. Adicionalmente no dan buena inducción y exigen que sepas bien el proceso sin nunca haberlo explicado con anterioridad no claridad.",
-    "descripcion": "Empresa chilena de soluciones de telefonía IP, comunicaciones unificadas y tecnología para empresas. Provee sistemas de call center, centralitas y conectividad corporativa."
+    "resumen_mal": "Ambiente laboral y salario, te paga con boletas de honorarios cargos iniciales; con horarios de 44 horas pero sueldo muy por debajo del mínimo, garantizándote subir a un poco más del mínimo después de tres meses, pero un mes antes te sacan por reestructuración. Adicionalmente no dan buena inducción y exigen que sepas bien el proceso sin nunca haberlo explicado con anterioridad no claridad."
   },
   {
     "id": "toteat",
@@ -4061,8 +3992,7 @@
     "prom_liderazgo": 2,
     "prom_cultura": 3,
     "resumen_bien": "Las personas son full comprometidas.",
-    "resumen_mal": "Liderazgo y espacios de decisión poco representativos. Las personas no están en el centro de la conversación. Se intenta pasar el compromiso y dar la milla extra como algo normal, cuando bordea la sobre explotación. Sin capacidad real de desconexión ni descanso, escudándose en lo que el negocio necesita. Y por último, los equipos con bajas rentas que pudiera ser una medida paleativa.",
-    "descripcion": "Startup chilena de software de gestión para restaurantes fundada en 2015. Su sistema integra punto de venta, delivery, reservas y administración para locales gastronómicos en Chile y Latinoamérica."
+    "resumen_mal": "Liderazgo y espacios de decisión poco representativos. Las personas no están en el centro de la conversación. Se intenta pasar el compromiso y dar la milla extra como algo normal, cuando bordea la sobre explotación. Sin capacidad real de desconexión ni descanso, escudándose en lo que el negocio necesita. Y por último, los equipos con bajas rentas que pudiera ser una medida paleativa."
   },
   {
     "id": "touch",
@@ -4113,8 +4043,7 @@
     "prom_liderazgo": 1.5,
     "prom_cultura": 1.5,
     "resumen_bien": null,
-    "resumen_mal": "Liderazgo cuestionable desde la dirección, sin rumbo claro y mal ambiente laboral generalizado.",
-    "descripcion": "Empresa chilena de servicios de recursos humanos, selección de personal y gestión de personas. Apoya a empresas en la atracción, evaluación y desarrollo de talento."
+    "resumen_mal": "Liderazgo cuestionable desde la dirección, sin rumbo claro y mal ambiente laboral generalizado."
   },
   {
     "id": "transbank",
@@ -4148,8 +4077,7 @@
     "prom_liderazgo": 2,
     "prom_cultura": 2,
     "resumen_bien": "Algunos beneficios y un sindicato fuerte que en los últimos 6 o 7 años ha hecho más que una negociación pactada una imposición de términos para conseguir que la empresa no quite beneficios.",
-    "resumen_mal": "Los liderazgos son mediocres en todos los niveles. Demasiados procesos manuales y sistemas legados que hacen que administrar las transacciones financieras de todo Chile sea impreciso y un dolor para los equipos de procesos. La empresa cambió cuando el líder “histórico” (gerente) de RRHH fue desvinculado, entró en un proceso de deterioro de su cultura sabiendo que la empresa además perdía su posición monopólica dominante debido a la apertura del mercado con la transición al modelo de procesamiento de 4 partes.",
-    "descripcion": "Empresa chilena que opera la principal red de medios de pago electrónico del país. Procesa transacciones con tarjetas de crédito y débito en miles de comercios a lo largo de Chile."
+    "resumen_mal": "Los liderazgos son mediocres en todos los niveles. Demasiados procesos manuales y sistemas legados que hacen que administrar las transacciones financieras de todo Chile sea impreciso y un dolor para los equipos de procesos. La empresa cambió cuando el líder “histórico” (gerente) de RRHH fue desvinculado, entró en un proceso de deterioro de su cultura sabiendo que la empresa además perdía su posición monopólica dominante debido a la apertura del mercado con la transición al modelo de procesamiento de 4 partes."
   },
   {
     "id": "uber",
@@ -4183,8 +4111,7 @@
     "prom_liderazgo": 4,
     "prom_cultura": 4,
     "resumen_bien": "Flexibilidad, El equipo, La cultura, Las oficinas.",
-    "resumen_mal": "En los equipos globales, había poca dinámica de equipo.",
-    "descripcion": "Plataforma global de movilidad urbana y transporte privado fundada en San Francisco en 2009. En Chile opera desde 2013 y es uno de los servicios de transporte privado más usados del país."
+    "resumen_mal": "En los equipos globales, había poca dinámica de equipo."
   },
   {
     "id": "udp",
@@ -4218,8 +4145,7 @@
     "prom_liderazgo": 2,
     "prom_cultura": 2,
     "resumen_bien": "Estudiante,  colegas",
-    "resumen_mal": "Directora de carrera",
-    "descripcion": "Universidad Diego Portales, universidad privada chilena fundada en 1982. Reconocida por sus escuelas de Derecho, Periodismo, Arquitectura e Ingeniería, con una orientación a la excelencia académica y el pensamiento crítico."
+    "resumen_mal": "Directora de carrera"
   },
   {
     "id": "underpizza",
@@ -4253,8 +4179,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "pago y detalle automatico",
-    "resumen_mal": "condiciones ambientales laborales\ncarga laboral",
-    "descripcion": "Cadena chilena de pizzerías con locales en Santiago, conocida por sus pizzas artesanales y ambiente informal. Parte del ecosistema de restaurantes de comida rápida de calidad del país."
+    "resumen_mal": "condiciones ambientales laborales\ncarga laboral"
   },
   {
     "id": "universidad-alberto-hurtado",
@@ -4288,8 +4213,7 @@
     "prom_liderazgo": 2,
     "prom_cultura": 4,
     "resumen_bien": "La cultura, buenas relaciones en algunas áreas, estabilidad",
-    "resumen_mal": "Pocas oportunidades de desarrollo, si bien hay estabilidad esto se debe a un estancamiento en los cargos, funciones y el liderazgo en la organización tiene poca visión de crecimiento para la institución.",
-    "descripcion": "Universidad privada jesuita chilena fundada en 1997, en honor al Padre Alberto Hurtado. Orientada a la formación de profesionales con compromiso social, destaca en las áreas de Derecho, Psicología, Educación y Ciencias Sociales."
+    "resumen_mal": "Pocas oportunidades de desarrollo, si bien hay estabilidad esto se debe a un estancamiento en los cargos, funciones y el liderazgo en la organización tiene poca visión de crecimiento para la institución."
   },
   {
     "id": "veltis-ex-ferrovial",
@@ -4323,8 +4247,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "Opción como primera pega",
-    "resumen_mal": "Cultura explotadora, te paquean a cada rato, cultura de acusar al otro y malos sueldos",
-    "descripcion": "Empresa de servicios de ingeniería, mantenimiento de infraestructuras y soluciones industriales. Anteriormente parte del grupo español Ferrovial, opera en Chile con proyectos de infraestructura y concesiones."
+    "resumen_mal": "Cultura explotadora, te paquean a cada rato, cultura de acusar al otro y malos sueldos"
   },
   {
     "id": "vina-san-pedro-tarapaca",
@@ -4358,8 +4281,7 @@
     "prom_liderazgo": null,
     "prom_cultura": null,
     "resumen_bien": "la flexibilidad en momentos complejos destaca para bien aunque tambien las jefaturas se toman muchos tiempos libres pero se mira mal a quienes necesitan tiempo y no son jefaturas",
-    "resumen_mal": "para tener oportunidades de crecimiento se debe ser parte de los grupos pequeños que tienen mas influencia",
-    "descripcion": "Una de las viñas más importantes y antiguas de Chile, con más de 160 años de historia. Produce y exporta vinos bajo marcas reconocidas como Gato, 35 Sur, Sideral y Cabo de Hornos a más de 80 países."
+    "resumen_mal": "para tener oportunidades de crecimiento se debe ser parte de los grupos pequeños que tienen mas influencia"
   },
   {
     "id": "zerviz",
@@ -4393,7 +4315,6 @@
     "prom_liderazgo": 5,
     "prom_cultura": 4,
     "resumen_bien": "Por el lado de consultoría tienen buenos clientes. El ambiente en general es muy ameno.",
-    "resumen_mal": "Mi experiencia directa con la empresa fue bastante positiva.",
-    "descripcion": "Empresa chilena de servicios tecnológicos y consultoría de TI. Provee soluciones de transformación digital, desarrollo de software y soporte para empresas de distintos sectores."
+    "resumen_mal": "Mi experiencia directa con la empresa fue bastante positiva."
   }
 ]
