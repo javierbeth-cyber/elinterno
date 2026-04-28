@@ -422,7 +422,7 @@ function generatePage(emp) {
 <div id="empresa-header">${empresaHeaderHtml}</div>
 
 <div class="sobre-empresa">
-  <p>${emp.nombre} es una empresa${rubro ? ' del sector <strong>' + rubro + '</strong>' : ''} con presencia en Chile. En El Interno encontrarás ${totalRes} reseña${totalRes !== 1 ? 's' : ''} anónima${totalRes !== 1 ? 's' : ''} de empleados${emp.promedio ? ', con una calificación promedio de <strong>' + emp.promedio + '/5</strong>' : ''}. Si trabajaste en ${emp.nombre}, puedes dejar tu experiencia de forma anónima y ayudar a otros a tomar mejores decisiones laborales.</p>
+  <p>${emp.descripcion ? emp.descripcion : emp.nombre + ' es una empresa' + (rubro ? ' del sector <strong>' + rubro + '</strong>' : '') + ' con presencia en Chile. En El Interno encontrarás ' + totalRes + ' reseña' + (totalRes !== 1 ? 's' : '') + ' anónima' + (totalRes !== 1 ? 's' : '') + ' de empleados' + (emp.promedio ? ', con una calificación promedio de <strong>' + emp.promedio + '/5</strong>' : '') + '. Si trabajaste en ' + emp.nombre + ', puedes dejar tu experiencia de forma anónima y ayudar a otros a tomar mejores decisiones laborales.'}</p>
 </div>
 
 <main class="main" id="main">${mainHtml}</main>
