@@ -227,14 +227,18 @@ function renderResena(r) {
       <div class="resena-header">
         ${stars(r.cal_general, 16)}
         ${r.cal_general ? `<span class="resena-rating">${r.cal_general}/5</span>` : ''}
-        ${r.tiempo ? `<span class="resena-tiempo">${escapeHtml(r.tiempo)}</span>` : ''}
-        ${r.area && r.area !== 'Prefiero no decirlo' ? `<span class="resena-tiempo">${escapeHtml(r.area)}</span>` : ''}
-        ${r.cargo ? `<span class="resena-tiempo">${escapeHtml(r.cargo)}</span>` : ''}
         ${r.sigue ? (String(r.sigue).toLowerCase().startsWith('s')
           ? `<span class="badge-sigue badge-sigue-si">Sigue trabajando ahí</span>`
           : `<span class="badge-sigue badge-sigue-no">Ya no trabaja ahí</span>`) : ''}
         ${r.recomienda ? badgeRecomienda(r.recomienda) : ''}
       </div>
+      ${(function() {
+        var parts = [];
+        if (r.cargo) parts.push('Cargo: ' + escapeHtml(r.cargo));
+        if (r.area && r.area !== 'Prefiero no decirlo') parts.push('Área: ' + escapeHtml(r.area));
+        if (r.tiempo) parts.push('Antigüedad: ' + escapeHtml(r.tiempo));
+        return parts.length ? '<div class="resena-meta">' + parts.join(' &nbsp;·&nbsp; ') + '</div>' : '';
+      })()}
       ${r.fecha ? `<div class="resena-publicado">Publicado en ${formatFecha(r.fecha)}</div>` : ''}
       ${resSubcats.length ? `<div class="resena-subcats">${resSubcats.map(function(c) { var vd = c.val ? String(c.val).charAt(0).toUpperCase() + String(c.val).slice(1) : c.val; return `<div class="resena-subcat">${c.label} <span style="color:${subcatColor(c.label, c.val)};font-weight:700">${vd}</span></div>`; }).join('')}</div>` : ''}
       ${bloque('bien',      '✅', 'Qué está bien',                queB.text)}
