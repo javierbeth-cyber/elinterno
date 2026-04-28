@@ -2295,6 +2295,40 @@
     "resumen_mal": "Todo, desde la incompetencia de los jefes (no saben absolutamente nada) hasta la asignación irresponsable de las tareas."
   },
   {
+    "id": "ki-technologies",
+    "nombre": "Ki Technologies",
+    "rubro": "Tecnología",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 144,
+        "fecha": "2026-04-27",
+        "tiempo": "1 a 3 años",
+        "sigue": "No",
+        "cal_general": 2,
+        "sueldo": "bajo el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Flexibilidad",
+        "que_mal": "Los lideres",
+        "que_desearias": "Las dinámicas tóxicas normalizadas",
+        "recomienda": "No",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 2,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null,
+    "resumen_bien": "Flexibilidad",
+    "resumen_mal": "Los lideres"
+  },
+  {
     "id": "kibernum",
     "nombre": "Kibernum",
     "rubro": "Tecnología",
