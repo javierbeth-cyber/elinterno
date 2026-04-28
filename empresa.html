@@ -795,6 +795,7 @@
           ${r.cal_general ? `<span class="resena-rating">${r.cal_general}/5</span>` : ''}
           ${r.tiempo ? `<span class="resena-tiempo">${escapeHtml(r.tiempo)}</span>` : ''}
           ${r.area && r.area !== 'Prefiero no decirlo' ? `<span class="resena-tiempo">${escapeHtml(r.area)}</span>` : ''}
+          ${r.cargo ? `<span class="resena-tiempo">${escapeHtml(r.cargo)}</span>` : ''}
           ${r.sigue ? (String(r.sigue).toLowerCase().startsWith('s')
             ? `<span class="badge-sigue badge-sigue-si">Sigue trabajando ahí</span>`
             : `<span class="badge-sigue badge-sigue-no">Ya no trabaja ahí</span>`) : ''}
