@@ -71,7 +71,8 @@
         "prom_liderazgo": 4,
         "prom_cultura": 4,
         "resumen_bien": "Beneficios de salud, compañerismo, gente amable para trabajar. Opción de teletrabajo a distancia. Se adapta a todo.",
-        "resumen_mal": "Podría mejorar los ascensos, es coave mostrarse para que todos te conozcan."
+        "resumen_mal": "Podría mejorar los ascensos, es coave mostrarse para que todos te conozcan.",
+        "sede": "Santiago"
     },
     {
         "id": "achs",
@@ -108,7 +109,9 @@
         "prom_liderazgo": 3,
         "prom_cultura": 4,
         "resumen_bien": "Buenos compañeros, y que como es una mutualidad , en algunos perfiles puede ser una buena opción para trabajar, como para el rubro de ingenieros en prevención, que pueden encontrar mayor espacio de desarrollo",
-        "resumen_mal": "Es una empresa que al inicio parece idílica, personas educadas, compañerismo, posibilidad de crecimiento, y pronto esa burbuja explota a ambiente competitivo, jefaturas superficiales (parecen cercanas, pero en realidad no le importas nada), algunos subgerentes muy déspotas( y que parecen peluches frente a otros) pero nunca con gerentes ni pares.. y muchas personas que rotan sin entender porqué, poco transparente... crean una imagen de perfección, y la suciedad sale por la alfombra. Es una empresa que vende bien humo, pero por dentro es otra realidad."
+        "resumen_mal": "Es una empresa que al inicio parece idílica, personas educadas, compañerismo, posibilidad de crecimiento, y pronto esa burbuja explota a ambiente competitivo, jefaturas superficiales (parecen cercanas, pero en realidad no le importas nada), algunos subgerentes muy déspotas( y que parecen peluches frente a otros) pero nunca con gerentes ni pares.. y muchas personas que rotan sin entender porqué, poco transparente... crean una imagen de perfección, y la suciedad sale por la alfombra. Es una empresa que vende bien humo, pero por dentro es otra realidad.",
+        "sede": "Santiago",
+        "fundacion": 1958
     },
     {
         "id": "afp-cuprum",
@@ -330,7 +333,9 @@
         "prom_liderazgo": null,
         "prom_cultura": null,
         "resumen_bien": "flexibilidad y liderazgo",
-        "resumen_mal": "renta y crecimiento"
+        "resumen_mal": "renta y crecimiento",
+        "sede": "Santiago",
+        "fundacion": 1979
     },
     {
         "id": "arcor-chile",
@@ -441,7 +446,9 @@
         "prom_liderazgo": 4,
         "prom_cultura": 3,
         "resumen_bien": "Horarios flexibles, trabajo constante",
-        "resumen_mal": "Oportunidades de escalar"
+        "resumen_mal": "Oportunidades de escalar",
+        "sede": "Santiago",
+        "fundacion": 2005
     },
     {
         "id": "banco-consorcio",
@@ -515,7 +522,9 @@
         "prom_liderazgo": 2,
         "prom_cultura": 2,
         "resumen_bien": "Muchos beneficios, si entras puedes no salir más si lo deseas.",
-        "resumen_mal": "El nivel de burocracia para muchas cosas, se mantienen muy poco actualizados con respecto a tecnología."
+        "resumen_mal": "El nivel de burocracia para muchas cosas, se mantienen muy poco actualizados con respecto a tecnología.",
+        "sede": "Santiago",
+        "fundacion": 1855
     },
     {
         "id": "bbdo",
@@ -834,7 +843,9 @@
         "prom_liderazgo": null,
         "prom_cultura": null,
         "resumen_bien": "Mejora en la comunicación con jefaturas, ofrece un treceavo sueldo y bono, y es una excelente escuela para aprender rápido.",
-        "resumen_mal": "Liderazgo débil y desorientador, amiguismo y elitismo, ambiente competitivo y tóxico, y valoración del \"vender humo\" sobre resultados."
+        "resumen_mal": "Liderazgo débil y desorientador, amiguismo y elitismo, ambiente competitivo y tóxico, y valoración del \"vender humo\" sobre resultados.",
+        "sede": "Santiago",
+        "fundacion": 1963
     },
     {
         "id": "chita-factoring",
@@ -982,7 +993,9 @@
         "prom_liderazgo": 4,
         "prom_cultura": 4,
         "resumen_bien": "Beneficios, algunos líderes y la movilidad",
-        "resumen_mal": null
+        "resumen_mal": null,
+        "sede": "Santiago",
+        "fundacion": 1934
     },
     {
         "id": "corporacion-3xi",
@@ -1207,7 +1220,8 @@
         "prom_liderazgo": 3,
         "prom_cultura": 3.5,
         "resumen_bien": "Flexibilidad real dependiendo de la jefatura, con posibilidad de trabajo remoto total. Consultoría tiene buen ambiente.",
-        "resumen_mal": "Sueldo inicial prácticamente sin aumento. Sobrecarga de proyectos simultáneos. Auditoría con ambiente tóxico y jornadas extendidas."
+        "resumen_mal": "Sueldo inicial prácticamente sin aumento. Sobrecarga de proyectos simultáneos. Auditoría con ambiente tóxico y jornadas extendidas.",
+        "sede": "Santiago"
     },
     {
         "id": "dinecom",
@@ -1543,7 +1557,9 @@
         "prom_liderazgo": 3.3,
         "prom_cultura": 4.7,
         "resumen_bien": "Sueldos sobre la media, cultura inclusiva y activa, espacios de calidad y desarrollo de carrera estructurado.",
-        "resumen_mal": "Liderazgo tóxico en niveles medios. Carga laboral excesiva que impacta el balance personal. Poca flexibilidad horaria real."
+        "resumen_mal": "Liderazgo tóxico en niveles medios. Carga laboral excesiva que impacta el balance personal. Poca flexibilidad horaria real.",
+        "sede": "Santiago",
+        "fundacion": 1964
     },
     {
         "id": "epiroc",
@@ -1876,7 +1892,8 @@
         "prom_liderazgo": 2,
         "prom_cultura": 2,
         "resumen_bien": "Lo mejor son los beneficios, bonos, giftcard, seguro, descuentos, etc",
-        "resumen_mal": "Mejorar liderazgo, enfoque de equipos, disminución de personal asi que toca hacer la pega de varios"
+        "resumen_mal": "Mejorar liderazgo, enfoque de equipos, disminución de personal asi que toca hacer la pega de varios",
+        "sede": "Santiago"
     },
     {
         "id": "femsa",
@@ -2121,7 +2138,9 @@
         "prom_liderazgo": 1,
         "prom_cultura": 2.5,
         "resumen_bien": "Los compañeros de trabajo son el principal activo; buen ambiente entre pares.",
-        "resumen_mal": "Gerentes sin habilidades de liderazgo. Alta rotación sin feedback al despido, sueldos bajos y escaso crecimiento interno."
+        "resumen_mal": "Gerentes sin habilidades de liderazgo. Alta rotación sin feedback al despido, sueldos bajos y escaso crecimiento interno.",
+        "sede": "Santiago",
+        "fundacion": 2009
     },
     {
         "id": "gft-technologies",
@@ -2195,7 +2214,9 @@
         "prom_liderazgo": 2,
         "prom_cultura": 3,
         "resumen_bien": "Las oportunidades de crecimiento o exposición se van dando a medida que uno mismo se visibiliza o expone.",
-        "resumen_mal": "Poca o nula flexibilidad en términos de home office. Si uno no cumple con una modalidad de 4x1, no puede obtener aumentos de sueldo, cambios de roles, etc (incluso cumpliendo con los objetivos del rol). Alta rotación y sin feedback real por parte de los líderes. Contratan gente con plazo fijo a los 3 meses, porque saben que existe una alta probabilidad de desvinculación o no renovación de contrato."
+        "resumen_mal": "Poca o nula flexibilidad en términos de home office. Si uno no cumple con una modalidad de 4x1, no puede obtener aumentos de sueldo, cambios de roles, etc (incluso cumpliendo con los objetivos del rol). Alta rotación y sin feedback real por parte de los líderes. Contratan gente con plazo fijo a los 3 meses, porque saben que existe una alta probabilidad de desvinculación o no renovación de contrato.",
+        "sede": "Santiago",
+        "fundacion": 2018
     },
     {
         "id": "gtd",
@@ -2363,7 +2384,9 @@
         "prom_liderazgo": null,
         "prom_cultura": null,
         "resumen_bien": "IBM Chile es descrita por sus empleados como un excelente lugar de trabajo, con uso frecuente del inglés en el día a día.",
-        "resumen_mal": null
+        "resumen_mal": null,
+        "sede": "Santiago",
+        "fundacion": 1939
     },
     {
         "id": "isamax",
@@ -2844,7 +2867,9 @@
         "prom_liderazgo": null,
         "prom_cultura": null,
         "resumen_bien": "Es lindo decir que estás en latam, y trabajar en una industria muy dinamica",
-        "resumen_mal": "La dirección de aeropuertos (administrativa) completa hay directores que piden sacar jefes, toda la plana de gerentes se conocen y carretean entre ellos hace años, se apitutean entre ellos y si no eres \"de su perfil\" no te dan bola para ningun proyecto esperando que te vayas o puedan traer a alguien para reemplazarte"
+        "resumen_mal": "La dirección de aeropuertos (administrativa) completa hay directores que piden sacar jefes, toda la plana de gerentes se conocen y carretean entre ellos hace años, se apitutean entre ellos y si no eres \"de su perfil\" no te dan bola para ningun proyecto esperando que te vayas o puedan traer a alguien para reemplazarte",
+        "sede": "Santiago",
+        "fundacion": 1929
     },
     {
         "id": "lider-bci",
@@ -2921,7 +2946,8 @@
         "prom_liderazgo": 5,
         "prom_cultura": 5,
         "resumen_bien": "Los salarios iniciales, beneficios y flexibilidad.",
-        "resumen_mal": "La cultura organizacional es muy desorganizada y sueldos para profesionales con más experiencia por debajo del mercado."
+        "resumen_mal": "La cultura organizacional es muy desorganizada y sueldos para profesionales con más experiencia por debajo del mercado.",
+        "sede": "Santiago"
     },
     {
         "id": "lirmi",
@@ -3118,7 +3144,9 @@
         "prom_liderazgo": 1,
         "prom_cultura": 2,
         "resumen_bien": "Trabajo remoto flexible, producto valorado, impacto educativo real y compañerismo como contrapeso a las jefaturas.",
-        "resumen_mal": "Liderazgo egocéntrico y autoritario. Despidos inhumanos sin aviso. Gestión familiar en CLevel, metas imposibles y bonos que no se pagan."
+        "resumen_mal": "Liderazgo egocéntrico y autoritario. Despidos inhumanos sin aviso. Gestión familiar en CLevel, metas imposibles y bonos que no se pagan.",
+        "sede": "Santiago",
+        "fundacion": 2012
     },
     {
         "id": "mercado-libre-chile",
@@ -3155,7 +3183,8 @@
         "prom_liderazgo": 2,
         "prom_cultura": 3,
         "resumen_bien": "Beneficios, sueldo, desafios",
-        "resumen_mal": "La gerencia, la burocracia, el sistema cerrado"
+        "resumen_mal": "La gerencia, la burocracia, el sistema cerrado",
+        "sede": "Santiago"
     },
     {
         "id": "metlife",
@@ -3471,7 +3500,8 @@
         "prom_liderazgo": 2.5,
         "prom_cultura": 2.5,
         "resumen_bien": "Salario competitivo y cierta flexibilidad laboral.",
-        "resumen_mal": "Sin aumentos de sueldo, cargos superiores difíciles de alcanzar y beneficios en declive. Compañeros percibidos como competencia."
+        "resumen_mal": "Sin aumentos de sueldo, cargos superiores difíciles de alcanzar y beneficios en declive. Compañeros percibidos como competencia.",
+        "sede": "Santiago"
     },
     {
         "id": "policomp",
@@ -3565,7 +3595,8 @@
         "prom_liderazgo": 2,
         "prom_cultura": 2,
         "resumen_bien": "Los compañeros de trabajo generaban un buen ambiente.",
-        "resumen_mal": "Lideres vende humo, alta rotación, sueldos muy bajos, horas extras impagas."
+        "resumen_mal": "Lideres vende humo, alta rotación, sueldos muy bajos, horas extras impagas.",
+        "sede": "Santiago"
     },
     {
         "id": "quillayes-surlat",
@@ -3750,7 +3781,9 @@
         "prom_liderazgo": null,
         "prom_cultura": null,
         "resumen_bien": "beneficios mejores que el mercado",
-        "resumen_mal": "sobrecarga laboral, jefaturas a la\nantigua , patrón de fundo , cero liderazgo"
+        "resumen_mal": "sobrecarga laboral, jefaturas a la\nantigua , patrón de fundo , cero liderazgo",
+        "sede": "Santiago",
+        "fundacion": 1978
     },
     {
         "id": "seguros-sura-chile",
@@ -3898,7 +3931,9 @@
         "prom_liderazgo": 4,
         "prom_cultura": 5,
         "resumen_bien": "Flexibilidad, se puede trabajar 100% remoto. Las personas de los equipos generan un buen ambiente.",
-        "resumen_mal": "Decisiones estratégicas, se tomaba una dirección al poco tiempo se cambiaba, poca constancia en las decisiones estratégicas."
+        "resumen_mal": "Decisiones estratégicas, se tomaba una dirección al poco tiempo se cambiaba, poca constancia en las decisiones estratégicas.",
+        "sede": "Santiago",
+        "fundacion": 2014
     },
     {
         "id": "smu-s-a",
@@ -3955,7 +3990,9 @@
         "prom_liderazgo": null,
         "prom_cultura": null,
         "resumen_bien": "Beneficios y participación en campañas sociales como la Teletón, además de una buena ubicación.",
-        "resumen_mal": "Cultura muy jerárquica, vertical y con liderazgo anticuado, generando maltrato y diferencias de trato."
+        "resumen_mal": "Cultura muy jerárquica, vertical y con liderazgo anticuado, generando maltrato y diferencias de trato.",
+        "sede": "Santiago",
+        "fundacion": 2008
     },
     {
         "id": "sodexo",
@@ -4049,7 +4086,9 @@
         "prom_liderazgo": 4,
         "prom_cultura": 4,
         "resumen_bien": "tenia buenos beneficios, buen sueldo, muy buen ambiente, buenos lideres y se aprende harto, tambien eran flexibles si uno tenia que ir al medico o algo asi. jornada hibrida y relajados igual con los horarios de entrada cuando habia que ir a la oficina.",
-        "resumen_mal": "la jornada laboral era mucho mayor que lo establecido, yo estaba en una de apoyo, no en las tiendas. siempre habia que quedarse hasta mas tarde  a veces noche y  los dias que se teletrabajaba te decian que daba lo mismo si total estabas en la casa."
+        "resumen_mal": "la jornada laboral era mucho mayor que lo establecido, yo estaba en una de apoyo, no en las tiendas. siempre habia que quedarse hasta mas tarde  a veces noche y  los dias que se teletrabajaba te decian que daba lo mismo si total estabas en la casa.",
+        "sede": "Santiago",
+        "fundacion": 1952
     },
     {
         "id": "softserve",
@@ -4234,7 +4273,9 @@
         "prom_liderazgo": 3,
         "prom_cultura": 5,
         "resumen_bien": "Como es startup cuidan mucho el ambiente",
-        "resumen_mal": "Que operaciones es un incendio constante y no hay mucha voluntad de inyectar recursos en esa gerencia ya que no es rentable"
+        "resumen_mal": "Que operaciones es un incendio constante y no hay mucha voluntad de inyectar recursos en esa gerencia ya que no es rentable",
+        "sede": "Santiago",
+        "fundacion": 2010
     },
     {
         "id": "tanner-servicios-financieros",
@@ -4550,7 +4591,9 @@
         "prom_liderazgo": 2,
         "prom_cultura": 2,
         "resumen_bien": "Algunos beneficios y un sindicato fuerte que en los últimos 6 o 7 años ha hecho más que una negociación pactada una imposición de términos para conseguir que la empresa no quite beneficios.",
-        "resumen_mal": "Los liderazgos son mediocres en todos los niveles. Demasiados procesos manuales y sistemas legados que hacen que administrar las transacciones financieras de todo Chile sea impreciso y un dolor para los equipos de procesos. La empresa cambió cuando el líder “histórico” (gerente) de RRHH fue desvinculado, entró en un proceso de deterioro de su cultura sabiendo que la empresa además perdía su posición monopólica dominante debido a la apertura del mercado con la transición al modelo de procesamiento de 4 partes."
+        "resumen_mal": "Los liderazgos son mediocres en todos los niveles. Demasiados procesos manuales y sistemas legados que hacen que administrar las transacciones financieras de todo Chile sea impreciso y un dolor para los equipos de procesos. La empresa cambió cuando el líder “histórico” (gerente) de RRHH fue desvinculado, entró en un proceso de deterioro de su cultura sabiendo que la empresa además perdía su posición monopólica dominante debido a la apertura del mercado con la transición al modelo de procesamiento de 4 partes.",
+        "sede": "Santiago",
+        "fundacion": 1989
     },
     {
         "id": "uber",

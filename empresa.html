@@ -1104,7 +1104,13 @@
       // Reseñas
       const main = document.getElementById('main');
       const introPartes = [];
-      introPartes.push(`${emp.nombre} es una empresa${emp.rubro ? ' del sector ' + emp.rubro : ''} en Chile.`);
+      const introContexto = [
+        emp.rubro ? 'del sector ' + emp.rubro : null,
+        emp.sede ? 'con sede en ' + emp.sede : 'en Chile',
+        emp.fundacion ? 'fundada en ' + emp.fundacion : null,
+      ].filter(Boolean);
+      const introBase = `${emp.nombre} es una empresa ${introContexto.join(', ')}.`;
+      introPartes.push(introBase);
       if (emp.total_resenas > 0 && emp.promedio) {
         introPartes.push(`Según ${emp.total_resenas} reseña${emp.total_resenas !== 1 ? 's' : ''} anónima${emp.total_resenas !== 1 ? 's' : ''} de empleados en El Interno, su calificación promedio es ${emp.promedio}/5.`);
       }

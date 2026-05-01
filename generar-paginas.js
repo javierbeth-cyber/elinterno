@@ -298,7 +298,13 @@ function generatePage(emp) {
 
   // Párrafo introductorio para SEO
   const introPartes = [];
-  introPartes.push(`${emp.nombre} es una empresa${emp.rubro ? ' del sector ' + emp.rubro : ''} en Chile.`);
+  const introContexto = [
+    emp.rubro ? 'del sector ' + emp.rubro : null,
+    emp.sede ? 'con sede en ' + emp.sede : 'en Chile',
+    emp.fundacion ? 'fundada en ' + emp.fundacion : null,
+  ].filter(Boolean);
+  const introBase = `${emp.nombre} es una empresa ${introContexto.join(', ')}.`;
+  introPartes.push(introBase);
   if (totalRes > 0 && emp.promedio) {
     introPartes.push(`Según ${totalRes} reseña${totalRes !== 1 ? 's' : ''} anónima${totalRes !== 1 ? 's' : ''} de empleados en El Interno, su calificación promedio es ${emp.promedio}/5.`);
   } else if (totalRes > 0) {
