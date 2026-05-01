@@ -1108,8 +1108,6 @@
       if (emp.total_resenas > 0 && emp.promedio) {
         introPartes.push(`Según ${emp.total_resenas} reseña${emp.total_resenas !== 1 ? 's' : ''} anónima${emp.total_resenas !== 1 ? 's' : ''} de empleados en El Interno, su calificación promedio es ${emp.promedio}/5.`);
       }
-      if (emp.resumen_bien) introPartes.push(`Sus empleados destacan: ${emp.resumen_bien}.`);
-      if (emp.resumen_mal)  introPartes.push(`Entre las principales críticas: ${emp.resumen_mal}.`);
       const introHtml = `<p class="empresa-intro">${introPartes.join(' ')}</p>`;
 
       if (!emp.resenas || !emp.resenas.length) {

@@ -304,8 +304,6 @@ function generatePage(emp) {
   } else if (totalRes > 0) {
     introPartes.push(`Tiene ${totalRes} reseña${totalRes !== 1 ? 's' : ''} anónima${totalRes !== 1 ? 's' : ''} de empleados en El Interno.`);
   }
-  if (emp.resumen_bien) introPartes.push(`Sus empleados destacan: ${emp.resumen_bien}.`);
-  if (emp.resumen_mal)  introPartes.push(`Entre las principales críticas: ${emp.resumen_mal}.`);
   const introHtml = `<p class="empresa-intro">${introPartes.join(' ')}</p>`;
 
   // Main pre-renderizado
