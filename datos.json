@@ -155,8 +155,8 @@
     },
     {
         "id": "aleman-experto-los-trapenses",
-        "nombre": "Aleman Experto, los trapenses",
-        "rubro": "Restaurante",
+        "nombre": "Alemán Experto Los Trapenses",
+        "rubro": "Alimentos y Bebidas",
         "logo": "assets/logos/aleman-experto-los-trapenses.jpg",
         "resenas": [
             {
@@ -2565,7 +2565,7 @@
     {
         "id": "jica-chile",
         "nombre": "JICA Chile",
-        "rubro": "Organismos internacionales",
+        "rubro": "Organismos Internacionales",
         "logo": "assets/logos/jica-chile.png",
         "resenas": [
             {
@@ -3684,7 +3684,7 @@
     {
         "id": "quillayes-surlat",
         "nombre": "Quillayes Surlat",
-        "rubro": "Consumo Masivo",
+        "rubro": "Alimentos y Bebidas",
         "logo": "assets/logos/quillayes-surlat.svg",
         "resenas": [
             {
