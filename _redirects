@@ -4,6 +4,7 @@
 # Lemontech oculta — redirige a inicio
 /empresa.html?id=lemontech / 301
 /empresa/lemontech/ / 301
+/empresa.html?id=jica-chile-agencia-japonesa-de-cooperacion-internacional /empresa/jica-chile/ 301
 
 # Redirects empresa.html?id=xxx → /empresa/xxx/
 /empresa.html?id=3it /empresa/3it/ 301
