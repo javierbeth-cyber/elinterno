@@ -1016,7 +1016,7 @@
       const totalRes = emp.total_resenas || 0;
       const prom = emp.promedio ? `Calificación ${emp.promedio}/5. ` : '';
       const metaDesc = `${prom}${totalRes} reseña${totalRes !== 1 ? 's' : ''} anónima${totalRes !== 1 ? 's' : ''} de empleados de ${emp.nombre}. Sueldo, liderazgo, cultura y ambiente laboral. Lo que no aparece en el aviso de trabajo.`;
-      const pageUrl = `https://elinterno.com/empresa.html?id=${emp.id}`;
+      const pageUrl = `https://elinterno.com/empresa/${emp.id}/`;
       document.title = `${emp.nombre} — Cómo es trabajar ahí | El Interno`;
       document.querySelector('link[rel="canonical"]').setAttribute('href', pageUrl);
       document.querySelector('meta[name="description"]').setAttribute('content', metaDesc);
