@@ -77,7 +77,7 @@
     },
     {
         "id": "achs",
-        "nombre": "Achs",
+        "nombre": "ACHS",
         "rubro": "Seguros y Beneficios",
         "logo": "assets/logos/achs.svg",
         "resenas": [
@@ -117,7 +117,7 @@
     {
         "id": "afp-cuprum",
         "nombre": "AFP Cuprum",
-        "rubro": "Banca y finanzas",
+        "rubro": "Banca y Finanzas",
         "logo": "assets/logos/afp-cuprum.svg",
         "resenas": [
             {
@@ -232,7 +232,7 @@
     {
         "id": "amipass",
         "nombre": "Amipass",
-        "rubro": "Alimentos y Bebidas",
+        "rubro": "Seguros y Beneficios",
         "logo": "assets/logos/amipass.png",
         "resenas": [
             {
@@ -462,7 +462,7 @@
     {
         "id": "banco-consorcio",
         "nombre": "Banco Consorcio",
-        "rubro": "Banca y finanzas",
+        "rubro": "Banca y Finanzas",
         "logo": "assets/logos/banco-consorcio.png",
         "resenas": [
             {
@@ -501,7 +501,7 @@
     {
         "id": "bancoestado",
         "nombre": "BancoEstado",
-        "rubro": "Banca y finanzas",
+        "rubro": "Banca y Finanzas",
         "logo": "assets/logos/bancoestado.svg",
         "resenas": [
             {
@@ -540,7 +540,7 @@
     {
         "id": "bbdo",
         "nombre": "BBDO",
-        "rubro": "Medios y publicidad",
+        "rubro": "Medios y Publicidad",
         "logo": "assets/logos/bbdo.jpg",
         "resenas": [
             {
@@ -731,7 +731,7 @@
     {
         "id": "capitaria",
         "nombre": "Capitaria",
-        "rubro": "Banca y finanzas",
+        "rubro": "Banca y Finanzas",
         "logo": "assets/logos/capitaria.png",
         "resenas": [
             {
@@ -868,8 +868,8 @@
     },
     {
         "id": "chita-factoring",
-        "nombre": "Chita factoring",
-        "rubro": "Banca y finanzas",
+        "nombre": "Chita Factoring",
+        "rubro": "Banca y Finanzas",
         "logo": "assets/logos/chita-factoring.png",
         "resenas": [
             {
@@ -944,7 +944,7 @@
     },
     {
         "id": "coca-cola-andina",
-        "nombre": "Coca cola andina",
+        "nombre": "Coca-Cola Andina",
         "rubro": "Alimentos y Bebidas",
         "logo": "assets/logos/coca-cola-andina.png",
         "resenas": [
@@ -1022,7 +1022,7 @@
     },
     {
         "id": "corporacion-3xi",
-        "nombre": "Corporación 3xi",
+        "nombre": "Corporación 3XI",
         "rubro": "ONG / Sociedad Civil",
         "logo": "assets/logos/corporacion-3xi.svg",
         "resenas": [
@@ -1098,7 +1098,7 @@
     },
     {
         "id": "cristalchile",
-        "nombre": "Cristalchile",
+        "nombre": "CristalChile",
         "rubro": "Manufactura e Industria",
         "logo": "assets/logos/cristalchile.svg",
         "resenas": [
@@ -1138,7 +1138,7 @@
     {
         "id": "cumplo-chile",
         "nombre": "Cumplo Chile",
-        "rubro": "Banca y finanzas",
+        "rubro": "Banca y Finanzas",
         "logo": "assets/logos/cumplo-chile.png",
         "resenas": [
             {
@@ -1330,7 +1330,7 @@
     },
     {
         "id": "e-contact",
-        "nombre": "E-contact",
+        "nombre": "E-Contact",
         "rubro": "Telecomunicaciones",
         "logo": "assets/logos/e-contact.png",
         "resenas": [
@@ -1368,7 +1368,7 @@
     },
     {
         "id": "echeverria-izquierdo",
-        "nombre": "Echeverria izquierdo",
+        "nombre": "Echeverría Izquierdo",
         "rubro": "Construcción e Ingeniería",
         "logo": "assets/logos/echeverria-izquierdo.png",
         "resenas": [
@@ -1945,7 +1945,7 @@
     },
     {
         "id": "femsa",
-        "nombre": "Femsa",
+        "nombre": "FEMSA",
         "rubro": "Retail",
         "logo": "assets/logos/femsa.svg",
         "resenas": [
@@ -2236,7 +2236,7 @@
     {
         "id": "global66",
         "nombre": "Global66",
-        "rubro": "Banca y finanzas",
+        "rubro": "Banca y Finanzas",
         "logo": "assets/logos/global66.png",
         "resenas": [
             {
@@ -2527,7 +2527,7 @@
     {
         "id": "itau",
         "nombre": "Itaú",
-        "rubro": "Banca y finanzas",
+        "rubro": "Banca y Finanzas",
         "logo": "assets/logos/itau.svg",
         "resenas": [
             {
@@ -2908,7 +2908,7 @@
     },
     {
         "id": "latam-airlines",
-        "nombre": "Latam Airlines",
+        "nombre": "LATAM Airlines",
         "rubro": "Aerolíneas",
         "logo": "assets/logos/latam-airlines.png",
         "resenas": [
@@ -2948,7 +2948,7 @@
     {
         "id": "lider-bci",
         "nombre": "Líder BCI",
-        "rubro": "Banca y finanzas",
+        "rubro": "Banca y Finanzas",
         "logo": "assets/logos/lider-bci.svg",
         "resenas": [
             {
@@ -3262,7 +3262,7 @@
     },
     {
         "id": "metlife",
-        "nombre": "Metlife",
+        "nombre": "MetLife",
         "rubro": "Seguros y Beneficios",
         "logo": "assets/logos/metlife.png",
         "resenas": [
@@ -3835,8 +3835,8 @@
     },
     {
         "id": "santander-chile",
-        "nombre": "santander chile",
-        "rubro": "Banca y finanzas",
+        "nombre": "Santander Chile",
+        "rubro": "Banca y Finanzas",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Banco_Santander_Logotipo.svg/960px-Banco_Santander_Logotipo.svg.png",
         "resenas": [
             {
@@ -3951,7 +3951,7 @@
     },
     {
         "id": "sii-group",
-        "nombre": "sii group",
+        "nombre": "SII Group",
         "rubro": "Tecnología",
         "logo": "assets/logos/sii-group.jpg",
         "resenas": [
@@ -4184,7 +4184,7 @@
     },
     {
         "id": "softserve",
-        "nombre": "Softserve",
+        "nombre": "SoftServe",
         "rubro": "Tecnología",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/SoftServe_logo_2017.svg/960px-SoftServe_logo_2017.svg.png",
         "resenas": [
@@ -4377,7 +4377,7 @@
     {
         "id": "tanner-servicios-financieros",
         "nombre": "Tanner Servicios Financieros",
-        "rubro": "Banca y finanzas",
+        "rubro": "Banca y Finanzas",
         "logo": "assets/logos/tanner-servicios-financieros.jpg",
         "resenas": [
             {
@@ -4666,7 +4666,7 @@
     {
         "id": "transbank",
         "nombre": "Transbank",
-        "rubro": "Banca y finanzas",
+        "rubro": "Banca y Finanzas",
         "logo": "assets/logos/transbank.svg",
         "resenas": [
             {
@@ -4742,7 +4742,7 @@
     },
     {
         "id": "udp",
-        "nombre": "Udp",
+        "nombre": "UDP",
         "rubro": "Educación",
         "logo": "assets/logos/udp.png",
         "resenas": [
@@ -4781,7 +4781,7 @@
     },
     {
         "id": "underpizza",
-        "nombre": "underpizza",
+        "nombre": "Underpizza",
         "rubro": "Retail",
         "logo": "assets/logos/underpizza.png",
         "resenas": [
