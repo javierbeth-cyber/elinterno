@@ -153,6 +153,13 @@
     .btn-whatsapp { background: #25d366; color: #fff; }
     .btn-copiar { background: var(--navy); color: #fff; }
     @media (max-width: 600px) { .cta-compartir-inner { flex-direction: column; align-items: flex-start; } }
+    .cta-trabajaste { background: #eff6ff; border: 1.5px solid #bfdbfe; border-radius: 12px; padding: 1.25rem 1.5rem; margin: 1.5rem 0; display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
+    .cta-trabajaste-texto { display: flex; flex-direction: column; gap: 4px; }
+    .cta-trabajaste-texto strong { font-size: 0.95rem; color: var(--navy); }
+    .cta-trabajaste-texto span { font-size: 0.85rem; color: #3b82f6; }
+    .btn-cta-trabajaste { background: #2563eb; color: #fff; padding: 9px 20px; border-radius: 8px; font-size: 0.875rem; font-weight: 600; text-decoration: none; white-space: nowrap; flex-shrink: 0; transition: background 0.15s; }
+    .btn-cta-trabajaste:hover { background: #1d4ed8; }
+    @media (max-width: 600px) { .cta-trabajaste { flex-direction: column; align-items: flex-start; } }
 
     /* EMPRESA HEADER */
     .empresa-header {
@@ -1115,7 +1122,15 @@
         if (vDiff !== 0) return vDiff;
         return (b.fecha || '').localeCompare(a.fecha || '');
       });
-      main.innerHTML = introHtml + renderResumen(emp) + `
+      const formUrl = `https://docs.google.com/forms/d/e/1FAIpQLSeBUPzA-QeBHGHRKhhywXf_VWuYpK25JVVRRefKfz-FzgjPyw/viewform?usp=pp_url&entry.972487256=${encodeURIComponent(emp.nombre)}`;
+      const ctaTrabajaste = `<div class="cta-trabajaste">
+  <div class="cta-trabajaste-texto">
+    <strong>¿También trabajaste en ${emp.nombre}?</strong>
+    <span>Tu experiencia puede ayudar a quienes están considerando trabajar ahí.</span>
+  </div>
+  <a href="${formUrl}" target="_blank" rel="noopener" class="btn-cta-trabajaste" onclick="gtag('event','form_cta_click',{empresa:'${emp.nombre}',ubicacion:'mid'})">Dejar reseña anónima →</a>
+</div>`;
+      main.innerHTML = introHtml + renderResumen(emp) + ctaTrabajaste + `
         <h2 class="section-title">${emp.total_resenas} reseña${emp.total_resenas !== 1 ? 's' : ''} de empleados</h2>
         ${resenasOrdenadas.map(renderResena).join('')}`;
       cargarVotosFirebase(resenasOrdenadas);

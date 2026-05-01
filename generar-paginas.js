@@ -331,7 +331,16 @@ function generatePage(emp) {
   </div>
 </div>`;
 
+    const ctaTrabajaste = `<div class="cta-trabajaste">
+  <div class="cta-trabajaste-texto">
+    <strong>¿También trabajaste en ${emp.nombre}?</strong>
+    <span>Tu experiencia puede ayudar a quienes están considerando trabajar ahí.</span>
+  </div>
+  <a href="${formUrl}" target="_blank" rel="noopener" class="btn-cta-trabajaste" onclick="gtag('event','form_cta_click',{empresa:${JSON.stringify(emp.nombre)},ubicacion:'mid'})">Dejar reseña anónima →</a>
+</div>`;
+
     mainHtml = introHtml + renderResumen(emp) +
+      ctaTrabajaste +
       `<h2 class="section-title">${totalRes} reseña${totalRes !== 1 ? 's' : ''} de empleados</h2>` +
       ordenadas.map(renderResena).join('') +
       ctaHtml;
