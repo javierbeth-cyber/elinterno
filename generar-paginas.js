@@ -206,7 +206,7 @@ function renderResumen(emp) {
     if (usaIA) highlightsHtml += '<div class="resumen-ia-note">* Resumen generado con IA a partir de ' + resenas.length + ' reseñas</div>';
   }
 
-  return '<div class="resumen"><div class="resumen-title">Resumen</div><div class="resumen-grid">' + gridItems + '</div>' +
+  return '<div class="resumen"><h2 class="resumen-title">Resumen</h2><div class="resumen-grid">' + gridItems + '</div>' +
     (statsHtml ? '<div class="resumen-stats">' + statsHtml + '</div>' : '') + highlightsHtml + '</div>';
 }
 
@@ -297,10 +297,22 @@ function generatePage(emp) {
       </div>
     </div>`;
 
+  // Párrafo introductorio para SEO
+  const introPartes = [];
+  introPartes.push(`${emp.nombre} es una empresa${emp.rubro ? ' del sector ' + emp.rubro : ''} en Chile.`);
+  if (totalRes > 0 && emp.promedio) {
+    introPartes.push(`Según ${totalRes} reseña${totalRes !== 1 ? 's' : ''} anónima${totalRes !== 1 ? 's' : ''} de empleados en El Interno, su calificación promedio es ${emp.promedio}/5.`);
+  } else if (totalRes > 0) {
+    introPartes.push(`Tiene ${totalRes} reseña${totalRes !== 1 ? 's' : ''} anónima${totalRes !== 1 ? 's' : ''} de empleados en El Interno.`);
+  }
+  if (emp.resumen_bien) introPartes.push(`Sus empleados destacan: ${emp.resumen_bien}`);
+  if (emp.resumen_mal)  introPartes.push(`Entre las principales críticas: ${emp.resumen_mal}`);
+  const introHtml = `<p class="empresa-intro">${introPartes.join(' ')}</p>`;
+
   // Main pre-renderizado
   let mainHtml = '';
   if (!emp.resenas || !emp.resenas.length) {
-    mainHtml = '<p style="color:var(--text-muted)">Sin reseñas aún.</p>';
+    mainHtml = introHtml + '<p style="color:var(--text-muted)">Sin reseñas aún.</p>';
   } else {
     const ordenadas = emp.resenas.slice().sort(function(a, b) {
       var vDiff = (b.votos || 0) - (a.votos || 0);
@@ -319,8 +331,8 @@ function generatePage(emp) {
   </div>
 </div>`;
 
-    mainHtml = renderResumen(emp) +
-      `<div class="section-title">${totalRes} reseña${totalRes !== 1 ? 's' : ''}</div>` +
+    mainHtml = introHtml + renderResumen(emp) +
+      `<h2 class="section-title">${totalRes} reseña${totalRes !== 1 ? 's' : ''} de empleados</h2>` +
       ordenadas.map(renderResena).join('') +
       ctaHtml;
   }

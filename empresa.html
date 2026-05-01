@@ -257,6 +257,12 @@
 
     /* RESEÑAS */
     .main { max-width: 900px; margin: 0 auto; padding: 0 24px 64px; }
+    .empresa-intro {
+      font-size: 15px;
+      color: var(--text-muted);
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
     .section-title {
       font-size: 18px;
       font-weight: 700;
@@ -983,7 +989,7 @@
     }
 
     return '<div class="resumen">' +
-      '<div class="resumen-title">Resumen</div>' +
+      '<h2 class="resumen-title">Resumen</h2>' +
       '<div class="resumen-grid">' + gridItems + '</div>' +
       (statsHtml ? '<div class="resumen-stats">' + statsHtml + '</div>' : '') +
       highlightsHtml +
@@ -1091,8 +1097,17 @@
 
       // Reseñas
       const main = document.getElementById('main');
+      const introPartes = [];
+      introPartes.push(`${emp.nombre} es una empresa${emp.rubro ? ' del sector ' + emp.rubro : ''} en Chile.`);
+      if (emp.total_resenas > 0 && emp.promedio) {
+        introPartes.push(`Según ${emp.total_resenas} reseña${emp.total_resenas !== 1 ? 's' : ''} anónima${emp.total_resenas !== 1 ? 's' : ''} de empleados en El Interno, su calificación promedio es ${emp.promedio}/5.`);
+      }
+      if (emp.resumen_bien) introPartes.push(`Sus empleados destacan: ${emp.resumen_bien}`);
+      if (emp.resumen_mal)  introPartes.push(`Entre las principales críticas: ${emp.resumen_mal}`);
+      const introHtml = `<p class="empresa-intro">${introPartes.join(' ')}</p>`;
+
       if (!emp.resenas || !emp.resenas.length) {
-        main.innerHTML = '<p style="color:var(--text-muted)">Sin reseñas aún.</p>';
+        main.innerHTML = introHtml + '<p style="color:var(--text-muted)">Sin reseñas aún.</p>';
         return;
       }
       const resenasOrdenadas = emp.resenas.slice().sort(function(a, b) {
@@ -1100,8 +1115,8 @@
         if (vDiff !== 0) return vDiff;
         return (b.fecha || '').localeCompare(a.fecha || '');
       });
-      main.innerHTML = renderResumen(emp) + `
-        <div class="section-title">${emp.total_resenas} reseña${emp.total_resenas !== 1 ? 's' : ''}</div>
+      main.innerHTML = introHtml + renderResumen(emp) + `
+        <h2 class="section-title">${emp.total_resenas} reseña${emp.total_resenas !== 1 ? 's' : ''} de empleados</h2>
         ${resenasOrdenadas.map(renderResena).join('')}`;
       cargarVotosFirebase(resenasOrdenadas);
     });
