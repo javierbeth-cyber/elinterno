@@ -335,7 +335,7 @@
     {
         "id": "arcor-chile",
         "nombre": "Arcor Chile",
-        "rubro": "Retail",
+        "rubro": "Alimentos y Bebidas",
         "logo": "assets/logos/arcor-chile.png",
         "resenas": [
             {
@@ -668,7 +668,7 @@
     {
         "id": "callbusiness",
         "nombre": "CallBusiness",
-        "rubro": "Banca y finanzas",
+        "rubro": "Tecnología",
         "logo": "assets/logos/callbusiness.jpg",
         "resenas": [
             {
@@ -1881,7 +1881,7 @@
     {
         "id": "femsa",
         "nombre": "Femsa",
-        "rubro": "Banca y finanzas",
+        "rubro": "Retail",
         "logo": "assets/logos/femsa.svg",
         "resenas": [
             {
@@ -3160,7 +3160,7 @@
     {
         "id": "metlife",
         "nombre": "Metlife",
-        "rubro": "Banca y finanzas",
+        "rubro": "Seguros y Beneficios",
         "logo": "assets/logos/metlife.png",
         "resenas": [
             {
@@ -3960,7 +3960,7 @@
     {
         "id": "sodexo",
         "nombre": "Sodexo",
-        "rubro": "Seguridad",
+        "rubro": "Alimentos y Bebidas",
         "logo": "assets/logos/sodexo.png",
         "resenas": [
             {
