@@ -1097,7 +1097,6 @@
                 <span class="rating-label">${emp.total_resenas} reseña${emp.total_resenas !== 1 ? 's' : ''}</span>
               </div>
               ${subcatsHtml ? `<div class="subcats-row">${subcatsHtml}</div>` : ''}
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSeBUPzA-QeBHGHRKhhywXf_VWuYpK25JVVRRefKfz-FzgjPyw/viewform?usp=pp_url&entry.972487256=${encodeURIComponent(emp.nombre)}" target="_blank" rel="noopener" class="btn-dejar-resena" onclick="gtag('event','form_cta_click',{empresa:${JSON.stringify(emp.nombre)},ubicacion:'header'})">¿Trabajaste aquí? Deja tu reseña</a>
             </div>
           </div>
         </div>`;
@@ -1109,8 +1108,8 @@
       if (emp.total_resenas > 0 && emp.promedio) {
         introPartes.push(`Según ${emp.total_resenas} reseña${emp.total_resenas !== 1 ? 's' : ''} anónima${emp.total_resenas !== 1 ? 's' : ''} de empleados en El Interno, su calificación promedio es ${emp.promedio}/5.`);
       }
-      if (emp.resumen_bien) introPartes.push(`Sus empleados destacan: ${emp.resumen_bien}`);
-      if (emp.resumen_mal)  introPartes.push(`Entre las principales críticas: ${emp.resumen_mal}`);
+      if (emp.resumen_bien) introPartes.push(`Sus empleados destacan: ${emp.resumen_bien}.`);
+      if (emp.resumen_mal)  introPartes.push(`Entre las principales críticas: ${emp.resumen_mal}.`);
       const introHtml = `<p class="empresa-intro">${introPartes.join(' ')}</p>`;
 
       if (!emp.resenas || !emp.resenas.length) {
