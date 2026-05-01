@@ -324,11 +324,11 @@ function generatePage(emp) {
     const ctaHtml = `<div class="cta-compartir">
   <div class="cta-compartir-inner">
     <div class="cta-compartir-texto">
-      <strong>¿Conoces a alguien que trabajó en ${emp.nombre}?</strong>
-      <span>Comparte esta página para que también pueda dejar su reseña anónima.</span>
+      <strong>¿Conocés a alguien que también trabajó en ${emp.nombre}?</strong>
+      <span>Su reseña ayuda a quienes están considerando postular. Es anónima y toma 2 minutos.</span>
     </div>
     <div class="cta-compartir-botones">
-      <a href="https://wa.me/?text=${encodeURIComponent('¿Trabajaste en ' + emp.nombre + '? Deja tu reseña anónima en El Interno: https://elinterno.com/empresa/' + emp.id + '/')}" target="_blank" rel="noopener" class="btn-compartir btn-whatsapp" onclick="gtag('event','compartir_click',{empresa:${JSON.stringify(emp.nombre)},canal:'whatsapp'})">WhatsApp</a>
+      <a href="https://wa.me/?text=${encodeURIComponent('¿Trabajaste en ' + emp.nombre + '? Tu opinión ayuda a otros a decidir. Deja tu reseña anónima en El Interno (toma 2 min): https://elinterno.com/empresa/' + emp.id + '/')}" target="_blank" rel="noopener" class="btn-compartir btn-whatsapp" onclick="gtag('event','compartir_click',{empresa:${JSON.stringify(emp.nombre)},canal:'whatsapp'})">WhatsApp</a>
       <button class="btn-compartir btn-copiar" onclick="copiarLink('https://elinterno.com/empresa/${emp.id}/', this)">Copiar link</button>
     </div>
   </div>

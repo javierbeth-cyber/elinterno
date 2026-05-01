@@ -1133,9 +1133,21 @@
   </div>
   <a href="${formUrl}" target="_blank" rel="noopener" class="btn-cta-trabajaste" onclick="gtag('event','form_cta_click',{empresa:'${emp.nombre}',ubicacion:'mid'})">Dejar reseña anónima →</a>
 </div>`;
+      const ctaCompartir = `<div class="cta-compartir">
+  <div class="cta-compartir-inner">
+    <div class="cta-compartir-texto">
+      <strong>¿Conocés a alguien que también trabajó en ${emp.nombre}?</strong>
+      <span>Su reseña ayuda a quienes están considerando postular. Es anónima y toma 2 minutos.</span>
+    </div>
+    <div class="cta-compartir-botones">
+      <a href="https://wa.me/?text=${encodeURIComponent('¿Trabajaste en ' + emp.nombre + '? Tu opinión ayuda a otros a decidir. Deja tu reseña anónima en El Interno (toma 2 min): https://elinterno.com/empresa/' + emp.id + '/')}" target="_blank" rel="noopener" class="btn-compartir btn-whatsapp" onclick="gtag('event','compartir_click',{empresa:'${emp.nombre}',canal:'whatsapp'})">WhatsApp</a>
+      <button class="btn-compartir btn-copiar" onclick="copiarLink('https://elinterno.com/empresa/${emp.id}/', this)">Copiar link</button>
+    </div>
+  </div>
+</div>`;
       main.innerHTML = introHtml + renderResumen(emp) + ctaTrabajaste + `
         <h2 class="section-title">${emp.total_resenas} reseña${emp.total_resenas !== 1 ? 's' : ''} de empleados</h2>
-        ${resenasOrdenadas.map(renderResena).join('')}`;
+        ${resenasOrdenadas.map(renderResena).join('')}` + ctaCompartir;
       cargarVotosFirebase(resenasOrdenadas);
     });
 
