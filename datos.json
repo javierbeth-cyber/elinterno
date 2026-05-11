@@ -3907,6 +3907,26 @@
     "logo": "assets/logos/simpliroute.svg",
     "resenas": [
       {
+        "id": 147,
+        "fecha": "2026-05-10",
+        "area": "Operaciones",
+        "cargo": "Customer Success",
+        "tiempo": "Más de 3 años",
+        "sigue": "Sí",
+        "cal_general": 2,
+        "sueldo": "en el mercado",
+        "carrera": "pocas oportunidades",
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "Algunas áreas, flexibilidad",
+        "que_mal": "Los nuevos liderazgos",
+        "que_desearias": "Que el crecimiento laboral se cortaría",
+        "consejo_gerencia": "Que los nuevos liderazgos no quieren reinventar la rueda",
+        "recomienda": "No",
+        "votos": 0
+      },
+      {
         "id": 59,
         "fecha": "2026-03-25",
         "area": null,
@@ -3927,8 +3947,8 @@
         "votos": 0
       }
     ],
-    "total_resenas": 1,
-    "promedio": 4,
+    "total_resenas": 2,
+    "promedio": 3,
     "prom_sueldo": null,
     "prom_carrera": null,
     "prom_flexibilidad": 5,
