@@ -4610,6 +4610,43 @@
     "resumen_mal": "Los liderazgos son mediocres en todos los niveles. Demasiados procesos manuales y sistemas legados que hacen que administrar las transacciones financieras de todo Chile sea impreciso y un dolor para los equipos de procesos. La empresa cambió cuando el líder “histórico” (gerente) de RRHH fue desvinculado, entró en un proceso de deterioro de su cultura sabiendo que la empresa además perdía su posición monopólica dominante debido a la apertura del mercado con la transición al modelo de procesamiento de 4 partes."
   },
   {
+    "id": "tricot-sa",
+    "nombre": "Tricot SA",
+    "rubro": "Retail",
+    "logo": null,
+    "resenas": [
+      {
+        "id": 148,
+        "fecha": "2026-05-13",
+        "area": "Administración",
+        "cargo": "Administrativo",
+        "tiempo": "1 a 3 años",
+        "sigue": "Sí",
+        "cal_general": 2,
+        "sueldo": "en el mercado",
+        "carrera": "crecimiento moderado",
+        "flexibilidad": null,
+        "liderazgo": null,
+        "cultura": null,
+        "que_bien": "El ambiente laboral te puede ayudar depende del área que trabajes",
+        "que_mal": "Suele pasar que la parte de la gerencia abusa y tiene malos tratos con los trabajadores. Ya que no hay recursos humanos que proteja a nadie y dentro de la compañía ni el sindicato está hacia el trabajador",
+        "que_desearias": "Que la empresa trabaja codo a codo en la manipulación del sindicato",
+        "consejo_gerencia": "Que abra la puerta al crecimiento del trabajador y que la parte administrativa del área recursos humanos tenga un mejor líder que vele por la humanidad del trabajador",
+        "recomienda": "No",
+        "votos": 0
+      }
+    ],
+    "total_resenas": 1,
+    "promedio": 2,
+    "prom_sueldo": null,
+    "prom_carrera": null,
+    "prom_flexibilidad": null,
+    "prom_liderazgo": null,
+    "prom_cultura": null,
+    "resumen_bien": "El ambiente laboral te puede ayudar depende del área que trabajes",
+    "resumen_mal": "Suele pasar que la parte de la gerencia abusa y tiene malos tratos con los trabajadores. Ya que no hay recursos humanos que proteja a nadie y dentro de la compañía ni el sindicato está hacia el trabajador"
+  },
+  {
     "id": "uber",
     "nombre": "Uber",
     "rubro": "Tecnología",
