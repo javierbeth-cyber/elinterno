@@ -2,3 +2,8 @@
 # Scripts internos — no exponer lógica del pipeline
 sync_script.gs
 sync_script.js
+
+# Herramientas locales
+.clasp.json
+node_modules_clasp/
+.obsidian/
