@@ -22,7 +22,8 @@
 /empresa.html?id=banco-consorcio /empresa/banco-consorcio/ 301
 /empresa.html?id=bancoestado /empresa/bancoestado/ 301
 /empresa.html?id=bbdo /empresa/bbdo/ 301
-/empresa.html?id=bci /empresa/bci/ 301
+/empresa.html?id=bci /directorio/ 301
+/empresa/bci/ /directorio/ 301
 /empresa.html?id=bermann-gps /empresa/bermann-gps/ 301
 /empresa.html?id=brass-chile /empresa/brass-chile/ 301
 /empresa.html?id=caja-de-compensacion-los-heroes /empresa/caja-de-compensacion-los-heroes/ 301
