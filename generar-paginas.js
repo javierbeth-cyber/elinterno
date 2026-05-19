@@ -337,7 +337,10 @@ function generatePage(emp) {
     const ctaTrabajaste = `<div class="cta-trabajaste">
   <div class="cta-trabajaste-texto">
     <strong>¿También trabajaste en ${emp.nombre}?</strong>
-    <span>Tu experiencia puede ayudar a quienes están considerando trabajar ahí.</span>
+    <div class="cta-visitas-espera">
+      <span class="pulse"></span>
+      <span class="visitas-num" id="visitas-count">...</span> personas están esperando una reseña de esta empresa
+    </div>
   </div>
   <a href="${formUrl}" target="_blank" rel="noopener" class="btn-cta-trabajaste" onclick="gtag('event','form_cta_click',{empresa:${JSON.stringify(emp.nombre)},ubicacion:'mid'})">Dejar reseña anónima →</a>
 </div>`;
@@ -592,6 +595,22 @@ function generatePage(emp) {
 
   // Iniciar listeners de Firebase
   cargarVotosFirebase(RESENA_IDS);
+
+  // Contador de visitas
+  (function() {
+    var empresaId = '${emp.id}';
+    var storageKey = 'ei_visita_' + empresaId;
+    var ref = db.ref('visitas/' + empresaId);
+    ref.on('value', function(snap) {
+      var count = snap.val() || 0;
+      var el = document.getElementById('visitas-count');
+      if (el) el.textContent = count;
+    });
+    if (!localStorage.getItem(storageKey)) {
+      ref.transaction(function(c) { return (c || 0) + 1; });
+      localStorage.setItem(storageKey, '1');
+    }
+  })();
 </script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "92ebedcba9704991a813698660420866"}'></script><!-- End Cloudflare Web Analytics -->
 </body>

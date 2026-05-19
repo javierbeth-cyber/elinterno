@@ -155,10 +155,13 @@
     .btn-whatsapp { background: #25d366; color: #fff; }
     .btn-copiar { background: var(--navy); color: #fff; }
     @media (max-width: 600px) { .cta-compartir-inner { flex-direction: column; align-items: flex-start; } }
-    .cta-trabajaste { background: #eff6ff; border: 1.5px solid #bfdbfe; border-radius: 12px; padding: 1.25rem 1.5rem; margin: 1.5rem 0; display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
-    .cta-trabajaste-texto { display: flex; flex-direction: column; gap: 4px; }
+    .cta-trabajaste { background: var(--white); border: 1.5px solid var(--border); border-radius: 12px; padding: 1.25rem 1.5rem; margin: 1.5rem 0; display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
+    .cta-trabajaste-texto { display: flex; flex-direction: column; gap: 6px; }
     .cta-trabajaste-texto strong { font-size: 0.95rem; color: var(--navy); }
-    .cta-trabajaste-texto span { font-size: 0.85rem; color: #3b82f6; }
+    .cta-visitas-espera { font-size: 0.85rem; color: var(--text-muted); display: flex; align-items: center; gap: 7px; }
+    .cta-visitas-espera .visitas-num { font-weight: 700; color: var(--text); font-size: 1rem; }
+    .pulse { width: 8px; height: 8px; background: #f59e0b; border-radius: 50%; display: inline-block; flex-shrink: 0; animation: pulseAnim 1.5s infinite; }
+    @keyframes pulseAnim { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.4;transform:scale(1.4)} }
     .btn-cta-trabajaste { background: #2563eb; color: #fff; padding: 9px 20px; border-radius: 8px; font-size: 0.875rem; font-weight: 600; text-decoration: none; white-space: nowrap; flex-shrink: 0; transition: background 0.15s; }
     .btn-cta-trabajaste:hover { background: #1d4ed8; }
     @media (max-width: 600px) { .cta-trabajaste { flex-direction: column; align-items: flex-start; } }
@@ -670,7 +673,10 @@
 <main class="main" id="main"><p class="empresa-intro">Policomp es una empresa del sector Tecnología, en Chile. Según 2 reseñas anónimas de empleados en El Interno, su calificación promedio es 2/5.</p><div class="resumen"><h2 class="resumen-title">Resumen</h2><div class="resumen-grid"><div class="resumen-item"><span class="resumen-label">Sueldo</span><span class="badge-cualitativo">Bajo el mercado</span><span class="badge-cualitativo-sub" onclick="toggleDist('sueldo')">2 de 2 opinan esto ▾</span><div class="dist-wrap" id="dist-sueldo"><div class="dist-row"><span class="dist-row-label">bajo el mercado</span><div class="dist-bar-bg"><div class="dist-bar-fill" style="width:100%"></div></div><span class="dist-count">2</span></div><div class="dist-row"><span class="dist-row-label">en el mercado</span><div class="dist-bar-bg"><div class="dist-bar-fill" style="width:0%"></div></div><span class="dist-count">0</span></div><div class="dist-row"><span class="dist-row-label">sobre el mercado</span><div class="dist-bar-bg"><div class="dist-bar-fill" style="width:0%"></div></div><span class="dist-count">0</span></div></div></div><div class="resumen-item"><span class="resumen-label">Crecimiento</span><span class="badge-cualitativo">Pocas oportunidades</span><span class="badge-cualitativo-sub" onclick="toggleDist('carrera')">2 de 2 opinan esto ▾</span><div class="dist-wrap" id="dist-carrera"><div class="dist-row"><span class="dist-row-label">pocas oportunidades</span><div class="dist-bar-bg"><div class="dist-bar-fill" style="width:100%"></div></div><span class="dist-count">2</span></div><div class="dist-row"><span class="dist-row-label">moderado</span><div class="dist-bar-bg"><div class="dist-bar-fill" style="width:0%"></div></div><span class="dist-count">0</span></div><div class="dist-row"><span class="dist-row-label">muchas oportunidades</span><div class="dist-bar-bg"><div class="dist-bar-fill" style="width:0%"></div></div><span class="dist-count">0</span></div></div></div></div><div class="resumen-stats"><div class="resumen-stat-item"><strong>1 de 2</strong> dice que su recomendación depende del perfil</div><div class="resumen-stat-item"><strong>1 de 2</strong> no lo recomiendan para trabajar ahí</div><div class="resumen-stat-item"><strong>50%</strong> sigue trabajando ahí</div></div><div class="highlights"><div class="highlight-card highlight-card-bien"><div class="highlight-label">✅ Lo que más valoran*</div><div class="highlight-text">Ofrece teletrabajo/híbrido y beneficios. Intentos de cultura positiva en oficina.</div></div><div class="highlight-card highlight-card-mal"><div class="highlight-label">❌ Principal queja*</div><div class="highlight-text">Falta apoyo a [cargo omitido], manejo humano deficiente de altos mandos y capacitaciones inadecuadas a riesgos reales.</div></div></div><div class="resumen-ia-note">* Resumen generado con IA a partir de 2 reseñas</div></div><div class="cta-trabajaste">
   <div class="cta-trabajaste-texto">
     <strong>¿También trabajaste en Policomp?</strong>
-    <span>Tu experiencia puede ayudar a quienes están considerando trabajar ahí.</span>
+    <div class="cta-visitas-espera">
+      <span class="pulse"></span>
+      <span class="visitas-num" id="visitas-count">...</span> personas están esperando una reseña de esta empresa
+    </div>
   </div>
   <a href="https://docs.google.com/forms/d/e/1FAIpQLSeBUPzA-QeBHGHRKhhywXf_VWuYpK25JVVRRefKfz-FzgjPyw/viewform?usp=pp_url&entry.972487256=Policomp" target="_blank" rel="noopener" class="btn-cta-trabajaste" onclick="gtag('event','form_cta_click',{empresa:"Policomp",ubicacion:'mid'})">Dejar reseña anónima →</a>
 </div><h2 class="section-title">2 reseñas de empleados</h2><div class="resena" id="resena-138">
@@ -868,6 +874,22 @@
 
   // Iniciar listeners de Firebase
   cargarVotosFirebase(RESENA_IDS);
+
+  // Contador de visitas
+  (function() {
+    var empresaId = 'policomp';
+    var storageKey = 'ei_visita_' + empresaId;
+    var ref = db.ref('visitas/' + empresaId);
+    ref.on('value', function(snap) {
+      var count = snap.val() || 0;
+      var el = document.getElementById('visitas-count');
+      if (el) el.textContent = count;
+    });
+    if (!localStorage.getItem(storageKey)) {
+      ref.transaction(function(c) { return (c || 0) + 1; });
+      localStorage.setItem(storageKey, '1');
+    }
+  })();
 </script>
 <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "92ebedcba9704991a813698660420866"}'></script><!-- End Cloudflare Web Analytics -->
 </body>

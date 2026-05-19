@@ -153,10 +153,13 @@
     .btn-whatsapp { background: #25d366; color: #fff; }
     .btn-copiar { background: var(--navy); color: #fff; }
     @media (max-width: 600px) { .cta-compartir-inner { flex-direction: column; align-items: flex-start; } }
-    .cta-trabajaste { background: #eff6ff; border: 1.5px solid #bfdbfe; border-radius: 12px; padding: 1.25rem 1.5rem; margin: 1.5rem 0; display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
-    .cta-trabajaste-texto { display: flex; flex-direction: column; gap: 4px; }
+    .cta-trabajaste { background: var(--white); border: 1.5px solid var(--border); border-radius: 12px; padding: 1.25rem 1.5rem; margin: 1.5rem 0; display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
+    .cta-trabajaste-texto { display: flex; flex-direction: column; gap: 6px; }
     .cta-trabajaste-texto strong { font-size: 0.95rem; color: var(--navy); }
-    .cta-trabajaste-texto span { font-size: 0.85rem; color: #3b82f6; }
+    .cta-visitas-espera { font-size: 0.85rem; color: var(--text-muted); display: flex; align-items: center; gap: 7px; }
+    .cta-visitas-espera .visitas-num { font-weight: 700; color: var(--text); font-size: 1rem; }
+    .pulse { width: 8px; height: 8px; background: #f59e0b; border-radius: 50%; display: inline-block; flex-shrink: 0; animation: pulseAnim 1.5s infinite; }
+    @keyframes pulseAnim { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.4;transform:scale(1.4)} }
     .btn-cta-trabajaste { background: #2563eb; color: #fff; padding: 9px 20px; border-radius: 8px; font-size: 0.875rem; font-weight: 600; text-decoration: none; white-space: nowrap; flex-shrink: 0; transition: background 0.15s; }
     .btn-cta-trabajaste:hover { background: #1d4ed8; }
     @media (max-width: 600px) { .cta-trabajaste { flex-direction: column; align-items: flex-start; } }
